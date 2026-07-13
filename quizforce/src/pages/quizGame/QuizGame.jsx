@@ -237,11 +237,11 @@ function QuizGame() {
   return (
     <main className="quizz-page-main">
       {!quizCommence && (
-        <section className={`quizz-score-container ${!quizCommence ? "quizchoix-container-center" : "quizchoix-container-normal"}`}>
-          <h1 className="quizz-score-title">
-            Quiz test de connaissances : {titreTheme}
-          </h1>
-
+        <section
+          className={`quizz-score-container ${!quizCommence ? "quizchoix-container-center" : "quizchoix-container-normal"}`}
+        >
+          <h1 className="quizz-score-title">Quiz connaissances :</h1>
+          <span className="quizz-score-name">{titreTheme}</span>
           <div className="quizz-score-name">
             <p>Ce quiz contient {nombreTotalQuestions} questions.</p>
 
@@ -306,7 +306,9 @@ function QuizGame() {
             <p className="quizz-resultat">{resultat}</p>
 
             {choixEffectue && (
-              <div className={`quizz-boutons-action ${choixEffectue ? "quizz-boutons-flex" : "quizz-boutons-none"}`}>
+              <div
+                className={`quizz-boutons-action ${choixEffectue ? "quizz-boutons-flex" : "quizz-boutons-none"}`}
+              >
                 <button
                   type="button"
                   className="quizz-next"

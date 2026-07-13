@@ -28,6 +28,7 @@
   &.started {
     width: 20%;
   }
+
 }
 
 .quizz-table-title {
@@ -62,10 +63,10 @@
 }
 
 .quizz-score-name {
-  font-size: 24px;
+  font-size: 32px;
   font-weight: bold;
   display: flex;
-  // flex-direction: column;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 
