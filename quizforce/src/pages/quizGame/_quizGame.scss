@@ -1,0 +1,267 @@
+.quizz-page-main {
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  background: teal;
+}
+//////////////////////////////////////////////////
+/// Quizz score container
+/// Par défaut flex 80%, puis flex 15% quand le joueur a rentré son nom
+.quizz-score-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background: tan;
+  height: 100%;
+  width: 80%;
+  position: relative;
+  z-index: 1;
+  border: 3px solid black;
+  border-right: 1px solid black;
+  transition: width 0.5s ease;
+
+  &.started {
+    width: 20%;
+  }
+}
+
+.quizz-table-title {
+  font-size: 24px;
+  font-weight: bold;
+
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  :nth-child(1) {
+    width: 33%;
+    border-bottom: 1px solid black;
+  }
+  :nth-child(2) {
+    margin: 0 10px;
+    text-align: center;
+    font-size: 24px;
+  }
+  :nth-child(3) {
+    width: 33%;
+    border-bottom: 1px solid black;
+  }
+}
+.quizz-score-title {
+  font-size: 48px;
+  font-weight: bold;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quizz-score-name {
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  // flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  button {
+    padding: 10px 20px;
+    font-size: 32px;
+    cursor: pointer;
+    margin: 0 10px;
+  }
+  #quizz-start {
+    // pointer-events: none;
+    // opacity: 50%;
+  }
+}
+.quizz-table-wrapper {
+  width: 80%;
+  max-height: 300px;
+  overflow-y: auto;
+  border: 3px solid black;
+  margin: 10px 0;
+}
+.quizz-score-table {
+  border: 1px solid red;
+  width: 100%;
+  border-collapse: collapse;
+  height: auto;
+  font-size: 22px;
+  td {
+    width: 25%;
+    border: 1px solid black;
+    text-align: center;
+  }
+  thead {
+    background-color: black;
+    font-weight: bold;
+    color: whitesmoke;
+  }
+}
+
+.quizz-points {
+  font-size: 24px;
+  display: none;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.quizz-round {
+  // padding: 10px;
+  font-size: 24px;
+  display: none;
+}
+//////
+// Score joueur highscore
+
+.highscore-joueur-0 {
+  background-color: gold;
+}
+.highscore-joueur-1 {
+  background-color: silver;
+}
+.highscore-joueur-2 {
+  background-color: chocolate;
+}
+//////////////////////////////////////////////
+/// Quizz container
+/// Par défaut none, puis flex quand le joueur a rentré son nom
+.quizz-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: lightgoldenrodyellow;
+  height: 100%;
+  width: 90%;
+  position: relative;
+  z-index: 1;
+  border: 3px solid black;
+  border-left: none;
+}
+//////////////////////////////////////////////
+/// Quizz boutons actions
+
+.quizz-boutons-action {
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.719);
+  border-radius: 8px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 30px;
+  width: 170px;
+  height: 180px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.quizz-boutons-none {
+    display: none;
+
+}
+
+.quizz-boutons-flex {
+    display: flex;
+
+}
+
+.quizz-next, .quizz-stop {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 24px;
+  background: lightgray;
+  width: 150px;
+  height: 70px;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 0;
+}
+
+
+
+.quizz-btn:hover {
+  background: teal;
+  box-shadow: 1px 1px 1px black;
+  cursor: pointer;
+  transition: all ease 0.33s;
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+.quizz-question-container {
+  padding: 5px 0;
+  font-size: 24px;
+  font-weight: bold;
+  height:60%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: pre-line;
+  background-color: rgb(89, 189, 189);
+}
+
+// .quizz-question {
+//   padding-left: 15px;
+
+// }
+
+.quizz-separator {
+  border: 1px solid black;
+  width: 100%;
+}
+
+.quizz-reponses-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px auto;
+  height: 75%;
+}
+.quizz-reponses {
+    height: 40%;
+}
+.quizz-reponse {
+  margin: 10px;
+  border: 3px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 24px;
+  background: lightgray;
+  height: 25%;
+  width: 50vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  &:hover {
+    border: 3px solid teal;
+    color: teal;
+  }
+}
+
+.quizz-resultat {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  position: absolute;
+  bottom: 20px;
+}
+
+.score-joueur {
+  background: grey;
+}
+
+.quizz-theme {
+  font-size: 24px;
+}

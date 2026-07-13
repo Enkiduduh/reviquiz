@@ -1,0 +1,36 @@
+
+@use "../pages/quizGame/quizGame";
+@use "../pages/quizChoix/quizzchoix";
+
+html {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  z-index: 1;
+  font-family:'Arial Narrow Bold', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+    height: 100vh;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+// #app-footer {
+//   position: fixed;
+//   bottom: 0;
+//   text-align: center;
+//   font-weight: bold;
+//   width: 100%;
+//   background: bisque;
+//   padding: 5px 0;
+// }

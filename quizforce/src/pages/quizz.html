@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style/index.css" />
+    <title>IIAT RSP : QUIZZ</title>
+  </head>
+  <header>
+    <nav>
+      <div class="nav-link"><a href="./accueil.html">IIA_T RSP QG</a></div>
+      <div class="nav-link"><a href="./livraisons.html">Livraisons</a></div>
+      <div class="nav-link">Batchs</div>
+      <div class="nav-link"><a href="./procedures.html">Procédures</a></div>
+      <div class="nav-link"><a href="./utiles.html">Utiles</a></div>
+      <div class="nav-link">
+        <a href="./quizzChoix.html">Quiz de connaissances</a>
+      </div>
+    </nav>
+  </header>
+
+  <body>
+    <div class="quizz-page-main">
+      <div class="quizz-score-container">
+        <div class="quizz-score-title">Quiz test de connaissances</div>
+        <div class="quizz-score-name">
+          <input
+            type="text"
+            id="name"
+            class="quizz-input-joueur"
+            placeholder="Entrez votre nom"
+          /><button id="quizz-start">Commencer</button>
+        </div>
+        <div class="quizz-theme"></div>
+        <div class="quizz-round">Question n°1 / 120</div>
+        <div class="quizz-points">Point(s): 0</div>
+        <div class="quizz-table-title">
+          <div></div>
+          <div>Highscore</div>
+          <div></div>
+        </div>
+        <div class="quizz-table-wrapper">
+          <table class="quizz-score-table quizz-score-highscore">
+            <thead>
+              <tr>
+                <td>Joueur</td>
+                <td>Score</td>
+                <td>Nombre de questions</td>
+                <td>Date</td>
+              </tr>
+            </thead>
+            <tbody class="quizz-highscore-joueurs"></tbody>
+          </table>
+        </div>
+        <div class="quizz-table-title">
+          <div></div>
+          <div>Historique</div>
+          <div></div>
+        </div>
+        <div class="quizz-table-wrapper">
+          <table class="quizz-score-table">
+            <thead>
+              <tr>
+                <td>Joueur</td>
+                <td>Score</td>
+                <td>Nombre de questions</td>
+                <td>Date</td>
+              </tr>
+            </thead>
+            <tbody class="quizz-scores-joueurs"></tbody>
+          </table>
+        </div>
+      </div>
+      <div class="quizz-container">
+        <div class="quizz-question"></div>
+        <div class="quizz-separator"></div>
+        <div class="quizz-reponses-container">
+          <div class="quizz-boutons-action">
+            <div class="quizz-next quizz-btn">Continuer</div>
+            <div class="quizz-stop quizz-btn">Arrêter</div>
+          </div>
+          <div class="quizz-reponse"></div>
+          <div class="quizz-reponse"></div>
+          <div class="quizz-reponse"></div>
+        </div>
+        <div class="quizz-separator"></div>
+        <div class="quizz-resultat"></div>
+      </div>
+    </div>
+    <script src="../metier/quizz.js" type="module"></script>
+  </body>
+  <footer id="app-footer">L'équipe 2IAT-RSP @2026</footer>
+</html>
