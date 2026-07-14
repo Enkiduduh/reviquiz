@@ -3,7 +3,6 @@ import { useNavigate } from "react-router-dom";
 
 import { dataQuizzLinux } from "../../data/dataQuizzLinux.js";
 import { dataQuizzSecurite } from "../../data/dataQuizzSecurite.js";
-import { dataQuizzRSP } from "../../data/dataQuizzRSP.js";
 import { dataQuizzReseau } from "../../data/dataQuizzReseau.js";
 import { dataQuizzScriptShell } from "../../data/dataQuizzScriptShell.js";
 import { dataQuizzJava } from "../../data/dataQuizzJavaFacile.js";
@@ -29,7 +28,6 @@ const dataQuizz = {
   linux: dataQuizzLinux,
   linux_admin: dataQuizzAdministrationLinux,
   linux_scripts: dataQuizzLinuxScripts,
-  rsp: dataQuizzRSP,
   securite: dataQuizzSecurite,
   reseaux: dataQuizzReseau,
   java: dataQuizzJava,
@@ -266,15 +264,12 @@ function QuizGame() {
             <p className="quizz-round">
               Question n°{roundQuestion} / {nombreTotalQuestions}
             </p>
+            <button className="quizz-round" type="button" onClick={arreterQuiz}>
+              Quitter
+            </button>
           </section>
 
-          <section
-            className={`quizz-container ${
-              themeQuiz === "linux_scripts"
-                ? "quizz-container-linux-scripts"
-                : ""
-            }`}
-          >
+          <section className="quizz-container ">
             <div className="quizz-question-container">
               <p
                 className={`quizz-question ${
@@ -303,29 +298,51 @@ function QuizGame() {
               ))}
             </div>
 
-            <p className="quizz-resultat">{resultat}</p>
-
             {choixEffectue && (
-              <div
-                className={`quizz-boutons-action ${choixEffectue ? "quizz-boutons-flex" : "quizz-boutons-none"}`}
-              >
-                <button
-                  type="button"
-                  className="quizz-next"
-                  onClick={questionSuivante}
-                >
-                  {questions.length > 0
-                    ? "Question suivante"
-                    : "Voir le résultat"}
-                </button>
+              <div className="quizz-resultat">
+                {resultat === "Bonne réponse !" ? (
+                  <>
+                    <div className="quizz-reponse-result result-bon">
+                      {resultat}
+                    </div>
+                    <div className="quizz-reponse-result"></div>
+                    <div className="quizz-reponse-result"></div>
+                  </>
+                ) : (
+                  <>
+                    <div className="quizz-reponse-result result-mauvais">
+                      {resultat}
+                    </div>
+                    <div className="quizz-reponse-result">
+                      La bonne réponse est :{" "}
+                    </div>
+                    <div className="quizz-reponse-result">
+                      {questionActuelle.reponse_v}
+                    </div>
+                  </>
+                )}
 
-                <button
-                  type="button"
-                  className="quizz-stop"
-                  onClick={arreterQuiz}
+                <div
+                  className={`quizz-boutons-action ${choixEffectue ? "quizz-boutons-flex" : "quizz-boutons-none"}`}
                 >
-                  Arrêter le quiz
-                </button>
+                  <button
+                    type="button"
+                    className="quizz-next"
+                    onClick={questionSuivante}
+                  >
+                    {questions.length > 0
+                      ? "Question suivante"
+                      : "Voir le résultat"}
+                  </button>
+
+                  <button
+                    type="button"
+                    className="quizz-stop"
+                    onClick={arreterQuiz}
+                  >
+                    Arrêter le quiz
+                  </button>
+                </div>
               </div>
             )}
           </section>

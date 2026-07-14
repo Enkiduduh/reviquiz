@@ -1,7 +1,6 @@
 import { useNavigate } from "react-router-dom";
 
 const themes = [
-  { id: "rsp", label: "RSP" },
   { id: "linux", label: "Linux" },
   { id: "linux_admin", label: "Linux Admin" },
   { id: "reseaux", label: "Réseaux" },
