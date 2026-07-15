@@ -86,90 +86,91 @@
     color: whitesmoke;
     text-shadow: 2px 2px 2px black;
     font-weight: bold;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.9);
     padding: 10px;
-    position: relative;
-    top: 7px;
+    position: absolute;
+    top: 0;
+    left: 0;
     border-top-left-radius: 3px;
     border-bottom-right-radius: 3px;
   }
 }
 
 .quizchoix-quiz-rsp {
-  background-image: url("../assets/thumbnails/img_globales_rsp.png");
+  background-image: url("./assets/thumbnails/img_globales_rsp.png");
 }
 
 .quizchoix-quiz-reseaux {
-  background-image: url("../assets/thumbnails/img_reseaux.png");
+  background-image: url("./assets/thumbnails/img_reseaux.png");
 }
 .quizchoix-quiz-java {
-  background-image: url("../assets/thumbnails/img_java2.png");
+  background-image: url("./assets/thumbnails/img_java2.png");
 }
 .quizchoix-quiz-java_avance {
-  background-image: url("../assets/thumbnails/img_java_avance.png");
+  background-image: url("./assets/thumbnails/img_java_avance.png");
 }
 .quizchoix-quiz-java_affichage {
-  background-image: url("../assets/thumbnails/img_java_affichage.png");
+  background-image: url("./assets/thumbnails/img_java_affichage.png");
 }
 .quizchoix-quiz-securite {
-  background-image: url("../assets/thumbnails/img_securite_ssh.png");
+  background-image: url("./assets/thumbnails/img_securite_ssh.png");
 }
 .quizchoix-quiz-scriptshell {
-  background-image: url("../assets/thumbnails/img_script_shell.png");
+  background-image: url("./assets/thumbnails/img_script_shell.png");
 }
 .quizchoix-quiz-linux {
-  background-image: url("../assets/thumbnails/img_linux.png");
+  background-image: url("./assets/thumbnails/img_linux.png");
 }
 .quizchoix-quiz-linux_admin {
-  background-image: url("../assets/thumbnails/img_linux_admin2.png");
+  background-image: url("./assets/thumbnails/img_linux_admin2.png");
 }
 .quizchoix-quiz-linux_scripts {
-  background-image: url("../assets/thumbnails/img_linux_scripts.png");
+  background-image: url("./assets/thumbnails/img_linux_scripts.png");
 }
 .quizchoix-quiz-logique {
-  background-image: url("../assets/thumbnails/img_logique.png");
+  background-image: url("./assets/thumbnails/img_logique.png");
 }
 .quizchoix-quiz-postgresql {
-  background-image: url("../assets/thumbnails/img_postgresql.png");
+  background-image: url("./assets/thumbnails/img_postgresql.png");
 }
 .quizchoix-quiz-postgresql_dba {
-  background-image: url("../assets/thumbnails/img_postgresql_dba.png");
+  background-image: url("./assets/thumbnails/img_postgresql_dba.png");
 }
 
 .quizchoix-quiz-cycle_vie_application {
-  background-image: url("../assets/thumbnails/img_cycle_vie_application.png");
+  background-image: url("./assets/thumbnails/img_cycle_vie_application.png");
 }
 .quizchoix-quiz-schema_directeur {
-  background-image: url("../assets/thumbnails/img_schema_directeur.png");
+  background-image: url("./assets/thumbnails/img_schema_directeur.png");
 }
 .quizchoix-quiz-partenaire_projet {
-  background-image: url("../assets/thumbnails/img_partenaire_projet.png");
+  background-image: url("./assets/thumbnails/img_partenaire_projet.png");
 }
 .quizchoix-quiz-urbanisation_systeme_info {
-  background-image: url("../assets/thumbnails/img_urbanisation_systeme_info.png");
+  background-image: url("./assets/thumbnails/img_urbanisation_systeme_info.png");
 }
 .quizchoix-quiz-conduite_projet_info {
-  background-image: url("../assets/thumbnails/img_conduite_projet_info.png");
+  background-image: url("./assets/thumbnails/img_conduite_projet_info.png");
 }
 .quizchoix-quiz-concepts_objet {
-  background-image: url("../assets/thumbnails/img_concepts_objet.png");
+  background-image: url("./assets/thumbnails/img_concepts_objet.png");
 }
 
 .quizchoix-quiz-merise {
-  background-image: url("../assets/thumbnails/img_merise.png");
+  background-image: url("./assets/thumbnails/img_merise.png");
   background-size: contain;
 }
 .quizchoix-quiz-uml {
-  background-image: url("../assets/thumbnails/img_uml.png");
+  background-image: url("./assets/thumbnails/img_uml.png");
 }
 .quizchoix-quiz-evolution_language {
-  background-image: url("../assets/thumbnails/img_evolution_language.png");
+  background-image: url("./assets/thumbnails/img_evolution_language.png");
 }
 .quizchoix-quiz-test {
-  background-image: url("../assets/thumbnails/img_test.png");
+  background-image: url("./assets/thumbnails/img_test.png");
 }
 .quizchoix-quiz-bientot {
-  background-image: url("../assets/thumbnails/img_bientot.png");
+  background-image: url("./assets/thumbnails/img_bientot.png");
 }
 
 .highscore-joueur-0 {
@@ -190,3 +191,6 @@
   border: 3px solid black;
   margin: 10px 0;
 }
+
+
+@media 

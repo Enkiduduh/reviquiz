@@ -236,7 +236,7 @@ function QuizGame() {
     <main className="quizz-page-main">
       {!quizCommence && (
         <section
-          className={`quizz-score-container ${!quizCommence ? "quizchoix-container-center" : "quizchoix-container-normal"}`}
+          className={`quizz-score-container-starter ${!quizCommence ? "quizchoix-container-center" : "quizchoix-container-normal"}`}
         >
           <h1 className="quizz-score-title">Quiz connaissances :</h1>
           <span className="quizz-score-name">{titreTheme}</span>
@@ -302,22 +302,21 @@ function QuizGame() {
               <div className="quizz-resultat">
                 {resultat === "Bonne réponse !" ? (
                   <>
-                    <div className="quizz-reponse-result result-bon">
+                    <div className="quizz-reponse-result-bon result-bon">
                       {resultat}
                     </div>
-                    <div className="quizz-reponse-result"></div>
-                    <div className="quizz-reponse-result"></div>
+                    <div className="quizz-reponse-result">
+                      <div>La bonne réponse est bien :</div>
+                      <div>{questionActuelle.reponse_v}</div>
+                    </div>
                   </>
                 ) : (
                   <>
-                    <div className="quizz-reponse-result result-mauvais">
-                      {resultat}
-                    </div>
+                    <div className="result-mauvais">{resultat}</div>
+
                     <div className="quizz-reponse-result">
-                      La bonne réponse est :{" "}
-                    </div>
-                    <div className="quizz-reponse-result">
-                      {questionActuelle.reponse_v}
+                      <div>La bonne réponse est :</div>
+                      <div>{questionActuelle.reponse_v}</div>
                     </div>
                   </>
                 )}
