@@ -24,6 +24,10 @@ import { dataQuizzEvolutionLanguage } from "../../data/dataQuizzEvolutionLanguag
 import { dataQuizzProgrammationDeTest } from "../../data/dataQuizzProgrammationDeTest.js";
 import { dataQuizzLinuxScripts } from "../../data/dataQuizzLinuxScripts.js";
 
+import { dataQuizzSchemaConception } from "../../data/dataQuizzSchemaConception.js";
+import { dataQuizzSQL } from "../../data/dataQuizzSQL.js";
+import { dataQuizzLogiqueAvancee } from "../../data/dataQuizzLogiqueAvancee.js";
+
 const dataQuizz = {
   linux: dataQuizzLinux,
   linux_admin: dataQuizzAdministrationLinux,
@@ -47,6 +51,9 @@ const dataQuizz = {
   uml: dataQuizzUml,
   test: dataQuizzProgrammationDeTest,
   evolution_language: dataQuizzEvolutionLanguage,
+  sql: dataQuizzSQL,
+  logique_avancee: dataQuizzLogiqueAvancee,
+  schema_conception: dataQuizzSchemaConception,
 };
 
 const titresThemes = {
@@ -73,6 +80,9 @@ const titresThemes = {
   uml: "UML",
   test: "Programmation de test",
   evolution_language: "Évolution des langages de programmation",
+  sql: "SQL",
+  logique_avancee: "Logique Avancée",
+  schema_conception: "Schéma de conception",
 };
 
 function melangerReponses(reponses) {
@@ -271,15 +281,25 @@ function QuizGame() {
 
           <section className="quizz-container ">
             <div className="quizz-question-container">
-              <p
-                className={`quizz-question ${
-                  themeQuiz === "linux_scripts"
-                    ? "quizz-question-linux-scripts"
-                    : ""
-                }`}
-              >
-                {questionActuelle.question}
-              </p>
+              {themeQuiz === "schema_conception" ? (
+                <>
+                  <pre className="quizz-question-pre">
+                    {questionActuelle.question}
+                  </pre>
+                </>
+              ) : (
+                <>
+                  <p
+                    className={`quizz-question ${
+                      themeQuiz === "linux_scripts"
+                        ? "quizz-question-linux-scripts"
+                        : ""
+                    }`}
+                  >
+                    {questionActuelle.question}
+                  </p>
+                </>
+              )}
             </div>
 
             {/* <div className="quizz-separator" /> */}

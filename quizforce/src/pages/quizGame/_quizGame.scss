@@ -208,7 +208,7 @@
 .quizz-question-container {
   margin-left: 15px;
   padding: 5px 0;
-  font-size: 24px;
+  // font-size: 24px;
   font-weight: bold;
   height: 90%;
   width: 80%;
@@ -223,6 +223,12 @@
 
 .quizz-question {
   padding-left: 15px;
+  font-size: 24px;
+}
+
+.quizz-question-pre {
+   font-size: 18px;
+
 }
 
 .quizz-separator {
