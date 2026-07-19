@@ -256,6 +256,10 @@ function QuizGame() {
             <button id="quizz-start" type="button" onClick={commencerQuiz}>
               Commencer le quiz
             </button>
+
+            <button id="quizz-retour" type="button" onClick={arreterQuiz}>
+              Retour
+            </button>
           </div>
         </section>
       )}
@@ -271,7 +275,7 @@ function QuizGame() {
               Point(s) : {compteur}/{roundQuestion - 1}
             </p>
 
-            <p className="quizz-round">
+            <p className="quizz-points">
               Question n°{roundQuestion} / {nombreTotalQuestions}
             </p>
             <button className="quizz-round" type="button" onClick={arreterQuiz}>

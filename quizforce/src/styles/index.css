@@ -17,7 +17,6 @@
   position: relative;
   z-index: 1;
   border: 3px solid black;
-  border-right: 1px solid black;
   transition: width 0.5s ease;
   color: whitesmoke;
   text-shadow: 2px 2px 2px black;
@@ -37,7 +36,6 @@
   position: relative;
   z-index: 1;
   border: 3px solid black;
-  border-right: 1px solid black;
   transition: width 0.5s ease;
 }
 .quizz-score-container-starter.started {
@@ -191,7 +189,6 @@
 }
 
 .quizz-question-container {
-  margin-left: 15px;
   padding: 5px 0;
   font-weight: bold;
   height: 90%;
@@ -314,6 +311,133 @@
   font-size: 24px;
 }
 
+@media screen and (max-width: 768px) {
+  .quizz-score-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: darkslategray;
+    position: relative;
+    z-index: 1;
+    border: 3px solid black;
+    transition: width 0.5s ease;
+    color: whitesmoke;
+    text-shadow: 2px 2px 2px black;
+  }
+  .quizz-score-container.started {
+    width: 100%;
+  }
+  .quizz-score-container h1 {
+    margin: 0;
+  }
+  .quizz-score-container p {
+    margin: 2px 0;
+    width: 50%;
+    text-align: center;
+  }
+  .quizz-score-container .quizz-round {
+    font-size: 24px;
+    width: 90%;
+  }
+  .quizz-score-container-starter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: silver;
+    height: 96%;
+    width: 96%;
+    position: relative;
+    z-index: 1;
+    border: 3px solid black;
+    transition: width 0.5s ease;
+  }
+  .quizz-score-container-starter.started {
+    width: 100%;
+  }
+  .quizz-score-container-starter p {
+    font-size: 22px;
+  }
+  .quizz-score-container-starter #quizz-start,
+  .quizz-score-container-starter #quizz-retour {
+    width: 80vw;
+    margin: 10px 0;
+  }
+  .quizz-score-container-starter .quizz-score-title {
+    font-size: 42px;
+    font-weight: bolder;
+    text-align: center;
+    height: 20vh;
+    width: 90%;
+  }
+  .quizz-container {
+    flex-direction: column;
+  }
+  .quizz-question-container {
+    font-weight: bold;
+    height: 90%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: pre-line;
+    background-color: rgb(89, 189, 189);
+    padding-left: 0px;
+    text-align: center;
+  }
+  .quizz-question-pre {
+    font-size: 10px;
+  }
+  .quizz-reponses {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .quizz-reponse {
+    margin: 10px;
+    border: 3px solid black;
+    border-radius: 5px;
+    font-size: 18px;
+    background: whitesmoke;
+    height: 15vh;
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .quizz-reponse:hover {
+    border: 3px solid teal;
+    color: teal;
+  }
+  .quizz-boutons-action {
+    padding: 10px;
+    background-color: darkslategray;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 25px;
+  }
+  .quizz-next,
+  .quizz-stop {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 18px;
+    background: silver;
+    width: 45vw;
+    height: 70px;
+    font-weight: bold;
+  }
+  .quizz-resultat {
+    font-size: 24px;
+  }
+}
 .quizchoix-page-main {
   height: 100%;
   width: 100%;
@@ -558,6 +682,33 @@
   }
   .quizchoix-filter {
     width: 300px;
+  }
+}
+@media screen and (max-width: 1500px) {
+  .quizchoix-section-filter {
+    display: flex;
+    padding: 8px 0;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow-y: hidden;
+    overflow-x: auto;
+    width: 100%;
+    height: 5vh;
+  }
+  .quizchoix-filter {
+    padding: 5px 10px;
+    background: whitesmoke;
+    color: black;
+    margin: 0 2px;
+    border: 3px solid black;
+    border-radius: 5px;
+    width: 120px;
+    text-align: center;
+    font-weight: bold;
+  }
+  .quizchoix-filter:hover {
+    background: lightseagreen;
+    cursor: pointer;
   }
 }
 html {
