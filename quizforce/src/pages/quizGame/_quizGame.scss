@@ -6,25 +6,23 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: teal;
+  background: darkslategray;
 }
 //////////////////////////////////////////////////
 /// Quizz score container
 /// Par défaut flex 80%, puis flex 15% quand le joueur a rentré son nom
 .quizz-score-container {
   display: flex;
-  // flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  background: tan;
-  // height: 100%;
-  // width: 80%;
+  background: darkslategray;
   position: relative;
   z-index: 1;
   border: 3px solid black;
   border-right: 1px solid black;
   transition: width 0.5s ease;
-
+  color: whitesmoke;
+  text-shadow: 2px 2px 2px black;
   &.started {
     width: 100%;
   }
@@ -37,7 +35,7 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  background: tan;
+  background: silver;
   height: 60%;
   width: 80%;
   position: relative;
@@ -156,7 +154,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: lightgoldenrodyellow;
+  background: silver;
   height: 100%;
   width: 100%;
   position: relative;
@@ -201,7 +199,6 @@
     cursor: pointer;
     transition: all ease 0.33s;
     color: whitesmoke;
-    font-weight: bold;
   }
 }
 
@@ -256,7 +253,7 @@
   border: 3px solid black;
   border-radius: 5px;
   font-size: 24px;
-  background: lightgray;
+  background: whitesmoke;
   height: 22vh;
   width: 45vw;
   display: flex;
