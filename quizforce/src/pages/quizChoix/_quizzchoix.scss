@@ -3,7 +3,7 @@
   width: 100%;
   margin: 0 auto;
   display: flex;
-
+  flex: 1;
   align-items: center;
   justify-content: center;
   background: whitesmoke;
@@ -11,7 +11,7 @@
   h1 {
     font-size: 48px;
     margin: 0;
-
+    padding: 5px 0;
   }
 }
 //////////////////////////////////////////////////
@@ -32,9 +32,8 @@
     width: 100%;
     text-align: center;
     background: darkslategray;
-    color:white;
+    color: white;
     text-shadow: 2px 2px 2px black;
-
   }
 }
 .quizchoix-container-center {
@@ -113,7 +112,6 @@
   background-image: url("/assets/thumbnails/img_developpement.png");
 }
 
-
 .quizchoix-quiz-linux,
 .quizchoix-quiz-linux_admin,
 .quizchoix-quiz-securite,
@@ -129,21 +127,18 @@
 .quizchoix-quiz-schema_directeur,
 .quizchoix-quiz-partenaire_projet,
 .quizchoix-quiz-conduite_projet_info,
-.quizchoix-quiz-urbanisation_systeme_info  {
+.quizchoix-quiz-urbanisation_systeme_info {
   background-image: url("/assets/thumbnails/img_projet_info.png");
 }
-
 
 .quizchoix-quiz-merise,
 .quizchoix-quiz-uml,
 .quizchoix-quiz-concepts_objet,
 .quizchoix-quiz-test,
 .quizchoix-quiz-evolution_language,
-.quizchoix-quiz-schema_conception
-{
+.quizchoix-quiz-schema_conception {
   background-image: url("/assets/thumbnails/img_conception_info.png");
 }
-
 
 .quizchoix-quiz-bientot {
   background-image: url("/assets/thumbnails/img_bientot.png");
@@ -153,8 +148,6 @@
 .quizchoix-quiz-logique_avancee {
   background-image: url("/assets/thumbnails/img_logique.png");
 }
-
-
 
 .highscore-joueur-0 {
   background-color: gold;
@@ -179,22 +172,22 @@
   background-color: tan;
   width: 100%;
   text-align: center;
-   color: whitesmoke;
-    text-shadow: 2px 2px 2px teal;
-    font-weight: bold;
-    background: black;
-    padding: 5px 0;
-    position: fixed;
-    bottom: 0;
+  color: whitesmoke;
+  text-shadow: 2px 2px 2px teal;
+  font-weight: bold;
+  background: black;
+  padding: 5px 0;
+  // position: fixed;
+  // bottom: 0;
 }
 // @media
 /// FILTRE SECTION
 
 .quizchoix-section-filter {
-display: flex;
-padding: 5px 0;
-justify-content: space-evenly;
-align-items: center;
+  display: flex;
+  padding: 8px 0;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .quizchoix-filter {
@@ -211,4 +204,55 @@ align-items: center;
     background: lightseagreen;
     cursor: pointer;
   }
+}
+
+.quizchoix-filter-selected-tout {
+  background: teal;
+}
+
+@media screen and (max-width: 768px) {
+  .quizchoix-quiz {
+    border: 5px solid black;
+    border-radius: 10px;
+    width: 90vw;
+    height: 45px;
+    margin: 5px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    transition: all ease 0.66s;
+    position: relative;
+    &:hover {
+      transform: scale(1.08);
+      opacity: 0.9;
+      border: 5px solid red;
+      span {
+        border-top-left-radius: 5px;
+      }
+    }
+    span {
+      font-size: 13px;
+    }
+  }
+
+  .quizchoix-page-main {
+    h1 {
+      font-size: 20px;
+      margin: 0;
+      padding: 5px 0;
+    }
+  }
+
+  .quizchoix-section-filter {
+    overflow-y: hidden;
+    overflow-x: auto;
+    width: 100%;
+    height: 50px;
+  }
+
+  .quizchoix-filter {
+  width: 300px;
+
+}
 }

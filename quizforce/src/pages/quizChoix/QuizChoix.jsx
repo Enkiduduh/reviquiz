@@ -44,24 +44,24 @@ const themes = [
     label: "Conduite d'un projet informatique",
   },
   {
-    category: "Conception/Réalisation",
+    category: "Conception",
     id: "concepts_objet",
     label: "Concepts Objet",
   },
-  { category: "Conception/Réalisation", id: "merise", label: "Merise" },
-  { category: "Conception/Réalisation", id: "uml", label: "UML" },
+  { category: "Conception", id: "merise", label: "Merise" },
+  { category: "Conception", id: "uml", label: "UML" },
   {
-    category: "Conception/Réalisation",
+    category: "Conception",
     id: "test",
     label: "Programmation de test",
   },
   {
-    category: "Conception/Réalisation",
+    category: "Conception",
     id: "evolution_language",
     label: "Évolution des langages de programmation",
   },
   {
-    category: "Conception/Réalisation",
+    category: "Conception",
     id: "schema_conception",
     label: "Schéma de Conception",
   },
@@ -69,6 +69,8 @@ const themes = [
 
 function QuizChoix() {
   const [selectedThemes, setSelectedThemes] = useState(themes);
+  const [selected, setSelected] = useState(false);
+
   const navigate = useNavigate();
 
   const selectionnerTheme = (theme) => {
@@ -85,9 +87,11 @@ function QuizChoix() {
     const selectedTheme = e.target.textContent;
     if (selectedTheme == "Tout") {
       setSelectedThemes(themes);
+      setSelected(true);
     } else {
       const filterTheme = themes.filter((th) => th.category == selectedTheme);
       setSelectedThemes(filterTheme);
+      setSelected(false);
     }
   }
 
@@ -95,26 +99,30 @@ function QuizChoix() {
     <main className="quizchoix-page-main">
       <div className="quizchoix-container">
         <h1>Quiz de connaissances techniques</h1>
+        <div id="quizchoix-footer">Made by Enkiduh</div>
         <section className="quizchoix-section-filter">
-          <div className="quizchoix-filter" onClick={handleFilterClick}>
+          <div
+            className={`quizchoix-filter ${selected ? "quizchoix-filter-selected" : ""}`}
+            onClick={handleFilterClick}
+          >
             Tout
           </div>
-          <div className="quizchoix-filter" onClick={handleFilterClick}>
+          <div className={`quizchoix-filter ${selected ? "quizchoix-filter-selected" : ""}`} onClick={handleFilterClick}>
             AdminSys
           </div>
-          <div className="quizchoix-filter" onClick={handleFilterClick}>
+          <div className={`quizchoix-filter ${selected ? "quizchoix-filter-selected" : ""}`} onClick={handleFilterClick}>
             Développement
           </div>
-          <div className="quizchoix-filter" onClick={handleFilterClick}>
-            Conception/Réalisation
+          <div className={`quizchoix-filter ${selected ? "quizchoix-filter-selected" : ""}`} onClick={handleFilterClick}>
+            Conception
           </div>
-          <div className="quizchoix-filter" onClick={handleFilterClick}>
+          <div className={`quizchoix-filter ${selected ? "quizchoix-filter-selected" : ""}`} onClick={handleFilterClick}>
             Projet
           </div>
-          <div className="quizchoix-filter" onClick={handleFilterClick}>
+          <div className={`quizchoix-filter ${selected ? "quizchoix-filter-selected" : ""}`} onClick={handleFilterClick}>
             Logique
           </div>
-          <div className="quizchoix-filter" onClick={handleFilterClick}>
+          <div className={`quizchoix-filter ${selected ? "quizchoix-filter-selected" : ""}`} onClick={handleFilterClick}>
             Réseaux
           </div>
         </section>
@@ -130,7 +138,6 @@ function QuizChoix() {
             </button>
           ))}
         </div>
-        <span id="quizchoix-footer">Made by Enkiduh</span>
       </div>
     </main>
   );

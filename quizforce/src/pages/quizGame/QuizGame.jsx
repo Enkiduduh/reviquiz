@@ -248,8 +248,8 @@ function QuizGame() {
         <section
           className={`quizz-score-container-starter ${!quizCommence ? "quizchoix-container-center" : "quizchoix-container-normal"}`}
         >
-          <h1 className="quizz-score-title">Quiz connaissances :</h1>
-          <span className="quizz-score-name">{titreTheme}</span>
+          <h1 className="quizz-score-title">{titreTheme}</h1>
+          {/* <span className="quizz-score-name">Quiz connaissances</span> */}
           <div className="quizz-score-name">
             <p>Ce quiz contient {nombreTotalQuestions} questions.</p>
 
