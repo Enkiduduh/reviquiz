@@ -65,6 +65,56 @@ const themes = [
     id: "schema_conception",
     label: "Schéma de Conception",
   },
+
+  {
+    category: "Culture",
+    id: "architectures_info",
+    label: "Architecture Informatique",
+  },
+  {
+    category: "Culture",
+    id: "systemes_exploitation",
+    label: "Systèmes d'exploitation",
+  },
+  {
+    category: "Culture",
+    id: "langages_informatiques",
+    label: "Principaux langages informatiques",
+  },
+
+  {
+    category: "Outils",
+    id: "aide_conception",
+    label: "Outils d'aide à la conception",
+  },
+  {
+    category: "Outils",
+    id: "aide_realisation",
+    label: "Outils d'aide à la réalisation",
+  },
+  {
+    category: "Outils",
+    id: "tests_config_deploiement",
+    label: "Outils de tests, configuration et déploirement",
+  },
+
+  {
+    category: "Juridique",
+    id: "communications_electronique",
+    label: "Cadre juridique des communications électroniques",
+  },
+  {
+    category: "Juridique",
+    id: "droit_informatique",
+    label: "Droit informatique",
+  },
+  {
+    category: "Juridique",
+    id: "instances_normalisation",
+    label: "Instances de normalisation",
+  },
+  { category: "Juridique", id: "marches_publics", label: "Marchés publics" },
+  { category: "AdminSys", id: "test_fin", label: "Test de Fin" },
 ];
 
 function QuizChoix() {
@@ -107,23 +157,59 @@ function QuizChoix() {
           >
             Tout
           </div>
-          <div className={`quizchoix-filter ${selected ? "quizchoix-filter-selected" : ""}`} onClick={handleFilterClick}>
+          <div
+            className={`quizchoix-filter ${selected ? "quizchoix-filter-selected" : ""}`}
+            onClick={handleFilterClick}
+          >
             AdminSys
           </div>
-          <div className={`quizchoix-filter ${selected ? "quizchoix-filter-selected" : ""}`} onClick={handleFilterClick}>
+          <div
+            className={`quizchoix-filter ${selected ? "quizchoix-filter-selected" : ""}`}
+            onClick={handleFilterClick}
+          >
             Développement
           </div>
-          <div className={`quizchoix-filter ${selected ? "quizchoix-filter-selected" : ""}`} onClick={handleFilterClick}>
+          <div
+            className={`quizchoix-filter ${selected ? "quizchoix-filter-selected" : ""}`}
+            onClick={handleFilterClick}
+          >
             Conception
           </div>
-          <div className={`quizchoix-filter ${selected ? "quizchoix-filter-selected" : ""}`} onClick={handleFilterClick}>
+          <div
+            className={`quizchoix-filter ${selected ? "quizchoix-filter-selected" : ""}`}
+            onClick={handleFilterClick}
+          >
             Projet
           </div>
-          <div className={`quizchoix-filter ${selected ? "quizchoix-filter-selected" : ""}`} onClick={handleFilterClick}>
+          <div
+            className={`quizchoix-filter ${selected ? "quizchoix-filter-selected" : ""}`}
+            onClick={handleFilterClick}
+          >
             Logique
           </div>
-          <div className={`quizchoix-filter ${selected ? "quizchoix-filter-selected" : ""}`} onClick={handleFilterClick}>
+          <div
+            className={`quizchoix-filter ${selected ? "quizchoix-filter-selected" : ""}`}
+            onClick={handleFilterClick}
+          >
             Réseaux
+          </div>
+          <div
+            className={`quizchoix-filter ${selected ? "quizchoix-filter-selected" : ""}`}
+            onClick={handleFilterClick}
+          >
+            Juridique
+          </div>
+          <div
+            className={`quizchoix-filter ${selected ? "quizchoix-filter-selected" : ""}`}
+            onClick={handleFilterClick}
+          >
+            Outils
+          </div>
+          <div
+            className={`quizchoix-filter ${selected ? "quizchoix-filter-selected" : ""}`}
+            onClick={handleFilterClick}
+          >
+            Culture
           </div>
         </section>
         <div className="quizchoix-quiz-wrapper">
@@ -131,7 +217,7 @@ function QuizChoix() {
             <button
               key={theme.id}
               type="button"
-              className={`quizchoix-quiz quizchoix-quiz-${theme.id}`}
+              className={`quizchoix-quiz quizchoix-quiz-${theme.category}`}
               onClick={() => selectionnerTheme(theme.id)}
             >
               <span>{theme.label}</span>

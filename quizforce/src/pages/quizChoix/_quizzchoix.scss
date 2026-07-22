@@ -102,50 +102,43 @@
   background-image: url("/assets/thumbnails/img_globales_rsp.png");
 }
 
-.quizchoix-quiz-reseaux {
+.quizchoix-quiz-Réseaux {
   background-image: url("/assets/thumbnails/img_reseaux.png");
 }
 
-.quizchoix-quiz-java,
-.quizchoix-quiz-java_affichage,
-.quizchoix-quiz-java_avance {
+
+.quizchoix-quiz-Développement {
   background-image: url("/assets/thumbnails/img_developpement.png");
 }
 
-.quizchoix-quiz-linux,
-.quizchoix-quiz-linux_admin,
-.quizchoix-quiz-securite,
-.quizchoix-quiz-scriptshell,
-.quizchoix-quiz-linux_scripts,
-.quizchoix-quiz-postgresql_dba,
-.quizchoix-quiz-postgresql,
-.quizchoix-quiz-sql {
+
+.quizchoix-quiz-AdminSys {
   background-image: url("/assets/thumbnails/img_adminsys.png");
 }
 
-.quizchoix-quiz-cycle_vie_application,
-.quizchoix-quiz-schema_directeur,
-.quizchoix-quiz-partenaire_projet,
-.quizchoix-quiz-conduite_projet_info,
-.quizchoix-quiz-urbanisation_systeme_info {
+
+.quizchoix-quiz-Projet {
   background-image: url("/assets/thumbnails/img_projet_info.png");
 }
 
-.quizchoix-quiz-merise,
-.quizchoix-quiz-uml,
-.quizchoix-quiz-concepts_objet,
-.quizchoix-quiz-test,
-.quizchoix-quiz-evolution_language,
-.quizchoix-quiz-schema_conception {
+
+.quizchoix-quiz-Conception {
   background-image: url("/assets/thumbnails/img_conception_info.png");
 }
 
-.quizchoix-quiz-bientot {
-  background-image: url("/assets/thumbnails/img_bientot.png");
+.quizchoix-quiz-Juridique {
+  background-image: url("/assets/thumbnails/img_juridique.png");
 }
 
-.quizchoix-quiz-logique,
-.quizchoix-quiz-logique_avancee {
+.quizchoix-quiz-Outils {
+  background-image: url("/assets/thumbnails/img_outils.png");
+}
+
+.quizchoix-quiz-Culture {
+  background-image: url("/assets/thumbnails/img_culture.png");
+}
+
+.quizchoix-quiz-Logique {
   background-image: url("/assets/thumbnails/img_logique.png");
 }
 
@@ -188,10 +181,8 @@
   padding: 8px 0;
   justify-content: space-evenly;
   align-items: center;
-  // overflow-y: hidden;
-  // overflow-x: auto;
-  // width: 100%;
-  // height: 5vh;
+
+  width:80%;
 }
 
 .quizchoix-filter {
@@ -201,7 +192,7 @@
   margin: 0 5px;
   border: 3px solid black;
   border-radius: 5px;
-  width: 180px;
+  width: 150px;
   text-align: center;
   font-weight: bold;
   &:hover {
@@ -219,7 +210,7 @@
     border: 5px solid black;
     border-radius: 10px;
     width: 90vw;
-    height: 45px;
+    height: 60px;
     margin: 5px;
     background-position: center;
     background-repeat: no-repeat;
@@ -237,6 +228,7 @@
     }
     span {
       font-size: 15px;
+      text-align: left;
     }
   }
 
@@ -256,7 +248,7 @@
   }
 
   .quizchoix-filter {
-    width: 300px;
+    width: 150px;
   }
 }
 
@@ -279,7 +271,7 @@
   margin: 0 2px;
   border: 3px solid black;
   border-radius: 5px;
-  width: 120px;
+  width: 150px;
   text-align: center;
   font-weight: bold;
   &:hover {

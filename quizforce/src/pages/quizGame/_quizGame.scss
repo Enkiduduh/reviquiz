@@ -25,6 +25,11 @@
   &.started {
     width: 100%;
   }
+  &.ended {
+    width: 100%;
+    height: 50%;
+    z-index: 40;
+  }
 }
 
 // Quiz avant commencement
@@ -76,6 +81,15 @@
   justify-content: center;
   align-items: center;
   width: 60%;
+  text-align: center;
+  color: whitesmoke;
+  text-shadow: 2px 2px 2px black;
+  &.ended {
+    z-index: 50;
+    color: whitesmoke;
+    text-shadow: 2px 2px 2px black;
+    width: 100%;
+  }
 }
 
 .quizz-score-name {
@@ -85,12 +99,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
 
   button {
     padding: 10px 20px;
     font-size: 32px;
     cursor: pointer;
-    margin: 0 10px;
+    margin: 5px 10px;
+    width: 30vw;
   }
   #quizz-start {
     // pointer-events: none;
@@ -176,6 +192,10 @@
   justify-content: center;
   position: absolute;
   bottom: 25px;
+  &.ended {
+    left: 50%;
+    transform: translateX(-50%);
+  }
 }
 
 .quizz-next,
@@ -196,6 +216,9 @@
     cursor: pointer;
     transition: all ease 0.33s;
     color: whitesmoke;
+  }
+  &.ended {
+    width: 270px;
   }
 }
 
@@ -278,6 +301,9 @@
   align-items: center;
 
   border: 7px solid black;
+  &.ended {
+    background: silver;
+  }
 }
 
 .quizz-reponse-result {
@@ -347,6 +373,11 @@
     &.started {
       width: 100%;
     }
+
+    &.ended {
+      width: 80%;
+      height: 80%;
+    }
     h1 {
       margin: 0;
       font-size: 16px;
@@ -361,6 +392,22 @@
     .quizz-round {
       font-size: 24px;
       width: 90%;
+    }
+     .quizz-score-title {
+      font-weight: bolder;
+      text-align: center;
+      height: 20vh;
+      width: 90%;
+      &.ended {
+        z-index: 50;
+        color: whitesmoke;
+        text-shadow: 2px 2px 2px black;
+        font-size:36px;
+
+        p {
+
+        }
+      }
     }
   }
 
@@ -381,7 +428,7 @@
     &.started {
       width: 100%;
     }
-       p {
+    p {
       font-size: 18px;
       width: 90%;
     }
@@ -392,13 +439,7 @@
       margin: 10px 0;
     }
 
-    .quizz-score-title {
-      font-size: 42px;
-      font-weight: bolder;
-      text-align: center;
-      height: 20vh;
-      width: 90%;
-    }
+
   }
 
   .quizz-container {
@@ -456,6 +497,9 @@
     justify-content: center;
     position: absolute;
     bottom: 25px;
+    &.ended {
+      flex-direction: column;
+    }
   }
 
   .quizz-next,
@@ -468,9 +512,17 @@
     width: 45vw;
     height: 70px;
     font-weight: bold;
+    &.ended {
+      width: 65vw;
+    }
   }
 
   .quizz-resultat {
     font-size: 24px;
+    &.ended {
+      p {
+        font-size: 24px;
+      }
+    }
   }
 }

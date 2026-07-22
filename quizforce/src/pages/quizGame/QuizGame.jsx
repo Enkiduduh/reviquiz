@@ -1,32 +1,46 @@
 import { useMemo, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-import { dataQuizzLinux } from "../../data/dataQuizzLinux.js";
-import { dataQuizzSecurite } from "../../data/dataQuizzSecurite.js";
-import { dataQuizzReseau } from "../../data/dataQuizzReseau.js";
-import { dataQuizzScriptShell } from "../../data/dataQuizzScriptShell.js";
-import { dataQuizzJava } from "../../data/dataQuizzJavaFacile.js";
-import { dataQuizzJavaExpert } from "../../data/dataQuizzJavaAvance.js";
-import { dataQuizzJavaAffichage } from "../../data/dataQuizzJavaAffichage.js";
-import { dataQuizzLogiqueFacile } from "../../data/dataQuizzLogiqueFacile.js";
-import { dataQuizzAdministrationLinux } from "../../data/dataQuizzAdministrationLinux.js";
-import { dataQuizzPostgresql } from "../../data/dataQuizzPostgresql.js";
-import { dataQuizzPostgresqlDba } from "../../data/dataQuizzPostgresqlDba.js";
-import { dataQuizzMerise } from "../../data/dataQuizzMerise.js";
-import { dataQuizzUml } from "../../data/dataQuizzUml.js";
-import { dataQuizzConceptsObjet } from "../../data/dataQuizzConceptsObjet.js";
-import { dataQuizzUrbanisationSystemesInfo } from "../../data/dataQuizzUrbanisationSystemesInfo.js";
-import { dataQuizzConduiteProjetInfo } from "../../data/dataQuizzConduiteProjetInfo.js";
-import { dataQuizzPartenaireProjet } from "../../data/dataQuizzPartenaireProjet.js";
-import { dataQuizzSchemaDirecteur } from "../../data/dataQuizzSchemaDirecteur.js";
-import { dataQuizzCycleVieApplication } from "../../data/dataQuizzCycleVieApplication.js";
-import { dataQuizzEvolutionLanguage } from "../../data/dataQuizzEvolutionLanguage.js";
-import { dataQuizzProgrammationDeTest } from "../../data/dataQuizzProgrammationDeTest.js";
-import { dataQuizzLinuxScripts } from "../../data/dataQuizzLinuxScripts.js";
+import { dataQuizzLinux } from "../../data/informatique/dataQuizzLinux.js";
+import { dataQuizzSecurite } from "../../data/informatique/dataQuizzSecurite.js";
+import { dataQuizzReseau } from "../../data/informatique/dataQuizzReseau.js";
+import { dataQuizzScriptShell } from "../../data/informatique/dataQuizzScriptShell.js";
+import { dataQuizzJava } from "../../data/informatique/dataQuizzJavaFacile.js";
+import { dataQuizzJavaExpert } from "../../data/informatique/dataQuizzJavaAvance.js";
+import { dataQuizzJavaAffichage } from "../../data/informatique/dataQuizzJavaAffichage.js";
+import { dataQuizzLogiqueFacile } from "../../data/informatique/dataQuizzLogiqueFacile.js";
+import { dataQuizzAdministrationLinux } from "../../data/informatique/dataQuizzAdministrationLinux.js";
+import { dataQuizzPostgresql } from "../../data/informatique/dataQuizzPostgresql.js";
+import { dataQuizzPostgresqlDba } from "../../data/informatique/dataQuizzPostgresqlDba.js";
+import { dataQuizzMerise } from "../../data/informatique/dataQuizzMerise.js";
+import { dataQuizzUml } from "../../data/informatique/dataQuizzUml.js";
+import { dataQuizzConceptsObjet } from "../../data/informatique/dataQuizzConceptsObjet.js";
+import { dataQuizzUrbanisationSystemesInfo } from "../../data/informatique/dataQuizzUrbanisationSystemesInfo.js";
+import { dataQuizzConduiteProjetInfo } from "../../data/informatique/dataQuizzConduiteProjetInfo.js";
+import { dataQuizzPartenaireProjet } from "../../data/informatique/dataQuizzPartenaireProjet.js";
+import { dataQuizzSchemaDirecteur } from "../../data/informatique/dataQuizzSchemaDirecteur.js";
+import { dataQuizzCycleVieApplication } from "../../data/informatique/dataQuizzCycleVieApplication.js";
+import { dataQuizzEvolutionLanguage } from "../../data/informatique/dataQuizzEvolutionLanguage.js";
+import { dataQuizzProgrammationDeTest } from "../../data/informatique/dataQuizzProgrammationDeTest.js";
+import { dataQuizzLinuxScripts } from "../../data/informatique/dataQuizzLinuxScripts.js";
 
-import { dataQuizzSchemaConception } from "../../data/dataQuizzSchemaConception.js";
-import { dataQuizzSQL } from "../../data/dataQuizzSQL.js";
-import { dataQuizzLogiqueAvancee } from "../../data/dataQuizzLogiqueAvancee.js";
+import { dataQuizzSchemaConception } from "../../data/informatique/dataQuizzSchemaConception.js";
+import { dataQuizzSQL } from "../../data/informatique/dataQuizzSQL.js";
+import { dataQuizzLogiqueAvancee } from "../../data/informatique/dataQuizzLogiqueAvancee.js";
+
+import { dataQuizz_generalites_architectures_informatiques } from "../../data/informatique/dataQuizz_generalites_architectures_informatiques.js";
+import { dataQuizz_generalites_systemes_exploitation } from "../../data/informatique/dataQuizz_generalites_systemes_exploitation.js";
+import { dataQuizzOutilsTestsConfigurationDeploiement } from "../../data/informatique/dataQuizzOutilsTestsConfigurationDeploiement.js";
+import { dataQuizzOutilsAideRealisation } from "../../data/informatique/dataQuizzOutilsAideRealisation.js";
+import { dataQuizzOutilsAideConception } from "../../data/informatique/dataQuizzOutilsAideConception.js";
+import { dataQuizz_generations_principaux_langages_informatiques } from "../../data/informatique/dataQuizz_generations_principaux_langages_informatiques.js";
+import { dataQuizz_cadre_juridique_communications_electroniques } from "../../data/informatique/juridique/dataQuizz_cadre_juridique_communications_electroniques.js";
+import { dataQuizz_droit_informatique } from "../../data/informatique/juridique/dataQuizz_droit_informatique.js";
+import { dataQuizzInstancesNormalisation } from "../../data/informatique/juridique/dataQuizzInstancesNormalisation.js";
+import { dataQuizzMarchesPublics } from "../../data/informatique/juridique/dataQuizzMarchesPublics.js";
+
+import { dataQuizzTestFin } from "../../data/informatique/dataQuizzTestFin.js";
+
 
 const dataQuizz = {
   linux: dataQuizzLinux,
@@ -54,6 +68,19 @@ const dataQuizz = {
   sql: dataQuizzSQL,
   logique_avancee: dataQuizzLogiqueAvancee,
   schema_conception: dataQuizzSchemaConception,
+  architectures_info: dataQuizz_generalites_architectures_informatiques,
+  systemes_exploitation: dataQuizz_generalites_systemes_exploitation,
+  tests_config_deploiement: dataQuizzOutilsTestsConfigurationDeploiement,
+  aide_realisation: dataQuizzOutilsAideRealisation,
+  aide_conception: dataQuizzOutilsAideConception,
+  langages_informatiques:
+    dataQuizz_generations_principaux_langages_informatiques,
+  communications_electronique:
+    dataQuizz_cadre_juridique_communications_electroniques,
+  droit_informatique: dataQuizz_droit_informatique,
+  instances_normalisation: dataQuizzInstancesNormalisation,
+  marches_publics: dataQuizzMarchesPublics,
+  test_fin: dataQuizzTestFin
 };
 
 const titresThemes = {
@@ -83,6 +110,19 @@ const titresThemes = {
   sql: "SQL",
   logique_avancee: "Logique Avancée",
   schema_conception: "Schéma de conception",
+   architectures_info: "Architecture Informatique",
+  systemes_exploitation: "Systèmes d'exploitation",
+  tests_config_deploiement: "Outils de tests, configuration et déploirement",
+  aide_realisation: "Outils d'aide à la réalisation",
+  aide_conception: "Outils d'aide à la conception",
+  langages_informatiques:
+    "Principaux langages informatiques",
+  communications_electronique:
+    "Cadre juridique des communications électroniques",
+  droit_informatique: "Droit informatique",
+  instances_normalisation: "Instances de normalisation",
+  marches_publics: "Marchés publics",
+  test_fin: "Test de Fin"
 };
 
 function melangerReponses(reponses) {
@@ -373,18 +413,18 @@ function QuizGame() {
       )}
 
       {quizCommence && quizTermine && (
-        <section className="quizz-score-container">
-          <h1 className="quizz-score-title">Quiz terminé</h1>
+        <section className="quizz-score-container ended">
 
-          <div className="quizz-score-name">
-            <p className="quizz-resultat">
-              Ton score est de {compteur}/{roundQuestion}.
+          <div className="quizz-resultat ended">
+          <h1 className="quizz-score-title ended">Quiz terminé</h1>
+            <p >
+              Ton score est de {compteur}/{roundQuestion}
             </p>
 
-            <div className="quizz-boutons-action">
+            <div className="quizz-boutons-action ended">
               <button
                 type="button"
-                className="quizz-next"
+                className="quizz-next ended"
                 onClick={recommencerQuiz}
               >
                 Recommencer
@@ -392,7 +432,7 @@ function QuizGame() {
 
               <button
                 type="button"
-                className="quizz-stop"
+                className="quizz-stop ended"
                 onClick={arreterQuiz}
               >
                 Choisir un autre thème
