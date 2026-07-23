@@ -41,7 +41,6 @@ import { dataQuizzMarchesPublics } from "../../data/informatique/juridique/dataQ
 
 import { dataQuizzTestFin } from "../../data/informatique/dataQuizzTestFin.js";
 
-
 const dataQuizz = {
   linux: dataQuizzLinux,
   linux_admin: dataQuizzAdministrationLinux,
@@ -80,7 +79,7 @@ const dataQuizz = {
   droit_informatique: dataQuizz_droit_informatique,
   instances_normalisation: dataQuizzInstancesNormalisation,
   marches_publics: dataQuizzMarchesPublics,
-  test_fin: dataQuizzTestFin
+  test_fin: dataQuizzTestFin,
 };
 
 const titresThemes = {
@@ -110,19 +109,18 @@ const titresThemes = {
   sql: "SQL",
   logique_avancee: "Logique Avancée",
   schema_conception: "Schéma de conception",
-   architectures_info: "Architecture Informatique",
+  architectures_info: "Architecture Informatique",
   systemes_exploitation: "Systèmes d'exploitation",
   tests_config_deploiement: "Outils de tests, configuration et déploirement",
   aide_realisation: "Outils d'aide à la réalisation",
   aide_conception: "Outils d'aide à la conception",
-  langages_informatiques:
-    "Principaux langages informatiques",
+  langages_informatiques: "Principaux langages informatiques",
   communications_electronique:
     "Cadre juridique des communications électroniques",
   droit_informatique: "Droit informatique",
   instances_normalisation: "Instances de normalisation",
   marches_publics: "Marchés publics",
-  test_fin: "Test de Fin"
+  test_fin: "Test de Fin",
 };
 
 function melangerReponses(reponses) {
@@ -371,7 +369,13 @@ function QuizGame() {
                     </div>
                     <div className="quizz-reponse-result">
                       <div>La bonne réponse est bien :</div>
-                      <div>{questionActuelle.reponse_v}</div>
+                      <div className="quizz-reponse-result-reponse">
+                        {questionActuelle.reponse_v}
+                      </div>
+                      {questionActuelle.explication &&
+                      questionActuelle.explication ? (
+                        <div>Explication: {questionActuelle.explication}</div>
+                      ) : null}
                     </div>
                   </>
                 ) : (
@@ -380,7 +384,13 @@ function QuizGame() {
 
                     <div className="quizz-reponse-result">
                       <div>La bonne réponse est :</div>
-                      <div>{questionActuelle.reponse_v}</div>
+                      <div className="quizz-reponse-result-reponse">
+                        {questionActuelle.reponse_v}
+                      </div>
+                      {questionActuelle.explication &&
+                      questionActuelle.explication ? (
+                        <div>Explication: {questionActuelle.explication}</div>
+                      ) : null}
                     </div>
                   </>
                 )}
@@ -414,10 +424,9 @@ function QuizGame() {
 
       {quizCommence && quizTermine && (
         <section className="quizz-score-container ended">
-
           <div className="quizz-resultat ended">
-          <h1 className="quizz-score-title ended">Quiz terminé</h1>
-            <p >
+            <h1 className="quizz-score-title ended">Quiz terminé</h1>
+            <p>
               Ton score est de {compteur}/{roundQuestion}
             </p>
 
