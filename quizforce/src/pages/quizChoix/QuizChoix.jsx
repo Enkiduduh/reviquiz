@@ -93,7 +93,15 @@ const themes = [
     synopsys: "Lorem Ipsum Magnolia Dex Aeternatos",
     label: "Logique Avancée",
   },
-
+  {
+    category: "Logique",
+    id: "logique_expert",
+    nb_questions: "300",
+    difficulte: "expert",
+    label_difficulte: "Expert",
+    synopsys: "Lorem Ipsum Magnolia Dex Aeternatos",
+    label: "Logique Expert",
+  },
   {
     category: "Développement",
     id: "java",
@@ -121,6 +129,35 @@ const themes = [
     synopsys: "Lorem Ipsum Magnolia Dex Aeternatos",
     label: "Java Avancé",
   },
+
+  {
+    category: "Développement",
+    id: "java_expert",
+    nb_questions: "300",
+    difficulte: "expert",
+    label_difficulte: "Expert",
+    synopsys: "Lorem Ipsum Magnolia Dex Aeternatos",
+    label: "Java Mini-TP - Expert",
+  },
+  {
+    category: "Développement",
+    id: "javascript_expert",
+    nb_questions: "300",
+    difficulte: "expert",
+    label_difficulte: "Expert",
+    synopsys: "Lorem Ipsum Magnolia Dex Aeternatos",
+    label: "Javascript Mini-TP - Expert",
+  },
+  {
+    category: "Développement",
+    id: "python_expert",
+    nb_questions: "300",
+    difficulte: "expert",
+    label_difficulte: "Expert",
+    synopsys: "Lorem Ipsum Magnolia Dex Aeternatos",
+    label: "Python Mini-TP - Expert",
+  },
+
   {
     category: "Réseaux",
     id: "reseaux",
@@ -130,6 +167,43 @@ const themes = [
     synopsys: "Lorem Ipsum Magnolia Dex Aeternatos",
     label: "Réseaux",
   },
+  {
+    category: "Réseaux",
+    id: "cidr_ipv4_ipv6",
+    nb_questions: "300",
+    difficulte: "difficile",
+    label_difficulte: "Difficile",
+    synopsys: "Lorem Ipsum Magnolia Dex Aeternatos",
+    label: "CIDR, Plan d'adressage IPV4 et IPV6",
+  },
+  {
+    category: "Réseaux",
+    id: "cloud_computing",
+    nb_questions: "300",
+    difficulte: "difficile",
+    label_difficulte: "Difficile",
+    synopsys: "Lorem Ipsum Magnolia Dex Aeternatos",
+    label: "Cloud computing",
+  },
+  {
+    category: "Réseaux",
+    id: "modele_osi_dod",
+    nb_questions: "300",
+    difficulte: "difficile",
+    label_difficulte: "Difficile",
+    synopsys: "Lorem Ipsum Magnolia Dex Aeternatos",
+    label: "Modeles OSI et DOD",
+  },
+  {
+    category: "Réseaux",
+    id: "typologies_reseaux",
+    nb_questions: "300",
+    difficulte: "difficile",
+    label_difficulte: "Difficile",
+    synopsys: "Lorem Ipsum Magnolia Dex Aeternatos",
+    label: "Pile TCP/IP, typologies, protocoles et infrastructures réseaux",
+  },
+
   {
     category: "Projet",
     id: "cycle_vie_application",
@@ -231,6 +305,34 @@ const themes = [
   },
 
   {
+    category: "Conception",
+    id: "merise_exos",
+    nb_questions: "300",
+    difficulte: "difficile",
+    label_difficulte: "Difficile",
+    synopsys: "Lorem Ipsum Magnolia Dex Aeternatos",
+    label: "Merise cas d'utilisation, états transitions",
+  },
+  {
+    category: "Conception",
+    id: "uml_exos",
+    nb_questions: "300",
+    difficulte: "difficile",
+    label_difficulte: "Difficile",
+    synopsys: "Lorem Ipsum Magnolia Dex Aeternatos",
+    label: "Uml mcd mld exos",
+  },
+  {
+    category: "Conception",
+    id: "methodes_analyse",
+    nb_questions: "300",
+    difficulte: "normal",
+    label_difficulte: "Normal",
+    synopsys: "Lorem Ipsum Magnolia Dex Aeternatos",
+    label: "Methodes d'analyse",
+  },
+
+  {
     category: "Culture",
     id: "architectures_info",
     nb_questions: "200",
@@ -323,6 +425,83 @@ const themes = [
     label: "Marchés publics",
   },
   {
+    category: "Sécurité",
+    id: "chiffrement",
+    nb_questions: "300",
+    difficulte: "expert",
+    label_difficulte: "Expert",
+    synopsys: "Lorem Ipsum Magnolia Dex Aeternatos",
+    label: "Chiffrement, certificats, gestion de clés, normes et protocoless",
+  },
+  {
+    category: "Sécurité",
+    id: "cybersecurite",
+    nb_questions: "300",
+    difficulte: "expert",
+    label_difficulte: "Expert",
+    synopsys: "Lorem Ipsum Magnolia Dex Aeternatos",
+    label: "Cybersecurite acteurs principes connaissances generales",
+  },
+  {
+    category: "Sécurité",
+    id: "authentification",
+    nb_questions: "300",
+    difficulte: "expert",
+    label_difficulte: "Expert",
+    synopsys: "Lorem Ipsum Magnolia Dex Aeternatos",
+    label: "Gestion identite interconnexion authentification forte",
+  },
+  {
+    category: "Sécurité",
+    id: "resilience",
+    nb_questions: "300",
+    difficulte: "expert",
+    label_difficulte: "Expert",
+    synopsys: "Lorem Ipsum Magnolia Dex Aeternatos",
+    label: "Resilience pca pra haute disponibilite multisite attaques parades",
+  },
+
+  {
+    category: "Data",
+    id: "sauvegarde_archivage",
+    nb_questions: "300",
+    difficulte: "expert",
+    label_difficulte: "Expert",
+    synopsys: "Lorem Ipsum Magnolia Dex Aeternatos",
+    label: "Sauvegarde et archivage mini_tp",
+  },
+
+  {
+    category: "Data",
+    id: "exposition_donnees",
+    nb_questions: "300",
+    difficulte: "expert",
+    label_difficulte: "Expert",
+    synopsys: "Lorem Ipsum Magnolia Dex Aeternatos",
+    label: "Exposition des données et open data",
+  },
+
+  {
+    category: "Data",
+    id: "nosql",
+    nb_questions: "300",
+    difficulte: "expert",
+    label_difficulte: "Expert",
+    synopsys: "Lorem Ipsum Magnolia Dex Aeternatos",
+    label: "Bases noSQL, principes et usages",
+  },
+
+  {
+    category: "IA",
+    id: "intelligence_artificielle",
+    nb_questions: "300",
+    difficulte: "expert",
+    label_difficulte: "Expert",
+    synopsys: "Lorem Ipsum Magnolia Dex Aeternatos",
+    label: "Intelligence Artificielle Généralités",
+  },
+
+  {
     category: "AdminSys",
     id: "test_fin",
     nb_questions: "3",
@@ -361,19 +540,19 @@ function QuizChoix() {
     }
   }
 
-   function handleDifficulteClick(e) {
+  function handleDifficulteClick(e) {
     const selectedDiff = e.target.textContent;
     if (selectedDiff == "Tout") {
       setSelectedThemes(themes);
       setSelected(true);
     } else {
-      const filterTheme = themes.filter((th) => th.label_difficulte == selectedDiff);
+      const filterTheme = themes.filter(
+        (th) => th.label_difficulte == selectedDiff,
+      );
       setSelectedThemes(filterTheme);
       setSelected(false);
     }
   }
-
-
 
   return (
     <main className="quizchoix-page-main">
@@ -433,7 +612,25 @@ function QuizChoix() {
             className={`quizchoix-filter ${selected ? "quizchoix-filter-selected" : ""}`}
             onClick={handleFilterClick}
           >
+            Sécurité
+          </div>
+          <div
+            className={`quizchoix-filter ${selected ? "quizchoix-filter-selected" : ""}`}
+            onClick={handleFilterClick}
+          >
             Outils
+          </div>
+          <div
+            className={`quizchoix-filter ${selected ? "quizchoix-filter-selected" : ""}`}
+            onClick={handleFilterClick}
+          >
+            Data
+          </div>
+          <div
+            className={`quizchoix-filter ${selected ? "quizchoix-filter-selected" : ""}`}
+            onClick={handleFilterClick}
+          >
+            IA
           </div>
           <div
             className={`quizchoix-filter ${selected ? "quizchoix-filter-selected" : ""}`}
@@ -443,7 +640,7 @@ function QuizChoix() {
           </div>
         </section>
         <section className="quizchoix-section-difficulte">
-           <div
+          <div
             className={`quizchoix-filter ${selected ? "quizchoix-filter-selected" : ""}`}
             onClick={handleDifficulteClick}
           >
@@ -453,25 +650,29 @@ function QuizChoix() {
             className={`quizchoix-filter ${selected ? "quizchoix-filter-selected" : ""}`}
             onClick={handleDifficulteClick}
           >
-            Facile
+            <div>Facile</div>
+            <div className="quizchoix-quiz-filter-vignette-facile filter-vignette"></div>
           </div>
           <div
             className={`quizchoix-filter ${selected ? "quizchoix-filter-selected" : ""}`}
             onClick={handleDifficulteClick}
           >
-            Normal
+            <div>Normal</div>
+            <div className="quizchoix-quiz-filter-vignette-normal filter-vignette"></div>
           </div>
           <div
             className={`quizchoix-filter ${selected ? "quizchoix-filter-selected" : ""}`}
             onClick={handleDifficulteClick}
           >
-            Difficile
+            <div>Difficile</div>
+            <div className="quizchoix-quiz-filter-vignette-difficile filter-vignette"></div>
           </div>
           <div
             className={`quizchoix-filter ${selected ? "quizchoix-filter-selected" : ""}`}
             onClick={handleDifficulteClick}
           >
-            Expert
+            <div>Expert</div>
+            <div className="quizchoix-quiz-filter-vignette-expert filter-vignette"></div>
           </div>
         </section>
         <div className="quizchoix-quiz-wrapper">

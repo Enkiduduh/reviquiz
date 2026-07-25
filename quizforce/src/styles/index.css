@@ -635,6 +635,31 @@
   background: red;
 }
 
+.filter-vignette {
+  position: relative;
+  right: 0;
+  height: 15px;
+  width: 15px;
+  border: 5px solid whitesmoke;
+  border-radius: 50%;
+}
+
+.quizchoix-quiz-filter-vignette-facile {
+  background: lightblue;
+}
+
+.quizchoix-quiz-filter-vignette-normal {
+  background: green;
+}
+
+.quizchoix-quiz-filter-vignette-difficile {
+  background: orange;
+}
+
+.quizchoix-quiz-filter-vignette-expert {
+  background: red;
+}
+
 .quizchoix-quiz-rsp {
   background-image: url("/assets/thumbnails/img_globales_rsp.png");
 }
@@ -669,6 +694,18 @@
 
 .quizchoix-quiz-Culture {
   background-image: url("/assets/thumbnails/img_culture.png");
+}
+
+.quizchoix-quiz-IA {
+  background-image: url("/assets/thumbnails/img_ia.png");
+}
+
+.quizchoix-quiz-Data {
+  background-image: url("/assets/thumbnails/img_data.png");
+}
+
+.quizchoix-quiz-Sécurité {
+  background-image: url("/assets/thumbnails/img_securite.png");
 }
 
 .quizchoix-quiz-Logique {
@@ -725,6 +762,10 @@
   width: 150px;
   text-align: center;
   font-weight: bold;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .quizchoix-filter:hover {
   background: lightseagreen;

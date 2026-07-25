@@ -1,0 +1,2265 @@
+export const dataQuizzFromage = [
+  {
+    id: 1,
+    question:
+      "Combien de fromages différents sont traditionnellement attribués à la France ?",
+    reponses: ["Plus de 1 000", "Environ 200", "Moins de 100"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "La France compte plus de 1 000 variétés de fromages selon les méthodes de fabrication et les terroirs.",
+  },
+  {
+    id: 2,
+    question:
+      "Quel pays est mondialement réputé pour la diversité de ses fromages AOP ?",
+    reponses: ["La France", "Le Japon", "Le Brésil"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "La France possède un patrimoine fromager exceptionnel.",
+  },
+  {
+    id: 3,
+    question: "Que signifie l'acronyme AOP appliqué à un fromage ?",
+    reponses: [
+      "Appellation d'Origine Protégée",
+      "Association Officielle des Producteurs",
+      "Agrément Officiel de Production",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "L'AOP garantit l'origine géographique et le respect d'un cahier des charges.",
+  },
+  {
+    id: 4,
+    question: "Quel organisme français est chargé de la gestion des AOP ?",
+    reponses: ["L'INAO", "L'INSEE", "L'ADEME"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "L'INAO supervise les appellations d'origine françaises.",
+  },
+  {
+    id: 5,
+    question: "Quel fromage français est surnommé le 'roi des fromages' ?",
+    reponses: ["Le Brie de Meaux", "Le Camembert", "Le Comté"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le Brie de Meaux est souvent appelé le roi des fromages depuis le Congrès de Vienne.",
+  },
+  {
+    id: 6,
+    question:
+      "Quel fromage est traditionnellement fabriqué en Normandie à partir de lait de vache ?",
+    reponses: ["Le Camembert", "Le Rocamadour", "Le Brocciu"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Le Camembert est l'un des emblèmes de la Normandie.",
+  },
+  {
+    id: 7,
+    question:
+      "Le Camembert de Normandie AOP est obligatoirement fabriqué à partir de...",
+    reponses: ["Lait cru", "Lait UHT", "Lait concentré"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Le cahier des charges impose l'utilisation de lait cru.",
+  },
+  {
+    id: 8,
+    question: "Quel fromage est reconnaissable à sa croûte fleurie blanche ?",
+    reponses: ["Le Camembert", "Le Comté", "Le Cantal"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "La croûte blanche est due au développement du Penicillium candidum.",
+  },
+  {
+    id: 9,
+    question:
+      "Quel champignon est principalement utilisé pour former la croûte blanche des fromages à pâte molle ?",
+    reponses: [
+      "Penicillium candidum",
+      "Botrytis cinerea",
+      "Saccharomyces cerevisiae",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Il est responsable de la croûte fleurie caractéristique.",
+  },
+  {
+    id: 10,
+    question: "Le Brie de Meaux est originaire de...",
+    reponses: ["Seine-et-Marne", "Savoie", "Auvergne"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Le Brie de Meaux est produit en Île-de-France.",
+  },
+  {
+    id: 11,
+    question:
+      "Quel fromage est fabriqué dans le Jura et affiné pendant plusieurs mois ?",
+    reponses: ["Le Comté", "Le Pont-l'Évêque", "Le Crottin de Chavignol"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Le Comté est un grand fromage AOP à pâte pressée cuite.",
+  },
+  {
+    id: 12,
+    question:
+      "Le Comté est élaboré exclusivement avec le lait de quelles races de vaches ?",
+    reponses: [
+      "Montbéliarde et Simmental française",
+      "Prim'Holstein uniquement",
+      "Normande uniquement",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Seules ces deux races sont autorisées par le cahier des charges.",
+  },
+  {
+    id: 13,
+    question: "Quelle est la durée minimale d'affinage d'un Comté AOP ?",
+    reponses: ["4 mois", "15 jours", "1 mois"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le Comté est affiné au minimum 4 mois, souvent bien davantage.",
+  },
+  {
+    id: 14,
+    question: "Quel fromage est célèbre pour ses trous ?",
+    reponses: ["L'Emmental", "Le Reblochon", "Le Saint-Nectaire"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Les ouvertures de l'Emmental sont dues aux bactéries propioniques.",
+  },
+  {
+    id: 15,
+    question: "Les trous de l'Emmental sont provoqués principalement par...",
+    reponses: [
+      "Le dioxyde de carbone produit pendant l'affinage",
+      "L'ajout d'air lors du moulage",
+      "Le salage",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Les bactéries propioniques produisent du CO₂ qui forme les ouvertures.",
+  },
+  {
+    id: 16,
+    question: "Quel fromage est fabriqué en Savoie à partir de lait cru ?",
+    reponses: ["Le Reblochon", "Le Livarot", "Le Munster"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Le Reblochon est l'un des grands fromages savoyards.",
+  },
+  {
+    id: 17,
+    question: "Le Reblochon appartient à la famille des...",
+    reponses: ["Pâtes pressées non cuites", "Pâtes persillées", "Pâtes filées"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Sa pâte est souple et non cuite.",
+  },
+  {
+    id: 18,
+    question:
+      "Quel plat savoyard est traditionnellement préparé avec du Reblochon ?",
+    reponses: ["La Tartiflette", "La Choucroute", "Le Cassoulet"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Le Reblochon est l'ingrédient principal de la Tartiflette.",
+  },
+  {
+    id: 19,
+    question:
+      "Quel fromage est à l'origine de la célèbre fondue savoyarde avec le Beaufort et l'Emmental ?",
+    reponses: ["Le Comté", "Le Roquefort", "Le Rocamadour"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Le Comté est souvent utilisé dans la fondue traditionnelle.",
+  },
+  {
+    id: 20,
+    question:
+      "Quel fromage est exclusivement fabriqué à partir de lait de brebis ?",
+    reponses: ["Le Roquefort", "Le Camembert", "Le Comté"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le Roquefort est élaboré uniquement avec du lait cru de brebis.",
+  },
+  {
+    id: 21,
+    question: "Le Roquefort est affiné dans les caves naturelles de...",
+    reponses: ["Roquefort-sur-Soulzon", "Rocamadour", "Laguiole"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Les fleurines naturelles assurent une ventilation idéale des caves.",
+  },
+  {
+    id: 22,
+    question:
+      "Quel champignon est responsable des veines bleues du Roquefort ?",
+    reponses: [
+      "Penicillium roqueforti",
+      "Penicillium candidum",
+      "Geotrichum candidum",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le Penicillium roqueforti donne au fromage son persillage caractéristique.",
+  },
+  {
+    id: 23,
+    question: "Le Roquefort appartient à la famille des...",
+    reponses: [
+      "Pâtes persillées",
+      "Pâtes molles à croûte lavée",
+      "Pâtes filées",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Les fromages bleus sont appelés pâtes persillées.",
+  },
+  {
+    id: 24,
+    question: "Quel fromage est produit en Auvergne avec une pâte persillée ?",
+    reponses: ["Bleu d'Auvergne", "Morbier", "Brie de Meaux"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Le Bleu d'Auvergne est un célèbre fromage AOP.",
+  },
+  {
+    id: 25,
+    question: "Quel fromage est reconnaissable à sa ligne noire centrale ?",
+    reponses: ["Le Morbier", "Le Munster", "Le Salers"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Cette ligne était autrefois réalisée avec de la cendre végétale.",
+  },
+  {
+    id: 26,
+    question: "Le Morbier est originaire de...",
+    reponses: ["Franche-Comté", "Bretagne", "Corse"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Il est produit dans le massif jurassien.",
+  },
+  {
+    id: 27,
+    question:
+      "Quel fromage est célèbre pour son odeur très prononcée et sa croûte lavée ?",
+    reponses: ["Le Munster", "Le Comté", "Le Beaufort"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le Munster développe des arômes puissants grâce aux lavages réguliers de sa croûte.",
+  },
+  {
+    id: 28,
+    question: "Le Munster est principalement produit dans...",
+    reponses: ["Les Vosges et l'Alsace", "La Provence", "Le Bordelais"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Son aire de production couvre les Vosges et l'Alsace.",
+  },
+  {
+    id: 29,
+    question: "Quel fromage est traditionnellement servi avec du cumin ?",
+    reponses: ["Le Munster", "Le Camembert", "Le Cantal"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le cumin accompagne souvent le Munster pour équilibrer sa puissance.",
+  },
+  {
+    id: 30,
+    question:
+      "Quel fromage AOP est produit exclusivement en Corse à partir de lait de brebis ou de chèvre ?",
+    reponses: ["Le Brocciu", "Le Rocamadour", "Le Banon"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le Brocciu est un fromage frais emblématique de la Corse, fabriqué à partir de petit-lait.",
+  },
+  {
+    id: 31,
+    question:
+      "Quel fromage est considéré comme l'un des plus anciens fromages français ?",
+    reponses: ["Le Cantal", "Le Morbier", "Le Brocciu"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le Cantal est fabriqué depuis l'Antiquité dans le Massif central.",
+  },
+  {
+    id: 32,
+    question: "Le Cantal appartient à la famille des...",
+    reponses: [
+      "Pâtes pressées non cuites",
+      "Pâtes molles à croûte fleurie",
+      "Pâtes persillées",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le Cantal est une pâte pressée non cuite produite en Auvergne.",
+  },
+  {
+    id: 33,
+    question: "Combien existe-t-il de niveaux d'affinage pour le Cantal AOP ?",
+    reponses: ["3", "2", "5"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "On distingue le Cantal Jeune, Entre-deux et Vieux.",
+  },
+  {
+    id: 34,
+    question: "Le Salers AOP est fabriqué uniquement...",
+    reponses: [
+      "Pendant la période de pâturage",
+      "Toute l'année",
+      "En hiver uniquement",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Sa fabrication est limitée à la période où les vaches sont à l'herbe.",
+  },
+  {
+    id: 35,
+    question: "Le Salers AOP est obligatoirement fabriqué avec...",
+    reponses: ["Du lait cru de la traite", "Du lait pasteurisé", "Du lait UHT"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Le lait est utilisé immédiatement après la traite.",
+  },
+  {
+    id: 36,
+    question: "Quel fromage est surnommé le 'Prince des Gruyères' ?",
+    reponses: ["Le Beaufort", "Le Reblochon", "Le Saint-Marcellin"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le Beaufort est réputé pour la finesse de sa pâte et de ses arômes.",
+  },
+  {
+    id: 37,
+    question: "Le Beaufort est fabriqué dans...",
+    reponses: ["Les Alpes savoyardes", "Le Jura", "La Normandie"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Il est produit dans les vallées de Savoie.",
+  },
+  {
+    id: 38,
+    question: "Quelle race de vache est autorisée pour produire le Beaufort ?",
+    reponses: [
+      "Tarine et Abondance",
+      "Prim'Holstein uniquement",
+      "Normande uniquement",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Seules les races Tarine et Abondance sont admises.",
+  },
+  {
+    id: 39,
+    question: "Le fromage Abondance est originaire...",
+    reponses: ["De Haute-Savoie", "Du Jura", "De Bretagne"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "L'Abondance est un fromage AOP savoyard.",
+  },
+  {
+    id: 40,
+    question: "Quel fromage est fabriqué sur le plateau de l'Aubrac ?",
+    reponses: ["Laguiole", "Pont-l'Évêque", "Chaource"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le Laguiole est une pâte pressée non cuite produite sur l'Aubrac.",
+  },
+  {
+    id: 41,
+    question: "Le Laguiole AOP est fabriqué exclusivement avec...",
+    reponses: [
+      "Du lait cru de vache",
+      "Du lait de chèvre",
+      "Du lait de brebis",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Son cahier des charges impose le lait cru de vache.",
+  },
+  {
+    id: 42,
+    question: "Quelle famille regroupe les Camemberts et les Bries ?",
+    reponses: [
+      "Les pâtes molles à croûte fleurie",
+      "Les pâtes pressées cuites",
+      "Les pâtes persillées",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Leur croûte blanche est due au Penicillium candidum.",
+  },
+  {
+    id: 43,
+    question: "Le Munster appartient à la famille des...",
+    reponses: ["Pâtes molles à croûte lavée", "Pâtes filées", "Pâtes fraîches"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Les lavages réguliers favorisent le développement de sa flore de surface.",
+  },
+  {
+    id: 44,
+    question: "Le Comté appartient à la famille des...",
+    reponses: ["Pâtes pressées cuites", "Pâtes fraîches", "Pâtes persillées"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "La cuisson du caillé est une étape caractéristique.",
+  },
+  {
+    id: 45,
+    question: "Le Roquefort appartient à la famille des...",
+    reponses: ["Pâtes persillées", "Pâtes filées", "Pâtes fraîches"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Son persillage est obtenu grâce au Penicillium roqueforti.",
+  },
+  {
+    id: 46,
+    question: "La Mozzarella appartient à la famille des...",
+    reponses: ["Pâtes filées", "Pâtes pressées cuites", "Pâtes persillées"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Le caillé est étiré à chaud lors de sa fabrication.",
+  },
+  {
+    id: 47,
+    question:
+      "Quel lait est le plus utilisé dans la fabrication des fromages français ?",
+    reponses: ["Le lait de vache", "Le lait de chèvre", "Le lait de brebis"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "La majorité des fromages français est produite avec du lait de vache.",
+  },
+  {
+    id: 48,
+    question: "Le Rocamadour est fabriqué à partir de...",
+    reponses: ["Lait de chèvre", "Lait de vache", "Lait de brebis"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Le Rocamadour est un petit fromage AOP de chèvre.",
+  },
+  {
+    id: 49,
+    question: "Le Crottin de Chavignol est un fromage au lait de...",
+    reponses: ["Chèvre", "Vache", "Brebis"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Il est produit dans le Berry.",
+  },
+  {
+    id: 50,
+    question: "Le Roquefort est élaboré exclusivement avec du lait de...",
+    reponses: ["Brebis", "Vache", "Chèvre"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Seul le lait de brebis est autorisé pour le Roquefort AOP.",
+  },
+  {
+    id: 51,
+    question: "Quelle étape permet de transformer le lait liquide en caillé ?",
+    reponses: ["Le caillage", "Le salage", "L'affinage"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Le caillage est obtenu grâce à la présure ou aux ferments.",
+  },
+  {
+    id: 52,
+    question:
+      "Quel produit est traditionnellement utilisé pour provoquer le caillage du lait ?",
+    reponses: ["La présure", "Le sel", "Le beurre"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "La présure contient des enzymes qui coagulent les protéines du lait.",
+  },
+  {
+    id: 53,
+    question: "Après le caillage, le fromage est généralement...",
+    reponses: ["Égoutté", "Congelé", "Pasteurisé"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "L'égouttage permet d'éliminer une partie du lactosérum.",
+  },
+  {
+    id: 54,
+    question: "Le lactosérum est également appelé...",
+    reponses: ["Petit-lait", "Crème", "Babeurre"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Le petit-lait est séparé du caillé lors de la fabrication.",
+  },
+  {
+    id: 55,
+    question: "Le Brocciu est principalement fabriqué à partir de...",
+    reponses: ["Petit-lait", "Crème fraîche", "Beurre"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Le Brocciu est obtenu en chauffant le petit-lait.",
+  },
+  {
+    id: 56,
+    question: "Quel est le rôle principal du salage ?",
+    reponses: [
+      "Favoriser la conservation et le développement des arômes",
+      "Colorer la pâte",
+      "Accélérer le caillage",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le sel joue un rôle essentiel dans la conservation et l'affinage.",
+  },
+  {
+    id: 57,
+    question: "L'affinage permet principalement...",
+    reponses: [
+      "Le développement des arômes et de la texture",
+      "La pasteurisation du fromage",
+      "La fabrication du lait",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Les caractéristiques finales du fromage apparaissent pendant cette étape.",
+  },
+  {
+    id: 58,
+    question:
+      "Le maître chargé de surveiller l'affinage des fromages est appelé...",
+    reponses: ["Affineur", "Présurier", "Laitier"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "L'affineur veille aux conditions optimales de maturation.",
+  },
+  {
+    id: 59,
+    question:
+      "Pourquoi retourne-t-on régulièrement certains fromages pendant leur affinage ?",
+    reponses: [
+      "Pour assurer une maturation homogène",
+      "Pour accélérer le refroidissement",
+      "Pour éliminer le sel",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le retournement favorise une évolution régulière de la pâte et de la croûte.",
+  },
+  {
+    id: 60,
+    question: "Quelle affirmation résume le mieux l'affinage d'un fromage ?",
+    reponses: [
+      "C'est l'étape qui révèle pleinement ses qualités gustatives",
+      "Elle sert uniquement à le sécher",
+      "Elle est facultative pour tous les fromages",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "L'affinage transforme profondément les arômes, la texture et la croûte du fromage.",
+  },
+  {
+    id: 61,
+    question: "Quel fromage de chèvre AOP est produit dans le Cher ?",
+    reponses: ["Crottin de Chavignol", "Maroilles", "Livarot"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le Crottin de Chavignol est l'un des plus célèbres fromages de chèvre français.",
+  },
+  {
+    id: 62,
+    question: "Le Crottin de Chavignol peut être dégusté...",
+    reponses: ["Frais ou très affiné", "Uniquement frais", "Uniquement fondu"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Son goût évolue fortement au cours de l'affinage.",
+  },
+  {
+    id: 63,
+    question:
+      "Quel fromage de chèvre est traditionnellement enveloppé dans une feuille de châtaignier ?",
+    reponses: ["Banon", "Comté", "Bleu d'Auvergne"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le Banon AOP est entouré de feuilles de châtaignier liées avec un raphia.",
+  },
+  {
+    id: 64,
+    question: "Le Banon est originaire de...",
+    reponses: ["Provence", "Normandie", "Alsace"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le Banon est produit entre les Alpes-de-Haute-Provence, le Vaucluse, la Drôme et les Hautes-Alpes.",
+  },
+  {
+    id: 65,
+    question:
+      "Quel fromage de chèvre est reconnaissable à sa forme de pyramide tronquée ?",
+    reponses: ["Valençay", "Pont-l'Évêque", "Laguiole"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le Valençay possède une forme caractéristique et une croûte cendrée.",
+  },
+  {
+    id: 66,
+    question: "Le Valençay est traditionnellement recouvert de...",
+    reponses: ["Cendre végétale", "Poivre", "Paprika"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "La cendre favorise le développement de la croûte et protège le fromage.",
+  },
+  {
+    id: 67,
+    question: "Quel fromage de chèvre est produit dans la Vienne ?",
+    reponses: ["Sainte-Maure de Touraine", "Munster", "Saint-Nectaire"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le Sainte-Maure de Touraine est un grand classique des fromages de chèvre.",
+  },
+  {
+    id: 68,
+    question: "Quelle particularité possède le Sainte-Maure de Touraine ?",
+    reponses: [
+      "Une paille traversant le fromage",
+      "Une croûte rouge",
+      "Une pâte persillée",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "La paille gravée du nom de l'AOP permet également de renforcer le fromage.",
+  },
+  {
+    id: 69,
+    question: "Le Pouligny-Saint-Pierre est surnommé...",
+    reponses: [
+      "La pyramide du Berry",
+      "Le roi des bleus",
+      "Le prince des Alpes",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Sa forme pyramidale lui vaut ce surnom.",
+  },
+  {
+    id: 70,
+    question:
+      "Quel fromage est élaboré à partir de lait de brebis dans le Pays basque ?",
+    reponses: ["Ossau-Iraty", "Brie de Meaux", "Reblochon"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "L'Ossau-Iraty est la grande AOP ovine des Pyrénées.",
+  },
+  {
+    id: 71,
+    question: "L'Ossau-Iraty est produit à partir de lait...",
+    reponses: ["De brebis", "De vache", "De chèvre"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Il est exclusivement fabriqué avec du lait de brebis.",
+  },
+  {
+    id: 72,
+    question:
+      "Avec quel produit est traditionnellement dégusté l'Ossau-Iraty ?",
+    reponses: ["Confiture de cerises noires", "Moutarde", "Miel de lavande"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Cette association est une spécialité du Pays basque.",
+  },
+  {
+    id: 73,
+    question: "Quel fromage est un petit fromage de chèvre AOP du Quercy ?",
+    reponses: ["Rocamadour", "Morbier", "Emmental"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Le Rocamadour est un fromage très fondant à pâte molle.",
+  },
+  {
+    id: 74,
+    question: "Le Picodon est principalement produit dans...",
+    reponses: ["La Drôme et l'Ardèche", "La Bretagne", "La Champagne"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Le Picodon est un fromage de chèvre emblématique du sud-est.",
+  },
+  {
+    id: 75,
+    question: "Le Pélardon est une spécialité...",
+    reponses: ["Des Cévennes", "Du Jura", "Du Nord"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Le Pélardon est un fromage de chèvre AOP des Cévennes.",
+  },
+  {
+    id: 76,
+    question:
+      "Quel vin accompagne traditionnellement un Crottin de Chavignol ?",
+    reponses: ["Sancerre blanc", "Madiran", "Cahors"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Le Sauvignon Blanc de Sancerre est un accord classique.",
+  },
+  {
+    id: 77,
+    question: "Quel vin accompagne souvent un Comté affiné ?",
+    reponses: ["Vin Jaune du Jura", "Rosé de Provence", "Muscadet"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Le Vin Jaune est un accord emblématique avec le Comté.",
+  },
+  {
+    id: 78,
+    question: "Quel vin accompagne traditionnellement le Roquefort ?",
+    reponses: ["Sauternes", "Chablis", "Beaujolais Nouveau"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le contraste entre le salé du Roquefort et le moelleux du Sauternes est célèbre.",
+  },
+  {
+    id: 79,
+    question: "Quel vin accompagne généralement un Munster ?",
+    reponses: ["Gewurztraminer", "Champagne Brut Nature", "Bandol rouge"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le Gewurztraminer possède une puissance aromatique adaptée au Munster.",
+  },
+  {
+    id: 80,
+    question: "Quel vin accompagne fréquemment un Camembert bien affiné ?",
+    reponses: ["Cidre brut normand", "Porto rouge", "Champagne rosé"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Le cidre brut est un accord régional très apprécié.",
+  },
+  {
+    id: 81,
+    question: "Quel fromage est traditionnellement utilisé dans l'aligot ?",
+    reponses: ["Tomme fraîche de l'Aubrac", "Brie de Meaux", "Munster"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "La tome fraîche apporte l'élasticité caractéristique de l'aligot.",
+  },
+  {
+    id: 82,
+    question: "L'aligot est une spécialité originaire...",
+    reponses: ["De l'Aubrac", "De Bretagne", "D'Alsace"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Cette préparation est emblématique de l'Aveyron et de la Lozère.",
+  },
+  {
+    id: 83,
+    question:
+      "Quelle région est particulièrement réputée pour ses fromages de chèvre ?",
+    reponses: ["Le Val de Loire", "La Flandre", "La Champagne"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Le Val de Loire regroupe de nombreuses AOP caprines.",
+  },
+  {
+    id: 84,
+    question: "Quel fromage est fabriqué à partir de petit-lait ?",
+    reponses: ["Brocciu", "Cantal", "Saint-Nectaire"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Le Brocciu est obtenu en chauffant le lactosérum.",
+  },
+  {
+    id: 85,
+    question:
+      "Quel fromage AOP est considéré comme le fromage emblématique de la Corse ?",
+    reponses: ["Brocciu", "Brie de Meaux", "Livarot"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Le Brocciu est profondément ancré dans la gastronomie corse.",
+  },
+  {
+    id: 86,
+    question: "La pâte d'un fromage de chèvre devient généralement...",
+    reponses: [
+      "Plus sèche avec l'affinage",
+      "Toujours plus liquide",
+      "Plus bleue",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "L'eau s'évapore progressivement au cours de l'affinage.",
+  },
+  {
+    id: 87,
+    question: "Un fromage de chèvre très affiné développe souvent...",
+    reponses: [
+      "Des arômes plus puissants",
+      "Moins de saveur",
+      "Une couleur verte",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "L'affinage intensifie les arômes et la texture.",
+  },
+  {
+    id: 88,
+    question: "Les fromages de brebis sont généralement...",
+    reponses: [
+      "Plus riches en matière grasse que les fromages de vache",
+      "Toujours moins salés",
+      "Toujours sans affinage",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Le lait de brebis est naturellement très riche.",
+  },
+  {
+    id: 89,
+    question:
+      "Quel fromage est souvent proposé en fin de repas avec des noix ?",
+    reponses: ["Rocamadour", "Mozzarella", "Feta"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Les noix accompagnent très bien les fromages de chèvre.",
+  },
+  {
+    id: 90,
+    question:
+      "Quelle est la meilleure température pour déguster la majorité des fromages ?",
+    reponses: [
+      "À température ambiante",
+      "Sortis du congélateur",
+      "Très froids",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Sortir les fromages du réfrigérateur environ une heure avant dégustation permet de révéler pleinement leurs arômes.",
+  },
+  {
+    id: 91,
+    question:
+      "Quel fromage AOP du Nord est reconnaissable à sa croûte orangée et son goût puissant ?",
+    reponses: ["Maroilles", "Bleu des Causses", "Cabécou"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le Maroilles est l'un des plus célèbres fromages à croûte lavée français.",
+  },
+  {
+    id: 92,
+    question: "Le Maroilles est principalement produit dans...",
+    reponses: ["Les Hauts-de-France", "La Bretagne", "Le Limousin"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Son aire de production se situe autour de la Thiérache.",
+  },
+  {
+    id: 93,
+    question: "Quel fromage normand est de forme carrée ?",
+    reponses: ["Pont-l'Évêque", "Camembert", "Livarot"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le Pont-l'Évêque est facilement reconnaissable à sa forme carrée.",
+  },
+  {
+    id: 94,
+    question: "Le Pont-l'Évêque appartient à la famille des...",
+    reponses: [
+      "Pâtes molles à croûte lavée",
+      "Pâtes pressées cuites",
+      "Pâtes persillées",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Sa croûte est régulièrement lavée pendant l'affinage.",
+  },
+  {
+    id: 95,
+    question:
+      "Quel fromage normand est entouré de plusieurs bandelettes de roseau ?",
+    reponses: ["Livarot", "Neufchâtel", "Brie de Melun"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Les cinq bandelettes de roseau permettent au Livarot de conserver sa forme.",
+  },
+  {
+    id: 96,
+    question: "Le Livarot est parfois surnommé...",
+    reponses: ["Le Colonel", "Le Berger", "Le Capitaine"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Ses cinq bandelettes rappellent les galons d'un colonel.",
+  },
+  {
+    id: 97,
+    question: "Quel fromage normand est célèbre pour sa forme de cœur ?",
+    reponses: ["Neufchâtel", "Époisses", "Salers"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le Neufchâtel est proposé sous plusieurs formes, dont le cœur.",
+  },
+  {
+    id: 98,
+    question: "Le Neufchâtel est fabriqué à partir de lait...",
+    reponses: ["De vache", "De chèvre", "De brebis"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "C'est un fromage normand à pâte molle au lait de vache.",
+  },
+  {
+    id: 99,
+    question:
+      "Quel fromage bourguignon est lavé avec du marc de Bourgogne durant son affinage ?",
+    reponses: ["Époisses", "Comté", "Bleu de Gex"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "L'Époisses est régulièrement lavé avec une saumure additionnée de marc de Bourgogne.",
+  },
+  {
+    id: 100,
+    question: "L'Époisses est originaire de...",
+    reponses: ["Bourgogne", "Corse", "Bretagne"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Il est l'un des fromages emblématiques de la Bourgogne.",
+  },
+  {
+    id: 101,
+    question: "Quel fromage AOP est produit sur les volcans d'Auvergne ?",
+    reponses: ["Saint-Nectaire", "Munster", "Brie de Meaux"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Le Saint-Nectaire est produit au cœur du Massif central.",
+  },
+  {
+    id: 102,
+    question: "Le Saint-Nectaire est fabriqué avec du lait...",
+    reponses: [
+      "Cru ou pasteurisé selon la mention",
+      "Uniquement de chèvre",
+      "Uniquement de brebis",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Les versions fermières utilisent du lait cru, les laitières peuvent utiliser du lait pasteurisé.",
+  },
+  {
+    id: 103,
+    question:
+      "Quel fromage AOP est produit dans les monts du Jura et présente un léger goût de noisette ?",
+    reponses: ["Bleu de Gex", "Roquefort", "Maroilles"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Le Bleu de Gex est un fromage persillé doux du Haut-Jura.",
+  },
+  {
+    id: 104,
+    question:
+      "Quel fromage est également connu sous le nom de Bleu du Haut-Jura ?",
+    reponses: ["Bleu de Gex", "Fourme d'Ambert", "Bleu d'Auvergne"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Le Bleu de Gex possède cette double appellation.",
+  },
+  {
+    id: 105,
+    question:
+      "Quel fromage persillé est fabriqué dans les Causses avec du lait de vache ?",
+    reponses: ["Bleu des Causses", "Roquefort", "Ossau-Iraty"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le Bleu des Causses reprend une méthode proche de celle du Roquefort.",
+  },
+  {
+    id: 106,
+    question: "La Fourme d'Ambert est produite dans...",
+    reponses: ["Le Massif central", "La Normandie", "Les Vosges"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Elle est fabriquée dans le Puy-de-Dôme et la Loire.",
+  },
+  {
+    id: 107,
+    question: "Quelle est la particularité de la Fourme d'Ambert ?",
+    reponses: [
+      "Sa forme cylindrique haute",
+      "Sa pâte filée",
+      "Sa forme carrée",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Elle possède une forme allongée très caractéristique.",
+  },
+  {
+    id: 108,
+    question: "Pourquoi lave-t-on la croûte de certains fromages ?",
+    reponses: [
+      "Pour favoriser le développement d'une flore spécifique",
+      "Pour les refroidir",
+      "Pour retirer le sel",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Les lavages réguliers donnent naissance aux croûtes orangées et aux arômes puissants.",
+  },
+  {
+    id: 109,
+    question:
+      "Quel micro-organisme contribue souvent à la couleur orangée des croûtes lavées ?",
+    reponses: [
+      "Brevibacterium linens",
+      "Penicillium roqueforti",
+      "Saccharomyces cerevisiae",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Cette bactérie joue un rôle majeur dans les fromages à croûte lavée.",
+  },
+  {
+    id: 110,
+    question:
+      "Le brossage des fromages pendant l'affinage permet principalement...",
+    reponses: [
+      "D'entretenir la croûte et la flore de surface",
+      "D'augmenter leur poids",
+      "D'éliminer totalement les bactéries",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Le brossage participe au bon développement de la croûte.",
+  },
+  {
+    id: 111,
+    question: "Une cave d'affinage doit avant tout présenter...",
+    reponses: [
+      "Une température et une humidité stables",
+      "Une forte lumière",
+      "Un air très sec",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "La stabilité des conditions est essentielle à un affinage réussi.",
+  },
+  {
+    id: 112,
+    question:
+      "Quel fromage est parfois qualifié de 'roi des fromages d'Auvergne' ?",
+    reponses: ["Saint-Nectaire", "Neufchâtel", "Pont-l'Évêque"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le Saint-Nectaire est l'un des fromages les plus emblématiques de l'Auvergne.",
+  },
+  {
+    id: 113,
+    question: "Le Saint-Nectaire fermier est identifiable grâce à...",
+    reponses: [
+      "Une plaque de caséine verte",
+      "Une étiquette rouge",
+      "Une bande de roseau",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "La plaque de caséine verte distingue la fabrication fermière.",
+  },
+  {
+    id: 114,
+    question:
+      "Quel fromage possède une plaque de caséine brune lorsqu'il est fabriqué en laiterie ?",
+    reponses: ["Saint-Nectaire", "Reblochon", "Comté"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "La couleur de la plaque permet d'identifier l'origine de fabrication.",
+  },
+  {
+    id: 115,
+    question:
+      "Quel fromage est traditionnellement fabriqué dans des moules perforés en bois appelés 'cercles' ?",
+    reponses: ["Comté", "Roquefort", "Brocciu"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Le Comté est moulé dans de grands cercles avant l'affinage.",
+  },
+  {
+    id: 116,
+    question: "Le poids d'une meule de Comté est généralement compris entre...",
+    reponses: ["35 et 45 kg", "5 et 10 kg", "70 et 80 kg"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Une meule de Comté pèse généralement autour de 40 kg.",
+  },
+  {
+    id: 117,
+    question:
+      "Quel fromage est traditionnellement produit dans une 'fruitière' ?",
+    reponses: ["Comté", "Camembert", "Munster"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Les fruitières jurassiennes regroupent le lait de plusieurs producteurs.",
+  },
+  {
+    id: 118,
+    question: "Dans le Jura, une fruitière est...",
+    reponses: ["Une fromagerie coopérative", "Un verger", "Une cave à vin"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Les producteurs y transforment collectivement leur lait.",
+  },
+  {
+    id: 119,
+    question:
+      "Pourquoi certains fromages développent-ils des cristaux à l'intérieur de leur pâte ?",
+    reponses: [
+      "Ils résultent d'un affinage prolongé",
+      "Ils sont dus au gel",
+      "Ils proviennent du sel ajouté en surface",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Ces cristaux, souvent de tyrosine, apparaissent dans les fromages longuement affinés.",
+  },
+  {
+    id: 120,
+    question: "Quel est l'objectif principal d'un affinage long ?",
+    reponses: [
+      "Développer une palette aromatique plus complexe",
+      "Réduire la teneur en protéines",
+      "Rendre le fromage plus liquide",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Un affinage prolongé intensifie les arômes, la texture et la complexité du fromage.",
+  },
+  {
+    id: 121,
+    question:
+      "Quelle race de vache est la plus représentée dans la production du Comté AOP ?",
+    reponses: ["Montbéliarde", "Prim'Holstein", "Charolaise"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "La Montbéliarde fournit l'essentiel du lait destiné au Comté.",
+  },
+  {
+    id: 122,
+    question:
+      "Quelle race de vache savoyarde est autorisée pour le Beaufort AOP ?",
+    reponses: ["Tarine", "Salers", "Vosgienne"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "La Tarine est l'une des deux races autorisées pour le Beaufort.",
+  },
+  {
+    id: 123,
+    question: "Quelle autre race est autorisée pour produire le Beaufort AOP ?",
+    reponses: ["Abondance", "Limousine", "Brune des Alpes italienne"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Les races Tarine et Abondance sont les seules admises.",
+  },
+  {
+    id: 124,
+    question:
+      "Quelle race de vache est emblématique de la Normandie et participe à la production de plusieurs AOP normandes ?",
+    reponses: ["Normande", "Montbéliarde", "Jersiaise"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "La vache Normande produit un lait riche, idéal pour les fromages.",
+  },
+  {
+    id: 125,
+    question: "Quelle race bovine donne son nom à un fromage AOP d'Auvergne ?",
+    reponses: ["Salers", "Tarentaise", "Vosgienne"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "La race Salers est historiquement liée au fromage du même nom.",
+  },
+  {
+    id: 126,
+    question:
+      "Quel fromage AOP est exclusivement fabriqué dans le massif du Vercors ?",
+    reponses: [
+      "Bleu du Vercors-Sassenage",
+      "Fourme d'Ambert",
+      "Bleu des Causses",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le Bleu du Vercors-Sassenage est une AOP emblématique de l'Isère et de la Drôme.",
+  },
+  {
+    id: 127,
+    question:
+      "Quel fromage AOP est produit dans le Bugey à partir de lait de chèvre ?",
+    reponses: ["Chevrotin", "Valençay", "Picodon"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Le Chevrotin est un fromage de chèvre des Alpes du Nord.",
+  },
+  {
+    id: 128,
+    question: "Le Chevrotin est principalement fabriqué en...",
+    reponses: ["Savoie et Haute-Savoie", "Bretagne", "Normandie"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Son aire de production est située dans les Alpes du Nord.",
+  },
+  {
+    id: 129,
+    question: "Quel fromage AOP est élaboré dans le massif des Bauges ?",
+    reponses: ["Tome des Bauges", "Morbier", "Livarot"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "La Tome des Bauges est une spécialité savoyarde.",
+  },
+  {
+    id: 130,
+    question:
+      "Quel fromage est fabriqué sur l'île de Corse à partir de lait de chèvre ou de brebis, mais n'est pas obtenu à partir de petit-lait ?",
+    reponses: ["Niulincu", "Brocciu", "Rocamadour"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le Niulincu est un fromage traditionnel corse plus confidentiel.",
+  },
+  {
+    id: 131,
+    question:
+      "Pourquoi les meules de Comté sont-elles régulièrement frottées avec de la saumure ?",
+    reponses: [
+      "Pour favoriser le développement de la croûte",
+      "Pour diminuer leur poids",
+      "Pour accélérer le caillage",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "La saumure participe à la formation d'une croûte protectrice.",
+  },
+  {
+    id: 132,
+    question:
+      "Quelle est la température approximative de cuisson du caillé lors de la fabrication du Comté ?",
+    reponses: ["Environ 54 °C", "20 °C", "95 °C"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Cette cuisson caractérise les pâtes pressées cuites.",
+  },
+  {
+    id: 133,
+    question:
+      "Quel fromage est traditionnellement moulé dans une toile avant pressage ?",
+    reponses: ["Comté", "Camembert", "Rocamadour"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "La toile facilite l'égouttage lors de la fabrication.",
+  },
+  {
+    id: 134,
+    question:
+      "Quel paramètre est le plus important lors de l'affinage d'un fromage ?",
+    reponses: [
+      "La stabilité de la température et de l'humidité",
+      "La lumière naturelle",
+      "La pression atmosphérique",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Les caves d'affinage offrent des conditions très contrôlées.",
+  },
+  {
+    id: 135,
+    question: "Quel fromage AOP est produit dans la région de Langres ?",
+    reponses: ["Langres", "Chaource", "Brillat-Savarin"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Le Langres est un fromage à croûte lavée de Champagne.",
+  },
+  {
+    id: 136,
+    question: "Quelle particularité présente souvent le fromage de Langres ?",
+    reponses: [
+      "Une cavité au sommet appelée fontaine",
+      "Une ligne de cendre",
+      "Une forme pyramidale",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Cette cavité est caractéristique du Langres.",
+  },
+  {
+    id: 137,
+    question:
+      "Quel fromage AOP est partagé entre la Champagne et la Bourgogne ?",
+    reponses: ["Chaource", "Saint-Nectaire", "Reblochon"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Le Chaource est produit dans ces deux régions.",
+  },
+  {
+    id: 138,
+    question: "Le Chaource appartient à la famille des...",
+    reponses: [
+      "Pâtes molles à croûte fleurie",
+      "Pâtes persillées",
+      "Pâtes pressées cuites",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Sa croûte blanche est obtenue grâce aux moisissures de surface.",
+  },
+  {
+    id: 139,
+    question:
+      "Quel fromage triple crème a été créé en hommage à un célèbre gastronome français ?",
+    reponses: ["Brillat-Savarin", "Maroilles", "Laguiole"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le Brillat-Savarin rend hommage à Jean Anthelme Brillat-Savarin.",
+  },
+  {
+    id: 140,
+    question: "Un fromage 'triple crème' contient généralement...",
+    reponses: [
+      "Une forte teneur en matière grasse",
+      "Trois types de lait",
+      "Trois croûtes successives",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "De la crème est ajoutée afin d'obtenir une texture très onctueuse.",
+  },
+  {
+    id: 141,
+    question: "Quel fromage est traditionnellement associé à la raclette ?",
+    reponses: ["Raclette", "Abondance", "Cantal"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le fromage à raclette possède d'excellentes qualités de fonte.",
+  },
+  {
+    id: 142,
+    question: "Le mot 'raclette' vient du verbe...",
+    reponses: ["Racler", "Rassembler", "Rincer"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "On raclait autrefois la partie fondue du fromage.",
+  },
+  {
+    id: 143,
+    question:
+      "Quel fromage est principalement utilisé pour préparer une truffade auvergnate ?",
+    reponses: ["Tomme fraîche", "Comté", "Roquefort"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "La truffade est préparée avec de la tome fraîche de Cantal.",
+  },
+  {
+    id: 144,
+    question:
+      "Quel fromage est traditionnellement dégusté avec un vin jaune du Jura ?",
+    reponses: ["Comté", "Camembert", "Livarot"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Cet accord est considéré comme l'un des plus grands classiques de la gastronomie française.",
+  },
+  {
+    id: 145,
+    question: "Quel fromage accompagne souvent un Champagne millésimé ?",
+    reponses: ["Brie de Meaux", "Roquefort", "Munster"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le Brie de Meaux s'accorde très bien avec la finesse d'un grand Champagne.",
+  },
+  {
+    id: 146,
+    question:
+      "Quel fromage est traditionnellement conseillé avec un Gewurztraminer vendanges tardives ?",
+    reponses: ["Munster", "Comté", "Morbier"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "La puissance aromatique des deux produits crée un accord remarquable.",
+  },
+  {
+    id: 147,
+    question:
+      "Quel fromage est souvent proposé avec un Côtes-du-Jura rouge léger ?",
+    reponses: ["Morbier", "Roquefort", "Camembert"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le Morbier se marie très bien avec les vins rouges jurassiens.",
+  },
+  {
+    id: 148,
+    question:
+      "Dans un plateau de fromages, quel ordre de dégustation est généralement conseillé ?",
+    reponses: [
+      "Des plus doux vers les plus puissants",
+      "Du plus fort au plus doux",
+      "Peu importe l'ordre",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Cela permet de préserver les saveurs les plus délicates.",
+  },
+  {
+    id: 149,
+    question:
+      "Pourquoi évite-t-on de servir un fromage directement sorti du réfrigérateur ?",
+    reponses: [
+      "Le froid masque les arômes",
+      "Il devient trop salé",
+      "Il fond immédiatement",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Les arômes s'expriment pleinement à température ambiante.",
+  },
+  {
+    id: 150,
+    question: "Quel est le principal objectif d'un affineur d'exception ?",
+    reponses: [
+      "Révéler le meilleur potentiel gustatif de chaque fromage",
+      "Produire le lait",
+      "Fabriquer les moules",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "L'affineur adapte les conditions de maturation afin d'obtenir une qualité optimale.",
+  },
+  {
+    id: 151,
+    question:
+      "Quel fromage AOP est produit dans le massif du Pilat à partir de lait de chèvre ?",
+    reponses: ["Rigotte de Condrieu", "Picodon", "Valençay"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "La Rigotte de Condrieu est une petite AOP caprine de la vallée du Rhône.",
+  },
+  {
+    id: 152,
+    question: "Le Mâconnais AOP est un fromage élaboré à partir de...",
+    reponses: ["Lait de chèvre", "Lait de vache", "Lait de brebis"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Le Mâconnais est un petit fromage de chèvre de Bourgogne.",
+  },
+  {
+    id: 153,
+    question:
+      "Quel fromage AOP est produit dans le Poitou sous une forme conique tronquée ?",
+    reponses: ["Chabichou du Poitou", "Sainte-Maure de Touraine", "Banon"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le Chabichou du Poitou est l'un des grands fromages de chèvre français.",
+  },
+  {
+    id: 154,
+    question:
+      "Quel fromage AOP est fabriqué exclusivement avec du lait de chèvre dans les Aravis ?",
+    reponses: ["Chevrotin", "Abondance", "Beaufort"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le Chevrotin est le seul fromage AOP de chèvre des Alpes du Nord.",
+  },
+  {
+    id: 155,
+    question:
+      "Quel fromage AOP est produit dans le Bugey et l'avant-pays savoyard à pâte pressée non cuite ?",
+    reponses: ["Tomme de Savoie", "Morbier", "Livarot"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "La Tomme de Savoie est un fromage traditionnel des Alpes.",
+  },
+  {
+    id: 156,
+    question:
+      "Quel micro-organisme est principalement responsable de la croûte orangée des fromages à croûte lavée ?",
+    reponses: [
+      "Brevibacterium linens",
+      "Penicillium camemberti",
+      "Lactobacillus casei",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Brevibacterium linens développe la couleur et les arômes caractéristiques.",
+  },
+  {
+    id: 157,
+    question:
+      "Quel est le rôle principal des bactéries lactiques dans la fabrication du fromage ?",
+    reponses: ["Acidifier le lait", "Colorer la croûte", "Produire la présure"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "L'acidification est indispensable au bon déroulement du caillage.",
+  },
+  {
+    id: 158,
+    question:
+      "Lors de l'affinage, les enzymes interviennent principalement pour...",
+    reponses: [
+      "Transformer les protéines et les matières grasses",
+      "Augmenter la teneur en eau",
+      "Refroidir la pâte",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Ces transformations sont à l'origine de nombreux arômes.",
+  },
+  {
+    id: 159,
+    question:
+      "Quel composé est souvent responsable des notes de noisette dans les fromages longuement affinés ?",
+    reponses: [
+      "Les acides aminés issus de la protéolyse",
+      "Le lactose",
+      "La présure résiduelle uniquement",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "La dégradation des protéines produit de nombreux composés aromatiques.",
+  },
+  {
+    id: 160,
+    question: "Une pâte dite 'cassante' est généralement le signe...",
+    reponses: [
+      "D'un affinage prolongé",
+      "D'un manque de sel",
+      "D'une fabrication industrielle",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Les fromages très affinés deviennent souvent plus friables.",
+  },
+  {
+    id: 161,
+    question:
+      "Quel fromage français bénéficie de la plus ancienne AOP fromagère (anciennement AOC) ?",
+    reponses: ["Roquefort", "Comté", "Camembert de Normandie"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le Roquefort a obtenu une reconnaissance officielle dès 1925.",
+  },
+  {
+    id: 162,
+    question:
+      "Quel roi accorda dès le XVe siècle une protection particulière au Roquefort ?",
+    reponses: ["Charles VI", "Louis XIV", "François Ier"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Charles VI accorda des privilèges aux producteurs de Roquefort.",
+  },
+  {
+    id: 163,
+    question: "Jean Anthelme Brillat-Savarin était principalement...",
+    reponses: ["Un gastronome", "Un affineur", "Un moine fromager"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Il est l'auteur de 'La Physiologie du goût'.",
+  },
+  {
+    id: 164,
+    question:
+      "Quel personnage est traditionnellement associé à la création du Camembert ?",
+    reponses: ["Marie Harel", "Anne de Bretagne", "Jeanne d'Arc"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Marie Harel est considérée comme la créatrice du Camembert moderne.",
+  },
+  {
+    id: 165,
+    question:
+      "Quel est l'intérêt principal d'un lait cru dans la fabrication des fromages ?",
+    reponses: [
+      "Préserver la richesse de la flore microbienne naturelle",
+      "Augmenter la durée de conservation",
+      "Supprimer l'affinage",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Le lait cru favorise une plus grande complexité aromatique.",
+  },
+  {
+    id: 166,
+    question: "Le terme 'fermier' signifie généralement que le fromage est...",
+    reponses: [
+      "Fabriqué à la ferme avec le lait du troupeau",
+      "Affiné en cave naturelle",
+      "Produit uniquement en montagne",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "La fabrication est réalisée directement sur l'exploitation.",
+  },
+  {
+    id: 167,
+    question: "Une fabrication 'laitière' signifie que...",
+    reponses: [
+      "Le lait provient de plusieurs exploitations",
+      "Le fromage est obligatoirement pasteurisé",
+      "Le fromage est fabriqué avec du lait de chèvre",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Les laiteries collectent le lait auprès de plusieurs producteurs.",
+  },
+  {
+    id: 168,
+    question:
+      "Quel paramètre influence le plus la vitesse d'affinage d'un fromage ?",
+    reponses: [
+      "La température de la cave",
+      "La couleur de la croûte",
+      "La taille de l'étiquette",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "La température agit directement sur l'activité microbienne et enzymatique.",
+  },
+  {
+    id: 169,
+    question:
+      "Une humidité trop faible dans une cave d'affinage provoque principalement...",
+    reponses: [
+      "Le dessèchement du fromage",
+      "Une augmentation du persillage",
+      "La disparition de la croûte",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le fromage perd trop d'eau lorsque l'humidité est insuffisante.",
+  },
+  {
+    id: 170,
+    question: "À l'inverse, une humidité excessive favorise...",
+    reponses: [
+      "Le développement de flores indésirables",
+      "La diminution des bactéries",
+      "Le durcissement rapide de la pâte",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Un excès d'humidité peut entraîner des défauts d'affinage.",
+  },
+  {
+    id: 171,
+    question:
+      "Quel fromage est traditionnellement dégusté avec un vin de Jurançon moelleux ?",
+    reponses: ["Ossau-Iraty", "Munster", "Pont-l'Évêque"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Cet accord est un classique du Sud-Ouest.",
+  },
+  {
+    id: 172,
+    question:
+      "Quel fromage accompagne particulièrement bien un Cidre brut normand ?",
+    reponses: ["Camembert de Normandie", "Bleu d'Auvergne", "Fourme d'Ambert"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "L'accord régional fonctionne très bien.",
+  },
+  {
+    id: 173,
+    question: "Quel fromage est souvent associé à un Pinot Noir de Bourgogne ?",
+    reponses: ["Époisses", "Brocciu", "Picodon"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "L'Époisses est un grand classique de la gastronomie bourguignonne.",
+  },
+  {
+    id: 174,
+    question: "Quel fromage est généralement servi avec un Vin Jaune du Jura ?",
+    reponses: ["Comté très affiné", "Camembert", "Neufchâtel"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "L'accord Comté-Vin Jaune est mondialement reconnu.",
+  },
+  {
+    id: 175,
+    question:
+      "Sur un plateau de fromages gastronomique, quel critère est souvent recherché ?",
+    reponses: [
+      "La diversité des familles de fromages",
+      "Uniquement des fromages de vache",
+      "Uniquement des pâtes molles",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Un bon plateau présente une grande variété de textures et de saveurs.",
+  },
+  {
+    id: 176,
+    question: "Quel fromage est parfois qualifié de 'roi des bleus français' ?",
+    reponses: ["Roquefort", "Bleu de Gex", "Fourme d'Ambert"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le Roquefort est la référence des fromages persillés français.",
+  },
+  {
+    id: 177,
+    question:
+      "Pourquoi les grands affineurs sélectionnent-ils individuellement chaque fromage ?",
+    reponses: [
+      "Parce que chaque pièce évolue différemment",
+      "Pour respecter l'ordre de fabrication",
+      "Pour réduire le poids des meules",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Chaque fromage possède sa propre évolution durant l'affinage.",
+  },
+  {
+    id: 178,
+    question:
+      "Quel métier consiste à sélectionner, affiner et commercialiser les meilleurs fromages ?",
+    reponses: ["Fromager-affineur", "Crémier-laitier", "Présurier"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le fromager-affineur accompagne le fromage jusqu'à sa maturité idéale.",
+  },
+  {
+    id: 179,
+    question:
+      "Le concours des Meilleurs Ouvriers de France récompense notamment...",
+    reponses: [
+      "L'excellence du savoir-faire fromager",
+      "La plus grande production annuelle",
+      "Le plus ancien producteur",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le titre de MOF distingue un niveau d'expertise exceptionnel.",
+  },
+  {
+    id: 180,
+    question:
+      "Quel est le principal objectif d'un plateau de fromages servi en gastronomie ?",
+    reponses: [
+      "Mettre en valeur la diversité des terroirs et des savoir-faire",
+      "Remplacer systématiquement le dessert",
+      "Présenter uniquement des fromages AOP",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Un plateau bien composé reflète la richesse du patrimoine fromager français.",
+  },
+  {
+    id: 181,
+    question:
+      "Quel fromage AOP est exclusivement fabriqué avec du lait cru de vache dans le massif du Jura et est reconnu pour son affinage sous voile de levures naturelles en cave ?",
+    reponses: [
+      "Aucun, cette technique est propre au Vin Jaune",
+      "Comté",
+      "Morbier",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "L'affinage sous voile est une technique de vinification du Vin Jaune, pas de fabrication fromagère.",
+  },
+  {
+    id: 182,
+    question:
+      "Quel est le principal gaz responsable de la formation des ouvertures dans l'Emmental ?",
+    reponses: ["Le dioxyde de carbone (CO₂)", "L'oxygène", "L'azote"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le CO₂ produit par les bactéries propioniques crée les célèbres ouvertures.",
+  },
+  {
+    id: 183,
+    question: "La protéolyse correspond à...",
+    reponses: [
+      "La dégradation des protéines pendant l'affinage",
+      "La transformation du lactose en eau",
+      "La formation de la croûte",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "La protéolyse est essentielle au développement de la texture et des arômes.",
+  },
+  {
+    id: 184,
+    question: "La lipolyse est principalement responsable...",
+    reponses: [
+      "Du développement d'une partie des arômes",
+      "Du caillage du lait",
+      "Du salage du fromage",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "La dégradation des matières grasses produit de nombreux composés aromatiques.",
+  },
+  {
+    id: 185,
+    question:
+      "Quel sucre est principalement transformé par les bactéries lactiques ?",
+    reponses: ["Le lactose", "Le saccharose", "Le fructose"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Les bactéries lactiques fermentent le lactose en acide lactique.",
+  },
+  {
+    id: 186,
+    question:
+      "Quel est le principal rôle de l'acide lactique lors de la fabrication d'un fromage ?",
+    reponses: [
+      "Abaisser le pH et favoriser le caillage",
+      "Augmenter la teneur en matière grasse",
+      "Colorer la croûte",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "L'acidification est indispensable au bon déroulement de la fabrication.",
+  },
+  {
+    id: 187,
+    question:
+      "Les cristaux présents dans un Comté très affiné sont principalement composés de...",
+    reponses: ["Tyrosine", "Calcium pur", "Sel"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Ces cristaux de tyrosine sont recherchés par les amateurs.",
+  },
+  {
+    id: 188,
+    question:
+      "Quel facteur influence le plus la diversité aromatique d'un fromage au lait cru ?",
+    reponses: [
+      "La flore microbienne naturelle",
+      "La couleur de la croûte",
+      "La taille du moule",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le lait cru conserve une flore naturelle riche qui participe à la complexité aromatique.",
+  },
+  {
+    id: 189,
+    question:
+      "Quelle AOP française est exclusivement fabriquée dans des caves naturelles ventilées par des 'fleurines' ?",
+    reponses: ["Roquefort", "Bleu d'Auvergne", "Fourme d'Ambert"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Les fleurines des caves de Roquefort-sur-Soulzon assurent une ventilation naturelle unique.",
+  },
+  {
+    id: 190,
+    question:
+      "Quel fromage est souvent considéré comme la référence mondiale des pâtes persillées françaises ?",
+    reponses: ["Roquefort", "Bleu de Gex", "Bleu des Causses"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Le Roquefort est le plus célèbre fromage persillé français.",
+  },
+  {
+    id: 191,
+    question:
+      "Pourquoi un affineur retourne-t-il régulièrement les grandes meules ?",
+    reponses: [
+      "Pour homogénéiser leur évolution",
+      "Pour accélérer le refroidissement",
+      "Pour réduire leur humidité uniquement",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Le retournement garantit une maturation uniforme.",
+  },
+  {
+    id: 192,
+    question:
+      "Quel défaut apparaît le plus souvent lorsqu'un fromage est conservé dans un environnement trop sec ?",
+    reponses: [
+      "Une croûte excessivement dure et des fissures",
+      "Un persillage excessif",
+      "Une pâte liquide",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Le dessèchement nuit à la qualité du fromage.",
+  },
+  {
+    id: 193,
+    question:
+      "Quel fromage français est le plus produit en volume parmi les AOP ?",
+    reponses: ["Comté", "Époisses", "Langres"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le Comté est la première AOP fromagère française en volume de production.",
+  },
+  {
+    id: 194,
+    question:
+      "Combien de litres de lait sont nécessaires, en moyenne, pour produire 1 kg de pâte pressée cuite comme le Comté ?",
+    reponses: ["Environ 10 litres", "Environ 3 litres", "Environ 20 litres"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Il faut environ 10 litres de lait pour obtenir 1 kg de fromage.",
+  },
+  {
+    id: 195,
+    question:
+      "Quel fromage est historiquement lié aux moines de l'abbaye de Maroilles ?",
+    reponses: ["Maroilles", "Brie de Meaux", "Munster"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le Maroilles trouve son origine dans une abbaye fondée au VIIᵉ siècle.",
+  },
+  {
+    id: 196,
+    question:
+      "Quel fromage est traditionnellement fabriqué dans une 'fruitière', modèle coopératif emblématique du Jura ?",
+    reponses: ["Comté", "Camembert", "Livarot"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Les fruitières permettent à plusieurs producteurs de transformer ensemble leur lait.",
+  },
+  {
+    id: 197,
+    question:
+      "Quel est le meilleur ordre de dégustation sur un plateau mêlant chèvre, pâte pressée, persillé et croûte lavée ?",
+    reponses: [
+      "Du plus doux au plus puissant",
+      "Du plus puissant au plus doux",
+      "L'ordre n'a aucune importance",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Cet ordre évite que les saveurs les plus fortes masquent les plus délicates.",
+  },
+  {
+    id: 198,
+    question:
+      "Quel critère distingue principalement un grand fromage d'affineur ?",
+    reponses: [
+      "Sa maturité optimale au moment de la dégustation",
+      "Sa taille",
+      "La couleur de son emballage",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "L'affineur recherche le meilleur équilibre entre texture, arômes et évolution.",
+  },
+  {
+    id: 199,
+    question:
+      "Quel est le point commun de la majorité des grands fromages AOP français ?",
+    reponses: [
+      "Ils sont profondément liés à leur terroir et à un savoir-faire traditionnel",
+      "Ils sont tous fabriqués avec du lait cru",
+      "Ils sont tous affinés plus de 12 mois",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le terroir et le savoir-faire constituent le fondement des AOP.",
+  },
+  {
+    id: 200,
+    question:
+      "Quelle affirmation résume le mieux l'excellence fromagère française ?",
+    reponses: [
+      "L'association du terroir, du lait, des micro-organismes, du savoir-faire et du temps",
+      "La fabrication industrielle à grande échelle",
+      "L'utilisation systématique des mêmes méthodes dans toutes les régions",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "La richesse des fromages français repose sur l'équilibre entre terroir, tradition, maîtrise technique et affinage.",
+  },
+];

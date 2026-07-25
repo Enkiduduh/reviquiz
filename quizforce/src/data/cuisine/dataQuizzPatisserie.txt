@@ -1,0 +1,2240 @@
+export const dataQuizzPatisserie = [
+  {
+    id: 1,
+    question: "Le canelé est une spécialité de quelle ville ?",
+    reponses: ["Bordeaux", "Toulouse", "Pau"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le canelé est une spécialité bordelaise reconnaissable à sa croûte caramélisée et son cœur moelleux.",
+  },
+  {
+    id: 2,
+    question: "Le kouign-amann est originaire de quelle ville ?",
+    reponses: ["Douarnenez", "Brest", "Quimper"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le kouign-amann a été inventé à Douarnenez, dans le Finistère.",
+  },
+  {
+    id: 3,
+    question: "La tarte Tatin est née dans quel département ?",
+    reponses: ["Loir-et-Cher", "Indre", "Cher"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Les sœurs Tatin ont créé cette célèbre tarte à Lamotte-Beuvron, dans le Loir-et-Cher.",
+  },
+  {
+    id: 4,
+    question: "Le Paris-Brest a été créé en hommage à...",
+    reponses: ["Une course cycliste", "Une ligne ferroviaire", "Une régate"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le Paris-Brest a été imaginé en hommage à la célèbre course cycliste Paris-Brest-Paris.",
+  },
+  {
+    id: 5,
+    question:
+      "Le mille-feuille traditionnel est composé de combien de couches de pâte feuilletée ?",
+    reponses: ["Trois", "Deux", "Quatre"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le mille-feuille classique est constitué de trois abaisses de pâte feuilletée.",
+  },
+  {
+    id: 6,
+    question: "La religieuse est traditionnellement garnie de quelle crème ?",
+    reponses: ["Crème pâtissière", "Crème mousseline", "Crème diplomate"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "La religieuse est composée de deux choux garnis de crème pâtissière.",
+  },
+  {
+    id: 7,
+    question: "L'opéra est principalement parfumé avec...",
+    reponses: [
+      "Café et chocolat",
+      "Citron et vanille",
+      "Framboise et pistache",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "L'opéra associe biscuit Joconde, café, ganache au chocolat et glaçage.",
+  },
+  {
+    id: 8,
+    question: "La tropézienne est originaire de quelle ville ?",
+    reponses: ["Saint-Tropez", "Nice", "Cannes"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "La tarte tropézienne a été créée à Saint-Tropez par Alexandre Micka.",
+  },
+  {
+    id: 9,
+    question:
+      "Le financier était à l'origine préparé dans quel quartier de Paris ?",
+    reponses: ["Près de la Bourse", "Montmartre", "Le Marais"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Son nom vient des financiers qui travaillaient autour de la Bourse de Paris.",
+  },
+  {
+    id: 10,
+    question:
+      "Le macaron est particulièrement associé à quelle ville française ?",
+    reponses: ["Paris", "Ladurée", "Nancy"],
+    bonneReponse: 2,
+    explication:
+      "Nancy est célèbre pour son macaron traditionnel, bien antérieur au macaron parisien garni.",
+  },
+  {
+    id: 11,
+    question: "Le flan parisien est également appelé...",
+    reponses: ["Flan pâtissier", "Flan royal", "Flan normand"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le flan parisien est aussi connu sous le nom de flan pâtissier.",
+  },
+  {
+    id: 12,
+    question: "La madeleine est traditionnellement associée à quelle ville ?",
+    reponses: ["Commercy", "Verdun", "Metz"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "La madeleine de Commercy est la plus célèbre de France.",
+  },
+  {
+    id: 13,
+    question: "Le saint-honoré porte le nom du patron des...",
+    reponses: ["Boulangers et pâtissiers", "Cuisiniers", "Vignerons"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Saint Honoré est le saint patron des boulangers et pâtissiers.",
+  },
+  {
+    id: 14,
+    question: "La forêt-noire est composée principalement de chocolat et de...",
+    reponses: ["Cerises", "Framboises", "Poires"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "La forêt-noire associe chocolat, chantilly et cerises.",
+  },
+  {
+    id: 15,
+    question:
+      "Le baba au rhum est inspiré d'un gâteau originaire de quel pays ?",
+    reponses: ["Pologne", "Italie", "Belgique"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Le baba est inspiré du babka polonais.",
+  },
+  {
+    id: 16,
+    question: "La dacquoise tire son nom de quelle ville ?",
+    reponses: ["Dax", "Bayonne", "Pau"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "La dacquoise est une spécialité des Landes et doit son nom à Dax.",
+  },
+  {
+    id: 17,
+    question: "Le gâteau basque est traditionnellement garni de...",
+    reponses: ["Crème pâtissière", "Ganache", "Mousse au chocolat"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "La version la plus répandue est garnie de crème pâtissière, même s'il existe une variante à la confiture de cerises noires.",
+  },
+  {
+    id: 18,
+    question: "Le clafoutis traditionnel est préparé avec quels fruits ?",
+    reponses: ["Cerises", "Pommes", "Abricots"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Le véritable clafoutis est réalisé avec des cerises.",
+  },
+  {
+    id: 19,
+    question: "La tarte Bourdaloue est garnie principalement de...",
+    reponses: ["Poires", "Pommes", "Prunes"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "La tarte Bourdaloue associe poires, crème d'amandes et pâte sucrée.",
+  },
+  {
+    id: 20,
+    question: "Le merveilleux est une spécialité composée principalement de...",
+    reponses: ["Meringue", "Pâte feuilletée", "Pâte à choux"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le merveilleux est constitué de meringues recouvertes de crème fouettée.",
+  },
+  {
+    id: 21,
+    question: "Le pithiviers est une spécialité de quel département ?",
+    reponses: ["Loiret", "Yonne", "Aube"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le pithiviers est une spécialité de la ville de Pithiviers dans le Loiret.",
+  },
+  {
+    id: 22,
+    question: "La tarte au sucre est une spécialité de quelle région ?",
+    reponses: ["Hauts-de-France", "Provence", "Alsace"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "La tarte au sucre est emblématique du Nord de la France.",
+  },
+  {
+    id: 23,
+    question: "Le chinois est une viennoiserie garnie principalement de...",
+    reponses: ["Crème pâtissière", "Compote", "Ganache"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le chinois est une brioche garnie de crème pâtissière et de raisins.",
+  },
+  {
+    id: 24,
+    question: "La brioche vendéenne est parfumée avec...",
+    reponses: ["Fleur d'oranger", "Cannelle", "Rhum"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "La fleur d'oranger est l'un des arômes caractéristiques de la brioche vendéenne.",
+  },
+  {
+    id: 25,
+    question: "Le puits d'amour est une spécialité à base de...",
+    reponses: ["Pâte feuilletée", "Pâte sablée", "Pâte à choux"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le puits d'amour est réalisé avec une base de pâte feuilletée garnie de crème.",
+  },
+  {
+    id: 26,
+    question: "Le succès est un gâteau réalisé principalement avec...",
+    reponses: ["Meringue aux amandes", "Pâte feuilletée", "Génoise"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Le succès est composé de biscuits meringués aux amandes.",
+  },
+  {
+    id: 27,
+    question:
+      "Le biscuit Joconde entre notamment dans la composition de quel gâteau ?",
+    reponses: ["Opéra", "Paris-Brest", "Saint-Honoré"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Le biscuit Joconde est la base du célèbre Opéra.",
+  },
+  {
+    id: 28,
+    question: "La tarte normande est traditionnellement garnie de...",
+    reponses: ["Pommes", "Poires", "Cerises"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Les pommes sont au cœur de la cuisine sucrée normande.",
+  },
+  {
+    id: 29,
+    question: "Le craquelin est à l'origine une spécialité de quelle région ?",
+    reponses: ["Nord", "Alsace", "Bretagne"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le craquelin est une spécialité ancienne du Nord de la France.",
+  },
+  {
+    id: 30,
+    question:
+      "La galette des Rois traditionnelle du nord de la Loire est réalisée avec...",
+    reponses: ["De la pâte feuilletée", "De la brioche", "De la pâte levée"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Au nord de la Loire, la galette des Rois est traditionnellement feuilletée et garnie de frangipane.",
+  },
+  {
+    id: 31,
+    question:
+      "Le macaron de Nancy se distingue du macaron parisien par l'absence de...",
+    reponses: ["Garniture", "Amandes", "Sucre glace"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le macaron de Nancy est constitué d'une seule coque, sans garniture.",
+  },
+  {
+    id: 32,
+    question: "La galette charentaise est traditionnellement parfumée avec...",
+    reponses: ["Angélique confite", "Lavande", "Cannelle"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "L'angélique confite est l'ingrédient emblématique de la galette charentaise.",
+  },
+  {
+    id: 33,
+    question: "Le biscuit de Savoie est une spécialité de quelle région ?",
+    reponses: ["Auvergne-Rhône-Alpes", "Nouvelle-Aquitaine", "Grand Est"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le biscuit de Savoie est une pâtisserie traditionnelle de la maison de Savoie.",
+  },
+  {
+    id: 34,
+    question: "La tarte Tropézienne a été popularisée grâce à quelle actrice ?",
+    reponses: ["Brigitte Bardot", "Catherine Deneuve", "Michèle Mercier"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Brigitte Bardot fit connaître la Tropézienne pendant le tournage de 'Et Dieu... créa la femme'.",
+  },
+  {
+    id: 35,
+    question: "Le gâteau nantais est traditionnellement parfumé avec...",
+    reponses: ["Rhum", "Calvados", "Cognac"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le gâteau nantais est un gâteau aux amandes généreusement parfumé au rhum.",
+  },
+  {
+    id: 36,
+    question: "Le biscuit rose est une spécialité de quelle ville ?",
+    reponses: ["Reims", "Troyes", "Épernay"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le biscuit rose de Reims est traditionnellement dégusté avec du champagne.",
+  },
+  {
+    id: 37,
+    question: "Le far breton traditionnel contient-il de la crème ?",
+    reponses: ["Non", "Oui", "Uniquement en Bretagne Sud"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "La recette traditionnelle est réalisée avec du lait, sans crème.",
+  },
+  {
+    id: 38,
+    question: "Le gâteau battu est une spécialité de quelle région ?",
+    reponses: ["Picardie", "Normandie", "Champagne"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le gâteau battu est une brioche très riche en beurre et en œufs originaire de Picardie.",
+  },
+  {
+    id: 39,
+    question:
+      "La charlotte traditionnelle est moulée dans quel type de récipient ?",
+    reponses: [
+      "Un moule à charlotte",
+      "Un cercle à tarte",
+      "Un moule à kouglof",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le moule à charlotte permet d'obtenir sa forme haute et régulière.",
+  },
+  {
+    id: 40,
+    question: "Le puits d'amour est traditionnellement caramélisé avec...",
+    reponses: ["Du sucre", "Du miel", "Du sirop d'érable"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le dessus est recouvert de sucre caramélisé au chalumeau ou au four.",
+  },
+  {
+    id: 41,
+    question:
+      "Le biscuit Joconde est principalement réalisé avec quelle poudre ?",
+    reponses: ["Amande", "Noisette", "Pistache"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "La poudre d'amande apporte son moelleux caractéristique au biscuit Joconde.",
+  },
+  {
+    id: 42,
+    question: "Le fraisier traditionnel est garni de quelle crème ?",
+    reponses: ["Mousseline", "Diplomate", "Chantilly"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "La recette classique utilise une crème mousseline.",
+  },
+  {
+    id: 43,
+    question:
+      "La forêt-noire est traditionnellement parfumée avec quel alcool ?",
+    reponses: ["Kirsch", "Grand Marnier", "Rhum"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le kirsch est une eau-de-vie de cerise indispensable à la recette.",
+  },
+  {
+    id: 44,
+    question: "Le biscuit cuillère est principalement utilisé pour réaliser...",
+    reponses: ["Les charlottes", "Les financiers", "Les canelés"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Le biscuit cuillère est la base de nombreuses charlottes.",
+  },
+  {
+    id: 45,
+    question: "La crème Chiboust entre dans la composition du...",
+    reponses: ["Saint-Honoré", "Paris-Brest", "Flan parisien"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "La crème Chiboust est la garniture traditionnelle du Saint-Honoré.",
+  },
+  {
+    id: 46,
+    question: "Le kouglof est une spécialité de quelle région ?",
+    reponses: ["Alsace", "Lorraine", "Franche-Comté"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Le kouglof est une brioche emblématique de l'Alsace.",
+  },
+  {
+    id: 47,
+    question: "Le kouglof est traditionnellement cuit dans un moule...",
+    reponses: ["Cannelé avec cheminée centrale", "À cake", "À manqué"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Son moule en terre cuite avec cheminée centrale lui donne sa forme caractéristique.",
+  },
+  {
+    id: 48,
+    question: "Le flan pâtissier traditionnel contient-il une pâte ?",
+    reponses: ["Oui", "Non", "Uniquement en Normandie"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le flan pâtissier classique est réalisé sur une pâte brisée ou feuilletée selon les écoles.",
+  },
+  {
+    id: 49,
+    question: "Le gâteau de Metz est principalement composé de...",
+    reponses: ["Amandes", "Pommes", "Noix"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le gâteau de Metz est une spécialité lorraine riche en poudre d'amande.",
+  },
+  {
+    id: 50,
+    question: "Le flan parisien est traditionnellement parfumé avec...",
+    reponses: ["Vanille", "Cannelle", "Citron"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "La vanille est l'arôme emblématique du flan pâtissier traditionnel.",
+  },
+  {
+    id: 51,
+    question: "Le russe est une pâtisserie emblématique de quelle ville ?",
+    reponses: ["Oloron-Sainte-Marie", "Pau", "Tarbes"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le russe d'Artigarrede est une spécialité d'Oloron-Sainte-Marie, dans les Pyrénées-Atlantiques.",
+  },
+  {
+    id: 52,
+    question: "Le merveilleux est recouvert de...",
+    reponses: ["Copeaux de chocolat", "Sucre glace", "Amandes effilées"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le merveilleux est traditionnellement recouvert de copeaux de chocolat.",
+  },
+  {
+    id: 53,
+    question: "Le gâteau Basque traditionnel peut être garni de crème ou de...",
+    reponses: [
+      "Confiture de cerises noires",
+      "Confiture d'abricots",
+      "Compote de pommes",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "La confiture de cerises noires d'Itxassou est la garniture historique.",
+  },
+  {
+    id: 54,
+    question: "Le biscuit de Reims est traditionnellement de quelle couleur ?",
+    reponses: ["Rose", "Jaune", "Blanc"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Sa couleur rose est obtenue grâce à un colorant alimentaire.",
+  },
+  {
+    id: 55,
+    question: "Le financier était autrefois cuit dans un moule évoquant...",
+    reponses: ["Un lingot d'or", "Une couronne", "Une fleur"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Sa forme rectangulaire rappelle un lingot, en référence au quartier de la Bourse.",
+  },
+  {
+    id: 56,
+    question: "La tarte Bourdaloue associe les poires avec...",
+    reponses: [
+      "Une crème d'amandes",
+      "Une crème mousseline",
+      "Une crème diplomate",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "La crème d'amandes est la garniture traditionnelle de la Bourdaloue.",
+  },
+  {
+    id: 57,
+    question: "Le biscuit de Savoie contient principalement...",
+    reponses: ["Des œufs", "Du beurre", "De la crème"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Sa légèreté provient de la très grande quantité d'œufs incorporés.",
+  },
+  {
+    id: 58,
+    question:
+      "Le gâteau nantais est élaboré avec quelle poudre de fruits secs ?",
+    reponses: ["Amande", "Noisette", "Pistache"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "La poudre d'amande est un ingrédient essentiel du gâteau nantais.",
+  },
+  {
+    id: 59,
+    question:
+      "Le Saint-Honoré est composé principalement de pâte feuilletée et de...",
+    reponses: ["Pâte à choux", "Pâte sablée", "Pâte levée"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Les petits choux caramélisés sont la signature du Saint-Honoré.",
+  },
+  {
+    id: 60,
+    question: "Le clafoutis traditionnel est préparé avec les cerises...",
+    reponses: ["Avec leurs noyaux", "Dénoyautées", "Confites"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Traditionnellement, les cerises sont laissées avec leurs noyaux afin de renforcer leur parfum.",
+  },
+  {
+    id: 61,
+    question:
+      "La crème diplomate est obtenue en mélangeant une crème pâtissière avec...",
+    reponses: ["De la crème fouettée", "Du beurre", "Des blancs d'œufs montés"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "La crème diplomate est une crème pâtissière allégée avec de la crème fouettée.",
+  },
+  {
+    id: 62,
+    question: "La crème mousseline est une crème pâtissière enrichie avec...",
+    reponses: ["Du beurre", "De la chantilly", "Du mascarpone"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "La crème mousseline est obtenue en incorporant du beurre à une crème pâtissière.",
+  },
+  {
+    id: 63,
+    question:
+      "La crème Chiboust est composée d'une crème pâtissière mélangée à...",
+    reponses: [
+      "Une meringue italienne",
+      "Une chantilly",
+      "Une crème au beurre",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "La crème Chiboust est un mélange de crème pâtissière et de meringue italienne.",
+  },
+  {
+    id: 64,
+    question: "La crème frangipane est composée de crème d'amandes et de...",
+    reponses: ["Crème pâtissière", "Crème anglaise", "Crème Chantilly"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "La frangipane est un mélange de crème d'amandes et de crème pâtissière.",
+  },
+  {
+    id: 65,
+    question: "Quel type de pâte est utilisé pour réaliser un éclair ?",
+    reponses: ["Pâte à choux", "Pâte feuilletée", "Pâte levée"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Les éclairs sont confectionnés avec de la pâte à choux.",
+  },
+  {
+    id: 66,
+    question: "La pâte sablée contient généralement plus de sucre que...",
+    reponses: ["La pâte brisée", "La pâte feuilletée", "La pâte à choux"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "La pâte sablée est plus riche en sucre et plus friable que la pâte brisée.",
+  },
+  {
+    id: 67,
+    question: "Le feuilletage inversé se distingue par le fait que...",
+    reponses: [
+      "Le beurre enveloppe la détrempe",
+      "La détrempe enveloppe le beurre",
+      "Il ne contient pas de beurre",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Dans le feuilletage inversé, c'est le beurre manié qui entoure la détrempe.",
+  },
+  {
+    id: 68,
+    question: "La ganache traditionnelle est réalisée avec du chocolat et...",
+    reponses: ["De la crème liquide", "Du lait", "Du beurre seul"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Une ganache classique est préparée avec du chocolat et de la crème liquide chaude.",
+  },
+  {
+    id: 69,
+    question:
+      "Quel sirop est principalement utilisé pour réaliser une meringue italienne ?",
+    reponses: [
+      "Un sirop de sucre cuit",
+      "Du sirop d'érable",
+      "Du sirop d'agave",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "La meringue italienne est réalisée en versant un sirop de sucre cuit sur les blancs montés.",
+  },
+  {
+    id: 70,
+    question: "Le glaçage miroir est apprécié principalement pour...",
+    reponses: [
+      "Son aspect très brillant",
+      "Son goût salé",
+      "Sa texture croustillante",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le glaçage miroir donne un rendu parfaitement lisse et brillant.",
+  },
+  {
+    id: 71,
+    question: "La crème anglaise est épaissie grâce à...",
+    reponses: ["Des jaunes d'œufs", "De la farine", "De la fécule de maïs"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "La crème anglaise est liée uniquement par les jaunes d'œufs.",
+  },
+  {
+    id: 72,
+    question: "La crème pâtissière est généralement épaissie avec...",
+    reponses: ["De la fécule ou de la farine", "Du beurre", "De la gélatine"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "La fécule de maïs ou la farine permettent d'obtenir la texture caractéristique de la crème pâtissière.",
+  },
+  {
+    id: 73,
+    question:
+      "Quel biscuit est principalement utilisé pour réaliser un entremets Opéra ?",
+    reponses: ["Joconde", "Génoise", "Dacquoise"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Le biscuit Joconde est indispensable à l'Opéra traditionnel.",
+  },
+  {
+    id: 74,
+    question: "Le biscuit dacquoise est principalement réalisé avec...",
+    reponses: [
+      "Des blancs d'œufs et de la poudre d'amandes",
+      "Des jaunes d'œufs",
+      "Du beurre fondu",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "La dacquoise est une meringue aux amandes cuite au four.",
+  },
+  {
+    id: 75,
+    question: "Le biscuit cuillère doit sa texture légère à...",
+    reponses: [
+      "Des blancs d'œufs montés",
+      "De la levure chimique",
+      "Du beurre fondu",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Les blancs montés donnent au biscuit cuillère son moelleux.",
+  },
+  {
+    id: 76,
+    question:
+      "Le croustillant praliné est généralement réalisé avec du praliné et...",
+    reponses: [
+      "Des crêpes dentelle émiettées",
+      "Du biscuit Joconde",
+      "De la génoise",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Les crêpes dentelle apportent le croustillant caractéristique.",
+  },
+  {
+    id: 77,
+    question: "Le praliné est obtenu en broyant...",
+    reponses: [
+      "Des fruits secs caramélisés",
+      "Du chocolat noir",
+      "Des biscuits secs",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le praliné est une pâte obtenue à partir d'amandes ou de noisettes caramélisées.",
+  },
+  {
+    id: 78,
+    question:
+      "Le craquelin utilisé sur les choux est principalement composé de beurre, farine et...",
+    reponses: ["Cassonade", "Miel", "Lait"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "La cassonade permet d'obtenir une croûte fine et croustillante.",
+  },
+  {
+    id: 79,
+    question:
+      "Quelle crème est la plus adaptée pour garnir un Paris-Brest traditionnel ?",
+    reponses: ["Crème mousseline pralinée", "Crème anglaise", "Ganache montée"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le Paris-Brest classique est garni d'une crème mousseline au praliné.",
+  },
+  {
+    id: 80,
+    question: "Une pâte à choux correctement cuite doit être...",
+    reponses: [
+      "Bien sèche à l'intérieur",
+      "Humide au centre",
+      "Liquide sous la croûte",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Une pâte à choux insuffisamment cuite retombe rapidement après cuisson.",
+  },
+  {
+    id: 81,
+    question: "La cuisson du sucre à environ 121 °C correspond au stade...",
+    reponses: ["Petit boulé", "Grand cassé", "Caramel brun"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le stade petit boulé est utilisé notamment pour les meringues italiennes.",
+  },
+  {
+    id: 82,
+    question: "Quel ingrédient donne sa couleur dorée à une dorure classique ?",
+    reponses: ["Le jaune d'œuf", "Le lait", "Le beurre fondu"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "La dorure est traditionnellement réalisée avec du jaune d'œuf, parfois additionné d'un peu de lait.",
+  },
+  {
+    id: 83,
+    question: "Le tempérage est une technique principalement utilisée pour...",
+    reponses: ["Le chocolat", "La crème", "Le beurre"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le tempérage permet au chocolat d'être brillant, cassant et stable.",
+  },
+  {
+    id: 84,
+    question:
+      "Le beurre utilisé pour le feuilletage est recherché principalement pour...",
+    reponses: ["Sa plasticité", "Sa teneur en sucre", "Sa couleur"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Un beurre de tourage possède une excellente plasticité pour les tours.",
+  },
+  {
+    id: 85,
+    question: "Une génoise réussie doit son volume principalement à...",
+    reponses: [
+      "L'air incorporé lors du fouettage",
+      "La levure chimique",
+      "Le bicarbonate",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "La génoise traditionnelle ne contient pas de levure chimique.",
+  },
+  {
+    id: 86,
+    question: "Le pochage en pâtisserie consiste à...",
+    reponses: [
+      "Dresser une préparation à la poche",
+      "Cuire dans l'eau",
+      "Imbiber un biscuit",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le pochage désigne le dressage à l'aide d'une poche munie d'une douille.",
+  },
+  {
+    id: 87,
+    question: "Le nappage neutre est principalement utilisé pour...",
+    reponses: [
+      "Faire briller les tartes",
+      "Épaissir les crèmes",
+      "Remplacer la gélatine",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Le nappage protège les fruits et apporte un aspect brillant.",
+  },
+  {
+    id: 88,
+    question: "Le sucre glace est obtenu en broyant...",
+    reponses: ["Du sucre cristallisé", "Du sucre roux", "Du sucre candi"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le sucre glace est un sucre très fin obtenu par broyage du sucre cristallisé.",
+  },
+  {
+    id: 89,
+    question: "La pâte sucrée est généralement plus...",
+    reponses: [
+      "Croquante que la pâte sablée",
+      "Moelleuse que la pâte levée",
+      "Élastique que la pâte brisée",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "La pâte sucrée offre une texture plus ferme et plus croquante que la pâte sablée.",
+  },
+  {
+    id: 90,
+    question: "Le chablonnage consiste à appliquer une fine couche de...",
+    reponses: ["Chocolat ou beurre de cacao", "Confiture", "Crème pâtissière"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le chablonnage imperméabilise les fonds de tartes et préserve leur croustillant.",
+  },
+  {
+    id: 91,
+    question:
+      "Quel pâtissier est considéré comme le père de la pâtisserie moderne en France ?",
+    reponses: ["Gaston Lenôtre", "Pierre Hermé", "Cédric Grolet"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Gaston Lenôtre a profondément modernisé les techniques et l'enseignement de la pâtisserie française.",
+  },
+  {
+    id: 92,
+    question: "Quel pâtissier est surnommé le 'Picasso de la pâtisserie' ?",
+    reponses: ["Pierre Hermé", "Philippe Conticini", "Christophe Michalak"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Pierre Hermé est mondialement reconnu pour sa créativité et ses associations de saveurs.",
+  },
+  {
+    id: 93,
+    question:
+      "Le beurre AOP Charentes-Poitou est particulièrement apprécié pour...",
+    reponses: ["Le feuilletage", "Les glaces", "Les sorbets"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Sa plasticité et sa qualité en font un excellent beurre pour les pâtes feuilletées.",
+  },
+  {
+    id: 94,
+    question: "La crème d'Isigny bénéficie de quel signe officiel de qualité ?",
+    reponses: ["AOP", "IGP", "Label Rouge"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "La crème d'Isigny est protégée par une Appellation d'Origine Protégée (AOP).",
+  },
+  {
+    id: 95,
+    question:
+      "Quelle préparation est indispensable pour réaliser un entremets moderne ?",
+    reponses: ["Un insert", "Une pâte levée", "Une pâte à nouilles"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "L'insert apporte une texture et une saveur contrastées au cœur de l'entremets.",
+  },
+  {
+    id: 96,
+    question:
+      "Le confit de fruits utilisé dans un entremets est principalement épaissi avec...",
+    reponses: ["De la pectine", "De la farine", "Du beurre"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "La pectine permet d'obtenir un confit souple et stable.",
+  },
+  {
+    id: 97,
+    question: "Le gianduja est une spécialité associant le chocolat à...",
+    reponses: ["La noisette", "L'amande", "La noix"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le gianduja est un mélange de chocolat et de pâte de noisettes.",
+  },
+  {
+    id: 98,
+    question:
+      "Quel fruit sec entre traditionnellement dans la composition du pralin ?",
+    reponses: ["Amande", "Noix de coco", "Pistache seule"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le pralin est constitué d'amandes caramélisées concassées, parfois associées à des noisettes.",
+  },
+  {
+    id: 99,
+    question: "Le caramel blond est obtenu en chauffant principalement...",
+    reponses: ["Du sucre", "Du miel", "Du sirop de glucose uniquement"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le sucre est chauffé progressivement jusqu'à obtenir la coloration souhaitée.",
+  },
+  {
+    id: 100,
+    question:
+      "Le sucre tiré est une technique de décoration réalisée avec un sucre...",
+    reponses: [
+      "Cuit puis travaillé à chaud",
+      "Mélangé à du chocolat",
+      "Congelé",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le sucre est travaillé lorsqu'il est encore chaud et malléable afin de créer des décors.",
+  },
+  {
+    id: 101,
+    question: "Le sucre soufflé est obtenu en...",
+    reponses: [
+      "Insufflant de l'air dans le sucre",
+      "Ajoutant de la levure",
+      "Mélangeant du sucre glace",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Cette technique spectaculaire permet de réaliser des décorations très légères.",
+  },
+  {
+    id: 102,
+    question:
+      "Le chocolat blanc contient principalement du beurre de cacao mais ne contient pas...",
+    reponses: ["De pâte de cacao", "De sucre", "De lait"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Le chocolat blanc est élaboré sans pâte de cacao.",
+  },
+  {
+    id: 103,
+    question: "Le chocolat de couverture se distingue par...",
+    reponses: [
+      "Sa forte teneur en beurre de cacao",
+      "Sa faible teneur en cacao",
+      "L'absence de sucre",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Il est spécialement conçu pour l'enrobage et les moulages.",
+  },
+  {
+    id: 104,
+    question:
+      "Quel pâtissier est connu pour ses desserts en trompe-l'œil représentant des fruits ?",
+    reponses: ["Cédric Grolet", "Philippe Rigollot", "Yann Couvreur"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Cédric Grolet est mondialement connu pour ses créations en forme de fruits.",
+  },
+  {
+    id: 105,
+    question: "La gélatine alimentaire est principalement utilisée pour...",
+    reponses: [
+      "Stabiliser les mousses",
+      "Colorer les glaçages",
+      "Sucrer les desserts",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Elle permet aux mousses et entremets de conserver leur tenue.",
+  },
+  {
+    id: 106,
+    question: "L'agar-agar est un gélifiant d'origine...",
+    reponses: ["Végétale", "Animale", "Minérale"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "L'agar-agar est extrait d'algues rouges.",
+  },
+  {
+    id: 107,
+    question:
+      "Quel dessert est composé d'une mousse, d'un biscuit et d'un glaçage ?",
+    reponses: ["Entremets", "Flan", "Clafoutis"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Les entremets modernes sont composés de plusieurs textures superposées.",
+  },
+  {
+    id: 108,
+    question: "Une ganache montée est obtenue après...",
+    reponses: [
+      "Un refroidissement puis un foisonnement",
+      "Une cuisson prolongée",
+      "Une congélation immédiate",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "La ganache est refroidie avant d'être montée comme une chantilly.",
+  },
+  {
+    id: 109,
+    question: "Quel ingrédient améliore la souplesse d'un glaçage miroir ?",
+    reponses: ["Le glucose", "Le vinaigre", "Le sel"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le sirop de glucose apporte souplesse et brillance au glaçage.",
+  },
+  {
+    id: 110,
+    question: "La pectine NH est particulièrement utilisée pour...",
+    reponses: [
+      "Les nappages et inserts aux fruits",
+      "Les pâtes levées",
+      "Les meringues",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Elle est idéale pour les préparations fruitées pouvant être réchauffées.",
+  },
+  {
+    id: 111,
+    question: "Le ruban est obtenu lors du fouettage de quels ingrédients ?",
+    reponses: ["Œufs et sucre", "Beurre et sucre", "Crème et lait"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Le mélange blanchit et forme un ruban lorsqu'il retombe.",
+  },
+  {
+    id: 112,
+    question: "Une pâte sablée devient dure principalement lorsqu'elle est...",
+    reponses: ["Trop travaillée", "Pas assez sucrée", "Cuite trop vite"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Un excès de pétrissage développe le gluten et nuit à sa friabilité.",
+  },
+  {
+    id: 113,
+    question:
+      "Quel est le principal intérêt du repos d'une pâte avant cuisson ?",
+    reponses: [
+      "Détendre le gluten",
+      "Augmenter le sucre",
+      "Faire lever la pâte",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Le repos limite le retrait de la pâte pendant la cuisson.",
+  },
+  {
+    id: 114,
+    question: "Le beurre de cacao est utilisé en pulvérisation pour obtenir...",
+    reponses: ["Un effet velours", "Un glaçage royal", "Une dorure"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le mélange chocolat-beurre de cacao pulvérisé crée un effet velours sur les entremets congelés.",
+  },
+  {
+    id: 115,
+    question: "Le praliné 50/50 contient autant de fruits secs que...",
+    reponses: ["De sucre", "De cacao", "De beurre"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "L'appellation 50/50 indique des proportions égales de fruits secs et de sucre.",
+  },
+  {
+    id: 116,
+    question: "Quel dessert est traditionnellement flambé au Grand Marnier ?",
+    reponses: ["Crêpes Suzette", "Mille-feuille", "Paris-Brest"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Les crêpes Suzette sont célèbres pour leur flambage au Grand Marnier ou au Curaçao.",
+  },
+  {
+    id: 117,
+    question: "Le biscuit succès est principalement élaboré avec...",
+    reponses: ["Une meringue aux amandes", "Une génoise", "Une pâte sablée"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le succès est composé de biscuits meringués à base d'amandes.",
+  },
+  {
+    id: 118,
+    question:
+      "Dans un laboratoire de pâtisserie, le marbre est apprécié principalement parce qu'il...",
+    reponses: [
+      "Reste naturellement froid",
+      "Absorbe l'humidité",
+      "Est antiadhésif",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le marbre facilite le travail du chocolat et de certaines pâtes grâce à sa fraîcheur.",
+  },
+  {
+    id: 119,
+    question: "Le chocolat est idéalement tempéré afin d'obtenir...",
+    reponses: [
+      "Un aspect brillant et une cassure nette",
+      "Une texture mousseuse",
+      "Une couleur plus foncée",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le tempérage garantit un chocolat brillant, stable et croquant.",
+  },
+  {
+    id: 120,
+    question: "La réussite d'un macaron dépend en grande partie de...",
+    reponses: [
+      "La qualité du macaronnage",
+      "La quantité de beurre",
+      "La cuisson au bain-marie",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le macaronnage permet d'obtenir une pâte à la texture idéale pour former une belle collerette.",
+  },
+  {
+    id: 121,
+    question:
+      "À quelle température approximative le sucre atteint-il le stade du grand cassé ?",
+    reponses: ["150 °C", "121 °C", "135 °C"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le grand cassé est atteint vers 150 °C, juste avant le caramel.",
+  },
+  {
+    id: 122,
+    question:
+      "À partir d'environ quelle température commence la caramélisation du sucre ?",
+    reponses: ["160 °C", "130 °C", "110 °C"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "La caramélisation débute généralement autour de 160 °C.",
+  },
+  {
+    id: 123,
+    question:
+      "Quel concours international est considéré comme le plus prestigieux en pâtisserie ?",
+    reponses: [
+      "La Coupe du Monde de la Pâtisserie",
+      "Le Bocuse d'Or",
+      "Le World Chocolate Masters",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Créée en 1989, la Coupe du Monde de la Pâtisserie est la référence mondiale.",
+  },
+  {
+    id: 124,
+    question: "Le titre de MOF signifie...",
+    reponses: [
+      "Meilleur Ouvrier de France",
+      "Maître Officiel Français",
+      "Mérite des Ouvriers Français",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le concours des Meilleurs Ouvriers de France récompense l'excellence artisanale.",
+  },
+  {
+    id: 125,
+    question:
+      "Quel pâtissier français est à l'origine du concept de 'haute pâtisserie' contemporaine ?",
+    reponses: ["Gaston Lenôtre", "Antonin Carême", "Yann Couvreur"],
+    bonneReponse: 1,
+    explication:
+      "Antonin Carême est considéré comme le premier grand chef pâtissier moderne et un précurseur de la haute pâtisserie.",
+  },
+  {
+    id: 126,
+    question: "Antonin Carême est surtout connu pour ses impressionnantes...",
+    reponses: ["Pièces montées", "Galettes", "Brioches"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Ses pièces montées monumentales ont marqué l'histoire de la gastronomie.",
+  },
+  {
+    id: 127,
+    question: "Le croquembouche est traditionnellement assemblé avec...",
+    reponses: ["Du caramel", "Du chocolat", "De la crème pâtissière"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Le caramel sert à coller les choux entre eux.",
+  },
+  {
+    id: 128,
+    question:
+      "Quel dessert est traditionnellement servi lors des mariages en France avant l'arrivée des wedding cakes ?",
+    reponses: ["Croquembouche", "Paris-Brest", "Opéra"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le croquembouche est le dessert traditionnel des grandes cérémonies françaises.",
+  },
+  {
+    id: 129,
+    question: "Le sucre inverti est principalement utilisé pour...",
+    reponses: [
+      "Limiter la cristallisation",
+      "Colorer les biscuits",
+      "Remplacer les œufs",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le sucre inverti améliore la conservation et évite la recristallisation.",
+  },
+  {
+    id: 130,
+    question:
+      "Quel ingrédient est souvent ajouté à une glace pour améliorer son onctuosité ?",
+    reponses: ["Le glucose", "Le vinaigre", "La levure"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le glucose améliore la texture et limite la formation de cristaux.",
+  },
+  {
+    id: 131,
+    question:
+      "Le streusel est une préparation principalement composée de beurre, farine et...",
+    reponses: ["Sucre", "Levure", "Crème"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Le streusel apporte une texture croustillante aux desserts.",
+  },
+  {
+    id: 132,
+    question: "Quel est le principal rôle du glucose dans un caramel ?",
+    reponses: [
+      "Limiter la cristallisation",
+      "Accentuer l'acidité",
+      "Colorer davantage",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le glucose empêche le sucre de recristalliser pendant la cuisson.",
+  },
+  {
+    id: 133,
+    question: "Une meringue suisse est fouettée...",
+    reponses: ["Au bain-marie", "Avec un sirop à 121 °C", "À froid uniquement"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Les blancs et le sucre sont chauffés au bain-marie avant d'être montés.",
+  },
+  {
+    id: 134,
+    question: "La meringue française est préparée...",
+    reponses: ["À froid", "Au bain-marie", "Avec un sirop cuit"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Elle est simplement réalisée en montant les blancs avec le sucre.",
+  },
+  {
+    id: 135,
+    question:
+      "Le pochage des macarons est idéalement réalisé avec quelle douille ?",
+    reponses: ["Douille unie", "Douille cannelée", "Douille à Saint-Honoré"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Une douille unie permet d'obtenir des coques parfaitement rondes.",
+  },
+  {
+    id: 136,
+    question:
+      "Le repos des coques de macarons avant cuisson permet principalement de...",
+    reponses: ["Former une fine croûte", "Les faire lever", "Les refroidir"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Cette croûte favorise l'apparition de la célèbre collerette.",
+  },
+  {
+    id: 137,
+    question: "Le biscuit pain de Gênes est riche en...",
+    reponses: ["Poudre d'amandes", "Farine de sarrasin", "Noix de coco"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le pain de Gênes est un biscuit moelleux à forte teneur en amandes.",
+  },
+  {
+    id: 138,
+    question: "La nougatine est réalisée principalement avec...",
+    reponses: [
+      "Des amandes et du caramel",
+      "Des noisettes et du chocolat",
+      "Des noix et du miel",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "La nougatine traditionnelle est élaborée avec des amandes caramélisées.",
+  },
+  {
+    id: 139,
+    question:
+      "Quel ustensile permet de vérifier précisément la température du sucre ?",
+    reponses: ["Un thermomètre à sonde", "Une spatule", "Un fouet"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le thermomètre est indispensable pour maîtriser les différents stades du sucre.",
+  },
+  {
+    id: 140,
+    question:
+      "Le beurre clarifié est utilisé en pâtisserie principalement parce qu'il...",
+    reponses: [
+      "Ne contient plus d'eau ni de protéines de lait",
+      "Est plus sucré",
+      "Remplace la crème",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le beurre clarifié résiste mieux à la chaleur et offre une meilleure stabilité.",
+  },
+  {
+    id: 141,
+    question: "Le biscuit madeleine doit sa célèbre bosse principalement à...",
+    reponses: [
+      "Un choc thermique",
+      "L'ajout de levure fraîche",
+      "Une cuisson à basse température",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le contraste entre une pâte bien froide et un four chaud favorise la formation de la bosse.",
+  },
+  {
+    id: 142,
+    question:
+      "Le sucre semoule est préféré au sucre glace pour monter des blancs en neige car il...",
+    reponses: [
+      "Se dissout progressivement",
+      "Est moins sucré",
+      "Contient de la fécule",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Le sucre semoule stabilise les blancs sans les alourdir.",
+  },
+  {
+    id: 143,
+    question: "Quel est le principal intérêt d'une cuisson 'à blanc' ?",
+    reponses: [
+      "Cuire un fond de tarte avant sa garniture",
+      "Colorer une génoise",
+      "Sécher une meringue",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "La cuisson à blanc évite que le fond de tarte ne reste humide.",
+  },
+  {
+    id: 144,
+    question: "Le rhodoïd est principalement utilisé pour...",
+    reponses: [
+      "Obtenir des contours parfaitement lisses",
+      "Cuire les biscuits",
+      "Découper la pâte",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le ruban de rhodoïd facilite le démoulage des entremets et donne une finition impeccable.",
+  },
+  {
+    id: 145,
+    question:
+      "Une mousse montée avec une base de crème anglaise est appelée...",
+    reponses: ["Mousse bavaroise", "Ganache montée", "Crème Chiboust"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "La bavaroise est élaborée à partir d'une crème anglaise collée et de crème fouettée.",
+  },
+  {
+    id: 146,
+    question: "Le terme 'foisonnement' désigne...",
+    reponses: [
+      "L'incorporation d'air dans une préparation",
+      "La cuisson du sucre",
+      "Le repos d'une pâte",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le foisonnement augmente le volume et la légèreté des préparations.",
+  },
+  {
+    id: 147,
+    question: "Le beurre de tourage contient généralement...",
+    reponses: [
+      "Plus de matière grasse qu'un beurre classique",
+      "Moins de matière grasse",
+      "Du sucre ajouté",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Sa forte teneur en matière grasse améliore le feuilletage.",
+  },
+  {
+    id: 148,
+    question: "La cuisson idéale d'un éclair permet d'obtenir une coque...",
+    reponses: ["Sèche et croustillante", "Molle", "Humide"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Une coque bien cuite ne retombe pas après refroidissement.",
+  },
+  {
+    id: 149,
+    question: "Quel est le rôle principal du beurre dans une pâte sablée ?",
+    reponses: ["Apporter le fondant", "Faire lever la pâte", "Colorer la pâte"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le beurre enrobe la farine et donne la texture friable caractéristique.",
+  },
+  {
+    id: 150,
+    question: "Le terme 'chemiser un moule' signifie...",
+    reponses: ["Le préparer avant utilisation", "Le nettoyer", "Le refroidir"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Chemiser consiste à beurrer, fariner ou tapisser un moule afin de faciliter le démoulage.",
+  },
+  {
+    id: 151,
+    question: "Le pastis landais est traditionnellement parfumé avec...",
+    reponses: ["La fleur d'oranger", "Le kirsch", "La cannelle"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le pastis landais est une brioche moelleuse parfumée à la fleur d'oranger, parfois avec un peu de rhum.",
+  },
+  {
+    id: 152,
+    question: "Le gâteau de ménage est une spécialité de quelle région ?",
+    reponses: ["Franche-Comté", "Normandie", "Bretagne"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le gâteau de ménage est une brioche traditionnelle de Franche-Comté.",
+  },
+  {
+    id: 153,
+    question: "Le nonnette est une spécialité de quelle ville ?",
+    reponses: ["Dijon", "Tours", "Poitiers"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "La nonnette est un petit gâteau dijonnais à base de pain d'épices, souvent garni de marmelade.",
+  },
+  {
+    id: 154,
+    question: "Le jésuite est une pâtisserie réalisée principalement avec...",
+    reponses: [
+      "De la pâte feuilletée",
+      "De la pâte à choux",
+      "De la pâte sablée",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le jésuite est un triangle de pâte feuilletée garni de crème d'amandes.",
+  },
+  {
+    id: 155,
+    question:
+      "Le Suisse de Valence est une spécialité traditionnellement préparée pour...",
+    reponses: ["Pâques", "Noël", "La Toussaint"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Cette brioche en forme de personnage est traditionnellement consommée à Pâques.",
+  },
+  {
+    id: 156,
+    question:
+      "La pompe à l'huile est l'un des treize desserts de quelle région ?",
+    reponses: ["Provence", "Alsace", "Bourgogne"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "La pompe à l'huile est un incontournable des treize desserts provençaux.",
+  },
+  {
+    id: 157,
+    question: "Le craquelin de Saint-Malo est...",
+    reponses: ["Une petite galette soufflée", "Une brioche", "Un chou garni"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le craquelin malouin est une galette légère et soufflée typique de Bretagne.",
+  },
+  {
+    id: 158,
+    question: "Le gâteau mollet est une spécialité de quelle région ?",
+    reponses: ["Ardennes", "Auvergne", "Savoie"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le gâteau mollet est une brioche traditionnelle des Ardennes.",
+  },
+  {
+    id: 159,
+    question: "Le gâteau battu de Picardie est particulièrement riche en...",
+    reponses: ["Œufs et beurre", "Crème et lait", "Amandes"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Sa richesse en œufs et en beurre lui donne une texture très moelleuse.",
+  },
+  {
+    id: 160,
+    question: "Le pithiviers fondant est traditionnellement réalisé avec...",
+    reponses: ["Une pâte d'amandes", "Une crème pâtissière", "Une ganache"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "À ne pas confondre avec le pithiviers feuilleté, il est confectionné à partir de pâte d'amandes.",
+  },
+  {
+    id: 161,
+    question:
+      "La fouace est une spécialité boulangère et pâtissière de quelle région ?",
+    reponses: ["Aveyron", "Flandre", "Lorraine"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "La fouace est une brioche parfumée typique de l'Aveyron.",
+  },
+  {
+    id: 162,
+    question: "Le gâteau creusois doit son goût caractéristique à...",
+    reponses: ["La noisette", "La pistache", "La noix de coco"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Le Creusois est élaboré à partir de poudre de noisettes.",
+  },
+  {
+    id: 163,
+    question: "La tarte au libouli est une spécialité de quel département ?",
+    reponses: ["Pas-de-Calais", "Vosges", "Gironde"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Cette tarte à base de flan est une spécialité du Nord et du Pas-de-Calais.",
+  },
+  {
+    id: 164,
+    question:
+      "Le gâteau de Broye est une spécialité de quelle région française ?",
+    reponses: ["Franche-Comté", "Alsace", "Normandie"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le gâteau de Broye est une galette beurrée traditionnelle de Franche-Comté.",
+  },
+  {
+    id: 165,
+    question: "Le pâté aux prunes est une spécialité de quelle région ?",
+    reponses: ["Anjou", "Bretagne", "Savoie"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le pâté aux prunes est une spécialité emblématique de l'Anjou.",
+  },
+  {
+    id: 166,
+    question: "Le gâteau à la broche est principalement associé...",
+    reponses: ["Aux Pyrénées", "À la Corse", "À la Bretagne"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Cette spécialité spectaculaire est cuite lentement sur une broche devant le feu.",
+  },
+  {
+    id: 167,
+    question:
+      "Le kouign-amann doit son feuilletage à une alternance de pâte, beurre et...",
+    reponses: ["Sucre", "Crème", "Miel"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le sucre caramélise pendant la cuisson et participe à sa texture unique.",
+  },
+  {
+    id: 168,
+    question:
+      "Le biscuit rose de Reims était historiquement conçu pour être...",
+    reponses: ["Trempé dans le champagne", "Servi chaud", "Fourré à la crème"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Sa texture permettait de le tremper sans qu'il se désagrège.",
+  },
+  {
+    id: 169,
+    question: "Le croquet de Charost est principalement réalisé avec...",
+    reponses: ["Des amandes", "Des noisettes", "Des noix"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Le croquet de Charost est un biscuit sec riche en amandes.",
+  },
+  {
+    id: 170,
+    question: "Le macaron d'Amiens contient traditionnellement...",
+    reponses: ["Du miel", "Du chocolat", "Du café"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Le macaron d'Amiens est parfumé avec du miel et des amandes.",
+  },
+  {
+    id: 171,
+    question: "La navette provençale est traditionnellement parfumée avec...",
+    reponses: ["La fleur d'oranger", "Le citron", "La vanille"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "La fleur d'oranger est la signature aromatique de la navette.",
+  },
+  {
+    id: 172,
+    question: "Le biscuit de Montbozon est une spécialité de quelle région ?",
+    reponses: ["Franche-Comté", "Normandie", "Lorraine"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le biscuit de Montbozon est une spécialité ancienne de Haute-Saône.",
+  },
+  {
+    id: 173,
+    question: "Le gâteau basque est traditionnellement décoré avec...",
+    reponses: [
+      "Des croisillons à la fourchette",
+      "Du sucre glace",
+      "Des amandes effilées",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Les croisillons sont tracés avant la cuisson à l'aide d'une fourchette.",
+  },
+  {
+    id: 174,
+    question: "Le chausson aux pommes est confectionné avec...",
+    reponses: [
+      "De la pâte feuilletée",
+      "De la pâte levée",
+      "De la pâte sablée",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le feuilletage est indispensable pour obtenir sa texture croustillante.",
+  },
+  {
+    id: 175,
+    question: "Le flan pâtissier traditionnel est cuit jusqu'à obtenir...",
+    reponses: [
+      "Une surface bien colorée",
+      "Une surface blanche",
+      "Une croûte croustillante",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Sa surface doit présenter une belle coloration brune caractéristique.",
+  },
+  {
+    id: 176,
+    question: "Le biscuit cuillère est principalement utilisé pour réaliser...",
+    reponses: [
+      "Des charlottes et des tiramisus",
+      "Des éclairs",
+      "Des financiers",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Sa texture légère est idéale pour absorber les sirops et les crèmes.",
+  },
+  {
+    id: 177,
+    question: "Le canelé est traditionnellement cuit dans un moule en...",
+    reponses: ["Cuivre", "Aluminium", "Fonte"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le moule en cuivre favorise la caramélisation et le croustillant.",
+  },
+  {
+    id: 178,
+    question: "Le Paris-Brest a été créé en 1910 par...",
+    reponses: ["Louis Durand", "Antonin Carême", "Gaston Lenôtre"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le pâtissier Louis Durand a créé ce dessert à la demande du journaliste Pierre Giffard.",
+  },
+  {
+    id: 179,
+    question: "Le Saint-Honoré doit son nom à...",
+    reponses: [
+      "L'évêque Honoré d'Amiens",
+      "Un célèbre pâtissier",
+      "Un roi de France",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Saint Honoré est le saint patron des boulangers et pâtissiers.",
+  },
+  {
+    id: 180,
+    question: "Le gâteau de voyage est conçu principalement pour...",
+    reponses: [
+      "Se conserver plusieurs jours",
+      "Être servi glacé",
+      "Être consommé uniquement chaud",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Les gâteaux de voyage sont élaborés pour rester moelleux et se conserver longtemps.",
+  },
+  {
+    id: 181,
+    question:
+      "Quel pâtissier a créé le dessert 'Ispahan', devenu une référence mondiale ?",
+    reponses: ["Pierre Hermé", "Gaston Lenôtre", "Philippe Conticini"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Pierre Hermé a créé l'Ispahan, célèbre association de rose, framboise et litchi.",
+  },
+  {
+    id: 182,
+    question: "Le dessert '2000 feuilles' est une création de quel pâtissier ?",
+    reponses: ["Philippe Conticini", "Christophe Michalak", "Yann Couvreur"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Philippe Conticini a revisité le mille-feuille avec son célèbre '2000 feuilles'.",
+  },
+  {
+    id: 183,
+    question: "Le terme 'abaisser une pâte' signifie...",
+    reponses: [
+      "L'étaler régulièrement",
+      "La cuire lentement",
+      "La refroidir rapidement",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Abaisser consiste à étaler une pâte à l'épaisseur souhaitée.",
+  },
+  {
+    id: 184,
+    question: "Le fonçage consiste à...",
+    reponses: [
+      "Garnir un moule avec une pâte",
+      "Ajouter une garniture",
+      "Dorer une pâte",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le fonçage est l'action de disposer une pâte dans un moule ou un cercle.",
+  },
+  {
+    id: 185,
+    question:
+      "Le chemisage d'un cercle à entremets est souvent réalisé avec...",
+    reponses: ["Du rhodoïd", "Du papier sulfurisé", "Du film alimentaire"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le rhodoïd permet un démoulage parfait et des bords parfaitement lisses.",
+  },
+  {
+    id: 186,
+    question: "Le 'tant pour tant' utilisé en pâtisserie est un mélange de...",
+    reponses: [
+      "Poudre d'amandes et sucre glace",
+      "Farine et sucre",
+      "Sucre et cacao",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le tant pour tant est composé à parts égales de poudre d'amandes et de sucre glace.",
+  },
+  {
+    id: 187,
+    question: "Le macaronnage consiste à...",
+    reponses: [
+      "Mélanger la pâte jusqu'à la bonne texture",
+      "Cuire les coques",
+      "Préparer la garniture",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le macaronnage permet d'obtenir une pâte lisse et légèrement coulante.",
+  },
+  {
+    id: 188,
+    question:
+      "Un appareil à bombe est obtenu en fouettant des jaunes d'œufs avec...",
+    reponses: [
+      "Un sirop de sucre cuit",
+      "Du beurre fondu",
+      "De la crème chaude",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "L'appareil à bombe est très utilisé pour les mousses et les parfaits glacés.",
+  },
+  {
+    id: 189,
+    question: "Quelle pâte est la moins adaptée à une cuisson à blanc ?",
+    reponses: ["La pâte à choux", "La pâte sucrée", "La pâte brisée"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "La pâte à choux est destinée à être pochée puis cuite, pas à foncer un moule.",
+  },
+  {
+    id: 190,
+    question: "Le beurre de cacao Mycryo est principalement utilisé pour...",
+    reponses: [
+      "Tempérer le chocolat",
+      "Préparer une pâte levée",
+      "Remplacer le beurre",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le Mycryo facilite le tempérage du chocolat en apportant des cristaux stables.",
+  },
+  {
+    id: 191,
+    question: "Le sirop à 121 °C est utilisé pour réaliser principalement...",
+    reponses: ["Une meringue italienne", "Une crème anglaise", "Une génoise"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le sirop cuit à 121 °C est versé sur les blancs montés pour réaliser la meringue italienne.",
+  },
+  {
+    id: 192,
+    question:
+      "Quel dessert français est composé de pâte à choux, de glace à la vanille et de sauce chocolat ?",
+    reponses: ["Profiteroles", "Religieuse", "Saint-Honoré"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Les profiteroles sont servies avec de la glace vanille et une sauce au chocolat chaude.",
+  },
+  {
+    id: 193,
+    question: "Le succès d'un feuilletage dépend principalement de...",
+    reponses: [
+      "La régularité des tours",
+      "La quantité de sucre",
+      "Le temps de repos de la crème",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Des tours réguliers et des temps de repos respectés garantissent un beau développement.",
+  },
+  {
+    id: 194,
+    question:
+      "Quel est le principal ennemi d'une pâte feuilletée pendant le tourage ?",
+    reponses: ["La chaleur", "L'humidité", "Le sucre"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Une température trop élevée ramollit le beurre et compromet le feuilletage.",
+  },
+  {
+    id: 195,
+    question: "Une pâte à choux qui retombe après cuisson est généralement...",
+    reponses: ["Insuffisamment cuite", "Trop sucrée", "Trop froide"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Une cuisson incomplète laisse trop d'humidité à l'intérieur des choux.",
+  },
+  {
+    id: 196,
+    question:
+      "Quel dessert français est traditionnellement décoré d'un disque de caramel filé ?",
+    reponses: ["Saint-Honoré", "Flan parisien", "Tarte Bourdaloue"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication: "Le Saint-Honoré est souvent orné d'un décor en caramel filé.",
+  },
+  {
+    id: 197,
+    question:
+      "Le beurre est incorporé en dernier dans une crème mousseline afin de...",
+    reponses: ["L'émulsionner correctement", "La refroidir", "La sucrer"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le beurre pommade est incorporé progressivement pour obtenir une crème légère et homogène.",
+  },
+  {
+    id: 198,
+    question:
+      "Dans un laboratoire de pâtisserie, la cellule de surgélation est principalement utilisée pour...",
+    reponses: [
+      "Refroidir très rapidement les préparations",
+      "Cuire les viennoiseries",
+      "Faire lever les pâtes",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "La surgélation rapide préserve la texture des entremets et facilite leur glaçage.",
+  },
+  {
+    id: 199,
+    question:
+      "Quel est l'objectif principal du glaçage miroir sur un entremets ?",
+    reponses: [
+      "Apporter une finition lisse et brillante",
+      "Rendre le dessert plus croustillant",
+      "Remplacer la décoration",
+    ],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le glaçage miroir protège l'entremets tout en lui donnant un aspect parfaitement brillant.",
+  },
+  {
+    id: 200,
+    question:
+      "Quelle pâtisserie est traditionnellement considérée comme l'un des plus grands symboles du savoir-faire pâtissier français ?",
+    reponses: ["Le Saint-Honoré", "Le brownie", "Le cheesecake"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2: reponses[2],
+    explication:
+      "Le Saint-Honoré réunit plusieurs techniques majeures : pâte feuilletée, pâte à choux, caramel et crème Chiboust, ce qui en fait un dessert emblématique de la pâtisserie française.",
+  },
+];

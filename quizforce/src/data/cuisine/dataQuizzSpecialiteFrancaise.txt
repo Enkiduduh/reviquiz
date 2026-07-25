@@ -1,0 +1,1795 @@
+export const dataQuizzSpecialitesFrancaise = [
+
+{
+    id: 1,
+    question: "De quelle région est originaire la choucroute garnie ?",
+    reponses: ["Alsace", "Bretagne", "Normandie"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "La choucroute garnie est une spécialité emblématique de l'Alsace, composée de chou fermenté accompagné de différentes charcuteries."
+},
+{
+    id: 2,
+    question: "Le cassoulet est traditionnellement associé à quelle ville ?",
+    reponses: ["Castelnaudary", "Lyon", "Dijon"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Castelnaudary est considérée comme le berceau historique du cassoulet."
+},
+{
+    id: 3,
+    question: "Dans quelle région déguste-t-on traditionnellement la tartiflette ?",
+    reponses: ["Savoie", "Auvergne", "Jura"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "La tartiflette est une spécialité savoyarde préparée avec du reblochon."
+},
+{
+    id: 4,
+    question: "La bouillabaisse est une spécialité de quelle ville ?",
+    reponses: ["Marseille", "Nice", "Toulon"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "La bouillabaisse est née à Marseille, où les pêcheurs cuisinaient les poissons invendus."
+},
+{
+    id: 5,
+    question: "Le kig ha farz est une spécialité de quelle région ?",
+    reponses: ["Bretagne", "Normandie", "Vendée"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le kig ha farz est un plat traditionnel du Finistère composé de viande, de légumes et d'un far cuit dans un sac."
+},
+{
+    id: 6,
+    question: "Les quenelles sont principalement associées à quelle ville ?",
+    reponses: ["Lyon", "Grenoble", "Clermont-Ferrand"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Les quenelles sont un incontournable de la gastronomie lyonnaise."
+},
+{
+    id: 7,
+    question: "Le baeckeoffe est une spécialité de quelle région ?",
+    reponses: ["Alsace", "Lorraine", "Champagne"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le baeckeoffe est un plat mijoté alsacien à base de viandes marinées et de pommes de terre."
+},
+{
+    id: 8,
+    question: "La ficelle picarde est originaire de quelle région ?",
+    reponses: ["Hauts-de-France", "Normandie", "Île-de-France"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "La ficelle picarde est une spécialité de la Somme composée d'une crêpe garnie de jambon, champignons et béchamel."
+},
+{
+    id: 9,
+    question: "Le far breton est une spécialité de quelle région ?",
+    reponses: ["Bretagne", "Pays Basque", "Limousin"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le far breton est un dessert traditionnel breton, souvent préparé avec des pruneaux."
+},
+{
+    id: 10,
+    question: "Le poulet de Bresse est une spécialité de quelle région ?",
+    reponses: ["Bresse", "Bourgogne", "Auvergne"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le poulet de Bresse est la seule volaille au monde à bénéficier d'une AOP."
+},{
+    id: 11,
+    question: "Le gratin dauphinois est originaire de quelle ancienne province ?",
+    reponses: ["Dauphiné", "Savoie", "Bourgogne"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le véritable gratin dauphinois est originaire du Dauphiné et ne contient traditionnellement pas de fromage."
+},
+{
+    id: 12,
+    question: "La piperade est une spécialité de quelle région ?",
+    reponses: ["Pays Basque", "Bretagne", "Alsace"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "La piperade est une spécialité basque à base de tomates, poivrons et oignons."
+},
+{
+    id: 13,
+    question: "Le kouign-amann est originaire de quelle ville ?",
+    reponses: ["Douarnenez", "Quimper", "Brest"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le kouign-amann a été créé à Douarnenez dans le Finistère."
+},
+{
+    id: 14,
+    question: "Le potjevleesch est une spécialité de quelle région ?",
+    reponses: ["Flandre française", "Alsace", "Lorraine"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le potjevleesch est une terrine de viandes blanches en gelée typique de la Flandre française."
+},
+{
+    id: 15,
+    question: "Le gâteau battu est une spécialité de quelle région ?",
+    reponses: ["Picardie", "Normandie", "Champagne"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le gâteau battu est une brioche riche en beurre et en œufs originaire de Picardie."
+},
+{
+    id: 16,
+    question: "L'aligot est principalement préparé avec quelle variété de fromage ?",
+    reponses: ["Tome fraîche", "Comté", "Reblochon"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "L'aligot est réalisé avec de la tome fraîche de l'Aubrac."
+},
+{
+    id: 17,
+    question: "Le pâté lorrain est une spécialité de quelle région ?",
+    reponses: ["Lorraine", "Alsace", "Franche-Comté"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le pâté lorrain est une tourte feuilletée garnie de viande marinée."
+},
+{
+    id: 18,
+    question: "Le tourin est une soupe traditionnelle préparée principalement avec quel ingrédient ?",
+    reponses: ["Ail", "Poireau", "Navet"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le tourin est une soupe à l'ail très populaire dans le Sud-Ouest."
+},
+{
+    id: 19,
+    question: "La matelote est un plat dont l'ingrédient principal est généralement...",
+    reponses: ["Le poisson", "Le porc", "Le lapin"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "La matelote est un ragoût de poissons cuits au vin."
+},
+{
+    id: 20,
+    question: "La flamiche est une spécialité des Hauts-de-France traditionnellement garnie de...",
+    reponses: ["Poireaux", "Pommes", "Lard fumé"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "La flamiche aux poireaux est une recette emblématique du Nord."
+},
+{
+    id: 21,
+    question: "La garbure est une spécialité culinaire de quel territoire ?",
+    reponses: ["Béarn", "Camargue", "Bresse"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "La garbure est une soupe paysanne traditionnelle du Béarn."
+},
+{
+    id: 22,
+    question: "Le pâté de pommes de terre est une spécialité du...",
+    reponses: ["Berry", "Perche", "Morbihan"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Cette tourte est l'une des spécialités emblématiques du Berry."
+},
+{
+    id: 23,
+    question: "La caillette est principalement élaborée à partir de...",
+    reponses: ["Porc et herbes", "Canard et pruneaux", "Veau et champignons"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "La caillette est une préparation ardéchoise composée de viande de porc et d'herbes."
+},
+{
+    id: 24,
+    question: "Le tian est une spécialité de quelle région ?",
+    reponses: ["Provence", "Alsace", "Normandie"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le tian provençal est un plat de légumes cuits lentement au four."
+},
+{
+    id: 25,
+    question: "Le poulet basquaise est cuisiné avec quel légume emblématique ?",
+    reponses: ["Poivron", "Carotte", "Poireau"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Les poivrons sont indispensables dans la recette traditionnelle."
+},
+{
+    id: 26,
+    question: "La salade landaise contient traditionnellement...",
+    reponses: ["Du foie gras", "Du saumon fumé", "Du fromage de chèvre"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Foie gras, magret fumé et gésiers sont les ingrédients phares de la salade landaise."
+},
+{
+    id: 27,
+    question: "Le pan bagnat est une spécialité de quelle ville ?",
+    reponses: ["Nice", "Marseille", "Cannes"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le pan bagnat est un sandwich niçois inspiré de la salade niçoise."
+},
+{
+    id: 28,
+    question: "Le farcement est une spécialité de quelle région ?",
+    reponses: ["Savoie", "Bourgogne", "Alsace"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le farcement est une spécialité savoyarde à base de pommes de terre."
+},
+{
+    id: 29,
+    question: "La carbonade flamande est principalement cuisinée avec...",
+    reponses: ["Du bœuf", "Du porc", "Du veau"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "La carbonade flamande est un mijoté de bœuf à la bière."
+},
+{
+    id: 30,
+    question: "Le bœuf bourguignon est mijoté traditionnellement avec quel alcool ?",
+    reponses: ["Vin rouge", "Cidre", "Vin blanc"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le vin rouge de Bourgogne est au cœur de la recette traditionnelle."
+},
+{
+    id: 31,
+    question: "La chachouka française est plus connue sous quel nom en Provence ?",
+    reponses: ["Bohémienne", "Ratatouille", "Piperade"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "La bohémienne est une préparation provençale proche de la chakchouka."
+},
+{
+    id: 32,
+    question: "Le coq au vin est traditionnellement préparé avec...",
+    reponses: ["Un coq", "Une poule", "Un chapon"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "À l'origine, la recette était réalisée avec un coq mature."
+},
+{
+    id: 33,
+    question: "La potée auvergnate est un plat principalement composé de...",
+    reponses: ["Chou et porc", "Bœuf et pommes de terre", "Canard et haricots"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "La potée auvergnate associe différentes viandes de porc et du chou."
+},
+{
+    id: 34,
+    question: "Le poulet Vallée d'Auge est préparé avec quel alcool normand ?",
+    reponses: ["Calvados", "Armagnac", "Cognac"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le Calvados parfume la sauce à la crème et aux pommes."
+},
+{
+    id: 35,
+    question: "La fouée est une spécialité de quelle région ?",
+    reponses: ["Val de Loire", "Alsace", "Corse"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "La fouée est un petit pain cuit au four à bois, spécialité d'Anjou et de Touraine."
+},{
+    id: 36,
+    question: "Le hachis parmentier doit son nom à quel personnage ?",
+    reponses: ["Antoine Parmentier", "Auguste Escoffier", "Paul Bocuse"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le plat rend hommage à Antoine Parmentier, qui a popularisé la pomme de terre en France."
+},
+{
+    id: 37,
+    question: "Le pâté en croûte est une spécialité emblématique de quelle ville ?",
+    reponses: ["Lyon", "Tours", "Reims"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le pâté en croûte fait partie des grands classiques de la gastronomie lyonnaise."
+},
+{
+    id: 38,
+    question: "Le flammekueche est plus connu en français sous quel nom ?",
+    reponses: ["Tarte flambée", "Tourte alsacienne", "Galette fumée"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "La flammekueche signifie littéralement « tarte flambée » en alsacien."
+},
+{
+    id: 39,
+    question: "La salade niçoise est originaire de quelle ville ?",
+    reponses: ["Nice", "Cannes", "Antibes"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "La salade niçoise est l'une des spécialités culinaires emblématiques de Nice."
+},
+{
+    id: 40,
+    question: "La socca est une spécialité réalisée principalement avec...",
+    reponses: ["Farine de pois chiches", "Farine de blé", "Farine de maïs"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "La socca est une grande galette à base de farine de pois chiches, typique de Nice."
+},
+{
+    id: 41,
+    question: "La tarte flambée traditionnelle est garnie de crème, d'oignons et de...",
+    reponses: ["Lardons", "Champignons", "Pommes de terre"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "La recette traditionnelle alsacienne comprend de la crème, des oignons et des lardons."
+},
+{
+    id: 42,
+    question: "Le confit de canard est une spécialité de quelle région ?",
+    reponses: ["Sud-Ouest", "Normandie", "Bretagne"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le confit de canard est emblématique de la cuisine du Sud-Ouest."
+},
+{
+    id: 43,
+    question: "Le canelé est une spécialité de quelle ville ?",
+    reponses: ["Bordeaux", "Pau", "La Rochelle"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le canelé est une spécialité bordelaise reconnaissable à sa croûte caramélisée."
+},
+{
+    id: 44,
+    question: "La tapenade est préparée principalement avec...",
+    reponses: ["Des olives", "Des tomates", "Des anchois seuls"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "La tapenade est une purée d'olives dans laquelle les câpres jouent également un rôle important."
+},
+{
+    id: 45,
+    question: "Le jambon de Bayonne est produit principalement dans quelle région ?",
+    reponses: ["Nouvelle-Aquitaine", "Occitanie", "Bretagne"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le jambon de Bayonne est élaboré dans le bassin de l'Adour, en Nouvelle-Aquitaine."
+},
+{
+    id: 46,
+    question: "La quiche lorraine traditionnelle contient-elle du fromage râpé ?",
+    reponses: ["Non", "Oui", "Uniquement du comté"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "La recette traditionnelle ne comporte ni gruyère ni emmental."
+},
+{
+    id: 47,
+    question: "La rouille accompagne traditionnellement quel plat ?",
+    reponses: ["La bouillabaisse", "Le cassoulet", "La choucroute"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "La rouille est une sauce à l'ail et au safran servie avec la bouillabaisse."
+},
+{
+    id: 48,
+    question: "Le poulet Gaston Gérard est une spécialité de quelle ville ?",
+    reponses: ["Dijon", "Lyon", "Besançon"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Cette recette est née à Dijon dans les années 1930."
+},
+{
+    id: 49,
+    question: "Le gratin dauphinois est traditionnellement préparé avec quel fromage ?",
+    reponses: ["Aucun", "Comté", "Emmental"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le véritable gratin dauphinois ne contient pas de fromage."
+},
+{
+    id: 50,
+    question: "Le farci poitevin est principalement composé de...",
+    reponses: ["Légumes verts et herbes", "Bœuf haché", "Poisson"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le farci poitevin est une terrine de légumes verts, d'herbes et de viande."
+},
+{
+    id: 51,
+    question: "Le boudin blanc est traditionnellement consommé à quelle période ?",
+    reponses: ["À Noël", "À Pâques", "À la Chandeleur"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le boudin blanc est un incontournable des repas de fin d'année."
+},
+{
+    id: 52,
+    question: "La pissaladière est une spécialité de quelle ville ?",
+    reponses: ["Nice", "Marseille", "Toulon"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "La pissaladière est une spécialité niçoise à base d'oignons, d'anchois et d'olives."
+},
+{
+    id: 53,
+    question: "Le baeckeoffe est traditionnellement cuit dans un...",
+    reponses: ["Plat en terre cuite", "Plat en cuivre", "Plat en fonte"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "La cuisson lente s'effectue dans une terrine en terre cuite."
+},
+{
+    id: 54,
+    question: "La soupe au pistou est une spécialité de quelle région ?",
+    reponses: ["Provence", "Alsace", "Bretagne"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "La soupe au pistou est un grand classique de la cuisine provençale."
+},
+{
+    id: 55,
+    question: "Le pâté de campagne est traditionnellement élaboré avec quelle viande ?",
+    reponses: ["Porc", "Agneau", "Canard"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le porc constitue la base de la plupart des pâtés de campagne."
+},
+{
+    id: 56,
+    question: "Le croque-monsieur est apparu dans quelle ville ?",
+    reponses: ["Paris", "Lyon", "Bordeaux"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le croque-monsieur est apparu dans un café parisien au début du XXe siècle."
+},
+{
+    id: 57,
+    question: "Le foie gras est principalement produit dans quelle partie de la France ?",
+    reponses: ["Sud-Ouest", "Bretagne", "Normandie"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le Sud-Ouest est la principale région de production du foie gras français."
+},
+{
+    id: 58,
+    question: "La brandade de morue est une spécialité de quelle ville ?",
+    reponses: ["Nîmes", "Montpellier", "Narbonne"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "La brandade de Nîmes est la plus célèbre des brandades françaises."
+},
+{
+    id: 59,
+    question: "Le pâté aux pommes de terre est souvent enrichi de...",
+    reponses: ["Crème fraîche", "Vin rouge", "Moutarde"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "La crème fraîche apporte son onctuosité à cette spécialité berrichonne."
+},
+{
+    id: 60,
+    question: "Le tripoux est une spécialité de quelle région ?",
+    reponses: ["Auvergne", "Bretagne", "Normandie"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le tripoux est une spécialité traditionnelle de l'Auvergne et de l'Aveyron."
+},{
+    id: 61,
+    question: "L'estofinade est une spécialité traditionnelle de quel département ?",
+    reponses: ["Aveyron", "Cantal", "Corrèze"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "L'estofinade est une spécialité de l'Aveyron préparée à base de poisson séché, généralement de la morue."
+},
+{
+    id: 62,
+    question: "Le matefaim est une spécialité de quelle région ?",
+    reponses: ["Auvergne-Rhône-Alpes", "Normandie", "Alsace"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le matefaim est une épaisse crêpe paysanne très répandue dans le Lyonnais et le Forez."
+},
+{
+    id: 63,
+    question: "La mique est une spécialité culinaire de quelle région ?",
+    reponses: ["Périgord", "Bretagne", "Savoie"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "La mique est une grosse boule de pâte cuite dans un bouillon, typique du Périgord."
+},
+{
+    id: 64,
+    question: "Le millas est préparé principalement avec...",
+    reponses: ["Farine de maïs", "Farine de sarrasin", "Farine de riz"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le millas est une préparation traditionnelle du Sud-Ouest réalisée avec de la farine de maïs."
+},
+{
+    id: 65,
+    question: "Le ficatellu est une spécialité de quelle île française ?",
+    reponses: ["Corse", "Réunion", "Guadeloupe"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le ficatellu est une saucisse corse élaborée à partir de foie et de viande de porc."
+},
+{
+    id: 66,
+    question: "Le diot est une spécialité de quelle région ?",
+    reponses: ["Savoie", "Alsace", "Lorraine"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le diot est une saucisse savoyarde souvent cuisinée au vin blanc."
+},
+{
+    id: 67,
+    question: "Le farçou est une spécialité de quel département ?",
+    reponses: ["Aveyron", "Lozère", "Ardèche"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le farçou est une petite galette aux herbes et à la viande, emblématique de l'Aveyron."
+},
+{
+    id: 68,
+    question: "Les criques sont des galettes à base de...",
+    reponses: ["Pommes de terre", "Pois chiches", "Châtaignes"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Les criques sont des galettes ardéchoises préparées avec des pommes de terre râpées."
+},
+{
+    id: 69,
+    question: "Le poulet à la Gaston Gérard est parfumé avec quel condiment ?",
+    reponses: ["Moutarde", "Raifort", "Aïoli"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "La moutarde de Dijon est l'ingrédient incontournable de cette recette."
+},
+{
+    id: 70,
+    question: "Le farcement savoyard contient traditionnellement quel fruit sec ?",
+    reponses: ["Pruneaux", "Figues", "Abricots"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Les pruneaux apportent une touche sucrée caractéristique au farcement."
+},
+{
+    id: 71,
+    question: "La pochouse est une spécialité de quelle région ?",
+    reponses: ["Bourgogne", "Alsace", "Normandie"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "La pochouse est un ragoût de poissons de rivière cuits au vin blanc de Bourgogne."
+},
+{
+    id: 72,
+    question: "Le pâté de Houdan est une spécialité de quel département ?",
+    reponses: ["Yvelines", "Eure", "Loiret"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le pâté de Houdan est une spécialité traditionnelle des Yvelines."
+},
+{
+    id: 73,
+    question: "La cargolade est une spécialité de quelle région ?",
+    reponses: ["Catalogne", "Bretagne", "Lorraine"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "La cargolade est un plat catalan composé d'escargots grillés."
+},
+{
+    id: 74,
+    question: "Le civier est un plat traditionnel préparé avec...",
+    reponses: ["Du gibier", "Du poisson", "Du canard"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le civier est une préparation de gibier cuisinée avec son sang."
+},
+{
+    id: 75,
+    question: "Le matafan est une spécialité de quelle région ?",
+    reponses: ["Savoie", "Provence", "Alsace"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le matafan est une épaisse crêpe salée très populaire en Savoie."
+},
+{
+    id: 76,
+    question: "La rabote picarde est principalement préparée avec...",
+    reponses: ["Une pomme", "Une poire", "Une pêche"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "La rabote est une pomme enveloppée dans une pâte puis cuite au four."
+},
+{
+    id: 77,
+    question: "Le pâté bourbonnais est une spécialité de quelle région historique ?",
+    reponses: ["Bourbonnais", "Berry", "Nivernais"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le pâté bourbonnais est une tourte garnie de viande et de pommes de terre."
+},
+{
+    id: 78,
+    question: "Les matefaims étaient autrefois consommés principalement...",
+    reponses: ["Par les paysans", "Par les marins", "Par les soldats"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le matefaim était un plat nourrissant de la cuisine paysanne."
+},
+{
+    id: 79,
+    question: "Le fricandeau limousin est élaboré principalement avec...",
+    reponses: ["Du porc", "Du veau", "Du lapin"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le fricandeau est une spécialité limousine à base de porc."
+},
+{
+    id: 80,
+    question: "Le grenier médocain est une spécialité préparée avec quel abat ?",
+    reponses: ["L'estomac de porc", "Le foie de veau", "La langue de bœuf"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le grenier médocain est élaboré à partir d'estomac de porc soigneusement assaisonné."
+},{
+    id: 81,
+    question: "Le poulet aux écrevisses est une spécialité gastronomique de quelle région ?",
+    reponses: ["Bresse", "Alsace", "Normandie"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le poulet aux écrevisses est un grand classique de la cuisine bressane."
+},
+{
+    id: 82,
+    question: "La truffade est préparée avec quelle variété de fromage ?",
+    reponses: ["Tome fraîche de Cantal", "Reblochon", "Morbier"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "La truffade est composée de pommes de terre et de tome fraîche du Cantal."
+},
+{
+    id: 83,
+    question: "Le poulet à la crème et au vin jaune est une spécialité de quelle région ?",
+    reponses: ["Franche-Comté", "Bourgogne", "Alsace"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le vin jaune est une spécialité du Jura, en Franche-Comté."
+},
+{
+    id: 84,
+    question: "Le brocciu est un fromage emblématique de quelle région ?",
+    reponses: ["Corse", "Auvergne", "Savoie"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le brocciu est un fromage AOP corse fabriqué à partir de lactosérum."
+},
+{
+    id: 85,
+    question: "La péla est une spécialité culinaire de quelle région ?",
+    reponses: ["Savoie", "Lorraine", "Bretagne"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "La péla est un gratin savoyard de pommes de terre, proche de la tartiflette."
+},
+{
+    id: 86,
+    question: "Le baeckeoffe est traditionnellement composé de combien de viandes différentes ?",
+    reponses: ["Trois", "Deux", "Quatre"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "La recette traditionnelle associe du bœuf, du porc et de l'agneau."
+},
+{
+    id: 87,
+    question: "La soupe angevine est principalement réalisée avec...",
+    reponses: ["Des légumes verts", "Des fruits de mer", "Des pommes de terre"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "La soupe angevine est une soupe paysanne riche en légumes verts."
+},
+{
+    id: 88,
+    question: "Le gigot de sept heures est traditionnellement cuit...",
+    reponses: ["À très basse température", "À la vapeur", "À feu vif"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Sa cuisson très lente le rend particulièrement fondant."
+},
+{
+    id: 89,
+    question: "Le jambon persillé est une spécialité de quelle région ?",
+    reponses: ["Bourgogne", "Alsace", "Normandie"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le jambon persillé est un incontournable de la gastronomie bourguignonne."
+},
+{
+    id: 90,
+    question: "Le préfou est une spécialité de quel département ?",
+    reponses: ["Vendée", "Loire-Atlantique", "Maine-et-Loire"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le préfou est un pain garni d'ail et de beurre, originaire de Vendée."
+},
+{
+    id: 91,
+    question: "La mique levée accompagne traditionnellement...",
+    reponses: ["Le petit salé", "Le cassoulet", "La bouillabaisse"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Elle est souvent servie avec un petit salé ou un pot-au-feu."
+},
+{
+    id: 92,
+    question: "Le pâté de Pézenas est une spécialité de quelle région ?",
+    reponses: ["Occitanie", "Bretagne", "Alsace"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le pâté de Pézenas mélange viande d'agneau et saveurs sucrées."
+},
+{
+    id: 93,
+    question: "Le chou farci est particulièrement associé à quelle région ?",
+    reponses: ["Auvergne", "Normandie", "Corse"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le chou farci est un grand classique de la cuisine auvergnate."
+},
+{
+    id: 94,
+    question: "Les escargots à la bourguignonne sont cuisinés avec...",
+    reponses: ["Beurre, ail et persil", "Crème et moutarde", "Vin rouge et échalotes"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "La préparation traditionnelle repose sur un beurre persillé à l'ail."
+},
+{
+    id: 95,
+    question: "Le salmis est une préparation culinaire à base de...",
+    reponses: ["Gibier", "Poisson", "Veau"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le salmis est une recette traditionnelle utilisant du gibier rôti puis mijoté."
+},
+{
+    id: 96,
+    question: "Le pâté chaud lorrain est réalisé avec une pâte...",
+    reponses: ["Feuilletée", "Brisée", "Sablée"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "La pâte feuilletée est une caractéristique du pâté lorrain."
+},
+{
+    id: 97,
+    question: "La tourte vosgienne est traditionnellement garnie de...",
+    reponses: ["Viande de porc et de veau", "Poisson", "Canard"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "La tourte vosgienne est une spécialité à base de viandes marinées."
+},
+{
+    id: 98,
+    question: "La cotriade est une spécialité de quelle région ?",
+    reponses: ["Bretagne", "Normandie", "Pays Basque"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "La cotriade est une soupe de poissons typiquement bretonne."
+},
+{
+    id: 99,
+    question: "Le poulet Vallée d'Auge associe traditionnellement les pommes avec...",
+    reponses: ["De la crème", "Du vin rouge", "Du fromage"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "La recette normande marie pommes, crème fraîche et Calvados."
+},
+{
+    id: 100,
+    question: "Le farci charentais est préparé principalement avec...",
+    reponses: ["Des légumes verts", "Du bœuf", "Des lentilles"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le farci charentais est une terrine de légumes verts parfumée aux herbes, parfois enrichie de viande."
+}, {
+    id: 101,
+    question: "La poularde demi-deuil est une spécialité gastronomique de quelle ville ?",
+    reponses: ["Lyon", "Dijon", "Tours"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "La poularde demi-deuil est un monument de la cuisine lyonnaise, popularisé par la Mère Fillioux puis Paul Bocuse."
+},
+{
+    id: 102,
+    question: "Le papet vaudois français est plus proche de quelle spécialité ?",
+    reponses: ["Potée", "Cassoulet", "Bouillabaisse"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Il s'apparente à une potée à base de légumes et de viande."
+},
+{
+    id: 103,
+    question: "La chabrot est une tradition consistant à...",
+    reponses: ["Verser du vin dans la soupe", "Ajouter du pain au vin", "Mélanger du cidre au lait"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le chabrot consiste à terminer sa soupe en y ajoutant un peu de vin rouge."
+},
+{
+    id: 104,
+    question: "Le tourteau fromagé est une spécialité de quelle région ?",
+    reponses: ["Poitou", "Alsace", "Bretagne"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le tourteau fromagé est une spécialité du Poitou réalisée avec du fromage de chèvre."
+},
+{
+    id: 105,
+    question: "La mouclade est une spécialité préparée principalement avec...",
+    reponses: ["Des moules", "Des huîtres", "Des palourdes"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "La mouclade charentaise est un plat de moules à la crème et au curry."
+},
+{
+    id: 106,
+    question: "Le farci vendéen est essentiellement composé de...",
+    reponses: ["Légumes verts", "Pommes de terre", "Haricots blancs"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Comme plusieurs farcis régionaux, il met à l'honneur les légumes verts et les herbes."
+},
+{
+    id: 107,
+    question: "Le pâté de Chartres contient traditionnellement quelle viande ?",
+    reponses: ["Perdrix", "Canard", "Lapin"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le pâté de Chartres est une spécialité élaborée avec de la perdrix."
+},
+{
+    id: 108,
+    question: "Le gigourit est une spécialité de quelle région ?",
+    reponses: ["Charente", "Alsace", "Auvergne"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le gigourit est une recette charentaise préparée à partir de porc."
+},
+{
+    id: 109,
+    question: "Le pâté de Pâques berrichon contient obligatoirement...",
+    reponses: ["Des œufs durs", "Du fromage", "Des pruneaux"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Les œufs durs sont la signature de ce pâté traditionnel du Berry."
+},
+{
+    id: 110,
+    question: "Le poulet de Bresse est la seule volaille au monde à bénéficier de quelle distinction ?",
+    reponses: ["Une AOP", "Une IGP", "Un Label Rouge uniquement"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le poulet de Bresse est la seule volaille au monde à posséder une Appellation d'Origine Protégée."
+},
+{
+    id: 111,
+    question: "Le matafan est le plus souvent dégusté...",
+    reponses: ["Salé", "Sucré", "Uniquement en dessert"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Traditionnellement, le matafan est une épaisse crêpe salée."
+},
+{
+    id: 112,
+    question: "La soupe au fromage est une spécialité de quelle région ?",
+    reponses: ["Aveyron", "Normandie", "Bretagne"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "La soupe au fromage est un grand classique de l'Aveyron."
+},
+{
+    id: 113,
+    question: "Le gratton lyonnais est fabriqué principalement à partir de...",
+    reponses: ["Porc", "Canard", "Veau"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le gratton est obtenu lors de la fonte de la graisse de porc."
+},
+{
+    id: 114,
+    question: "La caillette ardéchoise contient traditionnellement beaucoup...",
+    reponses: ["D'herbes", "De fromage", "De pommes"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Les herbes fraîches lui donnent son goût caractéristique."
+},
+{
+    id: 115,
+    question: "Le crépinet est entouré de...",
+    reponses: ["Crépine de porc", "Pâte feuilletée", "Feuilles de chou"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "La crépine est une membrane graisseuse utilisée pour maintenir la préparation."
+},
+{
+    id: 116,
+    question: "Le saupiquet est une préparation culinaire à base de...",
+    reponses: ["Viande en sauce", "Poisson fumé", "Pommes de terre"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le saupiquet désigne une sauce relevée accompagnant traditionnellement des viandes."
+},
+{
+    id: 117,
+    question: "La rissole limousine est généralement farcie avec...",
+    reponses: ["De la viande", "Du poisson", "Des légumes"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Les rissoles limousines sont traditionnellement garnies de viande."
+},
+{
+    id: 118,
+    question: "Le bresi est une spécialité de quelle région ?",
+    reponses: ["Franche-Comté", "Bretagne", "Provence"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le bresi est une viande de bœuf séchée typique du Haut-Doubs."
+},
+{
+    id: 119,
+    question: "Le farcement savoyard est cuit dans...",
+    reponses: ["Un moule spécifique", "Une cocotte en fonte", "Une feuille de chou"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le farcement est préparé dans un moule traditionnel appelé 'moule à farcement'."
+},
+{
+    id: 120,
+    question: "La pochouse est préparée avec quel type de poissons ?",
+    reponses: ["Poissons de rivière", "Poissons de mer", "Poissons fumés"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "La pochouse bourguignonne met à l'honneur les poissons de rivière comme le brochet ou la tanche."
+},{
+    id: 121,
+    question: "La faluche est une spécialité boulangère originaire de quelle région ?",
+    reponses: ["Hauts-de-France", "Alsace", "Bretagne"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "La faluche est un pain blanc moelleux typique du Nord-Pas-de-Calais."
+},
+{
+    id: 122,
+    question: "Le gochtial est une spécialité de quel département ?",
+    reponses: ["Vendée", "Charente-Maritime", "Deux-Sèvres"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le gochtial est une brioche traditionnelle de Vendée."
+},
+{
+    id: 123,
+    question: "Le farci poitevin est traditionnellement cuit...",
+    reponses: ["Au bain-marie", "À la poêle", "À la vapeur"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le farci poitevin est généralement cuit lentement au bain-marie."
+},
+{
+    id: 124,
+    question: "Le chausson du Limousin est principalement garni de...",
+    reponses: ["Pommes", "Cerises", "Poires"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Cette spécialité limousine est garnie de pommes légèrement sucrées."
+},
+{
+    id: 125,
+    question: "Le gigot brayaude est une spécialité de quelle région historique ?",
+    reponses: ["Auvergne", "Berry", "Lorraine"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le gigot brayaude est une recette traditionnelle d'Auvergne."
+},
+{
+    id: 126,
+    question: "Le poulet Gaston Gérard est parfumé avec quel fromage ?",
+    reponses: ["Comté", "Roquefort", "Reblochon"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "La recette associe moutarde, crème et Comté râpé."
+},
+{
+    id: 127,
+    question: "Le pâté gaumais français est le plus proche de quelle préparation ?",
+    reponses: ["Tourte à la viande", "Terrine de campagne", "Ragoût"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Il s'agit d'une tourte garnie de viande marinée."
+},
+{
+    id: 128,
+    question: "La potée lorraine est traditionnellement préparée avec...",
+    reponses: ["Du chou", "Des lentilles", "Des haricots rouges"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Comme de nombreuses potées françaises, elle met le chou à l'honneur."
+},
+{
+    id: 129,
+    question: "Le civet est traditionnellement lié grâce à...",
+    reponses: ["Du sang", "De la crème", "Du beurre"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le sang de l'animal apporte sa texture et son goût caractéristiques."
+},
+{
+    id: 130,
+    question: "Le pâté de lapin est particulièrement réputé dans quelle région ?",
+    reponses: ["Vendée", "Alsace", "Normandie"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le pâté de lapin est une spécialité très présente en Vendée."
+},
+{
+    id: 131,
+    question: "Le navarin d'agneau tire son nom de...",
+    reponses: ["Le navet", "La marine", "Le vin blanc"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le nom 'navarin' provient du navet, ingrédient traditionnel de la recette."
+},
+{
+    id: 132,
+    question: "Le boudin aux châtaignes est une spécialité de quelle région ?",
+    reponses: ["Ardèche", "Bretagne", "Champagne"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "L'Ardèche est réputée pour ses châtaignes et ses spécialités charcutières."
+},
+{
+    id: 133,
+    question: "Le gâteau de foies de volaille est une spécialité de quelle ville ?",
+    reponses: ["Lyon", "Grenoble", "Nancy"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le gâteau de foies de volaille est un classique de la cuisine lyonnaise."
+},
+{
+    id: 134,
+    question: "La matefaim était autrefois surnommée...",
+    reponses: ["La crêpe qui cale", "La galette des bergers", "Le pain du pauvre"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Son nom signifie littéralement qu'elle 'mate la faim'."
+},
+{
+    id: 135,
+    question: "La soupe à l'oignon gratinée est traditionnellement associée à quelle ville ?",
+    reponses: ["Paris", "Lyon", "Reims"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "La soupe à l'oignon gratinée est un grand classique de la cuisine parisienne."
+},
+{
+    id: 136,
+    question: "Le jambon persillé est préparé avec quel aromate incontournable ?",
+    reponses: ["Persil", "Estragon", "Thym"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Comme son nom l'indique, le persil est l'ingrédient phare de cette spécialité."
+},
+{
+    id: 137,
+    question: "Le farcement savoyard est généralement servi en accompagnement de...",
+    reponses: ["Viandes", "Poissons", "Crustacés"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Il accompagne souvent des viandes rôties ou mijotées."
+},
+{
+    id: 138,
+    question: "Le pâté de Chartres est traditionnellement servi...",
+    reponses: ["Froid", "Très chaud", "Flambé"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le pâté de Chartres est généralement dégusté froid ou légèrement tempéré."
+},
+{
+    id: 139,
+    question: "Le coq au riesling est une spécialité de quelle région ?",
+    reponses: ["Alsace", "Bourgogne", "Champagne"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le riesling étant un vin emblématique de l'Alsace, cette recette lui est naturellement associée."
+},
+{
+    id: 140,
+    question: "Le farci charentais est souvent dégusté...",
+    reponses: ["Froid", "Très chaud", "Flambé"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Il est traditionnellement servi froid en entrée ou lors des repas d'été."
+},{
+    id: 141,
+    question: "La teurgoule est un dessert traditionnel de quelle région ?",
+    reponses: ["Normandie", "Bretagne", "Alsace"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "La teurgoule est un riz au lait parfumé à la cannelle, emblématique de la Normandie."
+},
+{
+    id: 142,
+    question: "Le pâté de Pâques berrichon est traditionnellement consommé à quelle période ?",
+    reponses: ["À Pâques", "À Noël", "À la Toussaint"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Comme son nom l'indique, ce pâté est traditionnellement préparé pour les fêtes de Pâques."
+},
+{
+    id: 143,
+    question: "Le rougail saucisse est une spécialité de quel territoire français ?",
+    reponses: ["La Réunion", "La Martinique", "La Guadeloupe"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le rougail saucisse est l'un des plats les plus emblématiques de La Réunion."
+},
+{
+    id: 144,
+    question: "Le matafan est réalisé à partir d'une pâte proche de celle des...",
+    reponses: ["Crêpes", "Gaufres", "Beignets"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le matafan est une épaisse crêpe paysanne, généralement servie salée."
+},
+{
+    id: 145,
+    question: "La ficelle picarde est gratinée avec quel fromage ?",
+    reponses: ["Emmental", "Roquefort", "Maroilles"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "La recette traditionnelle est gratinée avec de l'emmental râpé."
+},
+{
+    id: 146,
+    question: "Le civet de lièvre est traditionnellement parfumé avec...",
+    reponses: ["Vin rouge", "Cidre", "Vin jaune"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le vin rouge est indispensable à la préparation classique du civet de lièvre."
+},
+{
+    id: 147,
+    question: "La bougnette est une spécialité de quelle région ?",
+    reponses: ["Occitanie", "Bretagne", "Normandie"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "La bougnette est une spécialité du Tarn à base de viande de porc."
+},
+{
+    id: 148,
+    question: "Le tourin est souvent lié avec quel ingrédient ?",
+    reponses: ["Jaune d'œuf", "Farine", "Crème fraîche"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Selon les recettes, le tourin est lié avec un jaune d'œuf en fin de cuisson."
+},
+{
+    id: 149,
+    question: "Le jambon de Bayonne est traditionnellement affiné avec quel élément naturel ?",
+    reponses: ["Le sel de Salies-de-Béarn", "Le sel de Guérande", "Le sel de Camargue"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le cahier des charges impose l'utilisation du sel provenant du bassin de l'Adour, notamment celui de Salies-de-Béarn."
+},
+{
+    id: 150,
+    question: "La bouillabaisse traditionnelle doit comporter au minimum...",
+    reponses: ["Plusieurs espèces de poissons", "Un seul poisson", "Uniquement des crustacés"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "La recette marseillaise repose sur un mélange de plusieurs poissons de roche."
+},
+{
+    id: 151,
+    question: "Le pâté de Houdan est élaboré principalement avec quelle volaille ?",
+    reponses: ["Poule de Houdan", "Canard", "Dinde"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Il met à l'honneur la célèbre race de poule de Houdan."
+},
+{
+    id: 152,
+    question: "Le crespéou est une spécialité de quelle région ?",
+    reponses: ["Provence", "Alsace", "Lorraine"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le crespéou est un gâteau d'omelettes colorées typique de Provence."
+},
+{
+    id: 153,
+    question: "La soupe au pistou contient traditionnellement quel légume sec ?",
+    reponses: ["Haricots blancs", "Lentilles", "Pois cassés"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Les haricots blancs sont un ingrédient incontournable de la soupe au pistou."
+},
+{
+    id: 154,
+    question: "Le gratin de cardons est particulièrement associé à quelle région ?",
+    reponses: ["Lyonnais", "Bretagne", "Alsace"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le cardon est un légume emblématique de la cuisine lyonnaise."
+},
+{
+    id: 155,
+    question: "Le farcement savoyard est principalement réalisé à base de...",
+    reponses: ["Pommes de terre", "Navets", "Chou"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "La pomme de terre constitue la base de cette spécialité savoyarde."
+},
+{
+    id: 156,
+    question: "Le civier utilise traditionnellement le sang de...",
+    reponses: ["L'animal cuisiné", "Bœuf", "Porc"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le sang du gibier sert à lier la sauce."
+},
+{
+    id: 157,
+    question: "Le pâté de Pézenas associe traditionnellement la viande avec...",
+    reponses: ["Du sucre", "Du fromage", "Des olives"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le pâté de Pézenas est connu pour son étonnant mélange sucré-salé."
+},
+{
+    id: 158,
+    question: "La cotriade est souvent comparée à quel autre plat français ?",
+    reponses: ["La bouillabaisse", "Le cassoulet", "La garbure"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "La cotriade est parfois considérée comme la cousine bretonne de la bouillabaisse."
+},
+{
+    id: 159,
+    question: "Le far breton traditionnel contient généralement quels fruits ?",
+    reponses: ["Pruneaux", "Pommes", "Cerises"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Même si certaines variantes existent, les pruneaux sont les plus répandus."
+},
+{
+    id: 160,
+    question: "Le pâté lorrain est traditionnellement consommé...",
+    reponses: ["Chaud", "Froid", "Glacé"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le pâté lorrain est généralement dégusté chaud, juste sorti du four."
+},{
+    id: 161,
+    question: "Le millasson est une spécialité traditionnelle de quelle région ?",
+    reponses: ["Aveyron", "Alsace", "Normandie"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le millasson est une spécialité aveyronnaise proche d'un flan épais parfumé."
+},
+{
+    id: 162,
+    question: "Le pascadou est une spécialité culinaire de quelle région ?",
+    reponses: ["Auvergne", "Bretagne", "Lorraine"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le pascadou est une épaisse crêpe paysanne typique de l'Auvergne."
+},
+{
+    id: 163,
+    question: "La tanche est le poisson traditionnellement utilisé dans quelle spécialité bourguignonne ?",
+    reponses: ["Pochouse", "Matelote normande", "Cotriade"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "La tanche est l'un des poissons de rivière entrant dans la composition de la pochouse."
+},
+{
+    id: 164,
+    question: "Le farçon est une spécialité de quelle vallée alpine ?",
+    reponses: ["Tarentaise", "Maurienne", "Ubaye"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le farçon est une spécialité ancienne de la vallée de la Tarentaise en Savoie."
+},
+{
+    id: 165,
+    question: "Le farçon savoyard est traditionnellement sucré-salé grâce à l'ajout de...",
+    reponses: ["Fruits secs", "Miel", "Pommes"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "La recette traditionnelle incorpore notamment des raisins secs et parfois des pruneaux."
+},
+{
+    id: 166,
+    question: "La mique corrézienne accompagne traditionnellement quel plat ?",
+    reponses: ["Petit salé", "Blanquette de veau", "Potjevleesch"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "La mique est souvent servie avec un petit salé ou un pot-au-feu."
+},
+{
+    id: 167,
+    question: "Le jambon de Vendée est parfumé avec quelle eau-de-vie ?",
+    reponses: ["Cognac", "Calvados", "Mirabelle"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le jambon de Vendée est traditionnellement frotté avec du Cognac avant son affinage."
+},
+{
+    id: 168,
+    question: "Le poulet Gaston Gérard est né à la suite...",
+    reponses: ["D'une erreur de cuisine", "D'un concours culinaire", "D'une recette monastique"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "La légende raconte que la recette est née d'une maladresse rattrapée avec de la moutarde, de la crème et du fromage."
+},
+{
+    id: 169,
+    question: "Le farci charentais est le plus souvent préparé au printemps grâce à...",
+    reponses: ["L'abondance des herbes", "La récolte des pommes", "La saison des châtaignes"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Les herbes fraîches printanières sont essentielles à la recette traditionnelle."
+},
+{
+    id: 170,
+    question: "Le matafan est parfois surnommé...",
+    reponses: ["La crêpe des montagnards", "Le pain des bergers", "Le gâteau du Jura"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Ce surnom vient de son caractère simple, nourrissant et montagnard."
+},
+{
+    id: 171,
+    question: "La caillette est généralement enveloppée dans...",
+    reponses: ["Une crépine de porc", "Une feuille de chou", "Une pâte feuilletée"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "La crépine maintient la préparation pendant la cuisson."
+},
+{
+    id: 172,
+    question: "La bougnette du Tarn est principalement élaborée avec...",
+    reponses: ["Du porc", "Du bœuf", "De l'agneau"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Cette spécialité tarnaise est une préparation charcutière à base de porc."
+},
+{
+    id: 173,
+    question: "Le crespéou est constitué d'une superposition de...",
+    reponses: ["Plusieurs omelettes", "Crêpes", "Galettes de pommes de terre"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Chaque omelette est parfumée différemment avant d'être empilée."
+},
+{
+    id: 174,
+    question: "Le préfou était à l'origine utilisé pour...",
+    reponses: ["Tester la température du four", "Conserver le beurre", "Transporter le sel"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Les boulangers enfournaient un petit pâton afin de vérifier si le four était à bonne température."
+},
+{
+    id: 175,
+    question: "Le pâté de Chartres est traditionnellement présenté sous quelle forme ?",
+    reponses: ["En croûte", "En terrine", "En bocal"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le pâté de Chartres est un pâté en croûte raffiné."
+},
+{
+    id: 176,
+    question: "Le gratton lyonnais est obtenu après la fonte de...",
+    reponses: ["La graisse de porc", "La graisse d'oie", "La graisse de canard"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Les morceaux de viande et de gras de porc sont lentement confits avant d'être dorés."
+},
+{
+    id: 177,
+    question: "Le farçon de Tarentaise est traditionnellement cuit dans...",
+    reponses: ["Un moule à cheminée", "Une cocotte en fonte", "Un plat en terre cuite"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Son moule spécifique lui donne sa forme caractéristique."
+},
+{
+    id: 178,
+    question: "Le gigourit charentais est préparé immédiatement après...",
+    reponses: ["L'abattage du porc", "Les vendanges", "La chasse"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Cette spécialité faisait partie des traditions liées à la tuaille du cochon."
+},
+{
+    id: 179,
+    question: "La potée auvergnate est traditionnellement préparée avec quel légume emblématique ?",
+    reponses: ["Chou vert", "Poivron", "Courgette"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le chou vert est l'ingrédient central de la potée auvergnate."
+},
+{
+    id: 180,
+    question: "Le saupiquet est une sauce traditionnellement relevée avec...",
+    reponses: ["Du vinaigre", "Du lait", "Du miel"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le vinaigre apporte l'acidité caractéristique de cette sauce ancienne."
+},{
+    id: 181,
+    question: "Le poulet au vinaigre est une spécialité traditionnellement associée à quelle ville ?",
+    reponses: ["Lyon", "Dijon", "Tours"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le poulet au vinaigre est une recette emblématique de la cuisine lyonnaise, popularisée par Paul Bocuse."
+},
+{
+    id: 182,
+    question: "Le poulet de Bresse doit être nourri principalement avec...",
+    reponses: ["Des céréales et des produits laitiers", "Uniquement du maïs", "Du soja"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le cahier des charges de l'AOP impose une alimentation à base de céréales complétée par des produits laitiers."
+},
+{
+    id: 183,
+    question: "La soupe au pistou se distingue du pesto italien par l'absence de...",
+    reponses: ["Pignons de pin", "Basilic", "Huile d'olive"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le pistou provençal est préparé sans pignons de pin, contrairement au pesto génois."
+},
+{
+    id: 184,
+    question: "La cargolade est traditionnellement dégustée lors de fêtes populaires dans quelle région ?",
+    reponses: ["Catalogne française", "Sologne", "Bresse"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "La cargolade est une tradition culinaire du Roussillon et de la Catalogne française."
+},
+{
+    id: 185,
+    question: "Le farci charentais est souvent parfumé avec quelle herbe aromatique ?",
+    reponses: ["Oseille", "Estragon", "Fenouil"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "L'oseille fait partie des herbes fréquemment utilisées dans les recettes traditionnelles."
+},
+{
+    id: 186,
+    question: "La truffade et l'aligot utilisent tous deux quel fromage ?",
+    reponses: ["La tome fraîche", "Le reblochon", "Le cantal entre-deux"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Ces deux spécialités utilisent de la tome fraîche, même si leurs recettes diffèrent."
+},
+{
+    id: 187,
+    question: "Le gratin de cardons est un plat traditionnellement servi pendant...",
+    reponses: ["Les fêtes de fin d'année", "La Chandeleur", "Le 14 juillet"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "À Lyon et dans plusieurs régions, le gratin de cardons est un incontournable du repas de Noël."
+},
+{
+    id: 188,
+    question: "Le farçon de Tarentaise est préparé avec quel féculent ?",
+    reponses: ["Pommes de terre", "Riz", "Semoule"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Les pommes de terre constituent la base de cette ancienne recette savoyarde."
+},
+{
+    id: 189,
+    question: "La soupe à l'oignon gratinée était autrefois particulièrement appréciée par...",
+    reponses: ["Les travailleurs des Halles de Paris", "Les marins bretons", "Les mineurs du Nord"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Elle était servie très tôt le matin autour des Halles de Paris."
+},
+{
+    id: 190,
+    question: "Le gigot de sept heures porte ce nom en raison...",
+    reponses: ["De sa durée de cuisson", "Du nombre d'ingrédients", "De l'heure traditionnelle du repas"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Il est cuit très lentement pendant environ sept heures afin d'obtenir une viande extrêmement fondante."
+},
+{
+    id: 191,
+    question: "Le matafan était autrefois préparé afin de...",
+    reponses: ["Rassasier rapidement les familles", "Accompagner les vendanges", "Conserver les œufs"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Son nom signifie littéralement 'mate la faim', ce qui reflète sa vocation nourrissante."
+},
+{
+    id: 192,
+    question: "Le préfou est aujourd'hui traditionnellement garni de...",
+    reponses: ["Beurre à l'ail", "Tomate et mozzarella", "Rillettes"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Le préfou vendéen est servi chaud avec un généreux beurre à l'ail."
+},
+{
+    id: 193,
+    question: "La potée est avant tout une technique de cuisson...",
+    reponses: ["À l'étouffée dans un bouillon", "Au four", "À la plancha"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "La cuisson lente dans un bouillon est le principe commun des différentes potées régionales."
+},
+{
+    id: 194,
+    question: "Le pâté de Pâques berrichon se reconnaît immédiatement grâce à...",
+    reponses: ["Ses œufs durs entiers", "Sa pâte noire", "Son glaçage"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Une fois coupé, les œufs durs apparaissent au centre de chaque tranche."
+},
+{
+    id: 195,
+    question: "Le gratton lyonnais est généralement servi...",
+    reponses: ["À l'apéritif", "En dessert", "Avec des fruits de mer"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Les grattons sont souvent dégustés tièdes ou froids à l'apéritif."
+},
+{
+    id: 196,
+    question: "Le jambon persillé est traditionnellement pris dans une gelée réalisée à partir...",
+    reponses: ["Du bouillon de cuisson", "De gélatine végétale", "De vin blanc uniquement"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "La gelée provient naturellement du bouillon de cuisson riche en collagène."
+},
+{
+    id: 197,
+    question: "Le cassoulet de Castelnaudary est traditionnellement préparé avec quel légume sec ?",
+    reponses: ["Haricots blancs", "Lentilles vertes", "Pois cassés"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Les haricots blancs sont l'élément indispensable de tous les cassoulets traditionnels."
+},
+{
+    id: 198,
+    question: "La bouillabaisse est traditionnellement accompagnée de...",
+    reponses: ["Rouille et croûtons", "Pommes vapeur", "Riz pilaf"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "La rouille tartinée sur des croûtons accompagne traditionnellement la dégustation."
+},
+{
+    id: 199,
+    question: "La cuisine lyonnaise est souvent surnommée...",
+    reponses: ["La capitale de la gastronomie française", "La cuisine des montagnes", "La cuisine des marins"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "Lyon est largement considérée comme la capitale de la gastronomie française."
+},
+{
+    id: 200,
+    question: "Quel repas gastronomique français a été inscrit au patrimoine culturel immatériel de l'UNESCO en 2010 ?",
+    reponses: ["Le repas gastronomique des Français", "Le banquet royal", "Le dîner parisien"],
+    reponse_v: reponses[0],
+    reponse_f1: reponses[1],
+    reponse_f2 : reponses[2],
+    explication: "En 2010, l'UNESCO a inscrit le repas gastronomique des Français au patrimoine culturel immatériel de l'humanité."
+},
+
+]

@@ -1,44 +1,73 @@
 import { useMemo, useState } from "react";
 import { useNavigate } from "react-router-dom";
+///////////////////////////// Adminsys
+import { dataQuizzLinux } from "../../data/informatique/adminsys/dataQuizzLinux.js";
+import { dataQuizzPostgresql } from "../../data/informatique/adminsys/dataQuizzPostgresql.js";
+import { dataQuizzAdministrationLinux } from "../../data/informatique/adminsys/dataQuizzAdministrationLinux.js";
+import { dataQuizzPostgresqlDba } from "../../data/informatique/adminsys/dataQuizzPostgresqlDba.js";
+import { dataQuizzLinuxScripts } from "../../data/informatique/adminsys/dataQuizzLinuxScripts.js";
+import { dataQuizzScriptShell } from "../../data/informatique/adminsys/dataQuizzScriptShell.js";
+import { dataQuizzSQL } from "../../data/informatique/adminsys/dataQuizzSQL.js";
+///////////////////////////// Securite
+import { dataQuizzSecurite } from "../../data/informatique/securite/dataQuizzSecurite.js";
+import { dataQuizz_chiffrement_certificats_gestion_cles_normes_protocoles_tres_difficiles } from "../../data/informatique/securite/dataQuizz_chiffrement_certificats_gestion_cles_normes_protocoles_tres_difficiles.js";
+import { dataQuizz_cybersecurite_acteurs_principes_connaissances_generales_tres_difficiles } from "../../data/informatique/securite/dataQuizz_cybersecurite_acteurs_principes_connaissances_generales_tres_difficiles.js";
+import { dataQuizz_gestion_identite_interconnexion_authentification_forte_tres_difficiles } from "../../data/informatique/securite/dataQuizz_gestion_identite_interconnexion_authentification_forte_tres_difficiles.js";
+import { dataQuizz_resilience_pca_pra_haute_disponibilite_multisite_attaques_parades_tres_difficiles } from "../../data/informatique/securite/dataQuizz_resilience_pca_pra_haute_disponibilite_multisite_attaques_parades_tres_difficiles.js";
+///////////////////////////// Reseaux
+import { dataQuizzReseau } from "../../data/informatique/reseaux/dataQuizzReseau.js";
+import { dataQuizz_cidr_plan_adressage_ipv4_ipv6_tres_difficiles } from "../../data/informatique/reseaux/dataQuizz_cidr_plan_adressage_ipv4_ipv6_tres_difficiles.js";
+import { dataQuizz_cloud_computing_mini_tp_tres_difficiles } from "../../data/informatique/reseaux/dataQuizz_cloud_computing_mini_tp_tres_difficiles.js";
+import { dataQuizz_modeles_osi_dod_mini_tp_tres_difficiles } from "../../data/informatique/reseaux/dataQuizz_modeles_osi_dod_mini_tp_tres_difficiles.js";
+import { dataQuizz_pile_tcp_ip_typologies_protocoles_infrastructures_tres_difficiles } from "../../data/informatique/reseaux/dataQuizz_pile_tcp_ip_typologies_protocoles_infrastructures_tres_difficiles.js";
+///////////////////////////// Developpement
+import { dataQuizzJava } from "../../data/informatique/developpement/dataQuizzJavaFacile.js";
+import { dataQuizzJavaAffichage } from "../../data/informatique/developpement/dataQuizzJavaAffichage.js";
+import { dataQuizzJavaExpert } from "../../data/informatique/developpement/dataQuizzJavaAvance.js";
+import { dataQuizzProgrammationDeTest } from "../../data/informatique/developpement/dataQuizzProgrammationDeTest.js";
+import { dataQuizz_python_mini_tp_tres_difficiles } from "../../data/informatique/developpement/dataQuizz_python_mini_tp_tres_difficiles.js";
+import { dataQuizz_java_mini_tp_tres_difficiles } from "../../data/informatique/developpement/dataQuizz_java_mini_tp_tres_difficiles.js";
+import { dataQuizz_javascript_mini_tp_tres_difficiles } from "../../data/informatique/developpement/dataQuizz_javascript_mini_tp_tres_difficiles.js";
+///////////////////////////// Conception et réalisation
+import { dataQuizzMerise } from "../../data/informatique/conception/dataQuizzMerise.js";
+import { dataQuizzUml } from "../../data/informatique/conception/dataQuizzUml.js";
+import { dataQuizzSchemaConception } from "../../data/informatique/conception/dataQuizzSchemaConception.js";
+import { dataQuizz_merise_cas_utilisation_etats_transitions_difficiles } from "../../data/informatique/conception/dataQuizz_merise_cas_utilisation_etats_transitions_difficiles.js";
+import { dataQuizz_uml_mcd_mld_mini_tp_difficiles } from "../../data/informatique/conception/dataQuizz_uml_mcd_mld_mini_tp_difficiles.js";
+import { dataQuizzMethodesAnalyse } from "../../data/informatique/conception/dataQuizzMethodesAnalyse.js";
+import { dataQuizzConceptsObjet } from "../../data/informatique/culture/dataQuizzConceptsObjet.js";
+///////////////////////////// Gestion de projet
+import { dataQuizzUrbanisationSystemesInfo } from "../../data/informatique/gestion/dataQuizzUrbanisationSystemesInfo.js";
+import { dataQuizzConduiteProjetInfo } from "../../data/informatique/gestion/dataQuizzConduiteProjetInfo.js";
+import { dataQuizzPartenaireProjet } from "../../data/informatique/gestion/dataQuizzPartenaireProjet.js";
+import { dataQuizzSchemaDirecteur } from "../../data/informatique/gestion/dataQuizzSchemaDirecteur.js";
+import { dataQuizzCycleVieApplication } from "../../data/informatique/gestion/dataQuizzCycleVieApplication.js";
 
-import { dataQuizzLinux } from "../../data/informatique/dataQuizzLinux.js";
-import { dataQuizzSecurite } from "../../data/informatique/dataQuizzSecurite.js";
-import { dataQuizzReseau } from "../../data/informatique/dataQuizzReseau.js";
-import { dataQuizzScriptShell } from "../../data/informatique/dataQuizzScriptShell.js";
-import { dataQuizzJava } from "../../data/informatique/dataQuizzJavaFacile.js";
-import { dataQuizzJavaExpert } from "../../data/informatique/dataQuizzJavaAvance.js";
-import { dataQuizzJavaAffichage } from "../../data/informatique/dataQuizzJavaAffichage.js";
-import { dataQuizzLogiqueFacile } from "../../data/informatique/dataQuizzLogiqueFacile.js";
-import { dataQuizzAdministrationLinux } from "../../data/informatique/dataQuizzAdministrationLinux.js";
-import { dataQuizzPostgresql } from "../../data/informatique/dataQuizzPostgresql.js";
-import { dataQuizzPostgresqlDba } from "../../data/informatique/dataQuizzPostgresqlDba.js";
-import { dataQuizzMerise } from "../../data/informatique/dataQuizzMerise.js";
-import { dataQuizzUml } from "../../data/informatique/dataQuizzUml.js";
-import { dataQuizzConceptsObjet } from "../../data/informatique/dataQuizzConceptsObjet.js";
-import { dataQuizzUrbanisationSystemesInfo } from "../../data/informatique/dataQuizzUrbanisationSystemesInfo.js";
-import { dataQuizzConduiteProjetInfo } from "../../data/informatique/dataQuizzConduiteProjetInfo.js";
-import { dataQuizzPartenaireProjet } from "../../data/informatique/dataQuizzPartenaireProjet.js";
-import { dataQuizzSchemaDirecteur } from "../../data/informatique/dataQuizzSchemaDirecteur.js";
-import { dataQuizzCycleVieApplication } from "../../data/informatique/dataQuizzCycleVieApplication.js";
-import { dataQuizzEvolutionLanguage } from "../../data/informatique/dataQuizzEvolutionLanguage.js";
-import { dataQuizzProgrammationDeTest } from "../../data/informatique/dataQuizzProgrammationDeTest.js";
-import { dataQuizzLinuxScripts } from "../../data/informatique/dataQuizzLinuxScripts.js";
-
-import { dataQuizzSchemaConception } from "../../data/informatique/dataQuizzSchemaConception.js";
-import { dataQuizzSQL } from "../../data/informatique/dataQuizzSQL.js";
-import { dataQuizzLogiqueAvancee } from "../../data/informatique/dataQuizzLogiqueAvancee.js";
-
-import { dataQuizz_generalites_architectures_informatiques } from "../../data/informatique/dataQuizz_generalites_architectures_informatiques.js";
-import { dataQuizz_generalites_systemes_exploitation } from "../../data/informatique/dataQuizz_generalites_systemes_exploitation.js";
-import { dataQuizzOutilsTestsConfigurationDeploiement } from "../../data/informatique/dataQuizzOutilsTestsConfigurationDeploiement.js";
-import { dataQuizzOutilsAideRealisation } from "../../data/informatique/dataQuizzOutilsAideRealisation.js";
-import { dataQuizzOutilsAideConception } from "../../data/informatique/dataQuizzOutilsAideConception.js";
-import { dataQuizz_generations_principaux_langages_informatiques } from "../../data/informatique/dataQuizz_generations_principaux_langages_informatiques.js";
+///////////////////////////// Logique
+import { dataQuizzLogiqueAvancee } from "../../data/informatique/logique/dataQuizzLogiqueAvancee.js";
+import { dataQuizzLogiqueFacile } from "../../data/informatique/logique/dataQuizzLogiqueFacile.js";
+import { dataQuizz_logique_mini_tp_tres_difficiles } from "../../data/informatique/logique/dataQuizz_logique_mini_tp_tres_difficiles.js";
+///////////////////////////// IA
+import { dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles } from "../../data/informatique/ia/dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles.js";
+///////////////////////////// Data
+import { dataQuizz_bases_nosql_principes_usages_tres_difficiles } from "../../data/informatique/donnees/dataQuizz_bases_nosql_principes_usages_tres_difficiles.js";
+import { dataQuizz_exposition_donnees_open_data_tres_difficiles } from "../../data/informatique/donnees/dataQuizz_exposition_donnees_open_data_tres_difficiles.js";
+import { dataQuizz_sauvegarde_archivage_mini_tp_tres_difficiles } from "../../data/informatique/donnees/dataQuizz_sauvegarde_archivage_mini_tp_tres_difficiles.js";
+///////////////////////////// Culture
+import { dataQuizz_generalites_architectures_informatiques } from "../../data/informatique/culture/dataQuizz_generalites_architectures_informatiques.js";
+import { dataQuizz_generalites_systemes_exploitation } from "../../data/informatique/culture/dataQuizz_generalites_systemes_exploitation.js";
+import { dataQuizz_generations_principaux_langages_informatiques } from "../../data/informatique/culture/dataQuizz_generations_principaux_langages_informatiques.js";
+import { dataQuizzEvolutionLanguage } from "../../data/informatique/culture/dataQuizzEvolutionLanguage.js";
+///////////////////////////// Outils
+import { dataQuizzOutilsTestsConfigurationDeploiement } from "../../data/informatique/outils/dataQuizzOutilsTestsConfigurationDeploiement.js";
+import { dataQuizzOutilsAideRealisation } from "../../data/informatique/outils/dataQuizzOutilsAideRealisation.js";
+import { dataQuizzOutilsAideConception } from "../../data/informatique/outils/dataQuizzOutilsAideConception.js";
+///////////////////////////// Juridique
 import { dataQuizz_cadre_juridique_communications_electroniques } from "../../data/informatique/juridique/dataQuizz_cadre_juridique_communications_electroniques.js";
 import { dataQuizz_droit_informatique } from "../../data/informatique/juridique/dataQuizz_droit_informatique.js";
 import { dataQuizzInstancesNormalisation } from "../../data/informatique/juridique/dataQuizzInstancesNormalisation.js";
 import { dataQuizzMarchesPublics } from "../../data/informatique/juridique/dataQuizzMarchesPublics.js";
-
+///////////////////////////// Test app
 import { dataQuizzTestFin } from "../../data/informatique/dataQuizzTestFin.js";
 
 const dataQuizz = {
@@ -80,6 +109,35 @@ const dataQuizz = {
   instances_normalisation: dataQuizzInstancesNormalisation,
   marches_publics: dataQuizzMarchesPublics,
   test_fin: dataQuizzTestFin,
+
+  chiffrement:
+    dataQuizz_chiffrement_certificats_gestion_cles_normes_protocoles_tres_difficiles,
+  cybersecurite:
+    dataQuizz_cybersecurite_acteurs_principes_connaissances_generales_tres_difficiles,
+  authentification:
+    dataQuizz_gestion_identite_interconnexion_authentification_forte_tres_difficiles,
+  resilience:
+    dataQuizz_resilience_pca_pra_haute_disponibilite_multisite_attaques_parades_tres_difficiles,
+
+  nosql: dataQuizz_bases_nosql_principes_usages_tres_difficiles,
+  exposition_donnees: dataQuizz_exposition_donnees_open_data_tres_difficiles,
+  sauvegarde_archivage: dataQuizz_sauvegarde_archivage_mini_tp_tres_difficiles,
+
+  python_expert: dataQuizz_python_mini_tp_tres_difficiles,
+  java_expert: dataQuizz_java_mini_tp_tres_difficiles,
+  javascript_expert: dataQuizz_javascript_mini_tp_tres_difficiles,
+  merise_exos: dataQuizz_merise_cas_utilisation_etats_transitions_difficiles,
+  uml_exos: dataQuizz_uml_mcd_mld_mini_tp_difficiles,
+  methodes_analyse: dataQuizzMethodesAnalyse,
+  logique_expert: dataQuizz_logique_mini_tp_tres_difficiles,
+  intelligence_artificielle:
+    dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles,
+
+  cidr_ipv4_ipv6: dataQuizz_cidr_plan_adressage_ipv4_ipv6_tres_difficiles,
+  cloud_computing: dataQuizz_cloud_computing_mini_tp_tres_difficiles,
+  modele_osi_dod: dataQuizz_modeles_osi_dod_mini_tp_tres_difficiles,
+  typologies_reseaux:
+    dataQuizz_pile_tcp_ip_typologies_protocoles_infrastructures_tres_difficiles,
 };
 
 const titresThemes = {
@@ -121,6 +179,32 @@ const titresThemes = {
   instances_normalisation: "Instances de normalisation",
   marches_publics: "Marchés publics",
   test_fin: "Test de Fin",
+
+  chiffrement:
+    "Chiffrement, certificats, gestion de clés, normes et protocoless",
+  cybersecurite: "Cybersecurite acteurs principes connaissances generales",
+  authentification: "Gestion identite interconnexion authentification forte",
+  resilience:
+    "Resilience pca pra haute disponibilite multisite attaques parades",
+
+  nosql: "Bases noSQL, principes et usages",
+  exposition_donnees: "Exposition des données et open data",
+  sauvegarde_archivage: "Sauvegarde et archivage mini_tp",
+
+  python_expert: "Python expert",
+  java_expert: "Java expert",
+  javascript_expert: "Javascript expert",
+  merise_exos: "Merise cas d'utilisation, états transitions",
+  uml_exos: "Uml mcd mld exos",
+  methodes_analyse: "Methodes d'analyse",
+  logique_expert: "Logique expert",
+  intelligence_artificielle: "Intelligence Artificielle Généralités",
+
+  cidr_ipv4_ipv6: "CIDR, Plan d'adressage IPV4 et IPV6",
+  cloud_computing: "Cloud computing",
+  modele_osi_dod: "Modeles OSI et DOD",
+  typologies_reseaux:
+    "Pile TCP/IP, typologies, protocoles et infrastructures réseaux",
 };
 
 function melangerReponses(reponses) {

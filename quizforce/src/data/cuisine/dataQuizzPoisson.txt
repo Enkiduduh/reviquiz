@@ -1,0 +1,1594 @@
+export const dataQuizzPoisson = [
+
+{
+    id: 1,
+    question: "Quel poisson est principalement utilisé pour préparer un fish and chips traditionnel ?",
+    reponse_v: "Le cabillaud",
+    reponse_f1: "Le saumon",
+    reponse_f2: "La truite",
+    explication: "Le fish and chips britannique est traditionnellement préparé avec du cabillaud."
+},
+{
+    id: 2,
+    question: "Quel poisson est particulièrement apprécié pour sa chair riche en oméga-3 ?",
+    reponse_v: "Le saumon",
+    reponse_f1: "Le merlan",
+    reponse_f2: "La sole",
+    explication: "Le saumon est l'un des poissons les plus riches en acides gras oméga-3."
+},
+{
+    id: 3,
+    question: "Quel poisson plat est réputé pour sa chair très fine ?",
+    reponse_v: "La sole",
+    reponse_f1: "Le thon",
+    reponse_f2: "Le maquereau",
+    explication: "La sole est un poisson plat très recherché en gastronomie."
+},
+{
+    id: 4,
+    question: "Quel poisson est principalement utilisé pour préparer une brandade de morue ?",
+    reponse_v: "La morue",
+    reponse_f1: "Le hareng",
+    reponse_f2: "La sardine",
+    explication: "La brandade est élaborée à partir de morue salée et dessalée."
+},
+{
+    id: 5,
+    question: "Quel est le nom du cabillaud lorsqu'il est salé et séché ?",
+    reponse_v: "La morue",
+    reponse_f1: "Le haddock",
+    reponse_f2: "Le colin",
+    explication: "La morue est du cabillaud conservé par salage puis séchage."
+},
+{
+    id: 6,
+    question: "Quel poisson est fumé pour devenir du haddock ?",
+    reponse_v: "L'aiglefin",
+    reponse_f1: "Le cabillaud",
+    reponse_f2: "Le merlu",
+    explication: "Le haddock est obtenu à partir d'aiglefin fumé."
+},
+{
+    id: 7,
+    question: "Quel poisson est célèbre pour ses longues migrations entre les rivières et la mer ?",
+    reponse_v: "Le saumon",
+    reponse_f1: "La dorade",
+    reponse_f2: "Le bar",
+    explication: "Le saumon naît en eau douce puis migre vers la mer avant de revenir se reproduire."
+},
+{
+    id: 8,
+    question: "Quel poisson est principalement utilisé pour préparer des sushis et sashimis ?",
+    reponse_v: "Le thon",
+    reponse_f1: "Le merlan",
+    reponse_f2: "Le lieu noir",
+    explication: "Le thon est l'un des poissons les plus utilisés dans la cuisine japonaise."
+},
+{
+    id: 9,
+    question: "Quel poisson est reconnaissable à sa chair orange ?",
+    reponse_v: "Le saumon",
+    reponse_f1: "Le cabillaud",
+    reponse_f2: "Le merlan",
+    explication: "La couleur du saumon provient notamment de son alimentation riche en crustacés."
+},
+{
+    id: 10,
+    question: "Quel poisson est réputé pour vivre aussi bien en eau douce qu'en eau salée ?",
+    reponse_v: "L'anguille",
+    reponse_f1: "Le turbot",
+    reponse_f2: "La sole",
+    explication: "L'anguille est un poisson migrateur qui alterne entre eau douce et eau de mer."
+},{
+    id: 11,
+    question: "Quel poisson est considéré comme un poisson plat ?",
+    reponse_v: "Le turbot",
+    reponse_f1: "Le maquereau",
+    reponse_f2: "Le hareng",
+    explication: "Le turbot est un poisson plat très recherché pour la finesse de sa chair."
+},
+{
+    id: 12,
+    question: "Quel poisson est réputé pour sa chair ferme et blanche, souvent cuisiné entier ?",
+    reponse_v: "Le bar",
+    reponse_f1: "La sardine",
+    reponse_f2: "L'anchois",
+    explication: "Le bar est un poisson noble très apprécié en cuisine."
+},
+{
+    id: 13,
+    question: "Quel poisson est également appelé loup en Méditerranée ?",
+    reponse_v: "Le bar",
+    reponse_f1: "Le merlu",
+    reponse_f2: "Le lieu jaune",
+    explication: "Le bar est couramment appelé loup sur les côtes méditerranéennes."
+},
+{
+    id: 14,
+    question: "Quel poisson est principalement utilisé pour préparer une bouillabaisse traditionnelle ?",
+    reponse_v: "La rascasse",
+    reponse_f1: "Le cabillaud",
+    reponse_f2: "Le saumon",
+    explication: "La rascasse est le poisson emblématique de la bouillabaisse marseillaise."
+},
+{
+    id: 15,
+    question: "Quel poisson est souvent surnommé le 'roi des poissons plats' ?",
+    reponse_v: "Le turbot",
+    reponse_f1: "La plie",
+    reponse_f2: "La limande",
+    explication: "Le turbot est considéré comme l'un des poissons plats les plus prestigieux."
+},
+{
+    id: 16,
+    question: "Quel poisson est principalement pêché pour produire des anchois ?",
+    reponse_v: "L'anchois",
+    reponse_f1: "La sardine",
+    reponse_f2: "Le hareng",
+    explication: "Les anchois sont préparés directement à partir du poisson du même nom."
+},
+{
+    id: 17,
+    question: "Quel poisson est célèbre pour former d'immenses bancs dans l'Atlantique Nord ?",
+    reponse_v: "Le hareng",
+    reponse_f1: "Le turbot",
+    reponse_f2: "La sole",
+    explication: "Le hareng est un poisson grégaire vivant en bancs très importants."
+},
+{
+    id: 18,
+    question: "Quel poisson gras est souvent consommé fumé au petit-déjeuner ?",
+    reponse_v: "Le hareng",
+    reponse_f1: "Le merlan",
+    reponse_f2: "Le cabillaud",
+    explication: "Le hareng fumé est une spécialité appréciée dans plusieurs pays européens."
+},
+{
+    id: 19,
+    question: "Quel poisson est particulièrement riche en vitamine D ?",
+    reponse_v: "Le maquereau",
+    reponse_f1: "La sole",
+    reponse_f2: "Le merlan",
+    explication: "Le maquereau est un poisson gras très riche en vitamine D et en oméga-3."
+},
+{
+    id: 20,
+    question: "Quel poisson est souvent vendu en conserve dans de l'huile ou de la tomate ?",
+    reponse_v: "La sardine",
+    reponse_f1: "Le turbot",
+    reponse_f2: "La sole",
+    explication: "La sardine est l'un des poissons les plus fréquemment mis en conserve."
+},
+{
+    id: 21,
+    question: "Quel poisson est principalement utilisé pour préparer un ceviche ?",
+    reponse_v: "Le bar",
+    reponse_f1: "L'anguille",
+    reponse_f2: "Le maquereau",
+    explication: "Le ceviche est généralement préparé avec un poisson blanc très frais comme le bar."
+},
+{
+    id: 22,
+    question: "Quel poisson est surnommé 'poisson bleu' en raison de son dos ?",
+    reponse_v: "Le maquereau",
+    reponse_f1: "Le turbot",
+    reponse_f2: "Le cabillaud",
+    explication: "Le maquereau appartient à la famille des poissons bleus."
+},
+{
+    id: 23,
+    question: "Quel poisson est particulièrement adapté à une cuisson en papillote ?",
+    reponse_v: "La dorade",
+    reponse_f1: "Le thon",
+    reponse_f2: "Le hareng",
+    explication: "La dorade entière est souvent cuite en papillote afin de préserver son moelleux."
+},
+{
+    id: 24,
+    question: "Quel poisson possède une chair naturellement rouge ?",
+    reponse_v: "Le thon",
+    reponse_f1: "Le cabillaud",
+    reponse_f2: "Le lieu noir",
+    explication: "La chair du thon est rouge en raison de sa forte concentration en myoglobine."
+},
+{
+    id: 25,
+    question: "Quel poisson est principalement utilisé pour préparer un tataki ?",
+    reponse_v: "Le thon",
+    reponse_f1: "La sole",
+    reponse_f2: "Le merlan",
+    explication: "Le tataki consiste à saisir rapidement un pavé de thon tout en laissant le cœur cru."
+},
+{
+    id: 26,
+    question: "Quel poisson est réputé pour sa vitesse de nage exceptionnelle ?",
+    reponse_v: "Le thon",
+    reponse_f1: "Le cabillaud",
+    reponse_f2: "La limande",
+    explication: "Le thon est l'un des nageurs les plus rapides parmi les poissons."
+},
+{
+    id: 27,
+    question: "Quel poisson est principalement élevé dans les piscicultures françaises d'eau douce ?",
+    reponse_v: "La truite",
+    reponse_f1: "Le turbot",
+    reponse_f2: "Le bar",
+    explication: "La truite est le poisson d'élevage d'eau douce le plus courant en France."
+},
+{
+    id: 28,
+    question: "Quel poisson est souvent pêché dans les torrents et les rivières froides ?",
+    reponse_v: "La truite",
+    reponse_f1: "Le maquereau",
+    reponse_f2: "La sardine",
+    explication: "La truite affectionne les eaux fraîches, bien oxygénées et courantes."
+},
+{
+    id: 29,
+    question: "Quel poisson possède une ligne latérale très visible et des rayures sur le dos ?",
+    reponse_v: "Le maquereau",
+    reponse_f1: "La sole",
+    reponse_f2: "Le cabillaud",
+    explication: "Le maquereau est facilement reconnaissable grâce à ses bandes sombres."
+},
+{
+    id: 30,
+    question: "Quel poisson est traditionnellement servi avec une sauce au beurre blanc dans la cuisine nantaise ?",
+    reponse_v: "Le sandre",
+    reponse_f1: "Le hareng",
+    reponse_f2: "Le maquereau",
+    explication: "Le sandre accompagné d'un beurre blanc est un grand classique de la gastronomie ligérienne."
+},{
+    id: 31,
+    question: "Quel poisson est principalement pêché en eau douce et possède une chair très fine ?",
+    reponse_v: "Le brochet",
+    reponse_f1: "Le maquereau",
+    reponse_f2: "Le hareng",
+    explication: "Le brochet est un grand carnassier d'eau douce très apprécié en cuisine."
+},
+{
+    id: 32,
+    question: "Quel poisson est traditionnellement utilisé pour préparer des quenelles de poisson ?",
+    reponse_v: "Le brochet",
+    reponse_f1: "La sardine",
+    reponse_f2: "Le cabillaud",
+    explication: "Les quenelles lyonnaises sont historiquement préparées avec du brochet."
+},
+{
+    id: 33,
+    question: "Quel poisson d'eau douce est réputé pour ses nombreuses arêtes en Y ?",
+    reponse_v: "Le brochet",
+    reponse_f1: "Le sandre",
+    reponse_f2: "La truite",
+    explication: "Le brochet possède de nombreuses arêtes fines nécessitant une préparation soignée."
+},
+{
+    id: 34,
+    question: "Quel poisson est considéré comme un carnassier d'eau douce ?",
+    reponse_v: "Le sandre",
+    reponse_f1: "La carpe",
+    reponse_f2: "La tanche",
+    explication: "Le sandre est un prédateur recherché pour sa chair délicate."
+},
+{
+    id: 35,
+    question: "Quel poisson est principalement élevé en Asie pour l'alimentation ?",
+    reponse_v: "Le tilapia",
+    reponse_f1: "Le turbot",
+    reponse_f2: "Le brochet",
+    explication: "Le tilapia est l'un des poissons d'élevage les plus produits au monde."
+},
+{
+    id: 36,
+    question: "Quel poisson possède un foie utilisé pour produire une huile riche en vitamines ?",
+    reponse_v: "Le cabillaud",
+    reponse_f1: "Le saumon",
+    reponse_f2: "La sole",
+    explication: "L'huile de foie de morue est obtenue à partir du foie du cabillaud."
+},
+{
+    id: 37,
+    question: "Quel poisson est souvent consommé cru sous forme de sashimi ?",
+    reponse_v: "Le saumon",
+    reponse_f1: "Le merlan",
+    reponse_f2: "Le lieu noir",
+    explication: "Le saumon est l'un des poissons les plus utilisés pour les sashimis."
+},
+{
+    id: 38,
+    question: "Quel poisson est reconnaissable à son long rostre en forme d'épée ?",
+    reponse_v: "L'espadon",
+    reponse_f1: "Le thon",
+    reponse_f2: "Le merlu",
+    explication: "L'espadon utilise son rostre pour assommer ses proies."
+},
+{
+    id: 39,
+    question: "Quel poisson est généralement vendu sous forme de darnes épaisses ?",
+    reponse_v: "L'espadon",
+    reponse_f1: "La sole",
+    reponse_f2: "Le merlan",
+    explication: "Les darnes d'espadon sont particulièrement appréciées au barbecue."
+},
+{
+    id: 40,
+    question: "Quel poisson est réputé pour sa chair très maigre ?",
+    reponse_v: "Le cabillaud",
+    reponse_f1: "Le saumon",
+    reponse_f2: "Le maquereau",
+    explication: "Le cabillaud est un poisson blanc pauvre en matières grasses."
+},
+{
+    id: 41,
+    question: "Quel poisson est souvent utilisé pour préparer des filets panés ?",
+    reponse_v: "Le colin",
+    reponse_f1: "Le thon",
+    reponse_f2: "La sardine",
+    explication: "Le colin est largement utilisé dans l'industrie agroalimentaire."
+},
+{
+    id: 42,
+    question: "Quel poisson est également appelé merlu ?",
+    reponse_v: "Le colin",
+    reponse_f1: "Le bar",
+    reponse_f2: "La sole",
+    explication: "En France, le merlu est souvent commercialisé sous le nom de colin."
+},
+{
+    id: 43,
+    question: "Quel poisson est apprécié pour sa chair fine mais contient de nombreuses petites arêtes ?",
+    reponse_v: "Le merlan",
+    reponse_f1: "Le turbot",
+    reponse_f2: "Le cabillaud",
+    explication: "Le merlan possède une chair délicate mais demande de l'attention à la dégustation."
+},
+{
+    id: 44,
+    question: "Quel poisson est fréquemment utilisé pour préparer une soupe de poissons ?",
+    reponse_v: "La rascasse",
+    reponse_f1: "Le saumon",
+    reponse_f2: "Le sandre",
+    explication: "La rascasse apporte beaucoup de goût aux soupes méditerranéennes."
+},
+{
+    id: 45,
+    question: "Quel poisson possède une chair particulièrement ferme adaptée au barbecue ?",
+    reponse_v: "L'espadon",
+    reponse_f1: "La sole",
+    reponse_f2: "Le merlan",
+    explication: "L'espadon supporte très bien les cuissons à haute température."
+},
+{
+    id: 46,
+    question: "Quel poisson est considéré comme un poisson gras ?",
+    reponse_v: "Le hareng",
+    reponse_f1: "Le cabillaud",
+    reponse_f2: "Le merlan",
+    explication: "Le hareng est riche en oméga-3 et appartient à la famille des poissons gras."
+},
+{
+    id: 47,
+    question: "Quel poisson est traditionnellement mariné avant d'être consommé en Scandinavie ?",
+    reponse_v: "Le hareng",
+    reponse_f1: "La sole",
+    reponse_f2: "Le turbot",
+    explication: "Le hareng mariné est une spécialité emblématique des pays nordiques."
+},
+{
+    id: 48,
+    question: "Quel poisson est principalement utilisé pour fabriquer les œufs de poisson appelés poutargue ?",
+    reponse_v: "Le mulet",
+    reponse_f1: "Le cabillaud",
+    reponse_f2: "Le saumon",
+    explication: "La poutargue est élaborée à partir des œufs de mulet salés et séchés."
+},
+{
+    id: 49,
+    question: "Quel poisson est réputé pour sa chair très délicate et son prix élevé ?",
+    reponse_v: "Le turbot",
+    reponse_f1: "Le lieu noir",
+    reponse_f2: "Le maquereau",
+    explication: "Le turbot fait partie des poissons les plus prestigieux en gastronomie."
+},
+{
+    id: 50,
+    question: "Quel est le principal avantage nutritionnel des poissons gras ?",
+    reponse_v: "Ils sont riches en acides gras oméga-3",
+    reponse_f1: "Ils ne contiennent aucune graisse",
+    reponse_f2: "Ils sont dépourvus de protéines",
+    explication: "Les poissons gras apportent des oméga-3 bénéfiques pour la santé cardiovasculaire."
+},{
+    id: 51,
+    question: "Quel poisson est principalement utilisé pour produire le caviar ?",
+    reponse_v: "L'esturgeon",
+    reponse_f1: "Le saumon",
+    reponse_f2: "Le thon",
+    explication: "Le véritable caviar est obtenu à partir des œufs d'esturgeon."
+},
+{
+    id: 52,
+    question: "Comment appelle-t-on les œufs de saumon utilisés en cuisine ?",
+    reponse_v: "Œufs de saumon",
+    reponse_f1: "Caviar",
+    reponse_f2: "Poutargue",
+    explication: "Le terme caviar est réservé aux œufs d'esturgeon."
+},
+{
+    id: 53,
+    question: "Quel poisson est principalement élevé en bassin pour produire du caviar en France ?",
+    reponse_v: "L'esturgeon",
+    reponse_f1: "Le brochet",
+    reponse_f2: "La truite",
+    explication: "La France est l'un des principaux producteurs européens de caviar d'élevage."
+},
+{
+    id: 54,
+    question: "Quel poisson possède une chair particulièrement adaptée à une cuisson meunière ?",
+    reponse_v: "La sole",
+    reponse_f1: "Le thon",
+    reponse_f2: "Le maquereau",
+    explication: "La sole meunière est un grand classique de la cuisine française."
+},
+{
+    id: 55,
+    question: "Quel poisson est traditionnellement cuisiné 'à la grenobloise' ?",
+    reponse_v: "La sole",
+    reponse_f1: "Le saumon",
+    reponse_f2: "Le cabillaud",
+    explication: "La sole grenobloise est servie avec beurre, câpres et croûtons."
+},
+{
+    id: 56,
+    question: "Quel poisson est principalement pêché dans les eaux froides de l'Atlantique Nord ?",
+    reponse_v: "Le cabillaud",
+    reponse_f1: "La dorade",
+    reponse_f2: "Le bar",
+    explication: "Le cabillaud apprécie les eaux froides de l'Atlantique."
+},
+{
+    id: 57,
+    question: "Quel poisson est reconnaissable à sa bande dorée entre les yeux ?",
+    reponse_v: "La dorade royale",
+    reponse_f1: "Le bar",
+    reponse_f2: "Le turbot",
+    explication: "La dorade royale possède une bande dorée caractéristique."
+},
+{
+    id: 58,
+    question: "Quel poisson est souvent servi entier au four avec des herbes aromatiques ?",
+    reponse_v: "La dorade",
+    reponse_f1: "Le merlan",
+    reponse_f2: "Le colin",
+    explication: "La dorade entière se prête parfaitement à cette cuisson."
+},
+{
+    id: 59,
+    question: "Quel poisson est réputé pour sa chair blanche très fine et peu grasse ?",
+    reponse_v: "Le sandre",
+    reponse_f1: "Le maquereau",
+    reponse_f2: "Le hareng",
+    explication: "Le sandre est considéré comme l'un des meilleurs poissons d'eau douce."
+},
+{
+    id: 60,
+    question: "Quel poisson est principalement consommé fumé dans les pays nordiques ?",
+    reponse_v: "Le saumon",
+    reponse_f1: "Le brochet",
+    reponse_f2: "La sole",
+    explication: "Le saumon fumé est une spécialité emblématique de ces régions."
+},
+{
+    id: 61,
+    question: "Quel poisson est capable de vivre plusieurs décennies ?",
+    reponse_v: "L'esturgeon",
+    reponse_f1: "L'anchois",
+    reponse_f2: "La sardine",
+    explication: "Certaines espèces d'esturgeons peuvent vivre plus de 100 ans."
+},
+{
+    id: 62,
+    question: "Quel poisson est réputé pour effectuer l'une des plus longues migrations marines ?",
+    reponse_v: "Le thon rouge",
+    reponse_f1: "La sole",
+    reponse_f2: "Le merlan",
+    explication: "Le thon rouge parcourt des milliers de kilomètres chaque année."
+},
+{
+    id: 63,
+    question: "Quel poisson est principalement utilisé pour préparer des rillettes de poisson ?",
+    reponse_v: "Le maquereau",
+    reponse_f1: "Le turbot",
+    reponse_f2: "Le sandre",
+    explication: "Les rillettes de maquereau sont une préparation très populaire."
+},
+{
+    id: 64,
+    question: "Quel poisson est particulièrement apprécié en cuisson à la plancha ?",
+    reponse_v: "Le bar",
+    reponse_f1: "La limande",
+    reponse_f2: "Le merlan",
+    explication: "Le bar conserve une chair ferme et savoureuse à la plancha."
+},
+{
+    id: 65,
+    question: "Quel poisson possède une chair très fragile nécessitant une cuisson douce ?",
+    reponse_v: "Le merlan",
+    reponse_f1: "L'espadon",
+    reponse_f2: "Le thon",
+    explication: "Le merlan se dessèche rapidement avec une cuisson excessive."
+},
+{
+    id: 66,
+    question: "Quel poisson est principalement utilisé pour préparer le gravlax ?",
+    reponse_v: "Le saumon",
+    reponse_f1: "Le cabillaud",
+    reponse_f2: "Le hareng",
+    explication: "Le gravlax est du saumon cru mariné dans le sel, le sucre et l'aneth."
+},
+{
+    id: 67,
+    question: "Quel poisson est souvent consommé cru sous forme de carpaccio ?",
+    reponse_v: "Le thon",
+    reponse_f1: "Le merlan",
+    reponse_f2: "Le colin",
+    explication: "Le thon est particulièrement adapté aux préparations crues."
+},
+{
+    id: 68,
+    question: "Quel poisson est le plus riche en vitamine B12 parmi les poissons gras courants ?",
+    reponse_v: "Le maquereau",
+    reponse_f1: "La sole",
+    reponse_f2: "Le cabillaud",
+    explication: "Le maquereau est très riche en vitamine B12 et en oméga-3."
+},
+{
+    id: 69,
+    question: "Quel poisson est souvent préparé en escabèche dans la cuisine méditerranéenne ?",
+    reponse_v: "La sardine",
+    reponse_f1: "Le turbot",
+    reponse_f2: "Le sandre",
+    explication: "L'escabèche consiste à faire mariner le poisson dans une préparation vinaigrée."
+},
+{
+    id: 70,
+    question: "Pourquoi est-il conseillé de ne pas trop cuire un poisson ?",
+    reponse_v: "Sa chair devient sèche et friable",
+    reponse_f1: "Il devient plus gras",
+    reponse_f2: "Il perd sa couleur uniquement",
+    explication: "Une cuisson excessive dégrade la texture délicate du poisson."
+},{
+    id: 71,
+    question: "Quel poisson est principalement utilisé pour préparer une matelote traditionnelle ?",
+    reponse_v: "L'anguille",
+    reponse_f1: "Le maquereau",
+    reponse_f2: "La sardine",
+    explication: "La matelote est un ragoût de poissons de rivière dont l'anguille est souvent l'ingrédient principal."
+},
+{
+    id: 72,
+    question: "Quel poisson est capable de produire des décharges électriques ?",
+    reponse_v: "La raie électrique",
+    reponse_f1: "Le turbot",
+    reponse_f2: "Le bar",
+    explication: "La raie électrique utilise ses organes électriques pour se défendre et capturer ses proies."
+},
+{
+    id: 73,
+    question: "Quel poisson cartilagineux est apprécié pour ses ailes en cuisine ?",
+    reponse_v: "La raie",
+    reponse_f1: "Le brochet",
+    reponse_f2: "Le cabillaud",
+    explication: "Les ailes de raie sont particulièrement recherchées pour leur chair délicate."
+},
+{
+    id: 74,
+    question: "Quelle préparation classique accompagne souvent les ailes de raie ?",
+    reponse_v: "Le beurre noir",
+    reponse_f1: "La sauce béarnaise",
+    reponse_f2: "La sauce tomate",
+    explication: "La raie au beurre noir est un grand classique de la gastronomie française."
+},
+{
+    id: 75,
+    question: "Quel poisson possède un squelette constitué principalement de cartilage ?",
+    reponse_v: "Le requin",
+    reponse_f1: "Le saumon",
+    reponse_f2: "Le cabillaud",
+    explication: "Les requins appartiennent à la classe des poissons cartilagineux."
+},
+{
+    id: 76,
+    question: "Quel poisson est principalement utilisé pour produire le surimi ?",
+    reponse_v: "Le colin d'Alaska",
+    reponse_f1: "Le saumon",
+    reponse_f2: "Le maquereau",
+    explication: "Le surimi est élaboré à partir de chair de colin d'Alaska finement hachée."
+},
+{
+    id: 77,
+    question: "Quel poisson est réputé pour sa capacité à changer de couleur afin de se camoufler ?",
+    reponse_v: "La sole",
+    reponse_f1: "Le hareng",
+    reponse_f2: "Le maquereau",
+    explication: "La sole adapte la couleur de sa peau à son environnement."
+},
+{
+    id: 78,
+    question: "Quel poisson plat possède ses deux yeux du côté gauche de son corps ?",
+    reponse_v: "Le turbot",
+    reponse_f1: "Le saumon",
+    reponse_f2: "Le thon",
+    explication: "Comme de nombreux poissons plats, le turbot possède ses deux yeux sur la même face."
+},
+{
+    id: 79,
+    question: "Quel poisson est principalement utilisé pour préparer une soupe japonaise miso au poisson ?",
+    reponse_v: "Le saumon",
+    reponse_f1: "La sole",
+    reponse_f2: "Le merlan",
+    explication: "Le saumon est fréquemment utilisé dans les variantes modernes de soupe miso."
+},
+{
+    id: 80,
+    question: "Quel poisson est réputé pour sa chair particulièrement gélatineuse autour de la tête ?",
+    reponse_v: "La lotte",
+    reponse_f1: "Le maquereau",
+    reponse_f2: "Le hareng",
+    explication: "La lotte possède une chair ferme et très appréciée des gastronomes."
+},
+{
+    id: 81,
+    question: "Sous quel autre nom la lotte est-elle commercialisée ?",
+    reponse_v: "Baudroie",
+    reponse_f1: "Merlu",
+    reponse_f2: "Lingue",
+    explication: "La lotte est également appelée baudroie."
+},
+{
+    id: 82,
+    question: "Quel poisson est surnommé le 'crapaud des mers' en raison de son apparence ?",
+    reponse_v: "La baudroie",
+    reponse_f1: "Le turbot",
+    reponse_f2: "Le bar",
+    explication: "La baudroie possède une tête imposante et une apparence peu esthétique."
+},
+{
+    id: 83,
+    question: "Quelle partie de la lotte est principalement commercialisée ?",
+    reponse_v: "La queue",
+    reponse_f1: "La tête",
+    reponse_f2: "Les nageoires",
+    explication: "La queue concentre l'essentiel de la chair consommée."
+},
+{
+    id: 84,
+    question: "Quel poisson est réputé pour sa chair ferme rappelant celle du homard ?",
+    reponse_v: "La lotte",
+    reponse_f1: "La sardine",
+    reponse_f2: "Le hareng",
+    explication: "La texture de la lotte lui vaut parfois le surnom de 'homard du pauvre'."
+},
+{
+    id: 85,
+    question: "Quel poisson est principalement utilisé pour préparer une cotriade bretonne ?",
+    reponse_v: "Divers poissons de roche",
+    reponse_f1: "Uniquement du saumon",
+    reponse_f2: "Uniquement du thon",
+    explication: "La cotriade est une soupe bretonne réalisée avec plusieurs poissons."
+},
+{
+    id: 86,
+    question: "Quel poisson est principalement pêché en Méditerranée pour préparer des grillades ?",
+    reponse_v: "La dorade",
+    reponse_f1: "Le brochet",
+    reponse_f2: "Le sandre",
+    explication: "La dorade est l'un des poissons les plus populaires du bassin méditerranéen."
+},
+{
+    id: 87,
+    question: "Quel poisson possède une chair particulièrement adaptée à une cuisson vapeur ?",
+    reponse_v: "Le cabillaud",
+    reponse_f1: "Le hareng",
+    reponse_f2: "Le maquereau",
+    explication: "La cuisson vapeur permet de préserver la délicatesse du cabillaud."
+},
+{
+    id: 88,
+    question: "Quel poisson est principalement consommé en conserve au naturel ou à l'huile d'olive ?",
+    reponse_v: "Le thon",
+    reponse_f1: "Le turbot",
+    reponse_f2: "Le sandre",
+    explication: "Le thon en conserve est l'un des produits de la mer les plus consommés."
+},
+{
+    id: 89,
+    question: "Quel poisson est reconnu pour sa chair blanche très feuilletée après cuisson ?",
+    reponse_v: "Le cabillaud",
+    reponse_f1: "Le saumon",
+    reponse_f2: "Le maquereau",
+    explication: "Le cabillaud se détache naturellement en gros feuillets."
+},
+{
+    id: 90,
+    question: "Pourquoi est-il recommandé de consommer du poisson deux fois par semaine ?",
+    reponse_v: "Pour bénéficier de protéines de qualité et d'oméga-3",
+    reponse_f1: "Parce qu'il contient plus de glucides que la viande",
+    reponse_f2: "Pour remplacer totalement les légumes",
+    explication: "Les recommandations nutritionnelles mettent en avant les bénéfices des poissons, notamment des poissons gras."
+},{
+    id: 91,
+    question: "Comment appelle-t-on un poisson vivant principalement en eau douce mais se reproduisant en mer ?",
+    reponse_v: "Catadrome",
+    reponse_f1: "Anadrome",
+    reponse_f2: "Pélagique",
+    explication: "L'anguille est un poisson catadrome : elle vit en eau douce et se reproduit en mer."
+},
+{
+    id: 92,
+    question: "Comment appelle-t-on un poisson vivant en mer mais se reproduisant en eau douce ?",
+    reponse_v: "Anadrome",
+    reponse_f1: "Catadrome",
+    reponse_f2: "Benthique",
+    explication: "Le saumon est un poisson anadrome."
+},
+{
+    id: 93,
+    question: "Quel terme désigne un poisson vivant près du fond marin ?",
+    reponse_v: "Benthique",
+    reponse_f1: "Pélagique",
+    reponse_f2: "Anadrome",
+    explication: "Les poissons benthiques vivent sur ou à proximité du fond."
+},
+{
+    id: 94,
+    question: "Quel terme désigne un poisson vivant en pleine eau, loin du fond ?",
+    reponse_v: "Pélagique",
+    reponse_f1: "Benthique",
+    reponse_f2: "Démersal",
+    explication: "Les thons, maquereaux et harengs sont des poissons pélagiques."
+},
+{
+    id: 95,
+    question: "Quel poisson est réputé pour vivre au contact direct des fonds sableux ?",
+    reponse_v: "La sole",
+    reponse_f1: "Le thon",
+    reponse_f2: "Le maquereau",
+    explication: "La sole s'enfouit souvent dans le sable pour se camoufler."
+},
+{
+    id: 96,
+    question: "Quelle est la principale caractéristique des poissons gras ?",
+    reponse_v: "Ils contiennent plus de 5 % de lipides",
+    reponse_f1: "Ils vivent uniquement en rivière",
+    reponse_f2: "Ils n'ont pas d'arêtes",
+    explication: "Les poissons gras sont riches en lipides, notamment en oméga-3."
+},
+{
+    id: 97,
+    question: "Lequel de ces poissons est considéré comme un poisson maigre ?",
+    reponse_v: "Le cabillaud",
+    reponse_f1: "Le saumon",
+    reponse_f2: "Le maquereau",
+    explication: "Le cabillaud contient très peu de matières grasses."
+},
+{
+    id: 98,
+    question: "Quel poisson possède la teneur en oméga-3 la plus élevée parmi ces propositions ?",
+    reponse_v: "Le maquereau",
+    reponse_f1: "Le cabillaud",
+    reponse_f2: "La sole",
+    explication: "Le maquereau est l'un des poissons les plus riches en oméga-3."
+},
+{
+    id: 99,
+    question: "Quel poisson est traditionnellement utilisé pour préparer un koulibiac ?",
+    reponse_v: "Le saumon",
+    reponse_f1: "Le merlan",
+    reponse_f2: "Le colin",
+    explication: "Le koulibiac est une spécialité d'origine russe à base de saumon."
+},
+{
+    id: 100,
+    question: "Quel poisson est particulièrement adapté à une cuisson en croûte de sel ?",
+    reponse_v: "Le bar",
+    reponse_f1: "Le hareng",
+    reponse_f2: "Le maquereau",
+    explication: "Le bar en croûte de sel conserve une chair très moelleuse."
+},
+{
+    id: 101,
+    question: "Quel poisson est principalement utilisé pour préparer un waterzooï de poisson ?",
+    reponse_v: "Le cabillaud",
+    reponse_f1: "Le thon",
+    reponse_f2: "L'espadon",
+    explication: "Le waterzooï belge est souvent préparé avec du cabillaud ou d'autres poissons blancs."
+},
+{
+    id: 102,
+    question: "Quelle cuisson est la plus adaptée à une sole entière de qualité ?",
+    reponse_v: "Meunière",
+    reponse_f1: "Friture profonde",
+    reponse_f2: "Barbecue très vif",
+    explication: "La cuisson meunière met en valeur la finesse de la sole."
+},
+{
+    id: 103,
+    question: "Pourquoi farine-t-on légèrement une sole avant cuisson meunière ?",
+    reponse_v: "Pour obtenir une légère coloration",
+    reponse_f1: "Pour supprimer les arêtes",
+    reponse_f2: "Pour la conserver plus longtemps",
+    explication: "La farine favorise une belle coloration et une légère croûte."
+},
+{
+    id: 104,
+    question: "Quelle partie d'un poisson contient généralement le plus de lipides ?",
+    reponse_v: "Le ventre",
+    reponse_f1: "La queue",
+    reponse_f2: "Les nageoires",
+    explication: "Les réserves de graisse se situent principalement dans la partie ventrale."
+},
+{
+    id: 105,
+    question: "Quel poisson est surnommé le 'roi des poissons' dans de nombreuses cuisines européennes ?",
+    reponse_v: "Le saumon",
+    reponse_f1: "La sardine",
+    reponse_f2: "Le merlan",
+    explication: "Le saumon est considéré comme l'un des poissons les plus nobles."
+},
+{
+    id: 106,
+    question: "Quel est le principal avantage d'une cuisson basse température pour le poisson ?",
+    reponse_v: "Préserver son moelleux",
+    reponse_f1: "Le rendre croustillant",
+    reponse_f2: "Augmenter sa teneur en protéines",
+    explication: "Une cuisson douce évite le dessèchement de la chair."
+},
+{
+    id: 107,
+    question: "Quel poisson est réputé pour sa peau particulièrement épaisse ?",
+    reponse_v: "L'espadon",
+    reponse_f1: "Le merlan",
+    reponse_f2: "La sardine",
+    explication: "L'espadon possède une peau épaisse généralement retirée avant consommation."
+},
+{
+    id: 108,
+    question: "Quel poisson est le plus souvent présenté en pavé dans les restaurants ?",
+    reponse_v: "Le saumon",
+    reponse_f1: "La sardine",
+    reponse_f2: "L'anchois",
+    explication: "Le saumon est fréquemment découpé en pavés."
+},
+{
+    id: 109,
+    question: "Quel poisson est souvent servi avec une sauce à l'oseille ?",
+    reponse_v: "Le saumon",
+    reponse_f1: "Le maquereau",
+    reponse_f2: "Le hareng",
+    explication: "Le saumon à l'oseille est une recette emblématique de la gastronomie française."
+},
+{
+    id: 110,
+    question: "Quel est le principal critère permettant de reconnaître un poisson très frais ?",
+    reponse_v: "Des yeux brillants et bombés",
+    reponse_f1: "Des yeux opaques et enfoncés",
+    reponse_f2: "Une odeur forte d'ammoniaque",
+    explication: "Un poisson frais possède des yeux brillants, des branchies rouges et une odeur discrète."
+},{
+    id: 111,
+    question: "Quelle partie du poisson permet principalement sa respiration ?",
+    reponse_v: "Les branchies",
+    reponse_f1: "Les nageoires",
+    reponse_f2: "Les écailles",
+    explication: "Les branchies extraient l'oxygène dissous dans l'eau."
+},
+{
+    id: 112,
+    question: "Quel organe permet à la majorité des poissons osseux de contrôler leur flottabilité ?",
+    reponse_v: "La vessie natatoire",
+    reponse_f1: "Le foie",
+    reponse_f2: "Le cœur",
+    explication: "La vessie natatoire permet au poisson de monter ou descendre sans dépenser beaucoup d'énergie."
+},
+{
+    id: 113,
+    question: "Quel poisson ne possède pas de vessie natatoire ?",
+    reponse_v: "Le requin",
+    reponse_f1: "Le cabillaud",
+    reponse_f2: "La truite",
+    explication: "Les requins compensent grâce à leur foie riche en huile et leur nage permanente."
+},
+{
+    id: 114,
+    question: "Quel sens permet à un poisson de détecter les vibrations dans l'eau ?",
+    reponse_v: "La ligne latérale",
+    reponse_f1: "Les branchies",
+    reponse_f2: "Les opercules",
+    explication: "La ligne latérale détecte les mouvements et les variations de pression."
+},
+{
+    id: 115,
+    question: "Quel poisson est considéré comme un poisson cartilagineux ?",
+    reponse_v: "La raie",
+    reponse_f1: "Le cabillaud",
+    reponse_f2: "Le saumon",
+    explication: "Les raies et les requins possèdent un squelette constitué de cartilage."
+},
+{
+    id: 116,
+    question: "Quel est le principal constituant du squelette d'un cabillaud ?",
+    reponse_v: "L'os",
+    reponse_f1: "Le cartilage",
+    reponse_f2: "La chitine",
+    explication: "Le cabillaud est un poisson osseux."
+},
+{
+    id: 117,
+    question: "Quel poisson est traditionnellement utilisé pour préparer une zarzuela espagnole ?",
+    reponse_v: "Divers poissons et fruits de mer",
+    reponse_f1: "Uniquement du saumon",
+    reponse_f2: "Uniquement du thon",
+    explication: "La zarzuela est un ragoût catalan mêlant plusieurs espèces marines."
+},
+{
+    id: 118,
+    question: "Quel poisson est le plus souvent préparé en papillote avec du fenouil ?",
+    reponse_v: "La dorade",
+    reponse_f1: "Le hareng",
+    reponse_f2: "Le maquereau",
+    explication: "La dorade s'accorde parfaitement avec le fenouil."
+},
+{
+    id: 119,
+    question: "Quel poisson possède une chair qui se détache en larges feuillets après cuisson ?",
+    reponse_v: "Le cabillaud",
+    reponse_f1: "Le thon",
+    reponse_f2: "L'espadon",
+    explication: "La chair du cabillaud est naturellement feuilletée."
+},
+{
+    id: 120,
+    question: "Quelle est la meilleure température interne pour cuire un filet de poisson tout en conservant son moelleux ?",
+    reponse_v: "Environ 52 à 55 °C",
+    reponse_f1: "Environ 75 à 80 °C",
+    reponse_f2: "Environ 95 °C",
+    explication: "Une cuisson douce permet d'obtenir une chair nacrée et fondante."
+},
+{
+    id: 121,
+    question: "Que signifie le terme 'lever un filet' ?",
+    reponse_v: "Séparer la chair des arêtes",
+    reponse_f1: "Retirer uniquement les écailles",
+    reponse_f2: "Découper la tête",
+    explication: "Lever un filet consiste à détacher la chair du squelette."
+},
+{
+    id: 122,
+    question: "Quel couteau est le plus adapté pour lever des filets de poisson ?",
+    reponse_v: "Le couteau à filet flexible",
+    reponse_f1: "Le couperet",
+    reponse_f2: "Le couteau à pain",
+    explication: "Sa lame fine et souple épouse parfaitement les arêtes."
+},
+{
+    id: 123,
+    question: "Comment appelle-t-on la découpe transversale d'un gros poisson avec son arête centrale ?",
+    reponse_v: "Une darne",
+    reponse_f1: "Un filet",
+    reponse_f2: "Une escalope",
+    explication: "Les darnes sont fréquentes pour le saumon, le thon ou l'espadon."
+},
+{
+    id: 124,
+    question: "Comment appelle-t-on une tranche de poisson découpée sans arête ?",
+    reponse_v: "Un pavé",
+    reponse_f1: "Une darne",
+    reponse_f2: "Une côte",
+    explication: "Le pavé est généralement prélevé dans le filet."
+},
+{
+    id: 125,
+    question: "Quel poisson est le plus souvent vendu en pavés ?",
+    reponse_v: "Le saumon",
+    reponse_f1: "La sardine",
+    reponse_f2: "L'anchois",
+    explication: "Les pavés de saumon sont très courants dans le commerce."
+},
+{
+    id: 126,
+    question: "Quel poisson possède une peau qu'il est souvent préférable de retirer après cuisson ?",
+    reponse_v: "La lotte",
+    reponse_f1: "Le maquereau",
+    reponse_f2: "La sardine",
+    explication: "La peau de la lotte est épaisse et n'est généralement pas consommée."
+},
+{
+    id: 127,
+    question: "Quel poisson est souvent qualifié de 'poisson noble' en restauration ?",
+    reponse_v: "Le turbot",
+    reponse_f1: "Le hareng",
+    reponse_f2: "L'anchois",
+    explication: "Le turbot fait partie des poissons les plus prestigieux."
+},
+{
+    id: 128,
+    question: "Quel poisson est principalement recherché pour ses joues en gastronomie ?",
+    reponse_v: "La lotte",
+    reponse_f1: "La sardine",
+    reponse_f2: "Le maquereau",
+    explication: "Les joues de lotte sont particulièrement fondantes."
+},
+{
+    id: 129,
+    question: "Quel poisson possède une chair qui supporte très bien les marinades ?",
+    reponse_v: "Le saumon",
+    reponse_f1: "Le merlan",
+    reponse_f2: "La sole",
+    explication: "Le saumon est idéal pour les marinades comme le gravlax."
+},
+{
+    id: 130,
+    question: "Pourquoi est-il déconseillé de recongeler un poisson décongelé ?",
+    reponse_v: "Le risque microbiologique augmente et la qualité diminue",
+    reponse_f1: "Sa teneur en protéines augmente",
+    reponse_f2: "Ses arêtes disparaissent",
+    explication: "Une seconde congélation dégrade fortement la qualité et peut présenter un risque sanitaire."
+},{
+    id: 131,
+    question: "Quel est le principal signe de fraîcheur des branchies d'un poisson ?",
+    reponse_v: "Elles sont rouges ou rose vif",
+    reponse_f1: "Elles sont grises et sèches",
+    reponse_f2: "Elles sont noires",
+    explication: "Des branchies rouges et humides sont un excellent indicateur de fraîcheur."
+},
+{
+    id: 132,
+    question: "Quelle odeur caractérise un poisson très frais ?",
+    reponse_v: "Une légère odeur iodée",
+    reponse_f1: "Une forte odeur d'ammoniaque",
+    reponse_f2: "Une odeur de vinaigre",
+    explication: "Un poisson frais ne doit jamais dégager une forte odeur."
+},
+{
+    id: 133,
+    question: "Quel poisson est le plus riche en protéines parmi les poissons courants ?",
+    reponse_v: "Le thon",
+    reponse_f1: "La sardine",
+    reponse_f2: "La sole",
+    explication: "Le thon est une excellente source de protéines de haute qualité."
+},
+{
+    id: 134,
+    question: "Quel poisson est principalement utilisé pour préparer un poke hawaïen ?",
+    reponse_v: "Le thon",
+    reponse_f1: "Le merlan",
+    reponse_f2: "Le cabillaud",
+    explication: "Le poke traditionnel est préparé avec du thon cru mariné."
+},
+{
+    id: 135,
+    question: "Quel poisson est traditionnellement utilisé pour préparer un bagel au poisson fumé ?",
+    reponse_v: "Le saumon",
+    reponse_f1: "Le maquereau",
+    reponse_f2: "Le cabillaud",
+    explication: "Le bagel au saumon fumé est une spécialité très populaire."
+},
+{
+    id: 136,
+    question: "Quel poisson est le plus adapté à une cuisson au court-bouillon ?",
+    reponse_v: "Le cabillaud",
+    reponse_f1: "Le maquereau",
+    reponse_f2: "Le thon",
+    explication: "Le court-bouillon respecte la texture délicate des poissons blancs."
+},
+{
+    id: 137,
+    question: "Quel poisson est principalement utilisé pour préparer une salade niçoise traditionnelle ?",
+    reponse_v: "Le thon",
+    reponse_f1: "Le saumon",
+    reponse_f2: "Le merlan",
+    explication: "La recette traditionnelle contient du thon."
+},
+{
+    id: 138,
+    question: "Quel poisson est traditionnellement grillé entier au barbecue en Méditerranée ?",
+    reponse_v: "La dorade",
+    reponse_f1: "La sole",
+    reponse_f2: "Le sandre",
+    explication: "La dorade entière est idéale pour une cuisson au gril."
+},
+{
+    id: 139,
+    question: "Quel poisson est souvent utilisé pour préparer des fish burgers ?",
+    reponse_v: "Le colin",
+    reponse_f1: "Le turbot",
+    reponse_f2: "Le brochet",
+    explication: "Le colin est largement utilisé grâce à sa chair blanche et peu coûteuse."
+},
+{
+    id: 140,
+    question: "Quel poisson possède une chair naturellement translucide avant cuisson ?",
+    reponse_v: "Le cabillaud",
+    reponse_f1: "Le thon",
+    reponse_f2: "Le saumon fumé",
+    explication: "La chair du cabillaud devient blanche et opaque à la cuisson."
+},
+{
+    id: 141,
+    question: "Quel poisson est principalement utilisé pour préparer des rillettes fumées ?",
+    reponse_v: "Le saumon",
+    reponse_f1: "Le turbot",
+    reponse_f2: "Le merlan",
+    explication: "Le saumon fumé est fréquemment utilisé dans les rillettes."
+},
+{
+    id: 142,
+    question: "Quel poisson est le plus souvent préparé en steak ?",
+    reponse_v: "Le thon",
+    reponse_f1: "La sardine",
+    reponse_f2: "Le merlan",
+    explication: "Les steaks de thon sont très appréciés pour leur chair ferme."
+},
+{
+    id: 143,
+    question: "Quelle cuisson est idéale pour un steak de thon ?",
+    reponse_v: "Très rapide, en laissant le cœur rosé",
+    reponse_f1: "Très longue à feu doux",
+    reponse_f2: "Bouillie pendant 30 minutes",
+    explication: "Une cuisson trop longue dessèche rapidement le thon."
+},
+{
+    id: 144,
+    question: "Quel poisson est principalement utilisé pour fabriquer le kamaboko japonais ?",
+    reponse_v: "Le colin",
+    reponse_f1: "Le saumon",
+    reponse_f2: "La dorade",
+    explication: "Le kamaboko est élaboré à partir de chair de poisson blanc."
+},
+{
+    id: 145,
+    question: "Quel poisson possède une peau très appréciée lorsqu'elle est grillée et croustillante ?",
+    reponse_v: "Le saumon",
+    reponse_f1: "Le merlan",
+    reponse_f2: "Le cabillaud",
+    explication: "La peau du saumon devient croustillante lorsqu'elle est bien saisie."
+},
+{
+    id: 146,
+    question: "Quel poisson est principalement pêché dans les grands lacs européens ?",
+    reponse_v: "Le sandre",
+    reponse_f1: "Le thon",
+    reponse_f2: "La sardine",
+    explication: "Le sandre est un poisson emblématique des grands lacs et rivières."
+},
+{
+    id: 147,
+    question: "Quel poisson est réputé pour ses arêtes particulièrement faciles à retirer en filet ?",
+    reponse_v: "Le saumon",
+    reponse_f1: "Le brochet",
+    reponse_f2: "La carpe",
+    explication: "Le saumon possède une arête centrale facile à retirer."
+},
+{
+    id: 148,
+    question: "Quel poisson est souvent consommé mariné au citron dans la cuisine péruvienne ?",
+    reponse_v: "Le bar",
+    reponse_f1: "Le maquereau",
+    reponse_f2: "Le hareng",
+    explication: "Le ceviche péruvien est traditionnellement préparé avec du bar."
+},
+{
+    id: 149,
+    question: "Quel poisson est particulièrement adapté à une cuisson en croûte d'herbes ?",
+    reponse_v: "Le saumon",
+    reponse_f1: "La sardine",
+    reponse_f2: "L'anchois",
+    explication: "Le saumon conserve son moelleux sous une croûte d'herbes aromatiques."
+},
+{
+    id: 150,
+    question: "Pourquoi est-il recommandé de respecter la saison de pêche des poissons ?",
+    reponse_v: "Pour préserver les ressources et favoriser une pêche durable",
+    reponse_f1: "Pour augmenter leur teneur en protéines",
+    reponse_f2: "Pour qu'ils contiennent moins d'arêtes",
+    explication: "Le respect des saisons contribue à la protection des espèces et des écosystèmes."
+},{
+    id: 151,
+    question: "Quel label français garantit une pêche durable respectueuse de l'environnement ?",
+    reponse_v: "MSC",
+    reponse_f1: "AOP",
+    reponse_f2: "Label Rouge",
+    explication: "Le label MSC (Marine Stewardship Council) certifie les pêcheries durables."
+},
+{
+    id: 152,
+    question: "Quel label certifie principalement une aquaculture responsable ?",
+    reponse_v: "ASC",
+    reponse_f1: "IGP",
+    reponse_f2: "AOC",
+    explication: "L'ASC (Aquaculture Stewardship Council) concerne les produits issus de l'aquaculture."
+},
+{
+    id: 153,
+    question: "Que signifie le terme 'poisson sauvage' ?",
+    reponse_v: "Un poisson capturé dans son milieu naturel",
+    reponse_f1: "Un poisson élevé en bassin",
+    reponse_f2: "Un poisson congelé",
+    explication: "Le poisson sauvage provient directement de la pêche."
+},
+{
+    id: 154,
+    question: "Quel est le principal avantage du poisson sauvage par rapport au poisson d'élevage ?",
+    reponse_v: "Il présente souvent une chair plus ferme",
+    reponse_f1: "Il ne contient jamais de graisse",
+    reponse_f2: "Il est toujours moins cher",
+    explication: "Le mode de vie plus actif du poisson sauvage influence sa texture."
+},
+{
+    id: 155,
+    question: "Quel est le principal avantage du poisson d'élevage ?",
+    reponse_v: "Une disponibilité régulière toute l'année",
+    reponse_f1: "Une absence totale de matières grasses",
+    reponse_f2: "Il est toujours sauvage",
+    explication: "L'élevage permet une production constante."
+},
+{
+    id: 156,
+    question: "Quel poisson est le plus élevé au monde ?",
+    reponse_v: "Le tilapia",
+    reponse_f1: "Le turbot",
+    reponse_f2: "Le brochet",
+    explication: "Le tilapia est l'une des espèces aquacoles les plus produites."
+},
+{
+    id: 157,
+    question: "Quel poisson est le plus élevé en Norvège ?",
+    reponse_v: "Le saumon",
+    reponse_f1: "Le cabillaud",
+    reponse_f2: "Le maquereau",
+    explication: "La Norvège est le premier producteur mondial de saumon d'élevage."
+},
+{
+    id: 158,
+    question: "Quel poisson est traditionnellement fumé à froid ?",
+    reponse_v: "Le saumon",
+    reponse_f1: "La sole",
+    reponse_f2: "Le turbot",
+    explication: "Le fumage à froid préserve la texture fondante du saumon."
+},
+{
+    id: 159,
+    question: "Quelle température est généralement utilisée pour le fumage à froid ?",
+    reponse_v: "Inférieure à 30 °C",
+    reponse_f1: "Environ 90 °C",
+    reponse_f2: "150 °C",
+    explication: "Le fumage à froid parfume sans cuire le poisson."
+},
+{
+    id: 160,
+    question: "Quel est l'objectif principal du salage avant fumage ?",
+    reponse_v: "Réduire l'eau et améliorer la conservation",
+    reponse_f1: "Colorer la chair",
+    reponse_f2: "Retirer les arêtes",
+    explication: "Le sel limite le développement des micro-organismes."
+},
+{
+    id: 161,
+    question: "Quel poisson est particulièrement sensible à une surcuisson ?",
+    reponse_v: "Le cabillaud",
+    reponse_f1: "L'espadon",
+    reponse_f2: "Le thon",
+    explication: "Le cabillaud devient rapidement sec lorsqu'il est trop cuit."
+},
+{
+    id: 162,
+    question: "Quelle cuisson permet le mieux de conserver les oméga-3 ?",
+    reponse_v: "La cuisson vapeur",
+    reponse_f1: "La friture prolongée",
+    reponse_f2: "Le barbecue très intense",
+    explication: "La vapeur préserve davantage les qualités nutritionnelles."
+},
+{
+    id: 163,
+    question: "Quel poisson est le plus souvent préparé en tartare ?",
+    reponse_v: "Le saumon",
+    reponse_f1: "Le merlan",
+    reponse_f2: "Le colin",
+    explication: "Le saumon est très apprécié en tartare grâce à sa texture."
+},
+{
+    id: 164,
+    question: "Quel poisson est traditionnellement utilisé pour préparer un gravlax ?",
+    reponse_v: "Le saumon",
+    reponse_f1: "Le cabillaud",
+    reponse_f2: "Le hareng",
+    explication: "Le gravlax est du saumon cru mariné au sel, au sucre et à l'aneth."
+},
+{
+    id: 165,
+    question: "Quel poisson possède naturellement une forte teneur en vitamine D ?",
+    reponse_v: "Le hareng",
+    reponse_f1: "Le merlan",
+    reponse_f2: "La sole",
+    explication: "Les poissons gras sont d'excellentes sources de vitamine D."
+},
+{
+    id: 166,
+    question: "Quel poisson est souvent recommandé pendant la grossesse pour sa faible teneur en mercure ?",
+    reponse_v: "La sardine",
+    reponse_f1: "Le thon rouge",
+    reponse_f2: "L'espadon",
+    explication: "Les petits poissons accumulent généralement moins de mercure."
+},
+{
+    id: 167,
+    question: "Quel poisson accumule davantage de mercure en raison de sa position dans la chaîne alimentaire ?",
+    reponse_v: "L'espadon",
+    reponse_f1: "La sardine",
+    reponse_f2: "L'anchois",
+    explication: "Les grands prédateurs concentrent davantage les métaux lourds."
+},
+{
+    id: 168,
+    question: "Pourquoi les petits poissons sont-ils souvent plus durables à consommer ?",
+    reponse_v: "Ils se reproduisent plus rapidement",
+    reponse_f1: "Ils ne contiennent aucune graisse",
+    reponse_f2: "Ils vivent plus de 100 ans",
+    explication: "Le renouvellement rapide de leurs populations favorise une pêche plus durable."
+},
+{
+    id: 169,
+    question: "Quel poisson est traditionnellement utilisé pour préparer une pissaladière ?",
+    reponse_v: "L'anchois",
+    reponse_f1: "Le cabillaud",
+    reponse_f2: "Le saumon",
+    explication: "Les filets d'anchois sont caractéristiques de la pissaladière niçoise."
+},
+{
+    id: 170,
+    question: "Quel est le principal intérêt nutritionnel du poisson par rapport à de nombreuses viandes ?",
+    reponse_v: "Il apporte des protéines de qualité et des acides gras oméga-3",
+    reponse_f1: "Il ne contient aucune matière grasse",
+    reponse_f2: "Il est dépourvu de vitamines",
+    explication: "Le poisson est une excellente source de protéines, de vitamines et d'oméga-3."
+},{
+    id: 171,
+    question: "Quel parasite peut être présent dans certains poissons crus et nécessite une congélation préalable ?",
+    reponse_v: "L'Anisakis",
+    reponse_f1: "Le ténia",
+    reponse_f2: "La douve",
+    explication: "L'Anisakis est un parasite marin détruit par une congélation réglementaire avant consommation crue."
+},
+{
+    id: 172,
+    question: "À quelle température minimale un poisson destiné à être consommé cru doit-il généralement être congelé pour éliminer l'Anisakis ?",
+    reponse_v: "-20 °C pendant au moins 24 heures",
+    reponse_f1: "-5 °C pendant 2 heures",
+    reponse_f2: "0 °C pendant 12 heures",
+    explication: "La congélation réglementaire permet de détruire les larves d'Anisakis."
+},
+{
+    id: 173,
+    question: "Quel poisson est le plus fréquemment concerné par le risque d'Anisakis ?",
+    reponse_v: "Le maquereau",
+    reponse_f1: "La truite d'élevage",
+    reponse_f2: "Le tilapia",
+    explication: "Les poissons marins sauvages comme le maquereau sont plus fréquemment concernés."
+},
+{
+    id: 174,
+    question: "Quelle technique consiste à retirer les arêtes avec une pince ?",
+    reponse_v: "Le désarêtage",
+    reponse_f1: "L'écaillage",
+    reponse_f2: "Le fumage",
+    explication: "Le désarêtage améliore le confort de dégustation."
+},
+{
+    id: 175,
+    question: "Comment appelle-t-on l'action consistant à retirer les écailles d'un poisson ?",
+    reponse_v: "L'écaillage",
+    reponse_f1: "Le filetage",
+    reponse_f2: "Le bardage",
+    explication: "L'écaillage est généralement réalisé avant la cuisson."
+},
+{
+    id: 176,
+    question: "Comment appelle-t-on l'action consistant à retirer les viscères d'un poisson ?",
+    reponse_v: "L'éviscération",
+    reponse_f1: "Le glaçage",
+    reponse_f2: "Le pochage",
+    explication: "L'éviscération est une étape essentielle de la préparation."
+},
+{
+    id: 177,
+    question: "Pourquoi glace-t-on les poissons immédiatement après leur capture ?",
+    reponse_v: "Pour ralentir le développement des bactéries",
+    reponse_f1: "Pour cuire la chair",
+    reponse_f2: "Pour retirer les arêtes",
+    explication: "Le froid permet de préserver la fraîcheur du poisson."
+},
+{
+    id: 178,
+    question: "Quelle est la température idéale de conservation d'un poisson frais ?",
+    reponse_v: "Entre 0 et 2 °C",
+    reponse_f1: "10 °C",
+    reponse_f2: "20 °C",
+    explication: "Une température proche de 0 °C garantit une meilleure conservation."
+},
+{
+    id: 179,
+    question: "Quel poisson est réputé pour avoir très peu d'arêtes ?",
+    reponse_v: "La lotte",
+    reponse_f1: "Le brochet",
+    reponse_f2: "La carpe",
+    explication: "La lotte possède une arête centrale facilement retirée."
+},
+{
+    id: 180,
+    question: "Quel poisson est souvent recommandé aux enfants en raison de son faible nombre d'arêtes ?",
+    reponse_v: "Le cabillaud",
+    reponse_f1: "Le brochet",
+    reponse_f2: "La carpe",
+    explication: "Le cabillaud est facile à préparer en filets sans arêtes."
+},
+{
+    id: 181,
+    question: "Quel poisson est traditionnellement préparé 'en croûte de sel' lors des grandes occasions ?",
+    reponse_v: "Le bar",
+    reponse_f1: "Le hareng",
+    reponse_f2: "L'anchois",
+    explication: "Le bar en croûte de sel est un grand classique de la gastronomie."
+},
+{
+    id: 182,
+    question: "Quel poisson est particulièrement adapté à la cuisson en ceviche grâce à sa chair ferme ?",
+    reponse_v: "Le bar",
+    reponse_f1: "Le merlan",
+    reponse_f2: "La sardine",
+    explication: "Le bar conserve une excellente texture après la marinade."
+},
+{
+    id: 183,
+    question: "Quel poisson est le plus souvent utilisé pour réaliser des makis ?",
+    reponse_v: "Le saumon",
+    reponse_f1: "Le merlan",
+    reponse_f2: "Le cabillaud",
+    explication: "Le saumon est la garniture la plus populaire des makis."
+},
+{
+    id: 184,
+    question: "Quelle vitamine est particulièrement abondante dans les poissons gras ?",
+    reponse_v: "La vitamine D",
+    reponse_f1: "La vitamine C",
+    reponse_f2: "La vitamine K",
+    explication: "Les poissons gras sont une excellente source de vitamine D."
+},
+{
+    id: 185,
+    question: "Quel minéral est abondant dans les produits de la mer ?",
+    reponse_v: "L'iode",
+    reponse_f1: "Le fluor",
+    reponse_f2: "Le manganèse",
+    explication: "L'iode est indispensable au bon fonctionnement de la thyroïde."
+},
+{
+    id: 186,
+    question: "Quel poisson est réputé pour vivre dans les grands fonds marins ?",
+    reponse_v: "Le sabre noir",
+    reponse_f1: "La sardine",
+    reponse_f2: "Le maquereau",
+    explication: "Le sabre noir vit à plusieurs centaines de mètres de profondeur."
+},
+{
+    id: 187,
+    question: "Quel poisson possède une bioluminescence naturelle chez certaines espèces abyssales ?",
+    reponse_v: "Le poisson-lanterne",
+    reponse_f1: "Le cabillaud",
+    reponse_f2: "Le saumon",
+    explication: "Les poissons-lanternes produisent leur propre lumière."
+},
+{
+    id: 188,
+    question: "Quel poisson est capable de changer rapidement de sexe au cours de sa vie ?",
+    reponse_v: "La dorade",
+    reponse_f1: "Le thon",
+    reponse_f2: "Le cabillaud",
+    explication: "La dorade royale est hermaphrodite protandre : elle est d'abord mâle puis devient femelle."
+},
+{
+    id: 189,
+    question: "Quel poisson est principalement utilisé pour produire des œufs de lump ?",
+    reponse_v: "Le lump",
+    reponse_f1: "Le saumon",
+    reponse_f2: "L'esturgeon",
+    explication: "Les œufs de lump sont souvent utilisés comme alternative au caviar."
+},
+{
+    id: 190,
+    question: "Pourquoi est-il recommandé de varier les espèces de poissons consommées ?",
+    reponse_v: "Pour limiter la pression sur certaines espèces et diversifier les apports nutritionnels",
+    reponse_f1: "Pour éviter les arêtes",
+    reponse_f2: "Pour augmenter la cuisson",
+    explication: "La diversité favorise une alimentation équilibrée et une pêche plus durable."
+},{
+    id: 191,
+    question: "Quel poisson est traditionnellement utilisé pour préparer une choucroute de la mer ?",
+    reponse_v: "Le cabillaud",
+    reponse_f1: "Le brochet",
+    reponse_f2: "La sardine",
+    explication: "La choucroute de la mer associe généralement plusieurs poissons, dont le cabillaud."
+},
+{
+    id: 192,
+    question: "Quel poisson est principalement utilisé dans les filets de poisson panés industriels ?",
+    reponse_v: "Le colin d'Alaska",
+    reponse_f1: "Le turbot",
+    reponse_f2: "Le saumon",
+    explication: "Le colin d'Alaska est largement utilisé grâce à sa chair blanche et son abondance."
+},
+{
+    id: 193,
+    question: "Quel poisson est particulièrement apprécié pour réaliser des brochettes au barbecue ?",
+    reponse_v: "L'espadon",
+    reponse_f1: "Le merlan",
+    reponse_f2: "La sole",
+    explication: "Sa chair ferme résiste très bien à la cuisson sur le gril."
+},
+{
+    id: 194,
+    question: "Quel poisson est considéré comme un excellent indicateur de la qualité des eaux douces ?",
+    reponse_v: "La truite",
+    reponse_f1: "La carpe",
+    reponse_f2: "L'anguille",
+    explication: "La truite vit principalement dans des eaux fraîches, bien oxygénées et peu polluées."
+},
+{
+    id: 195,
+    question: "Quel poisson possède la croissance la plus rapide parmi ces espèces ?",
+    reponse_v: "Le thon",
+    reponse_f1: "L'esturgeon",
+    reponse_f2: "La sole",
+    explication: "Le thon est un nageur extrêmement actif à la croissance rapide."
+},
+{
+    id: 196,
+    question: "Quel poisson est traditionnellement préparé 'à l'unilatérale' ?",
+    reponse_v: "La sole",
+    reponse_f1: "Le maquereau",
+    reponse_f2: "Le hareng",
+    explication: "La cuisson à l'unilatérale consiste à cuire principalement un seul côté du poisson."
+},
+{
+    id: 197,
+    question: "Quel poisson est réputé pour être l'un des plus rapides au monde ?",
+    reponse_v: "Le voilier",
+    reponse_f1: "Le cabillaud",
+    reponse_f2: "La dorade",
+    explication: "Le voilier peut atteindre des vitesses supérieures à 100 km/h sur de courtes distances."
+},
+{
+    id: 198,
+    question: "Quel poisson possède une chair particulièrement appréciée pour les terrines ?",
+    reponse_v: "Le saumon",
+    reponse_f1: "Le hareng",
+    reponse_f2: "L'anchois",
+    explication: "Le saumon est fréquemment utilisé pour les terrines gastronomiques."
+},
+{
+    id: 199,
+    question: "Quel poisson est traditionnellement utilisé pour préparer une blanquette de la mer ?",
+    reponse_v: "Le cabillaud",
+    reponse_f1: "Le maquereau",
+    reponse_f2: "La sardine",
+    explication: "La blanquette de la mer est généralement élaborée avec des poissons blancs comme le cabillaud."
+},
+{
+    id: 200,
+    question: "Quelle affirmation résume le mieux la qualité d'un excellent poisson ?",
+    reponse_v: "Elle dépend de sa fraîcheur, de son espèce, de son mode de pêche ou d'élevage, de sa conservation et de sa cuisson",
+    reponse_f1: "Elle dépend uniquement de son prix",
+    reponse_f2: "Elle dépend uniquement de sa taille",
+    explication: "Comme pour la viande, la qualité finale d'un poisson résulte de nombreux facteurs, de sa capture jusqu'à sa préparation culinaire."
+},
+
+]
