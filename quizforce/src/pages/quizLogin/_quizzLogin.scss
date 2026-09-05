@@ -1,0 +1,91 @@
+.quizLogin-page-main {
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f1f1f1;
+}
+.quizLogin-section-details {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #d8d8d8;
+  color: #1a1a1a;
+}
+.quizLogin-section-details-flex-container {
+  display: flex;
+  flex-direction: column;
+  ul {
+    list-style-type: none;
+  }
+  h1 {
+    font-size: 36px;
+  }
+  li {
+    margin: 5px 0;
+    font-weight: bold;
+  }
+}
+
+.quizLogin-login-credential {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+  span {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 0 10px 0;
+  }
+  input {
+    margin: 5px 0 20px 0;
+    color: #1a1a1a;
+    border: 2px solid #aaaaaa;
+    padding: 20px 0;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 20px;
+  }
+}
+
+.quizLogin-login-forgotten {
+  text-align: right;
+  color: grey;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.quizLogin-section-img {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #1a1a1a;
+}
+.quizLogin-page-img {
+  aspect-ratio: 16/10;
+  width: 80%;
+}
+
+.quizLogin-button-connexion {
+  padding: 15px 25px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  margin: 20px 0;
+  background: #1a1a1a;
+  color: #f1f1f1;
+  &:hover {
+    color: #1a1a1a;
+    background: #f1f1f1;
+    cursor: pointer;
+  }
+}

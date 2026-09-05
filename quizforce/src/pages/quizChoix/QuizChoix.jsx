@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
-
+const difficulté = ["Tout", "Facile", "Normal", "Avancé", "Expert"];
 const themes = [
   {
     category: "AdminSys",
@@ -557,8 +557,8 @@ function QuizChoix() {
   return (
     <main className="quizchoix-page-main">
       <div className="quizchoix-container">
-        <h1>Quiz de connaissances techniques</h1>
-        <div id="quizchoix-footer">Made by Enkiduh</div>
+        {/* <h1>Quiz de connaissances techniques</h1>
+        <div id="quizchoix-footer">Made by Enkiduh</div> */}
         <section className="quizchoix-section-filter">
           <div
             className={`quizchoix-filter ${selected ? "quizchoix-filter-selected" : ""}`}
@@ -639,7 +639,7 @@ function QuizChoix() {
             Culture
           </div>
         </section>
-        <section className="quizchoix-section-difficulte">
+        {/* <section className="quizchoix-section-difficulte">
           <div
             className={`quizchoix-filter ${selected ? "quizchoix-filter-selected" : ""}`}
             onClick={handleDifficulteClick}
@@ -674,7 +674,7 @@ function QuizChoix() {
             <div>Expert</div>
             <div className="quizchoix-quiz-filter-vignette-expert filter-vignette"></div>
           </div>
-        </section>
+        </section> */}
         <div className="quizchoix-quiz-wrapper">
           {selectedThemes.map((theme) => (
             <>
