@@ -331,7 +331,7 @@ function QuizGame() {
   }
 
   function arreterQuiz() {
-    navigate("/");
+    navigate("/choix");
   }
 
   function obtenirClasseReponse(reponse) {

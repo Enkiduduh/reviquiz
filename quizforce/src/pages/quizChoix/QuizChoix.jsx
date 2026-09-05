@@ -1,6 +1,20 @@
 import { useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 const difficulté = ["Tout", "Facile", "Normal", "Avancé", "Expert"];
+
+import img_logique from "/assets/thumbnails_choice/thumbnail_logique.png";
+import img_adminsys from "/assets/thumbnails_choice/thumbnail_adminsys.png";
+import img_developpement from "/assets/thumbnails_choice/thumbnail_developpement.png";
+import img_reseaux from "/assets/thumbnails_choice/thumbnail_reseaux.png";
+import img_projet from "/assets/thumbnails_choice/thumbnail_projet.png";
+import img_conception from "/assets/thumbnails_choice/thumbnail_conception.png";
+import img_ia from "/assets/thumbnails_choice/thumbnail_ia.png";
+import img_culture from "/assets/thumbnails_choice/thumbnail_culture.png";
+import img_securite from "/assets/thumbnails_choice/thumbnail_securite.png";
+import img_data from "/assets/thumbnails_choice/thumbnail_data.png";
+import img_juridique from "/assets/thumbnails_choice/thumbnail_juridique.png";
+import img_outils from "/assets/thumbnails_choice/thumbnail_outils.png";
+
 const themes = [
   {
     category: "AdminSys",
@@ -10,6 +24,7 @@ const themes = [
     label_difficulte: "Facile",
     synopsys: "Lorem Ipsum Magnolia Dex Aeternatos",
     label: "Linux",
+    icon: "/assets/thumbnails_choice/thumbnail_adminsys.png",
   },
   {
     category: "AdminSys",
@@ -19,9 +34,11 @@ const themes = [
     label_difficulte: "Normal",
     synopsys: "Lorem Ipsum Magnolia Dex Aeternatos",
     label: "Linux",
+    icon: "/assets/thumbnails_choice/thumbnail_adminsys.png",
   },
   {
     category: "AdminSys",
+    icon: "/assets/thumbnails_choice/thumbnail_adminsys.png",
     id: "scriptshell",
     nb_questions: "160",
     difficulte: "facile",
@@ -31,6 +48,7 @@ const themes = [
   },
   {
     category: "AdminSys",
+    icon: "/assets/thumbnails_choice/thumbnail_adminsys.png",
     id: "securite",
     nb_questions: "100",
     difficulte: "normal",
@@ -40,6 +58,7 @@ const themes = [
   },
   {
     category: "AdminSys",
+    icon: "/assets/thumbnails_choice/thumbnail_adminsys.png",
     id: "postgresql",
     nb_questions: "150",
     difficulte: "normal",
@@ -49,6 +68,7 @@ const themes = [
   },
   {
     category: "AdminSys",
+    icon: "/assets/thumbnails_choice/thumbnail_adminsys.png",
     id: "postgresql_dba",
     nb_questions: "195",
     difficulte: "difficile",
@@ -58,6 +78,7 @@ const themes = [
   },
   {
     category: "AdminSys",
+    icon: "/assets/thumbnails_choice/thumbnail_adminsys.png",
     id: "linux_scripts",
     nb_questions: "184",
     difficulte: "normal",
@@ -67,6 +88,7 @@ const themes = [
   },
   {
     category: "AdminSys",
+    icon: "/assets/thumbnails_choice/thumbnail_adminsys.png",
     id: "sql",
     nb_questions: "250",
     difficulte: "normal",
@@ -77,6 +99,7 @@ const themes = [
 
   {
     category: "Logique",
+    icon: "img_logique",
     id: "logique",
     nb_questions: "100",
     difficulte: "facile",
@@ -86,6 +109,7 @@ const themes = [
   },
   {
     category: "Logique",
+    icon: "img_logique",
     id: "logique_avancee",
     nb_questions: "300",
     difficulte: "difficile",
@@ -95,6 +119,7 @@ const themes = [
   },
   {
     category: "Logique",
+    icon: "img_logique",
     id: "logique_expert",
     nb_questions: "300",
     difficulte: "expert",
@@ -104,6 +129,7 @@ const themes = [
   },
   {
     category: "Développement",
+    icon: "img_developpement",
     id: "java",
     nb_questions: "100",
     difficulte: "facile",
@@ -113,6 +139,7 @@ const themes = [
   },
   {
     category: "Développement",
+    icon: "img_developpement",
     id: "java_affichage",
     nb_questions: "100",
     difficulte: "facile",
@@ -122,6 +149,7 @@ const themes = [
   },
   {
     category: "Développement",
+    icon: "img_developpement",
     id: "java_avance",
     nb_questions: "276",
     difficulte: "difficile",
@@ -132,6 +160,7 @@ const themes = [
 
   {
     category: "Développement",
+    icon: "img_developpement",
     id: "java_expert",
     nb_questions: "300",
     difficulte: "expert",
@@ -141,6 +170,7 @@ const themes = [
   },
   {
     category: "Développement",
+    icon: "img_developpement",
     id: "javascript_expert",
     nb_questions: "300",
     difficulte: "expert",
@@ -150,6 +180,7 @@ const themes = [
   },
   {
     category: "Développement",
+    icon: "img_developpement",
     id: "python_expert",
     nb_questions: "300",
     difficulte: "expert",
@@ -160,6 +191,7 @@ const themes = [
 
   {
     category: "Réseaux",
+    icon: "img_reseaux",
     id: "reseaux",
     nb_questions: "150",
     difficulte: "difficile",
@@ -169,6 +201,7 @@ const themes = [
   },
   {
     category: "Réseaux",
+    icon: "img_reseaux",
     id: "cidr_ipv4_ipv6",
     nb_questions: "300",
     difficulte: "difficile",
@@ -178,6 +211,7 @@ const themes = [
   },
   {
     category: "Réseaux",
+    icon: "img_reseaux",
     id: "cloud_computing",
     nb_questions: "300",
     difficulte: "difficile",
@@ -187,6 +221,7 @@ const themes = [
   },
   {
     category: "Réseaux",
+    icon: "img_reseaux",
     id: "modele_osi_dod",
     nb_questions: "300",
     difficulte: "difficile",
@@ -196,16 +231,18 @@ const themes = [
   },
   {
     category: "Réseaux",
+    icon: "img_reseaux",
     id: "typologies_reseaux",
     nb_questions: "300",
     difficulte: "difficile",
     label_difficulte: "Difficile",
     synopsys: "Lorem Ipsum Magnolia Dex Aeternatos",
-    label: "Pile TCP/IP, typologies, protocoles et infrastructures réseaux",
+    label: "Pile TCP/IP, typologies, protocoles et infra",
   },
 
   {
     category: "Projet",
+    icon: "img_projet",
     id: "cycle_vie_application",
     nb_questions: "150",
     difficulte: "normal",
@@ -215,6 +252,7 @@ const themes = [
   },
   {
     category: "Projet",
+    icon: "img_projet",
     id: "schema_directeur",
     nb_questions: "100",
     difficulte: "normal",
@@ -224,6 +262,7 @@ const themes = [
   },
   {
     category: "Projet",
+    icon: "img_projet",
     id: "partenaire_projet",
     nb_questions: "75",
     difficulte: "normal",
@@ -233,6 +272,7 @@ const themes = [
   },
   {
     category: "Projet",
+    icon: "img_projet",
     id: "urbanisation_systeme_info",
     nb_questions: "150",
     difficulte: "normal",
@@ -242,6 +282,7 @@ const themes = [
   },
   {
     category: "Projet",
+    icon: "img_projet",
     id: "conduite_projet_info",
     nb_questions: "150",
     difficulte: "normal",
@@ -251,6 +292,7 @@ const themes = [
   },
   {
     category: "Conception",
+    icon: "img_conception",
     id: "concepts_objet",
     nb_questions: "150",
     difficulte: "normal",
@@ -260,6 +302,7 @@ const themes = [
   },
   {
     category: "Conception",
+    icon: "img_conception",
     id: "merise",
     nb_questions: "150",
     difficulte: "normal",
@@ -269,6 +312,7 @@ const themes = [
   },
   {
     category: "Conception",
+    icon: "img_conception",
     id: "uml",
     nb_questions: "150",
     difficulte: "normal",
@@ -278,6 +322,7 @@ const themes = [
   },
   {
     category: "Conception",
+    icon: "img_conception",
     id: "test",
     nb_questions: "150",
     difficulte: "normal",
@@ -287,6 +332,7 @@ const themes = [
   },
   {
     category: "Conception",
+    icon: "img_conception",
     id: "evolution_language",
     nb_questions: "150",
     difficulte: "normal",
@@ -296,6 +342,7 @@ const themes = [
   },
   {
     category: "Conception",
+    icon: "img_conception",
     id: "schema_conception",
     nb_questions: "201",
     difficulte: "normal",
@@ -306,6 +353,7 @@ const themes = [
 
   {
     category: "Conception",
+    icon: "img_conception",
     id: "merise_exos",
     nb_questions: "300",
     difficulte: "difficile",
@@ -315,6 +363,7 @@ const themes = [
   },
   {
     category: "Conception",
+    icon: "img_conception",
     id: "uml_exos",
     nb_questions: "300",
     difficulte: "difficile",
@@ -324,6 +373,7 @@ const themes = [
   },
   {
     category: "Conception",
+    icon: "img_conception",
     id: "methodes_analyse",
     nb_questions: "300",
     difficulte: "normal",
@@ -334,6 +384,7 @@ const themes = [
 
   {
     category: "Culture",
+    icon: "img_culture",
     id: "architectures_info",
     nb_questions: "200",
     difficulte: "normal",
@@ -343,6 +394,7 @@ const themes = [
   },
   {
     category: "Culture",
+    icon: "img_culture",
     id: "systemes_exploitation",
     nb_questions: "200",
     difficulte: "normal",
@@ -352,6 +404,7 @@ const themes = [
   },
   {
     category: "Culture",
+    icon: "img_culture",
     id: "langages_informatiques",
     nb_questions: "200",
     difficulte: "normal",
@@ -362,6 +415,7 @@ const themes = [
 
   {
     category: "Outils",
+    icon: "img_outils",
     id: "aide_conception",
     nb_questions: "200",
     difficulte: "difficile",
@@ -371,6 +425,7 @@ const themes = [
   },
   {
     category: "Outils",
+    icon: "img_outils",
     id: "aide_realisation",
     nb_questions: "200",
     difficulte: "difficile",
@@ -380,16 +435,18 @@ const themes = [
   },
   {
     category: "Outils",
+    icon: "img_outils",
     id: "tests_config_deploiement",
     nb_questions: "200",
     difficulte: "difficile",
     label_difficulte: "difficile",
     synopsys: "Lorem Ipsum Magnolia Dex Aeternatos",
-    label: "Outils de tests, configuration et déploirement",
+    label: "Outils de tests, configuration et déploiement",
   },
 
   {
     category: "Juridique",
+    icon: "img_juridique",
     id: "communications_electronique",
     nb_questions: "200",
     difficulte: "normal",
@@ -399,6 +456,7 @@ const themes = [
   },
   {
     category: "Juridique",
+    icon: "img_juridique",
     id: "droit_informatique",
     nb_questions: "200",
     difficulte: "normal",
@@ -408,6 +466,7 @@ const themes = [
   },
   {
     category: "Juridique",
+    icon: "img_juridique",
     id: "instances_normalisation",
     nb_questions: "200",
     difficulte: "normal",
@@ -417,6 +476,7 @@ const themes = [
   },
   {
     category: "Juridique",
+    icon: "img_juridique",
     id: "marches_publics",
     nb_questions: "200",
     difficulte: "normal",
@@ -426,6 +486,7 @@ const themes = [
   },
   {
     category: "Sécurité",
+    icon: "img_securite",
     id: "chiffrement",
     nb_questions: "300",
     difficulte: "expert",
@@ -435,6 +496,7 @@ const themes = [
   },
   {
     category: "Sécurité",
+    icon: "img_securite",
     id: "cybersecurite",
     nb_questions: "300",
     difficulte: "expert",
@@ -444,6 +506,7 @@ const themes = [
   },
   {
     category: "Sécurité",
+    icon: "img_securite",
     id: "authentification",
     nb_questions: "300",
     difficulte: "expert",
@@ -453,6 +516,7 @@ const themes = [
   },
   {
     category: "Sécurité",
+    icon: "img_securite",
     id: "resilience",
     nb_questions: "300",
     difficulte: "expert",
@@ -463,6 +527,7 @@ const themes = [
 
   {
     category: "Data",
+    icon: "img_data",
     id: "sauvegarde_archivage",
     nb_questions: "300",
     difficulte: "expert",
@@ -473,6 +538,7 @@ const themes = [
 
   {
     category: "Data",
+    icon: "img_data",
     id: "exposition_donnees",
     nb_questions: "300",
     difficulte: "expert",
@@ -483,6 +549,7 @@ const themes = [
 
   {
     category: "Data",
+    icon: "img_data",
     id: "nosql",
     nb_questions: "300",
     difficulte: "expert",
@@ -493,6 +560,7 @@ const themes = [
 
   {
     category: "IA",
+    icon: "img_ia",
     id: "intelligence_artificielle",
     nb_questions: "300",
     difficulte: "expert",
@@ -503,6 +571,7 @@ const themes = [
 
   {
     category: "AdminSys",
+    icon: "/assets/thumbnails_choice/thumbnail_adminsys.png",
     id: "test_fin",
     nb_questions: "3",
     difficulte: "expert",
@@ -529,15 +598,11 @@ function QuizChoix() {
   useEffect(() => {});
 
   function handleFilterClick(e) {
-    const selectedTheme = e.target.textContent;
-    if (selectedTheme == "Tout") {
-      setSelectedThemes(themes);
-      setSelected(true);
-    } else {
-      const filterTheme = themes.filter((th) => th.category == selectedTheme);
-      setSelectedThemes(filterTheme);
-      setSelected(false);
-    }
+    const selectedTheme = e.target.previousElementSibling.textContent;
+    console.log(selectedTheme);
+    const filterTheme = themes.filter((th) => th.category == selectedTheme);
+    setSelectedThemes(filterTheme);
+    setSelected(true);
   }
 
   function handleDifficulteClick(e) {
@@ -554,89 +619,205 @@ function QuizChoix() {
     }
   }
 
+  function handleExitModal() {
+    setSelected(false);
+  }
+
   return (
     <main className="quizchoix-page-main">
       <div className="quizchoix-container">
         {/* <h1>Quiz de connaissances techniques</h1>
         <div id="quizchoix-footer">Made by Enkiduh</div> */}
         <section className="quizchoix-section-filter">
-          <div
+          {/* <div
             className={`quizchoix-filter ${selected ? "quizchoix-filter-selected" : ""}`}
-            onClick={handleFilterClick}
           >
             Tout
+          </div> */}
+          <div
+            className={`quizchoix-filter ${selected ? "quizchoix-filter-selected" : ""}`}
+          >
+            <img
+              src={img_adminsys}
+              alt=""
+              className="quizchoix-filter-thumbnail"
+            />
+            <span>AdminSys</span>
+
+            <div
+              className="quizchoix-filter-selection"
+              onClick={handleFilterClick}
+            >
+              Sélectionner
+            </div>
           </div>
           <div
             className={`quizchoix-filter ${selected ? "quizchoix-filter-selected" : ""}`}
-            onClick={handleFilterClick}
           >
-            AdminSys
+            <img
+              src={img_developpement}
+              alt=""
+              className="quizchoix-filter-thumbnail"
+            />
+            <span>Développement</span>
+            <div
+              className="quizchoix-filter-selection"
+              onClick={handleFilterClick}
+            >
+              Sélectionner
+            </div>
           </div>
           <div
             className={`quizchoix-filter ${selected ? "quizchoix-filter-selected" : ""}`}
-            onClick={handleFilterClick}
           >
-            Développement
+            <img
+              src={img_conception}
+              alt=""
+              className="quizchoix-filter-thumbnail"
+            />
+            <span>Conception</span>
+            <div
+              className="quizchoix-filter-selection"
+              onClick={handleFilterClick}
+            >
+              Sélectionner
+            </div>
           </div>
           <div
             className={`quizchoix-filter ${selected ? "quizchoix-filter-selected" : ""}`}
-            onClick={handleFilterClick}
           >
-            Conception
+            <img
+              src={img_projet}
+              alt=""
+              className="quizchoix-filter-thumbnail"
+            />
+            <span>Projet</span>
+            <div
+              className="quizchoix-filter-selection"
+              onClick={handleFilterClick}
+            >
+              Sélectionner
+            </div>
           </div>
           <div
             className={`quizchoix-filter ${selected ? "quizchoix-filter-selected" : ""}`}
-            onClick={handleFilterClick}
           >
-            Projet
+            <img
+              src={img_logique}
+              alt=""
+              className="quizchoix-filter-thumbnail"
+            />
+            <span>Logique</span>
+            <div
+              className="quizchoix-filter-selection"
+              onClick={handleFilterClick}
+            >
+              Sélectionner
+            </div>
           </div>
           <div
             className={`quizchoix-filter ${selected ? "quizchoix-filter-selected" : ""}`}
-            onClick={handleFilterClick}
           >
-            Logique
+            <img
+              src={img_reseaux}
+              alt=""
+              className="quizchoix-filter-thumbnail"
+            />
+            <span>Réseaux</span>
+            <div
+              className="quizchoix-filter-selection"
+              onClick={handleFilterClick}
+            >
+              Sélectionner
+            </div>
           </div>
           <div
             className={`quizchoix-filter ${selected ? "quizchoix-filter-selected" : ""}`}
-            onClick={handleFilterClick}
           >
-            Réseaux
+            <img
+              src={img_juridique}
+              alt=""
+              className="quizchoix-filter-thumbnail"
+            />
+            <span>Juridique</span>
+            <div
+              className="quizchoix-filter-selection"
+              onClick={handleFilterClick}
+            >
+              Sélectionner
+            </div>
           </div>
           <div
             className={`quizchoix-filter ${selected ? "quizchoix-filter-selected" : ""}`}
-            onClick={handleFilterClick}
           >
-            Juridique
+            <img
+              src={img_securite}
+              alt=""
+              className="quizchoix-filter-thumbnail"
+            />
+            <span>Sécurité</span>
+            <div
+              className="quizchoix-filter-selection"
+              onClick={handleFilterClick}
+            >
+              Sélectionner
+            </div>
           </div>
           <div
             className={`quizchoix-filter ${selected ? "quizchoix-filter-selected" : ""}`}
-            onClick={handleFilterClick}
           >
-            Sécurité
+            <img
+              src={img_outils}
+              alt=""
+              className="quizchoix-filter-thumbnail"
+            />
+            <span>Outils</span>
+            <div
+              className="quizchoix-filter-selection"
+              onClick={handleFilterClick}
+            >
+              Sélectionner
+            </div>
           </div>
           <div
             className={`quizchoix-filter ${selected ? "quizchoix-filter-selected" : ""}`}
-            onClick={handleFilterClick}
           >
-            Outils
+            <img src={img_data} alt="" className="quizchoix-filter-thumbnail" />
+            <span>Data</span>
+            <div
+              className="quizchoix-filter-selection"
+              onClick={handleFilterClick}
+            >
+              Sélectionner
+            </div>
           </div>
           <div
             className={`quizchoix-filter ${selected ? "quizchoix-filter-selected" : ""}`}
-            onClick={handleFilterClick}
           >
-            Data
+            <img src={img_ia} alt="" className="quizchoix-filter-thumbnail" />
+            <span>IA</span>
+            <div
+              className="quizchoix-filter-selection"
+              onClick={handleFilterClick}
+            >
+              Sélectionner
+            </div>
           </div>
           <div
             className={`quizchoix-filter ${selected ? "quizchoix-filter-selected" : ""}`}
-            onClick={handleFilterClick}
           >
-            IA
-          </div>
-          <div
-            className={`quizchoix-filter ${selected ? "quizchoix-filter-selected" : ""}`}
-            onClick={handleFilterClick}
-          >
-            Culture
+            <img
+              src={img_culture}
+              alt=""
+              className="quizchoix-filter-thumbnail"
+            />
+            <span>Culture</span>
+            <div
+              className="quizchoix-filter-selection"
+              onClick={handleFilterClick}
+            >
+              Sélectionner
+            </div>
           </div>
         </section>
         {/* <section className="quizchoix-section-difficulte">
@@ -675,28 +856,33 @@ function QuizChoix() {
             <div className="quizchoix-quiz-filter-vignette-expert filter-vignette"></div>
           </div>
         </section> */}
-        <div className="quizchoix-quiz-wrapper">
+        <div
+          // className={`quizchoix-quiz-wrapper  ${selected ? "quizchoix-filter-selected" : ""}`}
+          className={`quizchoix-quiz-wrapper  ${selected ? "quizchoix-quiz-wrapper-flex" : "quizchoix-quiz-wrapper-none"}`}
+        >
+          <div className="quizchoix-quiz-exit-modal" onClick={handleExitModal}>
+            X
+          </div>
+
           {selectedThemes.map((theme) => (
             <>
-              <div>
-                <button
-                  key={theme.id}
-                  type="button"
-                  className={`quizchoix-quiz quizchoix-quiz-${theme.category}`}
-                  onClick={() => selectionnerTheme(theme.id)}
+              <button
+                key={theme.id}
+                type="button"
+                className={`quizchoix-quiz quizchoix-quiz-${theme.category}`}
+                onClick={() => selectionnerTheme(theme.id)}
                 >
-                  <div className="quizchoix-quiz-theme quizchoix-quiz-vignette">
-                    {theme.label}
-                  </div>
-                  <div
-                    className={`quizchoix-quiz-diff quizchoix-quiz-vignette-${theme.difficulte}`}
-                  ></div>
-                  <div className="quizchoix-quiz-nbquestions">
-                    {theme.nb_questions} questions
-                  </div>
-                </button>
-              </div>
-              <div></div>
+                <img src={theme.icon} alt="" className="quizchoix-quiz-img"/>
+                <div className="quizchoix-quiz-theme quizchoix-quiz-vignette">
+                  {theme.label}
+                </div>
+                <div
+                  className={`quizchoix-quiz-diff quizchoix-quiz-vignette-${theme.difficulte}`}
+                ></div>
+                <div className="quizchoix-quiz-nbquestions">
+                  {theme.nb_questions} questions
+                </div>
+              </button>
             </>
           ))}
         </div>
