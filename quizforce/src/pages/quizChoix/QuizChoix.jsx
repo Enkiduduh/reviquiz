@@ -104,7 +104,7 @@ const themes = [
     nb_questions: "100",
     difficulte: "facile",
     label_difficulte: "Facile",
-    synopsys: "Lorem Ipsum Magnolia Dex Aeternatos",
+    synopsys: "Testez votre raisonnement à travers des problèmes de déduction, de suites, d’observation et de logique générale.",
     label: "Logique",
   },
   {
@@ -114,7 +114,7 @@ const themes = [
     nb_questions: "300",
     difficulte: "difficile",
     label_difficulte: "Difficile",
-    synopsys: "Lorem Ipsum Magnolia Dex Aeternatos",
+    synopsys: "Poussez votre réflexion avec des énigmes complexes mêlant déduction, calcul, analyse, suites et raisonnement abstrait.",
     label: "Logique Avancée",
   },
   {
@@ -124,7 +124,7 @@ const themes = [
     nb_questions: "300",
     difficulte: "expert",
     label_difficulte: "Expert",
-    synopsys: "Lorem Ipsum Magnolia Dex Aeternatos",
+    synopsys: "Repoussez les limites de votre raisonnement face à des problèmes exigeants où rigueur, stratégie et déduction seront indispensables.",
     label: "Logique Expert",
   },
   {
@@ -134,7 +134,7 @@ const themes = [
     nb_questions: "100",
     difficulte: "facile",
     label_difficulte: "Facile",
-    synopsys: "Lorem Ipsum Magnolia Dex Aeternatos",
+    synopsys: "Testez vos connaissances des fondamentaux de Java, de la syntaxe à la programmation orientée objet en passant par les structures essentielles.",
     label: "Java 1",
   },
   {
@@ -144,7 +144,7 @@ const themes = [
     nb_questions: "100",
     difficulte: "facile",
     label_difficulte: "Facile",
-    synopsys: "Lorem Ipsum Magnolia Dex Aeternatos",
+    synopsys: "Testez vos connaissances des fondamentaux de Java, de la syntaxe à la programmation orientée objet en passant par les structures essentielles.",
     label: "Java 2",
   },
   {
@@ -154,7 +154,7 @@ const themes = [
     nb_questions: "276",
     difficulte: "difficile",
     label_difficulte: "Difficile",
-    synopsys: "Lorem Ipsum Magnolia Dex Aeternatos",
+    synopsys: "Approfondissez votre maîtrise de Java à travers les collections, exceptions, génériques, streams et concepts avancés de la programmation objet.",
     label: "Java Avancé",
   },
 
@@ -165,7 +165,7 @@ const themes = [
     nb_questions: "300",
     difficulte: "expert",
     label_difficulte: "Expert",
-    synopsys: "Lorem Ipsum Magnolia Dex Aeternatos",
+    synopsys: "Repoussez vos limites sur Java avec des problématiques complexes autour de la JVM, de la concurrence, des performances et des mécanismes internes du langage.",
     label: "Java Mini-TP - Expert",
   },
   {
@@ -175,7 +175,7 @@ const themes = [
     nb_questions: "300",
     difficulte: "expert",
     label_difficulte: "Expert",
-    synopsys: "Lorem Ipsum Magnolia Dex Aeternatos",
+    synopsys: "Défiez votre maîtrise de JavaScript avec ses concepts avancés : closures, prototypes, asynchronisme, promesses, event loop et comportements subtils du langage.",
     label: "Javascript Mini-TP - Expert",
   },
   {
@@ -185,7 +185,7 @@ const themes = [
     nb_questions: "300",
     difficulte: "expert",
     label_difficulte: "Expert",
-    synopsys: "Lorem Ipsum Magnolia Dex Aeternatos",
+    synopsys: "Mettez à l’épreuve votre expertise Python à travers ses mécanismes avancés, la programmation objet, les décorateurs, générateurs et subtilités du langage",
     label: "Python Mini-TP - Expert",
   },
 
@@ -196,7 +196,7 @@ const themes = [
     nb_questions: "150",
     difficulte: "difficile",
     label_difficulte: "Difficile",
-    synopsys: "Lorem Ipsum Magnolia Dex Aeternatos",
+    synopsys: "Testez vos connaissances des fondamentaux des réseaux informatiques, de leur fonctionnement aux équipements, protocoles et services essentiels.s",
     label: "Réseaux",
   },
   {
@@ -206,7 +206,7 @@ const themes = [
     nb_questions: "300",
     difficulte: "difficile",
     label_difficulte: "Difficile",
-    synopsys: "Lorem Ipsum Magnolia Dex Aeternatos",
+    synopsys: "Mettez à l’épreuve votre maîtrise du CIDR, des masques, sous-réseaux et plans d’adressage en IPv4 comme en IPv6.",
     label: "CIDR, Plan d'adressage IPV4 et IPV6",
   },
   {
@@ -216,7 +216,7 @@ const themes = [
     nb_questions: "300",
     difficulte: "difficile",
     label_difficulte: "Difficile",
-    synopsys: "Lorem Ipsum Magnolia Dex Aeternatos",
+    synopsys: "Évaluez vos connaissances du Cloud Computing, de ses architectures et modèles de services aux enjeux de disponibilité, sécurité et déploiement.",
     label: "Cloud computing",
   },
   {
@@ -226,7 +226,7 @@ const themes = [
     nb_questions: "300",
     difficulte: "difficile",
     label_difficulte: "Difficile",
-    synopsys: "Lorem Ipsum Magnolia Dex Aeternatos",
+    synopsys: "Testez votre compréhension des modèles OSI et DoD, de leurs différentes couches et du rôle des protocoles dans les communications réseau.",
     label: "Modeles OSI et DOD",
   },
   {
@@ -236,7 +236,7 @@ const themes = [
     nb_questions: "300",
     difficulte: "difficile",
     label_difficulte: "Difficile",
-    synopsys: "Lorem Ipsum Magnolia Dex Aeternatos",
+    synopsys: "Explorez le fonctionnement des réseaux à travers la pile TCP/IP, les topologies, les protocoles et les principales infrastructures de communication.",
     label: "Pile TCP/IP, typologies, protocoles et infrastructures réseaux",
   },
 
@@ -247,7 +247,7 @@ const themes = [
     nb_questions: "150",
     difficulte: "normal",
     label_difficulte: "Normal",
-    synopsys: "Lorem Ipsum Magnolia Dex Aeternatos",
+    synopsys: "Testez vos connaissances des différentes étapes de la vie d’une application, de sa conception jusqu’à son déploiement, sa maintenance et son retrait.",
     label: "Cycle de vie d'une application",
   },
   {
@@ -257,7 +257,7 @@ const themes = [
     nb_questions: "100",
     difficulte: "normal",
     label_difficulte: "Normal",
-    synopsys: "Lorem Ipsum Magnolia Dex Aeternatos",
+    synopsys: "Évaluez votre compréhension du schéma directeur et de son rôle dans la définition des orientations stratégiques et de l’évolution du système d’information.",
     label: "Schéma Directeur",
   },
   {
@@ -267,7 +267,7 @@ const themes = [
     nb_questions: "75",
     difficulte: "normal",
     label_difficulte: "Normal",
-    synopsys: "Lorem Ipsum Magnolia Dex Aeternatos",
+    synopsys: "Identifiez les différents acteurs d’un projet informatique, leurs responsabilités, leurs interactions et leur rôle dans sa réussite.",
     label: "Partenaires d'un projet",
   },
   {
@@ -277,7 +277,7 @@ const themes = [
     nb_questions: "150",
     difficulte: "normal",
     label_difficulte: "Normal",
-    synopsys: "Lorem Ipsum Magnolia Dex Aeternatos",
+    synopsys: "Testez votre maîtrise des principes d’urbanisation permettant d’organiser, rationaliser et faire évoluer durablement un système d’information.",
     label: "Urbanisation des SI",
   },
   {
@@ -287,7 +287,7 @@ const themes = [
     nb_questions: "150",
     difficulte: "normal",
     label_difficulte: "Normal",
-    synopsys: "Lorem Ipsum Magnolia Dex Aeternatos",
+    synopsys: "Mettez à l’épreuve vos connaissances des méthodes, étapes et outils nécessaires au pilotage d’un projet informatique, de son cadrage à sa livraison.",
     label: "Conduite d'un projet informatique",
   },
   {
@@ -297,7 +297,7 @@ const themes = [
     nb_questions: "150",
     difficulte: "normal",
     label_difficulte: "Normal",
-    synopsys: "Lorem Ipsum Magnolia Dex Aeternatos",
+    synopsys: "Testez votre maîtrise des principes de la programmation objet : classes, héritage, encapsulation, polymorphisme, associations et abstraction.",
     label: "Concepts Objet",
   },
   {
@@ -307,7 +307,7 @@ const themes = [
     nb_questions: "150",
     difficulte: "normal",
     label_difficulte: "Normal",
-    synopsys: "Lorem Ipsum Magnolia Dex Aeternatos",
+    synopsys: "Évaluez vos connaissances de la méthode Merise, de l’analyse des besoins à la modélisation conceptuelle et logique des données.",
     label: "Merise",
   },
   {
@@ -317,7 +317,7 @@ const themes = [
     nb_questions: "150",
     difficulte: "normal",
     label_difficulte: "Normal",
-    synopsys: "Lorem Ipsum Magnolia Dex Aeternatos",
+    synopsys: "Testez votre compréhension d’UML et des principaux diagrammes utilisés pour modéliser la structure et le comportement d’un système.",
     label: "UML",
   },
   {
@@ -327,7 +327,7 @@ const themes = [
     nb_questions: "150",
     difficulte: "normal",
     label_difficulte: "Normal",
-    synopsys: "Lorem Ipsum Magnolia Dex Aeternatos",
+    synopsys: "Mettez à l’épreuve vos connaissances des tests logiciels, de leur conception à leur automatisation pour garantir la fiabilité du code.",
     label: "Programmation de test",
   },
   {
@@ -337,7 +337,7 @@ const themes = [
     nb_questions: "150",
     difficulte: "normal",
     label_difficulte: "Normal",
-    synopsys: "Lorem Ipsum Magnolia Dex Aeternatos",
+    synopsys: "Parcourez l’histoire des langages de programmation et testez vos connaissances sur leur évolution, leurs paradigmes et leurs usages.",
     label: "Évolution des langages de programmation",
   },
   {
@@ -347,7 +347,7 @@ const themes = [
     nb_questions: "201",
     difficulte: "normal",
     label_difficulte: "Normal",
-    synopsys: "Lorem Ipsum Magnolia Dex Aeternatos",
+    synopsys: "Exercez-vous à analyser et construire des modèles permettant de représenter clairement les données, traitements et interactions d’un système.",
     label: "Schéma de Conception",
   },
 
@@ -358,7 +358,7 @@ const themes = [
     nb_questions: "300",
     difficulte: "difficile",
     label_difficulte: "Difficile",
-    synopsys: "Lorem Ipsum Magnolia Dex Aeternatos",
+    synopsys: "Mettez en pratique la modélisation des systèmes à travers Merise, les cas d’utilisation et les diagrammes d’états-transitions.",
     label: "Merise cas d'utilisation, états transitions",
   },
   {
@@ -368,7 +368,7 @@ const themes = [
     nb_questions: "300",
     difficulte: "difficile",
     label_difficulte: "Difficile",
-    synopsys: "Lorem Ipsum Magnolia Dex Aeternatos",
+    synopsys: "Passez de la théorie à la pratique avec des exercices de modélisation mêlant UML, MCD, MLD, cardinalités et relations entre données.",
     label: "Uml mcd mld exos",
   },
   {
@@ -378,7 +378,7 @@ const themes = [
     nb_questions: "300",
     difficulte: "normal",
     label_difficulte: "Normal",
-    synopsys: "Lorem Ipsum Magnolia Dex Aeternatos",
+    synopsys: "Testez vos connaissances des principales méthodes d’analyse permettant d’étudier, structurer et modéliser efficacement un système d’information.",
     label: "Methodes d'analyse",
   },
 
@@ -389,7 +389,7 @@ const themes = [
     nb_questions: "200",
     difficulte: "normal",
     label_difficulte: "Normal",
-    synopsys: "Lorem Ipsum Magnolia Dex Aeternatos",
+    synopsys: "Testez vos connaissances sur l’organisation et le fonctionnement des systèmes informatiques, des composants matériels aux différentes architectures et leurs interactions.",
     label: "Architecture Informatique",
   },
   {
@@ -399,7 +399,7 @@ const themes = [
     nb_questions: "200",
     difficulte: "normal",
     label_difficulte: "Normal",
-    synopsys: "Lorem Ipsum Magnolia Dex Aeternatos",
+    synopsys: "Évaluez votre maîtrise des systèmes d’exploitation, de la gestion des processus et de la mémoire aux fichiers, utilisateurs et ressources matérielles.",
     label: "Systèmes d'exploitation",
   },
   {
@@ -409,7 +409,7 @@ const themes = [
     nb_questions: "200",
     difficulte: "normal",
     label_difficulte: "Normal",
-    synopsys: "Lorem Ipsum Magnolia Dex Aeternatos",
+    synopsys: "Parcourez les principaux langages de programmation et testez vos connaissances sur leurs caractéristiques, paradigmes, usages et domaines d’application.",
     label: "Principaux langages informatiques",
   },
 
@@ -420,7 +420,7 @@ const themes = [
     nb_questions: "200",
     difficulte: "difficile",
     label_difficulte: "difficile",
-    synopsys: "Lorem Ipsum Magnolia Dex Aeternatos",
+    synopsys: "Testez vos connaissances des outils permettant de modéliser, structurer et préparer efficacement la conception d’une application ou d’un système informatique.",
     label: "Outils d'aide à la conception",
   },
   {
@@ -430,7 +430,7 @@ const themes = [
     nb_questions: "200",
     difficulte: "difficile",
     label_difficulte: "difficile",
-    synopsys: "Lorem Ipsum Magnolia Dex Aeternatos",
+    synopsys: "Évaluez votre maîtrise des outils accompagnant le développement, la gestion du code, la collaboration et la réalisation d’un projet informatique.",
     label: "Outils d'aide à la réalisation",
   },
   {
@@ -440,7 +440,7 @@ const themes = [
     nb_questions: "200",
     difficulte: "difficile",
     label_difficulte: "difficile",
-    synopsys: "Lorem Ipsum Magnolia Dex Aeternatos",
+    synopsys: "Testez vos connaissances des outils utilisés pour automatiser les tests, gérer les configurations et assurer le déploiement fiable des applications.",
     label: "Outils de tests, configuration et déploiement",
   },
 
@@ -451,7 +451,7 @@ const themes = [
     nb_questions: "200",
     difficulte: "normal",
     label_difficulte: "Normal",
-    synopsys: "Lorem Ipsum Magnolia Dex Aeternatos",
+    synopsys: "Testez vos connaissances des règles encadrant les communications électroniques, les opérateurs, les réseaux et la protection des utilisateurs.",
     label: "Cadre juridique des communications électroniques",
   },
   {
@@ -461,7 +461,7 @@ const themes = [
     nb_questions: "200",
     difficulte: "normal",
     label_difficulte: "Normal",
-    synopsys: "Lorem Ipsum Magnolia Dex Aeternatos",
+    synopsys: "Évaluez votre maîtrise des principales règles juridiques liées au numérique, aux données personnelles, aux logiciels, à la cybersécurité et aux responsabilités.",
     label: "Droit informatique",
   },
   {
@@ -471,7 +471,7 @@ const themes = [
     nb_questions: "200",
     difficulte: "normal",
     label_difficulte: "Normal",
-    synopsys: "Lorem Ipsum Magnolia Dex Aeternatos",
+    synopsys: "Testez vos connaissances des principaux organismes de normalisation et de leur rôle dans l’élaboration des normes et standards informatiques.",
     label: "Instances de normalisation",
   },
   {
@@ -481,7 +481,7 @@ const themes = [
     nb_questions: "200",
     difficulte: "normal",
     label_difficulte: "Normal",
-    synopsys: "Lorem Ipsum Magnolia Dex Aeternatos",
+    synopsys: "Évaluez votre compréhension des principes, procédures et acteurs qui encadrent la préparation, la passation et l’exécution des marchés publics.",
     label: "Marchés publics",
   },
   {
@@ -491,7 +491,7 @@ const themes = [
     nb_questions: "300",
     difficulte: "expert",
     label_difficulte: "Expert",
-    synopsys: "Lorem Ipsum Magnolia Dex Aeternatos",
+    synopsys: "Testez votre maîtrise des mécanismes cryptographiques, des certificats numériques, de la gestion des clés et des principaux protocoles et standards de sécurité.",
     label: "Chiffrement, certificats, gestion de clés, normes et protocoless",
   },
   {
@@ -501,7 +501,7 @@ const themes = [
     nb_questions: "300",
     difficulte: "expert",
     label_difficulte: "Expert",
-    synopsys: "Lorem Ipsum Magnolia Dex Aeternatos",
+    synopsys: "Évaluez vos connaissances des fondamentaux de la cybersécurité, de ses principaux acteurs aux menaces, vulnérabilités et bonnes pratiques de protection.",
     label: "Cybersecurite acteurs principes connaissances generales",
   },
   {
@@ -511,7 +511,7 @@ const themes = [
     nb_questions: "300",
     difficulte: "expert",
     label_difficulte: "Expert",
-    synopsys: "Lorem Ipsum Magnolia Dex Aeternatos",
+    synopsys: "Testez votre compréhension de la gestion des identités et des accès, de l’interconnexion des systèmes et des mécanismes d’authentification forte.",
     label: "Gestion identite interconnexion authentification forte",
   },
   {
@@ -521,7 +521,7 @@ const themes = [
     nb_questions: "300",
     difficulte: "expert",
     label_difficulte: "Expert",
-    synopsys: "Lorem Ipsum Magnolia Dex Aeternatos",
+    synopsys: "Mettez à l’épreuve vos connaissances des architectures résilientes, de la continuité et reprise d’activité ainsi que des stratégies de défense face aux attaques informatiques.",
     label: "Resilience pca pra haute disponibilite multisite attaques parades",
   },
 
@@ -532,7 +532,7 @@ const themes = [
     nb_questions: "300",
     difficulte: "expert",
     label_difficulte: "Expert",
-    synopsys: "Lorem Ipsum Magnolia Dex Aeternatos",
+    synopsys: "Testez vos connaissances des stratégies de sauvegarde, de restauration et d’archivage permettant de garantir la disponibilité, l’intégrité et la conservation des données.",
     label: "Sauvegarde et archivage mini_tp",
   },
 
@@ -543,7 +543,7 @@ const themes = [
     nb_questions: "300",
     difficulte: "expert",
     label_difficulte: "Expert",
-    synopsys: "Lorem Ipsum Magnolia Dex Aeternatos",
+    synopsys: "Évaluez votre compréhension des principes d’exposition, de partage et de réutilisation des données ainsi que des enjeux et pratiques liés à l’Open Data.",
     label: "Exposition des données et open data",
   },
 
@@ -554,7 +554,7 @@ const themes = [
     nb_questions: "300",
     difficulte: "expert",
     label_difficulte: "Expert",
-    synopsys: "Lorem Ipsum Magnolia Dex Aeternatos",
+    synopsys: "Testez votre maîtrise des bases de données NoSQL, de leurs différents modèles aux principes de fonctionnement et aux cas d’usage adaptés.",
     label: "Bases noSQL, principes et usages",
   },
 
@@ -565,7 +565,7 @@ const themes = [
     nb_questions: "300",
     difficulte: "expert",
     label_difficulte: "Expert",
-    synopsys: "Lorem Ipsum Magnolia Dex Aeternatos",
+    synopsys: "Testez vos connaissances des fondamentaux de l’intelligence artificielle, de ses principaux concepts et techniques à ses applications, enjeux et limites.",
     label: "Intelligence Artificielle Généralités",
   },
 

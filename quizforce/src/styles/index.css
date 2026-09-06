@@ -553,6 +553,7 @@
   display: grid;
   grid-template-columns: repeat(1);
   justify-content: center;
+  align-content: start;
   gap: 20px;
 }
 
