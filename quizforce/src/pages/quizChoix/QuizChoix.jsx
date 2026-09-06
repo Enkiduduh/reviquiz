@@ -22,7 +22,7 @@ const themes = [
     nb_questions: "70",
     difficulte: "facile",
     label_difficulte: "Facile",
-    synopsys: "Lorem Ipsum Magnolia Dex Aeternatos",
+    synopsys: "Testez vos connaissances sur Linux, ses commandes essentielles, son système de fichiers et son fonctionnement au quotidien.",
     label: "Linux",
     icon: "/assets/thumbnails_choice/thumbnail_adminsys.png",
   },
@@ -32,8 +32,8 @@ const themes = [
     nb_questions: "290",
     difficulte: "normal",
     label_difficulte: "Normal",
-    synopsys: "Lorem Ipsum Magnolia Dex Aeternatos",
-    label: "Linux",
+    synopsys: "Testez vos connaissances sur Linux, ses commandes essentielles, son système de fichiers et son fonctionnement au quotidien.",
+    label: "Linux Admin",
     icon: "/assets/thumbnails_choice/thumbnail_adminsys.png",
   },
   {
@@ -43,7 +43,7 @@ const themes = [
     nb_questions: "160",
     difficulte: "facile",
     label_difficulte: "Facile",
-    synopsys: "Lorem Ipsum Magnolia Dex Aeternatos",
+    synopsys: "Mettez à l’épreuve votre maîtrise du Shell à travers les commandes, variables, conditions, boucles et automatisations.",
     label: "Scriptshell",
   },
   {
@@ -53,7 +53,7 @@ const themes = [
     nb_questions: "100",
     difficulte: "normal",
     label_difficulte: "Normal",
-    synopsys: "Lorem Ipsum Magnolia Dex Aeternatos",
+    synopsys: "Évaluez vos connaissances en sécurité Linux, connexions SSH, authentification, permissions et bonnes pratiques de protection.",
     label: "Sécurité / SSH",
   },
   {
@@ -63,7 +63,7 @@ const themes = [
     nb_questions: "150",
     difficulte: "normal",
     label_difficulte: "Normal",
-    synopsys: "Lorem Ipsum Magnolia Dex Aeternatos",
+    synopsys: "Testez votre maîtrise de PostgreSQL, de la gestion des données aux principales fonctionnalités du système de base de données.",
     label: "PostgreSQL",
   },
   {
@@ -73,7 +73,7 @@ const themes = [
     nb_questions: "195",
     difficulte: "difficile",
     label_difficulte: "Difficile",
-    synopsys: "Lorem Ipsum Magnolia Dex Aeternatos",
+    synopsys: "Plongez dans l’administration PostgreSQL : utilisateurs, sauvegardes, performances, maintenance, sécurité et supervision.",
     label: "PostgreSQL DBA",
   },
   {
@@ -83,7 +83,7 @@ const themes = [
     nb_questions: "184",
     difficulte: "normal",
     label_difficulte: "Normal",
-    synopsys: "Lorem Ipsum Magnolia Dex Aeternatos",
+    synopsys: "Relevez des défis mêlant administration Linux et scripting Shell pour tester votre maîtrise globale de l’environnement.",
     label: "Linux Scripts",
   },
   {
@@ -93,13 +93,13 @@ const themes = [
     nb_questions: "250",
     difficulte: "normal",
     label_difficulte: "Normal",
-    synopsys: "Lorem Ipsum Magnolia Dex Aeternatos",
+    synopsys: "Mettez vos compétences SQL à l’épreuve à travers requêtes, jointures, agrégations, sous-requêtes et manipulation des données.",
     label: "SQL",
   },
 
   {
     category: "Logique",
-    icon: "img_logique",
+    icon: "/assets/thumbnails_choice/thumbnail_logique.png",
     id: "logique",
     nb_questions: "100",
     difficulte: "facile",
@@ -109,7 +109,7 @@ const themes = [
   },
   {
     category: "Logique",
-    icon: "img_logique",
+    icon: "/assets/thumbnails_choice/thumbnail_logique.png",
     id: "logique_avancee",
     nb_questions: "300",
     difficulte: "difficile",
@@ -119,7 +119,7 @@ const themes = [
   },
   {
     category: "Logique",
-    icon: "img_logique",
+    icon: "/assets/thumbnails_choice/thumbnail_logique.png",
     id: "logique_expert",
     nb_questions: "300",
     difficulte: "expert",
@@ -129,7 +129,7 @@ const themes = [
   },
   {
     category: "Développement",
-    icon: "img_developpement",
+    icon: "/assets/thumbnails_choice/thumbnail_developpement.png",
     id: "java",
     nb_questions: "100",
     difficulte: "facile",
@@ -139,7 +139,7 @@ const themes = [
   },
   {
     category: "Développement",
-    icon: "img_developpement",
+    icon: "/assets/thumbnails_choice/thumbnail_developpement.png",
     id: "java_affichage",
     nb_questions: "100",
     difficulte: "facile",
@@ -149,7 +149,7 @@ const themes = [
   },
   {
     category: "Développement",
-    icon: "img_developpement",
+    icon: "/assets/thumbnails_choice/thumbnail_developpement.png",
     id: "java_avance",
     nb_questions: "276",
     difficulte: "difficile",
@@ -160,7 +160,7 @@ const themes = [
 
   {
     category: "Développement",
-    icon: "img_developpement",
+    icon: "/assets/thumbnails_choice/thumbnail_developpement.png",
     id: "java_expert",
     nb_questions: "300",
     difficulte: "expert",
@@ -170,7 +170,7 @@ const themes = [
   },
   {
     category: "Développement",
-    icon: "img_developpement",
+    icon: "/assets/thumbnails_choice/thumbnail_developpement.png",
     id: "javascript_expert",
     nb_questions: "300",
     difficulte: "expert",
@@ -180,7 +180,7 @@ const themes = [
   },
   {
     category: "Développement",
-    icon: "img_developpement",
+    icon: "/assets/thumbnails_choice/thumbnail_developpement.png",
     id: "python_expert",
     nb_questions: "300",
     difficulte: "expert",
@@ -191,7 +191,7 @@ const themes = [
 
   {
     category: "Réseaux",
-    icon: "img_reseaux",
+    icon: "/assets/thumbnails_choice/thumbnail_reseaux.png",
     id: "reseaux",
     nb_questions: "150",
     difficulte: "difficile",
@@ -201,7 +201,7 @@ const themes = [
   },
   {
     category: "Réseaux",
-    icon: "img_reseaux",
+    icon: "/assets/thumbnails_choice/thumbnail_reseaux.png",
     id: "cidr_ipv4_ipv6",
     nb_questions: "300",
     difficulte: "difficile",
@@ -211,7 +211,7 @@ const themes = [
   },
   {
     category: "Réseaux",
-    icon: "img_reseaux",
+    icon: "/assets/thumbnails_choice/thumbnail_reseaux.png",
     id: "cloud_computing",
     nb_questions: "300",
     difficulte: "difficile",
@@ -221,7 +221,7 @@ const themes = [
   },
   {
     category: "Réseaux",
-    icon: "img_reseaux",
+    icon: "/assets/thumbnails_choice/thumbnail_reseaux.png",
     id: "modele_osi_dod",
     nb_questions: "300",
     difficulte: "difficile",
@@ -231,18 +231,18 @@ const themes = [
   },
   {
     category: "Réseaux",
-    icon: "img_reseaux",
+    icon: "/assets/thumbnails_choice/thumbnail_reseaux.png",
     id: "typologies_reseaux",
     nb_questions: "300",
     difficulte: "difficile",
     label_difficulte: "Difficile",
     synopsys: "Lorem Ipsum Magnolia Dex Aeternatos",
-    label: "Pile TCP/IP, typologies, protocoles et infra",
+    label: "Pile TCP/IP, typologies, protocoles et infrastructures réseaux",
   },
 
   {
     category: "Projet",
-    icon: "img_projet",
+    icon: "/assets/thumbnails_choice/thumbnail_projet.png",
     id: "cycle_vie_application",
     nb_questions: "150",
     difficulte: "normal",
@@ -252,7 +252,7 @@ const themes = [
   },
   {
     category: "Projet",
-    icon: "img_projet",
+    icon: "/assets/thumbnails_choice/thumbnail_projet.png",
     id: "schema_directeur",
     nb_questions: "100",
     difficulte: "normal",
@@ -262,7 +262,7 @@ const themes = [
   },
   {
     category: "Projet",
-    icon: "img_projet",
+    icon: "/assets/thumbnails_choice/thumbnail_projet.png",
     id: "partenaire_projet",
     nb_questions: "75",
     difficulte: "normal",
@@ -272,7 +272,7 @@ const themes = [
   },
   {
     category: "Projet",
-    icon: "img_projet",
+    icon: "/assets/thumbnails_choice/thumbnail_projet.png",
     id: "urbanisation_systeme_info",
     nb_questions: "150",
     difficulte: "normal",
@@ -282,7 +282,7 @@ const themes = [
   },
   {
     category: "Projet",
-    icon: "img_projet",
+    icon: "/assets/thumbnails_choice/thumbnail_projet.png",
     id: "conduite_projet_info",
     nb_questions: "150",
     difficulte: "normal",
@@ -292,7 +292,7 @@ const themes = [
   },
   {
     category: "Conception",
-    icon: "img_conception",
+    icon: "/assets/thumbnails_choice/thumbnail_conception.png",
     id: "concepts_objet",
     nb_questions: "150",
     difficulte: "normal",
@@ -302,7 +302,7 @@ const themes = [
   },
   {
     category: "Conception",
-    icon: "img_conception",
+    icon: "/assets/thumbnails_choice/thumbnail_conception.png",
     id: "merise",
     nb_questions: "150",
     difficulte: "normal",
@@ -312,7 +312,7 @@ const themes = [
   },
   {
     category: "Conception",
-    icon: "img_conception",
+    icon: "/assets/thumbnails_choice/thumbnail_conception.png",
     id: "uml",
     nb_questions: "150",
     difficulte: "normal",
@@ -322,7 +322,7 @@ const themes = [
   },
   {
     category: "Conception",
-    icon: "img_conception",
+    icon: "/assets/thumbnails_choice/thumbnail_conception.png",
     id: "test",
     nb_questions: "150",
     difficulte: "normal",
@@ -332,7 +332,7 @@ const themes = [
   },
   {
     category: "Conception",
-    icon: "img_conception",
+    icon: "/assets/thumbnails_choice/thumbnail_conception.png",
     id: "evolution_language",
     nb_questions: "150",
     difficulte: "normal",
@@ -342,7 +342,7 @@ const themes = [
   },
   {
     category: "Conception",
-    icon: "img_conception",
+    icon: "/assets/thumbnails_choice/thumbnail_conception.png",
     id: "schema_conception",
     nb_questions: "201",
     difficulte: "normal",
@@ -353,7 +353,7 @@ const themes = [
 
   {
     category: "Conception",
-    icon: "img_conception",
+    icon: "/assets/thumbnails_choice/thumbnail_conception.png",
     id: "merise_exos",
     nb_questions: "300",
     difficulte: "difficile",
@@ -363,7 +363,7 @@ const themes = [
   },
   {
     category: "Conception",
-    icon: "img_conception",
+    icon: "/assets/thumbnails_choice/thumbnail_conception.png",
     id: "uml_exos",
     nb_questions: "300",
     difficulte: "difficile",
@@ -373,7 +373,7 @@ const themes = [
   },
   {
     category: "Conception",
-    icon: "img_conception",
+    icon: "/assets/thumbnails_choice/thumbnail_conception.png",
     id: "methodes_analyse",
     nb_questions: "300",
     difficulte: "normal",
@@ -384,7 +384,7 @@ const themes = [
 
   {
     category: "Culture",
-    icon: "img_culture",
+    icon: "/assets/thumbnails_choice/thumbnail_culture.png",
     id: "architectures_info",
     nb_questions: "200",
     difficulte: "normal",
@@ -394,7 +394,7 @@ const themes = [
   },
   {
     category: "Culture",
-    icon: "img_culture",
+    icon: "/assets/thumbnails_choice/thumbnail_culture.png",
     id: "systemes_exploitation",
     nb_questions: "200",
     difficulte: "normal",
@@ -404,7 +404,7 @@ const themes = [
   },
   {
     category: "Culture",
-    icon: "img_culture",
+    icon: "/assets/thumbnails_choice/thumbnail_culture.png",
     id: "langages_informatiques",
     nb_questions: "200",
     difficulte: "normal",
@@ -415,7 +415,7 @@ const themes = [
 
   {
     category: "Outils",
-    icon: "img_outils",
+    icon: "/assets/thumbnails_choice/thumbnail_outils.png",
     id: "aide_conception",
     nb_questions: "200",
     difficulte: "difficile",
@@ -425,7 +425,7 @@ const themes = [
   },
   {
     category: "Outils",
-    icon: "img_outils",
+    icon: "/assets/thumbnails_choice/thumbnail_outils.png",
     id: "aide_realisation",
     nb_questions: "200",
     difficulte: "difficile",
@@ -435,7 +435,7 @@ const themes = [
   },
   {
     category: "Outils",
-    icon: "img_outils",
+    icon: "/assets/thumbnails_choice/thumbnail_outils.png",
     id: "tests_config_deploiement",
     nb_questions: "200",
     difficulte: "difficile",
@@ -446,7 +446,7 @@ const themes = [
 
   {
     category: "Juridique",
-    icon: "img_juridique",
+    icon: "/assets/thumbnails_choice/thumbnail_juridique.png",
     id: "communications_electronique",
     nb_questions: "200",
     difficulte: "normal",
@@ -456,7 +456,7 @@ const themes = [
   },
   {
     category: "Juridique",
-    icon: "img_juridique",
+    icon: "/assets/thumbnails_choice/thumbnail_juridique.png",
     id: "droit_informatique",
     nb_questions: "200",
     difficulte: "normal",
@@ -466,7 +466,7 @@ const themes = [
   },
   {
     category: "Juridique",
-    icon: "img_juridique",
+    icon: "/assets/thumbnails_choice/thumbnail_juridique.png",
     id: "instances_normalisation",
     nb_questions: "200",
     difficulte: "normal",
@@ -476,7 +476,7 @@ const themes = [
   },
   {
     category: "Juridique",
-    icon: "img_juridique",
+    icon: "/assets/thumbnails_choice/thumbnail_juridique.png",
     id: "marches_publics",
     nb_questions: "200",
     difficulte: "normal",
@@ -486,7 +486,7 @@ const themes = [
   },
   {
     category: "Sécurité",
-    icon: "img_securite",
+    icon: "/assets/thumbnails_choice/thumbnail_securite.png",
     id: "chiffrement",
     nb_questions: "300",
     difficulte: "expert",
@@ -496,7 +496,7 @@ const themes = [
   },
   {
     category: "Sécurité",
-    icon: "img_securite",
+    icon: "/assets/thumbnails_choice/thumbnail_securite.png",
     id: "cybersecurite",
     nb_questions: "300",
     difficulte: "expert",
@@ -506,7 +506,7 @@ const themes = [
   },
   {
     category: "Sécurité",
-    icon: "img_securite",
+    icon: "/assets/thumbnails_choice/thumbnail_securite.png",
     id: "authentification",
     nb_questions: "300",
     difficulte: "expert",
@@ -516,7 +516,7 @@ const themes = [
   },
   {
     category: "Sécurité",
-    icon: "img_securite",
+    icon: "/assets/thumbnails_choice/thumbnail_securite.png",
     id: "resilience",
     nb_questions: "300",
     difficulte: "expert",
@@ -527,7 +527,7 @@ const themes = [
 
   {
     category: "Data",
-    icon: "img_data",
+    icon: "/assets/thumbnails_choice/thumbnail_data.png",
     id: "sauvegarde_archivage",
     nb_questions: "300",
     difficulte: "expert",
@@ -538,7 +538,7 @@ const themes = [
 
   {
     category: "Data",
-    icon: "img_data",
+    icon: "/assets/thumbnails_choice/thumbnail_data.png",
     id: "exposition_donnees",
     nb_questions: "300",
     difficulte: "expert",
@@ -549,7 +549,7 @@ const themes = [
 
   {
     category: "Data",
-    icon: "img_data",
+    icon: "/assets/thumbnails_choice/thumbnail_data.png",
     id: "nosql",
     nb_questions: "300",
     difficulte: "expert",
@@ -560,7 +560,7 @@ const themes = [
 
   {
     category: "IA",
-    icon: "img_ia",
+    icon: "/assets/thumbnails_choice/thumbnail_ia.png",
     id: "intelligence_artificielle",
     nb_questions: "300",
     difficulte: "expert",
@@ -576,7 +576,7 @@ const themes = [
     nb_questions: "3",
     difficulte: "expert",
     label_difficulte: "Expert",
-    synopsys: "Lorem Ipsum Magnolia Dex Aeternatos",
+    synopsys: "Test quiz pour vérifier la fin d'un quiz.",
     label: "Test de Fin",
   },
 ];
@@ -876,6 +876,9 @@ function QuizChoix() {
                 <div className="quizchoix-quiz-theme quizchoix-quiz-vignette">
                   {theme.label}
                 </div>
+                <p className="quizchoix-quiz-description">{theme.synopsys}</p>
+                <div className="quizchoix-quiz-highscore">Meilleur score : ??/{theme.nb_questions}</div>
+                <div className="quizchoix-quiz-tentative">Derniere tentative : ??/??/??</div>
                 <div
                   className={`quizchoix-quiz-diff quizchoix-quiz-vignette-${theme.difficulte}`}
                 ></div>
