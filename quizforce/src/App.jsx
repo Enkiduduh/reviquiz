@@ -3,6 +3,7 @@ import QuizChoix from "./pages/quizChoix/QuizChoix";
 import QuizGame from "./pages/quizGame/QuizGame";
 import QuizMain from "./pages/quizMain/QuizMain";
 import QuizLogin from "./pages/quizLogin/QuizLogin";
+import QuizDashboard from "./pages/quizDashboard/QuizDashboard";
 import "./App.css";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
         <Routes>
           <Route path="/" element={<QuizMain/>} />
           <Route path="/login" element={<QuizLogin/>} />
+           <Route path="/dashboard" element={<QuizDashboard />} />
           <Route path="/choix" element={<QuizChoix />} />
           <Route path="/quiz" element={<QuizGame />} />
         </Routes>
