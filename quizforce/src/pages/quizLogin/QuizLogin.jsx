@@ -12,6 +12,8 @@ function QuizMain() {
   const [login, setLogin] = useState("");
   const [password, setPassword] = useState("");
 
+  sessionStorage.setItem("userInfo", null);
+
   const handleSubmit = (e) => {
     e.preventDefault();
 
@@ -19,15 +21,18 @@ function QuizMain() {
     console.log("Mot de passe :", password);
 
     if (login == pers[0].login && password == pers[0].mdp) {
-      sessionStorage.setItem("userInfo", utilisateurs[0]);
-      sessionStorage.setItem("userInfo", JSON.stringify(utilisateurs[0]))
+      sessionStorage.setItem("userInfo", JSON.stringify(utilisateurs[0]));
     } else if (login == pers[1].login && password == pers[1].mdp) {
-      sessionStorage.setItem("userInfo", JSON.stringify(utilisateurs[1]))
+      sessionStorage.setItem("userInfo", JSON.stringify(utilisateurs[1]));
     } else if (login == pers[2].login && password == pers[2].mdp) {
-      sessionStorage.setItem("userInfo", JSON.stringify(utilisateurs[2]))
+      sessionStorage.setItem("userInfo", JSON.stringify(utilisateurs[2]));
     }
 
-    if (sessionStorage.getItem("userInfo") != null) {
+    if (
+      sessionStorage.getItem("userInfo") == JSON.stringify(utilisateurs[0]) ||
+      sessionStorage.getItem("userInfo") == JSON.stringify(utilisateurs[1]) ||
+      sessionStorage.getItem("userInfo") == JSON.stringify(utilisateurs[2])
+    ) {
       navigate("/dashboard");
     } else {
       location.reload();

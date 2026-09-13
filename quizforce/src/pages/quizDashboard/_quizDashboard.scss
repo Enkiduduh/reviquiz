@@ -16,4 +16,26 @@
   height: 48vh;
   border: 1px solid red;
   margin: 5px;
+  overflow-y: auto;
+}
+
+.quizDashboard-section-stats-flex-container{
+  margin: 10px 0;
+  padding: 5px 10px;
+  background-color: darkslategray;
+  display: flex;
+}
+
+.quizDashboard-section-stats-flex-icon {
+  width: 100px;
+}
+
+.quizDashboard-section-stats-flex-line {
+  display: flex;
+}
+.quizDashboard-section-stats-flex-line-theme {
+  width: 220px;
+}
+.quizDashboard-section-stats-flex-line-stats {
+  display: flex;
 }
