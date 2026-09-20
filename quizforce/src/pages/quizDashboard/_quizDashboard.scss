@@ -11,15 +11,56 @@
   flex-wrap: wrap;
 }
 
-.quizDashboard-section {
-  width: 48vw;
-  height: 48vh;
+///// SECTION GAUCHE //////
+///
+.quizDashboard-section-left {
+  width: 18vw;
+  height: 96%;
   border: 1px solid red;
   margin: 5px;
   overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
 }
 
-.quizDashboard-section-stats-flex-container{
+.quizDashboard-icon {
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+}
+.quizDashboard-menu-line {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  margin: 5px 0;
+  background-color: #f1f1f1;
+  padding: 10px 20px;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.33s ease;
+  &:hover {
+    background-color: #6a6a6a;
+  }
+}
+
+.quizDashboard-deconnexion {
+  position: absolute;
+  bottom: 20px;
+}
+
+/// SECTION DROITE /////
+.quizDashboard-section-right {
+  width: 80vw;
+  height: 96%;
+  border: 1px solid red;
+
+  overflow-y: auto;
+}
+
+.quizDashboard-section-stats-flex-container {
   margin: 10px 0;
   padding: 5px 10px;
   background-color: darkslategray;

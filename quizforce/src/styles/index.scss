@@ -4,6 +4,12 @@
 @use "../pages/quizLogin/quizzLogin";
 @use "../pages/quizDashboard/quizDashboard";
 
+// Components
+@use "../components/Utilisateurs_tab/utilisateurs_tab";
+@use "../components/Utilisateur_stats/utilisateur_stats";
+@use "../components/Utilisateur_details/utilisateur_details";
+@use "../components/Utilisateur_taches/utilisateur_taches";
+
 html {
   // height: 100vh;
   height: 100%;

@@ -1,145 +1,138 @@
 import { useNavigate } from "react-router-dom";
+import { useEffect, useState } from "react";
+import { utilisateurs } from "../../data/utilisateur_dbb/utilisateurs";
+
+// Import Components
+import Utilisateurs_tab from "../../components/Utilisateurs_tab/Utilisateurs_tab";
+import Utilisateur_stats from "../../components/Utilisateur_stats/Utilisateur_stats";
+import Utilisateur_details from "../../components/Utilisateur_details/Utilisateur_details";
+import Utilisateur_taches from "../../components/Utilisateur_taches/Utilisateur_taches";
+
+import QuizChoix from "../quizChoix/QuizChoix";
+
+import icon_utilisateur from "/assets/icons/utilisateur.png";
+import icon_equipe from "/assets/icons/equipe.png";
+import icon_graphique from "/assets/icons/graphique.png";
+import icon_statistiques from "/assets/icons/statistiques.png";
+import icon_progression from "/assets/icons/progression.png";
+import icon_taches from "/assets/icons/taches.png";
+import icon_quiz from "/assets/icons/quiz.png";
+import icon_deconnexion from "/assets/icons/deconnexion.png";
 
 function QuizMain() {
+  const [displayUtilisateur, setDisplayUtilisateur] = useState(true);
+  const [displayEquipe, setDisplayEquipe] = useState(false);
+  const [displayTaches, setDisplayTaches] = useState(false);
+  const [displayProgression, setDisplayProgression] = useState(false);
+  const [displayStatistiques, setDisplayStatistiques] = useState(false);
+  const [displayThemes, setDisplayThemes] = useState(false);
+
   const navigate = useNavigate();
 
-  function HandleGoToChoix() {
-    navigate("/choix");
+  const userInfo = JSON.parse(sessionStorage.getItem("userInfo"));
+  // console.log(userInfo);
+
+  // Filtre la liste complete des utilisateurs et affiche l'equipe du responsable
+  let utilisateursListe = [];
+  if (userInfo.role_id === 2) {
+    const utilisateursListe1 = utilisateurs.filter(
+      (utilisateur) => utilisateur.equipe_id === userInfo.equipe_id,
+    );
+    utilisateursListe = utilisateursListe1.filter(
+      (utilisateur) => utilisateur.role_id != 2,
+    );
   }
 
-  const userInfo = JSON.parse(sessionStorage.getItem("userInfo"));
-  console.log(userInfo);
-  const statsThemes = [
-    {
-      stats: userInfo.theme_adm,
-      theme: "AdminSys",
-      icon: "/assets/thumbnails_choice/thumbnail_adminsys.png",
-    },
-    {
-      stats: userInfo.theme_dev,
-      theme: "Développement",
-      icon: "/assets/thumbnails_choice/thumbnail_developpement.png",
-    },
-    {
-      stats: userInfo.theme_con,
-      theme: "Conception",
-      icon: "/assets/thumbnails_choice/thumbnail_conception.png",
-    },
-    {
-      stats: userInfo.theme_pro,
-      theme: "Projet Informatique",
-      icon: "/assets/thumbnails_choice/thumbnail_projet.png",
-    },
-    {
-      stats: userInfo.theme_log,
-      theme: "Logique",
-      icon: "/assets/thumbnails_choice/thumbnail_logique.png",
-    },
-    {
-      stats: userInfo.theme_res,
-      theme: "Réseaux",
-      icon: "/assets/thumbnails_choice/thumbnail_reseaux.png",
-    },
-    {
-      stats: userInfo.theme_jur,
-      theme: "Juridique",
-      icon: "/assets/thumbnails_choice/thumbnail_juridique.png",
-    },
-    {
-      stats: userInfo.theme_sec,
-      theme: "Sécurité",
-      icon: "/assets/thumbnails_choice/thumbnail_securite.png",
-    },
-    {
-      stats: userInfo.theme_out,
-      theme: "Outils",
-      icon: "/assets/thumbnails_choice/thumbnail_outils.png",
-    },
-    {
-      stats: userInfo.theme_dat,
-      theme: "Data",
-      icon: "/assets/thumbnails_choice/thumbnail_data.png",
-    },
-    {
-      stats: userInfo.theme_ia,
-      theme: "IA",
-      icon: "/assets/thumbnails_choice/thumbnail_ia.png",
-    },
-    {
-      stats: userInfo.theme_cult,
-      theme: "Culture",
-      icon: "/assets/thumbnails_choice/thumbnail_culture.png",
-    },
-  ];
+  function mettreTousLesAffichagesAFaux() {
+    setDisplayEquipe(false);
+    setDisplayUtilisateur(false);
+    setDisplayProgression(false);
+    setDisplayStatistiques(false);
+    setDisplayTaches(false);
+    setDisplayThemes(false);
+  }
+
+  function afficherElement(setDisplay) {
+    mettreTousLesAffichagesAFaux();
+    setDisplay(true);
+  }
+
+  function deconnexion() {
+    navigate("/login");
+  }
 
   return (
     <div className="quizDashboard-page">
-      <section className="quizDashboard-section">
-        <h3>Zone Utilisateur</h3>
-        <div>Nom:{userInfo.nom}</div>
-        <div>Prenom:{userInfo.prenom}</div>
-        <div>Email:{userInfo.email}</div>
-        <div>Role:{userInfo.role_id}</div>
-        <div>Equipe:{userInfo.equipe_id}</div>
-      </section>
-      <section className="quizDashboard-section">
-        Zone Affection Tâches Objectifs
-      </section>
+      <section className="quizDashboard-section-left">
+        <h3>Menu Dashboard</h3>
 
-      <section className="quizDashboard-section">
-        <h3>Zone Statistiques</h3>
-        <div>Nombre de tentatives totale: {userInfo.nb_tentatives_total}</div>
-        <div>
-          {statsThemes.map((theme) => (
-            <div className="quizDashboard-section-stats-flex-container">
-              <img
-                src={theme.icon}
-                alt=""
-                className="quizDashboard-section-stats-flex-icon"
-              />
-              <div>
-                <div className="quizDashboard-section-stats-flex-line">
-                  <div className="quizDashboard-section-stats-flex-line-theme">
-                    {theme.theme}:
-                  </div>
-                  <div className="quizDashboard-section-stats-flex-line-stats">
-                    {theme.stats.stats}%
-                  </div>
-                </div>
-                <div className="quizDashboard-section-stats-flex-line">
-                  <div className="quizDashboard-section-stats-flex-line-theme">
-                    Nb quiz: {theme.stats.nb_quiz_theme}
-                  </div>
-                  <div className="quizDashboard-section-stats-flex-line-theme">
-                    Tentatives: {theme.stats.nb_tentatives}
-                  </div>
-                  <div className="quizDashboard-section-stats-flex-line-theme">
-                    Terminés: {theme.stats.nb_termines}
-                  </div>
-                </div>
-                <div className="quizDashboard-section-stats-flex-line">
-                  <div className="quizDashboard-section-stats-flex-line-theme">
-                    Total bonnes réponses : {theme.stats.nb_bonnes_reponses}
-                  </div>
-                  <div className="quizDashboard-section-stats-flex-line-theme">
-                    Temps passé: {theme.stats.temps_passe} min
-                  </div>
-                </div>
-                <div className="quizDashboard-section-stats-flex-line">
-                  <div className="quizDashboard-section-stats-flex-line-theme">
-                   {"details ->"}
-                  </div>
+        <div
+          className="quizDashboard-menu-line"
+          onClick={() => afficherElement(setDisplayUtilisateur)}
+        >
+          <img src={icon_utilisateur} alt="" className="quizDashboard-icon" />{" "}
+          <div>Utilisateur</div>
+        </div>
+        <div
+          className="quizDashboard-menu-line"
+          onClick={() => afficherElement(setDisplayEquipe)}
+        >
+          <img src={icon_equipe} alt="" className="quizDashboard-icon" />{" "}
+          <div>Equipe</div>
+        </div>
+        <div
+          className="quizDashboard-menu-line"
+          onClick={() => afficherElement(setDisplayTaches)}
+        >
+          <img src={icon_taches} alt="" className="quizDashboard-icon" />{" "}
+          <div>Tâches</div>
+        </div>
+        <div className="quizDashboard-menu-line">
+          <img src={icon_progression} alt="" className="quizDashboard-icon" />{" "}
+          <div>Progression</div>
+        </div>
+        <div
+          className="quizDashboard-menu-line"
+          onClick={() => afficherElement(setDisplayStatistiques)}
+        >
+          <img src={icon_statistiques} alt="" className="quizDashboard-icon" />{" "}
+          <div>Statistiques</div>
+        </div>
 
-                </div>
-              </div>
-            </div>
-          ))}
+        <div
+          className="quizDashboard-menu-line"
+          // onClick={HandleGoToChoix}
+          onClick={() => afficherElement(setDisplayThemes)}
+        >
+          <img src={icon_quiz} alt="" className="quizDashboard-icon" />{" "}
+          <div>Acces aux thématiques</div>
+        </div>
+
+        <div className="quizDashboard-menu-line quizDashboard-deconnexion" onClick={deconnexion}>
+          <img src={icon_deconnexion} alt="" className="quizDashboard-icon" />{" "}
+          <div>Deconnexion</div>
         </div>
       </section>
 
-      <section className="quizDashboard-section">
-        <h3>Zone Actions</h3>
-        <button onClick={HandleGoToChoix}>Acces aux thématiques</button>
+      <section className="quizDashboard-section-right">
+        {displayUtilisateur && (
+          <Utilisateur_details utilisateurs_info={userInfo} />
+        )}
+
+        {displayEquipe && (
+          <Utilisateurs_tab utilisateurs_liste={utilisateursListe} />
+        )}
+
+        {displayStatistiques && (
+          <Utilisateur_stats utilisateurs_info={userInfo} />
+        )}
+
+        {displayTaches && <Utilisateur_taches utilisateurs_info={userInfo} />}
+
+        {displayThemes && <QuizChoix utilisateur_info={userInfo} adm_stat={userInfo.theme_adm.stats}
+        dev_stat={userInfo.theme_dev.stats}
+        con_stat={userInfo.theme_con.stats}
+        />}
       </section>
     </div>
   );

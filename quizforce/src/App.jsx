@@ -14,7 +14,6 @@ function App() {
           <Route path="/" element={<QuizMain/>} />
           <Route path="/login" element={<QuizLogin/>} />
            <Route path="/dashboard" element={<QuizDashboard />} />
-          <Route path="/choix" element={<QuizChoix />} />
           <Route path="/quiz" element={<QuizGame />} />
         </Routes>
       </Router>

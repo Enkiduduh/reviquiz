@@ -6,9 +6,6 @@ import { useState } from "react";
 function QuizMain() {
   const navigate = useNavigate();
 
-  function HandleConnexion() {
-    navigate("/dashboard");
-  }
   const [login, setLogin] = useState("");
   const [password, setPassword] = useState("");
 

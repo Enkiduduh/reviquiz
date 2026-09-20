@@ -1,0 +1,50 @@
+///// TABLE utilisateurs ///
+///
+.utilisateurs-table {
+  text-align: center;
+   border-collapse: separate;
+  border-spacing: 1px 10px;
+  thead {
+     th {
+      padding: 10px 15px;
+     }
+  }
+  tr {
+    background-color: darkslategray;
+
+    td {
+      padding: 10px 0;
+    }
+  }
+}
+.utilisateurs-table-th-petit {
+  width: 2vw;
+}
+.utilisateurs-table-th-moyen {
+  width: 5vw;
+}
+.utilisateurs-table-th-grand {
+  width: 12vw;
+}
+
+// Zone détails agent dans la table
+.utilisateurs-table-th-agent-flex {
+  display: flex;
+  img {
+    width: 30px;
+    padding-left: 20px;
+  }
+  .utilisateurs-table-th-agent-details {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 20px;
+  }
+  .utilisateurs-table-th-agent-details-identite {
+    font-weight: bold;
+    font-size: 18px;
+  }
+   .utilisateurs-table-th-agent-details-grade {
+    font-size: 14px;
+  }
+}
