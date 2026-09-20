@@ -32,9 +32,12 @@ function QuizChoix({ utilisateur_info, adm_stat, dev_stat, con_stat }) {
   useEffect(() => {});
 
   function handleFilterClick(e) {
-    const selectedTheme = e.target.previousElementSibling.textContent;
-    console.log(selectedTheme);
-    const filterTheme = themes.filter((th) => th.category == selectedTheme);
+    const selectedTheme =
+      e.target.previousElementSibling.textContent;
+      const selectedTheme2 =
+      e.target.previousElementSibling.previousElementSibling.textContent;
+    // console.log(selectedTheme);
+    const filterTheme = themes.filter((th) => th.category == selectedTheme || th.category == selectedTheme2);
     setSelectedThemes(filterTheme);
     setSelected(true);
   }
@@ -47,17 +50,20 @@ function QuizChoix({ utilisateur_info, adm_stat, dev_stat, con_stat }) {
     // <main className="quizchoix-page-main">
     <div className="quizchoix-container">
       <section className="quizchoix-section-themes">
-        <div
-          className="quizchoix-theme"
-        >
+        <div className="quizchoix-theme">
           <img
             src={img_adminsys}
             alt=""
             className="quizchoix-filter-thumbnail"
           />
           <span>AdminSys</span>
-          <div className="quizchoix-theme-visuel-container"  style={{ "--progress": `${adm_stat * 3.6}deg` }}>
-            <div className="quizchoix-theme-visuel-stat">{utilisateur_info.theme_adm.stats}%</div>
+          <div
+            className="quizchoix-theme-visuel-container"
+            style={{ "--progress": `${adm_stat * 3.6}deg` }}
+          >
+            <div className="quizchoix-theme-visuel-stat">
+              {utilisateur_info.theme_adm.stats}%
+            </div>
           </div>
           <div
             className="quizchoix-filter-selection"
@@ -66,18 +72,21 @@ function QuizChoix({ utilisateur_info, adm_stat, dev_stat, con_stat }) {
             Sélectionner
           </div>
         </div>
-        <div
-          className="quizchoix-theme"
-        >
+        <div className="quizchoix-theme">
           <img
             src={img_developpement}
             alt=""
             className="quizchoix-filter-thumbnail"
           />
           <span>Développement</span>
-            <div className="quizchoix-theme-visuel-container"  style={{ "--progress": `${dev_stat * 3.6}deg` }}>
-            <div className="quizchoix-theme-visuel-stat">{utilisateur_info.theme_dev.stats}%</div>
+          <div
+            className="quizchoix-theme-visuel-container"
+            style={{ "--progress": `${dev_stat * 3.6}deg` }}
+          >
+            <div className="quizchoix-theme-visuel-stat">
+              {utilisateur_info.theme_dev.stats}%
             </div>
+          </div>
           <div
             className="quizchoix-filter-selection"
             onClick={handleFilterClick}
@@ -85,18 +94,21 @@ function QuizChoix({ utilisateur_info, adm_stat, dev_stat, con_stat }) {
             Sélectionner
           </div>
         </div>
-        <div
-          className="quizchoix-theme"
-        >
+        <div className="quizchoix-theme">
           <img
             src={img_conception}
             alt=""
             className="quizchoix-filter-thumbnail"
           />
           <span>Conception</span>
-           <div className="quizchoix-theme-visuel-container"  style={{ "--progress": `${con_stat * 3.6}deg` }}>
-            <div className="quizchoix-theme-visuel-stat">{utilisateur_info.theme_con.stats}%</div>
+          <div
+            className="quizchoix-theme-visuel-container"
+            style={{ "--progress": `${con_stat * 3.6}deg` }}
+          >
+            <div className="quizchoix-theme-visuel-stat">
+              {utilisateur_info.theme_con.stats}%
             </div>
+          </div>
           <div
             className="quizchoix-filter-selection"
             onClick={handleFilterClick}
@@ -104,9 +116,7 @@ function QuizChoix({ utilisateur_info, adm_stat, dev_stat, con_stat }) {
             Sélectionner
           </div>
         </div>
-        <div
-          className="quizchoix-theme"
-        >
+        <div className="quizchoix-theme">
           <img src={img_projet} alt="" className="quizchoix-filter-thumbnail" />
           <span>Projet</span>
           <div
@@ -116,9 +126,7 @@ function QuizChoix({ utilisateur_info, adm_stat, dev_stat, con_stat }) {
             Sélectionner
           </div>
         </div>
-        <div
-          className="quizchoix-theme"
-        >
+        <div className="quizchoix-theme">
           <img
             src={img_logique}
             alt=""
@@ -132,9 +140,7 @@ function QuizChoix({ utilisateur_info, adm_stat, dev_stat, con_stat }) {
             Sélectionner
           </div>
         </div>
-        <div
-          className="quizchoix-theme"
-        >
+        <div className="quizchoix-theme">
           <img
             src={img_reseaux}
             alt=""
@@ -148,9 +154,7 @@ function QuizChoix({ utilisateur_info, adm_stat, dev_stat, con_stat }) {
             Sélectionner
           </div>
         </div>
-        <div
-          className="quizchoix-theme"
-        >
+        <div className="quizchoix-theme">
           <img
             src={img_juridique}
             alt=""
@@ -164,9 +168,7 @@ function QuizChoix({ utilisateur_info, adm_stat, dev_stat, con_stat }) {
             Sélectionner
           </div>
         </div>
-        <div
-          className="quizchoix-theme"
-        >
+        <div className="quizchoix-theme">
           <img
             src={img_securite}
             alt=""
@@ -180,9 +182,7 @@ function QuizChoix({ utilisateur_info, adm_stat, dev_stat, con_stat }) {
             Sélectionner
           </div>
         </div>
-        <div
-          className="quizchoix-theme"
-        >
+        <div className="quizchoix-theme">
           <img src={img_outils} alt="" className="quizchoix-filter-thumbnail" />
           <span>Outils</span>
           <div
@@ -192,9 +192,7 @@ function QuizChoix({ utilisateur_info, adm_stat, dev_stat, con_stat }) {
             Sélectionner
           </div>
         </div>
-        <div
-          className="quizchoix-theme"
-        >
+        <div className="quizchoix-theme">
           <img src={img_data} alt="" className="quizchoix-filter-thumbnail" />
           <span>Data</span>
           <div
@@ -204,9 +202,7 @@ function QuizChoix({ utilisateur_info, adm_stat, dev_stat, con_stat }) {
             Sélectionner
           </div>
         </div>
-        <div
-          className="quizchoix-theme"
-        >
+        <div className="quizchoix-theme">
           <img src={img_ia} alt="" className="quizchoix-filter-thumbnail" />
           <span>IA</span>
           <div
@@ -216,9 +212,7 @@ function QuizChoix({ utilisateur_info, adm_stat, dev_stat, con_stat }) {
             Sélectionner
           </div>
         </div>
-        <div
-          className="quizchoix-theme"
-        >
+        <div className="quizchoix-theme">
           <img
             src={img_culture}
             alt=""
