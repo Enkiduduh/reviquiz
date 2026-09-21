@@ -385,10 +385,7 @@
   height: 60px;
   // border: 1px solid black;
 
-  background: conic-gradient(
-    #4caf50 var(--progress),
-    #cccccc 0deg
-  );
+  background: conic-gradient(#4caf50 var(--progress), #cccccc 0deg);
 
   display: flex;
   justify-content: center;
@@ -402,8 +399,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-    background: white;
-    font-size: 13px;
+  background: white;
+  font-size: 13px;
 }
 
 .quizchoix-filter-thumbnail {

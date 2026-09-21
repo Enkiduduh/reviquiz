@@ -1241,6 +1241,94 @@
   font-size: 14px;
 }
 
+.utilisateur_stats-page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.utilisateurs_stats-table {
+  text-align: center;
+  border-collapse: separate;
+  border-spacing: 1px 10px;
+}
+.utilisateurs_stats-table thead th {
+  padding: 10px 15px;
+}
+.utilisateurs_stats-table tr {
+  background-color: darkslategray;
+}
+.utilisateurs_stats-table tr td {
+  font-size: 18px;
+}
+
+.utilisateurs_stats-table-th-petit {
+  width: 2vw;
+}
+
+.utilisateurs_stats-table-th-moyen {
+  width: 5vw;
+}
+
+.utilisateurs_stats-table-th-grand {
+  width: 12vw;
+}
+
+.utilisateur_stats-section-stats-flex-icon {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.utilisateur_stats-recapitulatif-details {
+  display: flex;
+}
+
+.utilisateur_stats_details-container {
+  padding: 10px 20px;
+  color: white;
+  background-color: darkslateblue;
+  width: 12vw;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.utilisateur_stats_details-libelle {
+  font-size: 20px;
+  text-align: left;
+}
+
+.utilisateur_stats_details-value {
+  font-size: 42px;
+  text-align: right;
+}
+
+.utilisateurs_stats-table-avancement {
+  display: flex;
+  justify-content: center;
+}
+
+.utilisateur_stats-theme-visuel-container {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  background: conic-gradient(#4caf50 var(--progress), #cccccc 0deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.utilisateur_stats-theme-visuel-stat {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: darkslategray;
+}
+
 .utilisateurs-table {
   text-align: center;
   border-collapse: separate;
@@ -1289,52 +1377,23 @@
   font-size: 14px;
 }
 
-.utilisateurs-table {
-  text-align: center;
-  border-collapse: separate;
-  border-spacing: 1px 10px;
-}
-.utilisateurs-table thead th {
-  padding: 10px 15px;
-}
-.utilisateurs-table tr {
-  background-color: darkslategray;
-}
-.utilisateurs-table tr td {
-  padding: 10px 0;
+.utilisateur_details-container {
+  padding: 10px 20px;
+  color: white;
+  background-color: darkslateblue;
+  width: 20vw;
+  border-radius: 10px;
+  margin: 10px;
 }
 
-.utilisateurs-table-th-petit {
-  width: 2vw;
-}
-
-.utilisateurs-table-th-moyen {
-  width: 5vw;
-}
-
-.utilisateurs-table-th-grand {
-  width: 12vw;
-}
-
-.utilisateurs-table-th-agent-flex {
-  display: flex;
-}
-.utilisateurs-table-th-agent-flex img {
-  width: 30px;
-  padding-left: 20px;
-}
-.utilisateurs-table-th-agent-flex .utilisateurs-table-th-agent-details {
-  display: flex;
-  flex-direction: column;
+.utilisateur_details-libelle {
+  font-size: 20px;
   text-align: left;
-  margin-left: 20px;
 }
-.utilisateurs-table-th-agent-flex .utilisateurs-table-th-agent-details-identite {
-  font-weight: bold;
-  font-size: 18px;
-}
-.utilisateurs-table-th-agent-flex .utilisateurs-table-th-agent-details-grade {
-  font-size: 14px;
+
+.utilisateur_details-value {
+  font-size: 42px;
+  text-align: right;
 }
 
 .utilisateurs-table {

@@ -1,9 +1,17 @@
+.utilisateur_stats-page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 ///// TABLE utilisateurs ///
 ///
-.utilisateurs-table {
+.utilisateurs_stats-table {
   text-align: center;
    border-collapse: separate;
   border-spacing: 1px 10px;
+
   thead {
      th {
       padding: 10px 15px;
@@ -13,38 +21,85 @@
     background-color: darkslategray;
 
     td {
-      padding: 10px 0;
+      font-size: 18px;
+
     }
   }
 }
-.utilisateurs-table-th-petit {
+.utilisateurs_stats-table-th-petit {
   width: 2vw;
 }
-.utilisateurs-table-th-moyen {
+.utilisateurs_stats-table-th-moyen {
   width: 5vw;
 }
-.utilisateurs-table-th-grand {
+.utilisateurs_stats-table-th-grand {
   width: 12vw;
 }
 
-// Zone détails agent dans la table
-.utilisateurs-table-th-agent-flex {
+.utilisateur_stats-section-stats-flex-icon {
+  width: 100px;
   display: flex;
+  justify-content: center;
+  align-items: center;
   img {
-    width: 30px;
-    padding-left: 20px;
+
   }
-  .utilisateurs-table-th-agent-details {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    margin-left: 20px;
-  }
-  .utilisateurs-table-th-agent-details-identite {
-    font-weight: bold;
-    font-size: 18px;
-  }
-   .utilisateurs-table-th-agent-details-grade {
-    font-size: 14px;
-  }
+}
+
+.utilisateur_stats-recapitulatif-details {
+  display: flex;
+}
+
+.utilisateur_stats_details-container {
+  padding: 10px 20px;
+  color: white;
+  background-color: darkslateblue;
+  width: 12vw;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.utilisateur_stats_details-libelle {
+  font-size:20px;
+  text-align: left;
+
+}
+
+.utilisateur_stats_details-value {
+
+  font-size: 42px;
+  text-align: right;
+}
+
+
+
+
+.utilisateurs_stats-table-avancement {
+  display : flex;
+  justify-content: center;
+
+}
+
+//  Visuel graphique de completion en %
+.utilisateur_stats-theme-visuel-container {
+  border-radius: 50%;
+  width:80px;
+  height:80px;
+
+  background: conic-gradient(#4caf50 var(--progress), #cccccc 0deg);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.utilisateur_stats-theme-visuel-stat {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  // border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: darkslategray;
+
 }

@@ -108,7 +108,10 @@ function QuizMain() {
           <div>Acces aux thématiques</div>
         </div>
 
-        <div className="quizDashboard-menu-line quizDashboard-deconnexion" onClick={deconnexion}>
+        <div
+          className="quizDashboard-menu-line quizDashboard-deconnexion"
+          onClick={deconnexion}
+        >
           <img src={icon_deconnexion} alt="" className="quizDashboard-icon" />{" "}
           <div>Deconnexion</div>
         </div>
@@ -129,10 +132,23 @@ function QuizMain() {
 
         {displayTaches && <Utilisateur_taches utilisateurs_info={userInfo} />}
 
-        {displayThemes && <QuizChoix utilisateur_info={userInfo} adm_stat={userInfo.theme_adm.stats}
-        dev_stat={userInfo.theme_dev.stats}
-        con_stat={userInfo.theme_con.stats}
-        />}
+        {displayThemes && (
+          <QuizChoix
+            utilisateur_info={userInfo}
+            // adm_stat={userInfo.theme_adm.stats}
+            // dev_stat={userInfo.theme_dev.stats}
+            // con_stat={userInfo.theme_con.stats}
+            // pro_stat={userInfo.theme_pro.stats}
+            // log_stat={userInfo.theme_log.stats}
+            // res_stat={userInfo.theme_res.stats}
+            // jur_stat={userInfo.theme_jur.stats}
+            // sec_stat={userInfo.theme_sec.stats}
+            // out_stat={userInfo.theme_out.stats}
+            // data_stat={userInfo.theme_data.stats}
+            // ia_stat={userInfo.theme_ia.stats}
+            // cult_stat={userInfo.theme_cult.stats}
+          />
+        )}
       </section>
     </div>
   );

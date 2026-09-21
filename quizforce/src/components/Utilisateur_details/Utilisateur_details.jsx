@@ -3,10 +3,56 @@ import React from "react";
 function Utilisateur_details({utilisateurs_info}) {
   return <div>
      <h3>Zone utilisateur</h3>
-     <div>Nom: {utilisateurs_info.nom}</div>
-     <div>Prénom: {utilisateurs_info.prenom}</div>
-     <div>Grade: {utilisateurs_info.grade}</div>
-      <div>Nombre de tentatives totale: {utilisateurs_info.nb_tentatives_total}</div>
+    <section className="utilisateur-recapitulatif-details">
+          <div className="utilisateur_details-container">
+            <div className="utilisateur_details-libelle">
+              Nom:{" "}
+            </div>
+            <div className="utilisateur_details-value">
+              {utilisateurs_info.nom}{" "}
+            </div>
+          </div>
+
+          <div className="utilisateur_details-container">
+            <div className="utilisateur_details-libelle">
+              Prénom :{" "}
+            </div>
+            <div className="utilisateur_details-value">
+              {utilisateurs_info.prenom}
+            </div>
+          </div>
+
+          <div className="utilisateur_details-container">
+            <div className="utilisateur_details-libelle">
+              Grade :
+            </div>
+            <div className="utilisateur_details-value">
+              {" "}
+              {utilisateurs_info.grade}
+            </div>
+          </div>
+          <div className="utilisateur_details-container">
+            <div className="utilisateur_details-libelle">
+              {" "}
+              Rôle :{" "}
+            </div>
+            <div className="utilisateur_details-value">
+              {" "}
+              {utilisateurs_info.role_id}{" "}
+            </div>
+          </div>
+
+          <div className="utilisateur_details-container">
+            <div className="utilisateur_details-libelle">
+              {" "}
+              Equipe :{" "}
+            </div>
+            <div className="utilisateur_details-value">
+              {" "}
+              {utilisateurs_info.equipe_id}{" "}
+            </div>
+          </div>
+        </section>
   </div>;
 }
 

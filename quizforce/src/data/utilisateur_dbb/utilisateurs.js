@@ -52,6 +52,9 @@ export const utilisateurs = [
     role_id: 2,
     equipe_id: 1,
     nb_tentatives_total: 140,
+    temps_total_passe: 500,
+    total_bonnes_reponses: 1200,
+    total_terminés: 25,
     theme_adm: {
       stats: 20,
       nb_quiz_theme: 10,
@@ -81,6 +84,87 @@ export const utilisateurs = [
       nb_encours: 0,
       nb_bonnes_reponses: 150,
       temps_passe: 60,
+    },
+     theme_pro: {
+      stats: 78,
+      nb_quiz_theme: 9,
+      nb_tentatives: 40,
+      nb_termines: 5,
+      nb_perdus: 30,
+      nb_encours: 5, nb_bonnes_reponses: 150,
+      temps_passe: 60
+    },
+     theme_log: {
+      stats: 31,
+      nb_quiz_theme: 9,
+      nb_tentatives: 40,
+      nb_termines: 5,
+      nb_perdus: 30,
+      nb_encours: 5, nb_bonnes_reponses: 150,
+      temps_passe: 60
+    },
+     theme_res: {
+      stats: 9,
+      nb_quiz_theme: 9,
+      nb_tentatives: 40,
+      nb_termines: 5,
+      nb_perdus: 30,
+      nb_encours: 5, nb_bonnes_reponses: 150,
+      temps_passe: 60
+    },
+     theme_jur: {
+      stats: 53,
+      nb_quiz_theme: 9,
+      nb_tentatives: 40,
+      nb_termines: 5,
+      nb_perdus: 30,
+      nb_encours: 5, nb_bonnes_reponses: 150,
+      temps_passe: 60
+    },
+     theme_sec: {
+      stats: 32,
+      nb_quiz_theme: 9,
+      nb_tentatives: 40,
+      nb_termines: 5,
+      nb_perdus: 30,
+      nb_encours: 5, nb_bonnes_reponses: 150,
+      temps_passe: 60
+    },
+     theme_out: {
+      stats: 0,
+      nb_quiz_theme: 9,
+      nb_tentatives: 40,
+      nb_termines: 5,
+      nb_perdus: 30,
+      nb_encours: 5, nb_bonnes_reponses: 150,
+      temps_passe: 60
+    },
+     theme_data: {
+      stats: 4,
+      nb_quiz_theme: 9,
+      nb_tentatives: 40,
+      nb_termines: 5,
+      nb_perdus: 30,
+      nb_encours: 5, nb_bonnes_reponses: 150,
+      temps_passe: 60
+    },
+     theme_ia: {
+      stats: 17,
+      nb_quiz_theme: 9,
+      nb_tentatives: 40,
+      nb_termines: 5,
+      nb_perdus: 30,
+      nb_encours: 5, nb_bonnes_reponses: 150,
+      temps_passe: 60
+    },
+     theme_cult: {
+      stats: 100,
+      nb_quiz_theme: 9,
+      nb_tentatives: 40,
+      nb_termines: 5,
+      nb_perdus: 30,
+      nb_encours: 5, nb_bonnes_reponses: 150,
+      temps_passe: 60
     },
   },
   {
@@ -124,6 +208,87 @@ export const utilisateurs = [
       nb_bonnes_reponses: 150,
       temps_passe: 60,
     },
+     theme_pro: {
+      stats: 48,
+      nb_quiz_theme: 9,
+      nb_tentatives: 40,
+      nb_termines: 5,
+      nb_perdus: 30,
+      nb_encours: 5, nb_bonnes_reponses: 150,
+      temps_passe: 60
+    },
+     theme_log: {
+      stats: 48,
+      nb_quiz_theme: 9,
+      nb_tentatives: 40,
+      nb_termines: 5,
+      nb_perdus: 30,
+      nb_encours: 5, nb_bonnes_reponses: 150,
+      temps_passe: 60
+    },
+     theme_res: {
+      stats: 48,
+      nb_quiz_theme: 9,
+      nb_tentatives: 40,
+      nb_termines: 5,
+      nb_perdus: 30,
+      nb_encours: 5, nb_bonnes_reponses: 150,
+      temps_passe: 60
+    },
+     theme_jur: {
+      stats: 48,
+      nb_quiz_theme: 9,
+      nb_tentatives: 40,
+      nb_termines: 5,
+      nb_perdus: 30,
+      nb_encours: 5, nb_bonnes_reponses: 150,
+      temps_passe: 60
+    },
+     theme_sec: {
+      stats: 48,
+      nb_quiz_theme: 9,
+      nb_tentatives: 40,
+      nb_termines: 5,
+      nb_perdus: 30,
+      nb_encours: 5, nb_bonnes_reponses: 150,
+      temps_passe: 60
+    },
+     theme_out: {
+      stats: 48,
+      nb_quiz_theme: 9,
+      nb_tentatives: 40,
+      nb_termines: 5,
+      nb_perdus: 30,
+      nb_encours: 5, nb_bonnes_reponses: 150,
+      temps_passe: 60
+    },
+     theme_data: {
+      stats: 48,
+      nb_quiz_theme: 9,
+      nb_tentatives: 40,
+      nb_termines: 5,
+      nb_perdus: 30,
+      nb_encours: 5, nb_bonnes_reponses: 150,
+      temps_passe: 60
+    },
+     theme_ia: {
+      stats: 48,
+      nb_quiz_theme: 9,
+      nb_tentatives: 40,
+      nb_termines: 5,
+      nb_perdus: 30,
+      nb_encours: 5, nb_bonnes_reponses: 150,
+      temps_passe: 60
+    },
+     theme_cult: {
+      stats: 48,
+      nb_quiz_theme: 9,
+      nb_tentatives: 40,
+      nb_termines: 5,
+      nb_perdus: 30,
+      nb_encours: 5, nb_bonnes_reponses: 150,
+      temps_passe: 60
+    },
   },
 {
     id:3,
@@ -165,6 +330,87 @@ export const utilisateurs = [
       nb_encours: 0,
       nb_bonnes_reponses: 150,
       temps_passe: 60,
+    },
+     theme_pro: {
+      stats: 48,
+      nb_quiz_theme: 9,
+      nb_tentatives: 40,
+      nb_termines: 5,
+      nb_perdus: 30,
+      nb_encours: 5, nb_bonnes_reponses: 150,
+      temps_passe: 60
+    },
+     theme_log: {
+      stats: 48,
+      nb_quiz_theme: 9,
+      nb_tentatives: 40,
+      nb_termines: 5,
+      nb_perdus: 30,
+      nb_encours: 5, nb_bonnes_reponses: 150,
+      temps_passe: 60
+    },
+     theme_res: {
+      stats: 48,
+      nb_quiz_theme: 9,
+      nb_tentatives: 40,
+      nb_termines: 5,
+      nb_perdus: 30,
+      nb_encours: 5, nb_bonnes_reponses: 150,
+      temps_passe: 60
+    },
+     theme_jur: {
+      stats: 48,
+      nb_quiz_theme: 9,
+      nb_tentatives: 40,
+      nb_termines: 5,
+      nb_perdus: 30,
+      nb_encours: 5, nb_bonnes_reponses: 150,
+      temps_passe: 60
+    },
+     theme_sec: {
+      stats: 48,
+      nb_quiz_theme: 9,
+      nb_tentatives: 40,
+      nb_termines: 5,
+      nb_perdus: 30,
+      nb_encours: 5, nb_bonnes_reponses: 150,
+      temps_passe: 60
+    },
+     theme_out: {
+      stats: 48,
+      nb_quiz_theme: 9,
+      nb_tentatives: 40,
+      nb_termines: 5,
+      nb_perdus: 30,
+      nb_encours: 5, nb_bonnes_reponses: 150,
+      temps_passe: 60
+    },
+     theme_data: {
+      stats: 48,
+      nb_quiz_theme: 9,
+      nb_tentatives: 40,
+      nb_termines: 5,
+      nb_perdus: 30,
+      nb_encours: 5, nb_bonnes_reponses: 150,
+      temps_passe: 60
+    },
+     theme_ia: {
+      stats: 48,
+      nb_quiz_theme: 9,
+      nb_tentatives: 40,
+      nb_termines: 5,
+      nb_perdus: 30,
+      nb_encours: 5, nb_bonnes_reponses: 150,
+      temps_passe: 60
+    },
+     theme_cult: {
+      stats: 48,
+      nb_quiz_theme: 9,
+      nb_tentatives: 40,
+      nb_termines: 5,
+      nb_perdus: 30,
+      nb_encours: 5, nb_bonnes_reponses: 150,
+      temps_passe: 60
     },
   },
 {
@@ -208,6 +454,87 @@ export const utilisateurs = [
       nb_bonnes_reponses: 150,
       temps_passe: 60,
     },
+     theme_pro: {
+      stats: 48,
+      nb_quiz_theme: 9,
+      nb_tentatives: 40,
+      nb_termines: 5,
+      nb_perdus: 30,
+      nb_encours: 5, nb_bonnes_reponses: 150,
+      temps_passe: 60
+    },
+     theme_log: {
+      stats: 48,
+      nb_quiz_theme: 9,
+      nb_tentatives: 40,
+      nb_termines: 5,
+      nb_perdus: 30,
+      nb_encours: 5, nb_bonnes_reponses: 150,
+      temps_passe: 60
+    },
+     theme_res: {
+      stats: 48,
+      nb_quiz_theme: 9,
+      nb_tentatives: 40,
+      nb_termines: 5,
+      nb_perdus: 30,
+      nb_encours: 5, nb_bonnes_reponses: 150,
+      temps_passe: 60
+    },
+     theme_jur: {
+      stats: 48,
+      nb_quiz_theme: 9,
+      nb_tentatives: 40,
+      nb_termines: 5,
+      nb_perdus: 30,
+      nb_encours: 5, nb_bonnes_reponses: 150,
+      temps_passe: 60
+    },
+     theme_sec: {
+      stats: 48,
+      nb_quiz_theme: 9,
+      nb_tentatives: 40,
+      nb_termines: 5,
+      nb_perdus: 30,
+      nb_encours: 5, nb_bonnes_reponses: 150,
+      temps_passe: 60
+    },
+     theme_out: {
+      stats: 48,
+      nb_quiz_theme: 9,
+      nb_tentatives: 40,
+      nb_termines: 5,
+      nb_perdus: 30,
+      nb_encours: 5, nb_bonnes_reponses: 150,
+      temps_passe: 60
+    },
+     theme_data: {
+      stats: 48,
+      nb_quiz_theme: 9,
+      nb_tentatives: 40,
+      nb_termines: 5,
+      nb_perdus: 30,
+      nb_encours: 5, nb_bonnes_reponses: 150,
+      temps_passe: 60
+    },
+     theme_ia: {
+      stats: 48,
+      nb_quiz_theme: 9,
+      nb_tentatives: 40,
+      nb_termines: 5,
+      nb_perdus: 30,
+      nb_encours: 5, nb_bonnes_reponses: 150,
+      temps_passe: 60
+    },
+     theme_cult: {
+      stats: 48,
+      nb_quiz_theme: 9,
+      nb_tentatives: 40,
+      nb_termines: 5,
+      nb_perdus: 30,
+      nb_encours: 5, nb_bonnes_reponses: 150,
+      temps_passe: 60
+    },
   },
   {
     id: 5,
@@ -249,6 +576,87 @@ export const utilisateurs = [
       nb_encours: 0,
       nb_bonnes_reponses: 150,
       temps_passe: 60,
+    },
+     theme_pro: {
+      stats: 48,
+      nb_quiz_theme: 9,
+      nb_tentatives: 40,
+      nb_termines: 5,
+      nb_perdus: 30,
+      nb_encours: 5, nb_bonnes_reponses: 150,
+      temps_passe: 60
+    },
+     theme_log: {
+      stats: 48,
+      nb_quiz_theme: 9,
+      nb_tentatives: 40,
+      nb_termines: 5,
+      nb_perdus: 30,
+      nb_encours: 5, nb_bonnes_reponses: 150,
+      temps_passe: 60
+    },
+     theme_res: {
+      stats: 48,
+      nb_quiz_theme: 9,
+      nb_tentatives: 40,
+      nb_termines: 5,
+      nb_perdus: 30,
+      nb_encours: 5, nb_bonnes_reponses: 150,
+      temps_passe: 60
+    },
+     theme_jur: {
+      stats: 48,
+      nb_quiz_theme: 9,
+      nb_tentatives: 40,
+      nb_termines: 5,
+      nb_perdus: 30,
+      nb_encours: 5, nb_bonnes_reponses: 150,
+      temps_passe: 60
+    },
+     theme_sec: {
+      stats: 48,
+      nb_quiz_theme: 9,
+      nb_tentatives: 40,
+      nb_termines: 5,
+      nb_perdus: 30,
+      nb_encours: 5, nb_bonnes_reponses: 150,
+      temps_passe: 60
+    },
+     theme_out: {
+      stats: 48,
+      nb_quiz_theme: 9,
+      nb_tentatives: 40,
+      nb_termines: 5,
+      nb_perdus: 30,
+      nb_encours: 5, nb_bonnes_reponses: 150,
+      temps_passe: 60
+    },
+     theme_data: {
+      stats: 48,
+      nb_quiz_theme: 9,
+      nb_tentatives: 40,
+      nb_termines: 5,
+      nb_perdus: 30,
+      nb_encours: 5, nb_bonnes_reponses: 150,
+      temps_passe: 60
+    },
+     theme_ia: {
+      stats: 48,
+      nb_quiz_theme: 9,
+      nb_tentatives: 40,
+      nb_termines: 5,
+      nb_perdus: 30,
+      nb_encours: 5, nb_bonnes_reponses: 150,
+      temps_passe: 60
+    },
+     theme_cult: {
+      stats: 48,
+      nb_quiz_theme: 9,
+      nb_tentatives: 40,
+      nb_termines: 5,
+      nb_perdus: 30,
+      nb_encours: 5, nb_bonnes_reponses: 150,
+      temps_passe: 60
     },
   },
 {
@@ -292,6 +700,87 @@ export const utilisateurs = [
       nb_bonnes_reponses: 150,
       temps_passe: 60,
     },
+     theme_pro: {
+      stats: 48,
+      nb_quiz_theme: 9,
+      nb_tentatives: 40,
+      nb_termines: 5,
+      nb_perdus: 30,
+      nb_encours: 5, nb_bonnes_reponses: 150,
+      temps_passe: 60
+    },
+     theme_log: {
+      stats: 48,
+      nb_quiz_theme: 9,
+      nb_tentatives: 40,
+      nb_termines: 5,
+      nb_perdus: 30,
+      nb_encours: 5, nb_bonnes_reponses: 150,
+      temps_passe: 60
+    },
+     theme_res: {
+      stats: 48,
+      nb_quiz_theme: 9,
+      nb_tentatives: 40,
+      nb_termines: 5,
+      nb_perdus: 30,
+      nb_encours: 5, nb_bonnes_reponses: 150,
+      temps_passe: 60
+    },
+     theme_jur: {
+      stats: 48,
+      nb_quiz_theme: 9,
+      nb_tentatives: 40,
+      nb_termines: 5,
+      nb_perdus: 30,
+      nb_encours: 5, nb_bonnes_reponses: 150,
+      temps_passe: 60
+    },
+     theme_sec: {
+      stats: 48,
+      nb_quiz_theme: 9,
+      nb_tentatives: 40,
+      nb_termines: 5,
+      nb_perdus: 30,
+      nb_encours: 5, nb_bonnes_reponses: 150,
+      temps_passe: 60
+    },
+     theme_out: {
+      stats: 48,
+      nb_quiz_theme: 9,
+      nb_tentatives: 40,
+      nb_termines: 5,
+      nb_perdus: 30,
+      nb_encours: 5, nb_bonnes_reponses: 150,
+      temps_passe: 60
+    },
+     theme_data: {
+      stats: 48,
+      nb_quiz_theme: 9,
+      nb_tentatives: 40,
+      nb_termines: 5,
+      nb_perdus: 30,
+      nb_encours: 5, nb_bonnes_reponses: 150,
+      temps_passe: 60
+    },
+     theme_ia: {
+      stats: 48,
+      nb_quiz_theme: 9,
+      nb_tentatives: 40,
+      nb_termines: 5,
+      nb_perdus: 30,
+      nb_encours: 5, nb_bonnes_reponses: 150,
+      temps_passe: 60
+    },
+     theme_cult: {
+      stats: 48,
+      nb_quiz_theme: 9,
+      nb_tentatives: 40,
+      nb_termines: 5,
+      nb_perdus: 30,
+      nb_encours: 5, nb_bonnes_reponses: 150,
+      temps_passe: 60
+    },
   },
   {
     id: 7,
@@ -333,6 +822,87 @@ export const utilisateurs = [
       nb_encours: 0,
       nb_bonnes_reponses: 150,
       temps_passe: 60,
+    },
+     theme_pro: {
+      stats: 48,
+      nb_quiz_theme: 9,
+      nb_tentatives: 40,
+      nb_termines: 5,
+      nb_perdus: 30,
+      nb_encours: 5, nb_bonnes_reponses: 150,
+      temps_passe: 60
+    },
+     theme_log: {
+      stats: 48,
+      nb_quiz_theme: 9,
+      nb_tentatives: 40,
+      nb_termines: 5,
+      nb_perdus: 30,
+      nb_encours: 5, nb_bonnes_reponses: 150,
+      temps_passe: 60
+    },
+     theme_res: {
+      stats: 48,
+      nb_quiz_theme: 9,
+      nb_tentatives: 40,
+      nb_termines: 5,
+      nb_perdus: 30,
+      nb_encours: 5, nb_bonnes_reponses: 150,
+      temps_passe: 60
+    },
+     theme_jur: {
+      stats: 48,
+      nb_quiz_theme: 9,
+      nb_tentatives: 40,
+      nb_termines: 5,
+      nb_perdus: 30,
+      nb_encours: 5, nb_bonnes_reponses: 150,
+      temps_passe: 60
+    },
+     theme_sec: {
+      stats: 48,
+      nb_quiz_theme: 9,
+      nb_tentatives: 40,
+      nb_termines: 5,
+      nb_perdus: 30,
+      nb_encours: 5, nb_bonnes_reponses: 150,
+      temps_passe: 60
+    },
+     theme_out: {
+      stats: 48,
+      nb_quiz_theme: 9,
+      nb_tentatives: 40,
+      nb_termines: 5,
+      nb_perdus: 30,
+      nb_encours: 5, nb_bonnes_reponses: 150,
+      temps_passe: 60
+    },
+     theme_data: {
+      stats: 48,
+      nb_quiz_theme: 9,
+      nb_tentatives: 40,
+      nb_termines: 5,
+      nb_perdus: 30,
+      nb_encours: 5, nb_bonnes_reponses: 150,
+      temps_passe: 60
+    },
+     theme_ia: {
+      stats: 48,
+      nb_quiz_theme: 9,
+      nb_tentatives: 40,
+      nb_termines: 5,
+      nb_perdus: 30,
+      nb_encours: 5, nb_bonnes_reponses: 150,
+      temps_passe: 60
+    },
+     theme_cult: {
+      stats: 48,
+      nb_quiz_theme: 9,
+      nb_tentatives: 40,
+      nb_termines: 5,
+      nb_perdus: 30,
+      nb_encours: 5, nb_bonnes_reponses: 150,
+      temps_passe: 60
     },
   },
 

@@ -16,7 +16,7 @@ import img_outils from "/assets/thumbnails_choice/thumbnail_outils.png";
 
 import { themes } from "../../data/themes/themes";
 
-function QuizChoix({ utilisateur_info, adm_stat, dev_stat, con_stat }) {
+function QuizChoix({ utilisateur_info }) {
   const [selectedThemes, setSelectedThemes] = useState(themes);
   const [selected, setSelected] = useState(false);
   const navigate = useNavigate();
@@ -29,15 +29,87 @@ function QuizChoix({ utilisateur_info, adm_stat, dev_stat, con_stat }) {
     navigate("/quiz");
   };
 
-  useEffect(() => {});
+  const themesObj = [
+    {
+      id: 1,
+      libelle: "AdminSys",
+      data: utilisateur_info.theme_adm,
+      img: img_adminsys,
+    },
+    {
+      id: 2,
+      libelle: "Développement",
+      data: utilisateur_info.theme_dev,
+      img: img_developpement,
+    },
+    {
+      id: 3,
+      libelle: "Conception",
+      data: utilisateur_info.theme_con,
+      img: img_conception,
+    },
+    {
+      id: 4,
+      libelle: "Projet",
+      data: utilisateur_info.theme_pro,
+      img: img_projet,
+    },
+    {
+      id: 5,
+      libelle: "Logique",
+      data: utilisateur_info.theme_log,
+      img: img_logique,
+    },
+    {
+      id: 6,
+      libelle: "Réseaux",
+      data: utilisateur_info.theme_res,
+      img: img_reseaux,
+    },
+    {
+      id: 7,
+      libelle: "Juridique",
+      data: utilisateur_info.theme_jur,
+      img: img_juridique,
+    },
+    {
+      id: 8,
+      libelle: "Sécurité",
+      data: utilisateur_info.theme_sec,
+      img: img_securite,
+    },
+    {
+      id: 9,
+      libelle: "Outils",
+      data: utilisateur_info.theme_out,
+      img: img_outils,
+    },
+    {
+      id: 10,
+      libelle: "Data",
+      data: utilisateur_info.theme_data,
+      img: img_data,
+    },
+    { id: 11, libelle: "IA", data: utilisateur_info.theme_ia, img: img_ia },
+    {
+      id: 12,
+      libelle: "Culture",
+      data: utilisateur_info.theme_cult,
+      img: img_culture,
+    },
+  ];
+
+  //  console.log(utilisateur_info);
+  // console.log(Object.keys(utilisateur_info));
 
   function handleFilterClick(e) {
-    const selectedTheme =
-      e.target.previousElementSibling.textContent;
-      const selectedTheme2 =
+    const selectedTheme = e.target.previousElementSibling.textContent;
+    const selectedTheme2 =
       e.target.previousElementSibling.previousElementSibling.textContent;
     // console.log(selectedTheme);
-    const filterTheme = themes.filter((th) => th.category == selectedTheme || th.category == selectedTheme2);
+    const filterTheme = themes.filter(
+      (th) => th.category == selectedTheme || th.category == selectedTheme2,
+    );
     setSelectedThemes(filterTheme);
     setSelected(true);
   }
@@ -50,182 +122,26 @@ function QuizChoix({ utilisateur_info, adm_stat, dev_stat, con_stat }) {
     // <main className="quizchoix-page-main">
     <div className="quizchoix-container">
       <section className="quizchoix-section-themes">
-        <div className="quizchoix-theme">
-          <img
-            src={img_adminsys}
-            alt=""
-            className="quizchoix-filter-thumbnail"
-          />
-          <span>AdminSys</span>
-          <div
-            className="quizchoix-theme-visuel-container"
-            style={{ "--progress": `${adm_stat * 3.6}deg` }}
-          >
-            <div className="quizchoix-theme-visuel-stat">
-              {utilisateur_info.theme_adm.stats}%
+        {themesObj.map((th) => (
+          <div className="quizchoix-theme" key={th.id}>
+            <img src={th.img} alt="" className="quizchoix-filter-thumbnail" />
+            <span>{th.libelle}</span>
+            <div
+              className="quizchoix-theme-visuel-container"
+              style={{ "--progress": `${th.data?.stats * 3.6}deg` }}
+            >
+              <div className="quizchoix-theme-visuel-stat">
+                {th.data?.stats}%
+              </div>
+            </div>
+            <div
+              className="quizchoix-filter-selection"
+              onClick={handleFilterClick}
+            >
+              Sélectionner
             </div>
           </div>
-          <div
-            className="quizchoix-filter-selection"
-            onClick={handleFilterClick}
-          >
-            Sélectionner
-          </div>
-        </div>
-        <div className="quizchoix-theme">
-          <img
-            src={img_developpement}
-            alt=""
-            className="quizchoix-filter-thumbnail"
-          />
-          <span>Développement</span>
-          <div
-            className="quizchoix-theme-visuel-container"
-            style={{ "--progress": `${dev_stat * 3.6}deg` }}
-          >
-            <div className="quizchoix-theme-visuel-stat">
-              {utilisateur_info.theme_dev.stats}%
-            </div>
-          </div>
-          <div
-            className="quizchoix-filter-selection"
-            onClick={handleFilterClick}
-          >
-            Sélectionner
-          </div>
-        </div>
-        <div className="quizchoix-theme">
-          <img
-            src={img_conception}
-            alt=""
-            className="quizchoix-filter-thumbnail"
-          />
-          <span>Conception</span>
-          <div
-            className="quizchoix-theme-visuel-container"
-            style={{ "--progress": `${con_stat * 3.6}deg` }}
-          >
-            <div className="quizchoix-theme-visuel-stat">
-              {utilisateur_info.theme_con.stats}%
-            </div>
-          </div>
-          <div
-            className="quizchoix-filter-selection"
-            onClick={handleFilterClick}
-          >
-            Sélectionner
-          </div>
-        </div>
-        <div className="quizchoix-theme">
-          <img src={img_projet} alt="" className="quizchoix-filter-thumbnail" />
-          <span>Projet</span>
-          <div
-            className="quizchoix-filter-selection"
-            onClick={handleFilterClick}
-          >
-            Sélectionner
-          </div>
-        </div>
-        <div className="quizchoix-theme">
-          <img
-            src={img_logique}
-            alt=""
-            className="quizchoix-filter-thumbnail"
-          />
-          <span>Logique</span>
-          <div
-            className="quizchoix-filter-selection"
-            onClick={handleFilterClick}
-          >
-            Sélectionner
-          </div>
-        </div>
-        <div className="quizchoix-theme">
-          <img
-            src={img_reseaux}
-            alt=""
-            className="quizchoix-filter-thumbnail"
-          />
-          <span>Réseaux</span>
-          <div
-            className="quizchoix-filter-selection"
-            onClick={handleFilterClick}
-          >
-            Sélectionner
-          </div>
-        </div>
-        <div className="quizchoix-theme">
-          <img
-            src={img_juridique}
-            alt=""
-            className="quizchoix-filter-thumbnail"
-          />
-          <span>Juridique</span>
-          <div
-            className="quizchoix-filter-selection"
-            onClick={handleFilterClick}
-          >
-            Sélectionner
-          </div>
-        </div>
-        <div className="quizchoix-theme">
-          <img
-            src={img_securite}
-            alt=""
-            className="quizchoix-filter-thumbnail"
-          />
-          <span>Sécurité</span>
-          <div
-            className="quizchoix-filter-selection"
-            onClick={handleFilterClick}
-          >
-            Sélectionner
-          </div>
-        </div>
-        <div className="quizchoix-theme">
-          <img src={img_outils} alt="" className="quizchoix-filter-thumbnail" />
-          <span>Outils</span>
-          <div
-            className="quizchoix-filter-selection"
-            onClick={handleFilterClick}
-          >
-            Sélectionner
-          </div>
-        </div>
-        <div className="quizchoix-theme">
-          <img src={img_data} alt="" className="quizchoix-filter-thumbnail" />
-          <span>Data</span>
-          <div
-            className="quizchoix-filter-selection"
-            onClick={handleFilterClick}
-          >
-            Sélectionner
-          </div>
-        </div>
-        <div className="quizchoix-theme">
-          <img src={img_ia} alt="" className="quizchoix-filter-thumbnail" />
-          <span>IA</span>
-          <div
-            className="quizchoix-filter-selection"
-            onClick={handleFilterClick}
-          >
-            Sélectionner
-          </div>
-        </div>
-        <div className="quizchoix-theme">
-          <img
-            src={img_culture}
-            alt=""
-            className="quizchoix-filter-thumbnail"
-          />
-          <span>Culture</span>
-          <div
-            className="quizchoix-filter-selection"
-            onClick={handleFilterClick}
-          >
-            Sélectionner
-          </div>
-        </div>
+        ))}
       </section>
       <div
         className={`quizchoix-quiz-wrapper  ${selected ? "quizchoix-quiz-wrapper-flex" : "quizchoix-quiz-wrapper-none"}`}

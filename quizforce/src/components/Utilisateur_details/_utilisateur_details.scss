@@ -48,3 +48,27 @@
     font-size: 14px;
   }
 }
+
+
+
+
+.utilisateur_details-container {
+  padding: 10px 20px;
+  color: white;
+  background-color: darkslateblue;
+  width: 20vw;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.utilisateur_details-libelle {
+  font-size:20px;
+  text-align: left;
+
+}
+
+.utilisateur_details-value {
+
+  font-size: 42px;
+  text-align: right;
+}
