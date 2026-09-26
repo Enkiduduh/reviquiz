@@ -575,8 +575,8 @@
   margin: 0 5px;
   border: 3px solid black;
   border-radius: 2px;
-  width: 30vw;
-  height: 24vh;
+  width: 35vw;
+  height: 30vh;
   font-weight: bold;
   position: relative;
 }
@@ -981,21 +981,20 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #1a1a1a;
+  background: #c5b9b9;
   color: #f1f1f1;
   flex-wrap: wrap;
 }
 
 .quizDashboard-section-left {
-  width: 18vw;
-  height: 96%;
-  border: 1px solid red;
-  margin: 5px;
+  width: 20%;
+  height: 100%;
   overflow-y: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   position: relative;
+  background: #373737;
 }
 
 .quizDashboard-icon {
@@ -1026,9 +1025,9 @@
 }
 
 .quizDashboard-section-right {
-  width: 80vw;
-  height: 96%;
-  border: 1px solid red;
+  width: 80%;
+  height: 100%;
+  background: #1a1a1a;
   overflow-y: auto;
 }
 
@@ -1368,6 +1367,7 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
+  background-color: whitesmoke;
 }
 
 #root {

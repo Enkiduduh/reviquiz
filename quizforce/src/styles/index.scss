@@ -18,12 +18,15 @@ html {
   position: relative;
   z-index: 1;
   font-family: "Arial Narrow Bold", sans-serif;
+
 }
 
 body {
   height: 100%;
   margin: 0;
   padding: 0;
+  background-color: whitesmoke;
+
 }
 
 #root {
@@ -33,6 +36,7 @@ body {
   position: relative;
   z-index: 1;
   overflow: hidden;
+
 }
 
 
