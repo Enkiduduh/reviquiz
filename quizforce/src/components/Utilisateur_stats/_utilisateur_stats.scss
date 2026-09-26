@@ -1,3 +1,9 @@
+.utilisateur_stats-page-title {
+  padding: 10px 15px;
+  background-color: red;
+  font-weight: bolder;
+  margin: 0;
+}
 .utilisateur_stats-page-container {
   display: flex;
   flex-direction: column;
@@ -5,24 +11,25 @@
   align-items: center;
 }
 
+
+
 ///// TABLE utilisateurs ///
 ///
 .utilisateurs_stats-table {
   text-align: center;
-   border-collapse: separate;
-  border-spacing: 1px 10px;
+  border-collapse: separate;
+  border-spacing: 1px 2px;
 
   thead {
-     th {
-      padding: 10px 15px;
-     }
+    th {
+      padding: 10px 5px;
+    }
   }
-  tr {
+  .utilisateur_stats-theme-th {
     background-color: darkslategray;
-
+    cursor: pointer;
     td {
       font-size: 18px;
-
     }
   }
 }
@@ -37,17 +44,17 @@
 }
 
 .utilisateur_stats-section-stats-flex-icon {
-  width: 100px;
+  width: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
-  img {
-
-  }
 }
 
+// RECAPITULATIF ///
 .utilisateur_stats-recapitulatif-details {
+    width: 100%;
   display: flex;
+  justify-content: space-around;
 }
 
 .utilisateur_stats_details-container {
@@ -57,34 +64,31 @@
   width: 12vw;
   border-radius: 10px;
   margin: 10px;
+  width: 25%;
 }
 
 .utilisateur_stats_details-libelle {
-  font-size:20px;
+  font-size: 20px;
   text-align: left;
-
 }
 
 .utilisateur_stats_details-value {
-
   font-size: 42px;
   text-align: right;
 }
 
-
-
-
 .utilisateurs_stats-table-avancement {
-  display : flex;
+  display: flex;
   justify-content: center;
-
+  align-items: center;
+  height: 60px;
 }
 
 //  Visuel graphique de completion en %
 .utilisateur_stats-theme-visuel-container {
   border-radius: 50%;
-  width:80px;
-  height:80px;
+  width: 50px;
+  height: 50px;
 
   background: conic-gradient(#4caf50 var(--progress), #cccccc 0deg);
 
@@ -94,12 +98,32 @@
 }
 .utilisateur_stats-theme-visuel-stat {
   border-radius: 50%;
-  width: 60px;
-  height: 60px;
-  // border: 1px solid black;
+  width: 30px;
+  height: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
   background: darkslategray;
+  font-size: 12px;
+}
 
+.utilisateur_stats-theme-quiz {
+  background: lightslategray;
+  height: 40px;
+
+  .utilisateurs_stats-table-avancement-quiz {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+  }
+  .utilisateur_stats-theme-visuel-container {
+    width: 35px;
+    height: 35px;
+  }
+  .utilisateur_stats-theme-visuel-stat {
+    width: 25px;
+    height: 25px;
+    font-size: 9px;
+  }
 }

@@ -2,7 +2,7 @@ import React from "react";
 
 function Utilisateur_details({utilisateurs_info}) {
   return <div>
-     <h3>Zone utilisateur</h3>
+     <h3 className="utilisateur_details-page-title">Zone Utilisateur</h3>
     <section className="utilisateur-recapitulatif-details">
           <div className="utilisateur_details-container">
             <div className="utilisateur_details-libelle">

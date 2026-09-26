@@ -21,13 +21,8 @@ function QuizChoix({ utilisateur_info }) {
   const [selected, setSelected] = useState(false);
   const navigate = useNavigate();
 
-  const selectionnerTheme = (theme) => {
-    console.log("Thème sélectionné :", theme);
-
-    sessionStorage.setItem("themeQuiz", theme);
-
-    navigate("/quiz");
-  };
+  sessionStorage.removeItem("themeQuiz");
+  sessionStorage.removeItem("formatQuiz");
 
   const themesObj = [
     {
@@ -99,8 +94,31 @@ function QuizChoix({ utilisateur_info }) {
     },
   ];
 
-  //  console.log(utilisateur_info);
-  // console.log(Object.keys(utilisateur_info));
+  function verifierThemeEtFormat() {
+    const theme = sessionStorage.getItem("themeQuiz");
+    const format = sessionStorage.getItem("formatQuiz");
+
+    if (theme && format) {
+      navigate("/quiz");
+    }
+  }
+
+  function selectionnerTheme(theme) {
+    console.log("Thème sélectionné :", theme);
+    sessionStorage.setItem("themeQuiz", theme);
+    verifierThemeEtFormat();
+  }
+
+  function selectionnerFormat(e) {
+    const formatChoix = e.target.textContent;
+    console.log(formatChoix);
+    sessionStorage.setItem("formatQuiz", formatChoix);
+    verifierThemeEtFormat();
+  }
+
+  useEffect(() => {
+    verifierThemeEtFormat();
+  }, [navigate]);
 
   function handleFilterClick(e) {
     const selectedTheme = e.target.previousElementSibling.textContent;
@@ -119,7 +137,6 @@ function QuizChoix({ utilisateur_info }) {
   }
 
   return (
-    // <main className="quizchoix-page-main">
     <div className="quizchoix-container">
       <section className="quizchoix-section-themes">
         {themesObj.map((th) => (
@@ -147,15 +164,15 @@ function QuizChoix({ utilisateur_info }) {
         className={`quizchoix-quiz-wrapper  ${selected ? "quizchoix-quiz-wrapper-flex" : "quizchoix-quiz-wrapper-none"}`}
       >
         <div className="quizchoix-quiz-exit-modal" onClick={handleExitModal}>
-          Retour thèmes
+          Retour
         </div>
 
-        {selectedThemes.map((theme) => (
-          <>
-            <button
+        <div  className="quizchoix-quiz-container">
+          {selectedThemes.map((theme) => (
+            <div
               key={theme.id}
               type="button"
-              className={`quizchoix-quiz quizchoix-quiz-${theme.category}`}
+              className="quizchoix-quiz"
               onClick={() => selectionnerTheme(theme.id)}
             >
               <img src={theme.icon} alt="" className="quizchoix-quiz-img" />
@@ -163,24 +180,39 @@ function QuizChoix({ utilisateur_info }) {
                 {theme.label}
               </div>
               <p className="quizchoix-quiz-description">{theme.synopsys}</p>
-              <div className="quizchoix-quiz-highscore">
-                Meilleur score : ??/{theme.nb_questions}
-              </div>
-              <div className="quizchoix-quiz-tentative">
-                Derniere tentative : ??/??/??
+
+              <div
+                className={`quizchoix-quiz-diff quizchoix-quiz-vignette-30`}
+                onClick={selectionnerFormat}
+              >
+                30
               </div>
               <div
-                className={`quizchoix-quiz-diff quizchoix-quiz-vignette-${theme.difficulte}`}
-              ></div>
-              <div className="quizchoix-quiz-nbquestions">
-                {theme.nb_questions} questions
+                className={`quizchoix-quiz-diff quizchoix-quiz-vignette-50`}
+                onClick={selectionnerFormat}
+              >
+                50
               </div>
-            </button>
-          </>
-        ))}
+              <div
+                className={`quizchoix-quiz-diff quizchoix-quiz-vignette-80`}
+                onClick={selectionnerFormat}
+              >
+                80
+              </div>
+              <div
+                className={`quizchoix-quiz-diff quizchoix-quiz-vignette-100`}
+                onClick={selectionnerFormat}
+              >
+                100
+              </div>
+              <div className="quizchoix-quiz-nbquestions">Sélectionnez un format
+                pour commencer
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
     </div>
-    // </main>
   );
 }
 

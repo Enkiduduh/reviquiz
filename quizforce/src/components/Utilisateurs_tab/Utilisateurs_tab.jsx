@@ -4,10 +4,11 @@ import icon_utilisateur from "/assets/icons/utilisateur.png";
 function Utilisateurs_tab({ utilisateurs_liste }) {
   return (
     <div>
-      <div>Equipe</div>
+      <h3 className="utilisateur_table-page-title">Zone Equipe</h3>
       <table className="utilisateurs-table">
         <thead>
           <tr>
+            <th>Selection</th>
             <th className="utilisateurs-table-th-grand">Agent</th>
             <th className="utilisateurs-table-th-petit">Attributions</th>
             <th className="utilisateurs-table-th-grand">Tentatives totales</th>
@@ -20,6 +21,7 @@ function Utilisateurs_tab({ utilisateurs_liste }) {
         <tbody>
           {utilisateurs_liste.map((utilisateur) => (
             <tr key={utilisateur.id}>
+              <td>id</td>
               <td className="utilisateurs-table-th-agent-flex">
                 <div>
                   <img src={icon_utilisateur} alt="" />

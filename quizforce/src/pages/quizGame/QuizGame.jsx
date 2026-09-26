@@ -207,6 +207,7 @@ const titresThemes = {
     "Pile TCP/IP, typologies, protocoles et infrastructures réseaux",
 };
 
+
 function melangerReponses(reponses) {
   const reponsesMelangees = [...reponses];
 
@@ -226,6 +227,9 @@ function QuizGame() {
   const navigate = useNavigate();
 
   const themeQuiz = sessionStorage.getItem("themeQuiz");
+ const formatQuiz = sessionStorage.getItem("formatQuiz");
+
+
 
   const questionsInitiales = useMemo(() => {
     if (!themeQuiz || !dataQuizz[themeQuiz]) {
@@ -251,7 +255,7 @@ function QuizGame() {
   const [resultat, setResultat] = useState("");
 
   const titreTheme = titresThemes[themeQuiz] ?? themeQuiz;
-  const nombreTotalQuestions = questionsInitiales.length;
+  const nombreTotalQuestions = Number(formatQuiz);
 
   function afficherQuestion(listeQuestions) {
     if (listeQuestions.length === 0) {
@@ -261,7 +265,7 @@ function QuizGame() {
       return;
     }
 
-    const indexAleatoire = Math.floor(Math.random() * listeQuestions.length);
+    const indexAleatoire = Math.floor(Math.random() * nombreTotalQuestions);
 
     const questionSelectionnee = listeQuestions[indexAleatoire];
 
@@ -371,7 +375,6 @@ function QuizGame() {
           className={`quizz-score-container-starter ${!quizCommence ? "quizchoix-container-center" : "quizchoix-container-normal"}`}
         >
           <h1 className="quizz-score-title">{titreTheme}</h1>
-          {/* <span className="quizz-score-name">Quiz connaissances</span> */}
           <div className="quizz-score-name">
             <p>Ce quiz contient {nombreTotalQuestions} questions.</p>
 

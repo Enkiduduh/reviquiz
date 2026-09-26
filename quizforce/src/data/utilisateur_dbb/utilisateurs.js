@@ -46,7 +46,7 @@ export const utilisateurs = [
     uidAnnuaire: "0001",
     nom: "Sam",
     prenom: "Daniel",
-     grade: "Inspecteur Analyste",
+    grade: "Inspecteur Analyste",
     mail: "samysamy@test.test",
     actif: true,
     role_id: 2,
@@ -58,8 +58,15 @@ export const utilisateurs = [
     theme_adm: {
       stats: 20,
       nb_quiz_theme: 10,
-      nb_tentatives: 0,
+      nb_tentatives_30: 15,
+      nb_tentatives_50: 2,
+      nb_tentatives_80: 10,
+      nb_tentatives_100: 1,
       nb_termines: 0,
+      nb_termines_30: 0,
+      nb_termines_50: 0,
+      nb_termines_80: 0,
+      nb_termines_100: 0,
       nb_perdus: 0,
       nb_encours: 0,
       nb_bonnes_reponses: 150,
@@ -68,7 +75,6 @@ export const utilisateurs = [
     theme_dev: {
       stats: 15,
       nb_quiz_theme: 10,
-      nb_tentatives: 0,
       nb_termines: 0,
       nb_perdus: 0,
       nb_encours: 0,
@@ -78,14 +84,13 @@ export const utilisateurs = [
     theme_con: {
       stats: 48,
       nb_quiz_theme: 10,
-      nb_tentatives: 0,
       nb_termines: 0,
       nb_perdus: 0,
       nb_encours: 0,
       nb_bonnes_reponses: 150,
       temps_passe: 60,
     },
-     theme_pro: {
+    theme_pro: {
       stats: 78,
       nb_quiz_theme: 9,
       nb_tentatives: 40,
@@ -94,7 +99,7 @@ export const utilisateurs = [
       nb_encours: 5, nb_bonnes_reponses: 150,
       temps_passe: 60
     },
-     theme_log: {
+    theme_log: {
       stats: 31,
       nb_quiz_theme: 9,
       nb_tentatives: 40,
@@ -103,7 +108,7 @@ export const utilisateurs = [
       nb_encours: 5, nb_bonnes_reponses: 150,
       temps_passe: 60
     },
-     theme_res: {
+    theme_res: {
       stats: 9,
       nb_quiz_theme: 9,
       nb_tentatives: 40,
@@ -112,7 +117,7 @@ export const utilisateurs = [
       nb_encours: 5, nb_bonnes_reponses: 150,
       temps_passe: 60
     },
-     theme_jur: {
+    theme_jur: {
       stats: 53,
       nb_quiz_theme: 9,
       nb_tentatives: 40,
@@ -121,7 +126,7 @@ export const utilisateurs = [
       nb_encours: 5, nb_bonnes_reponses: 150,
       temps_passe: 60
     },
-     theme_sec: {
+    theme_sec: {
       stats: 32,
       nb_quiz_theme: 9,
       nb_tentatives: 40,
@@ -130,7 +135,7 @@ export const utilisateurs = [
       nb_encours: 5, nb_bonnes_reponses: 150,
       temps_passe: 60
     },
-     theme_out: {
+    theme_out: {
       stats: 0,
       nb_quiz_theme: 9,
       nb_tentatives: 40,
@@ -139,7 +144,7 @@ export const utilisateurs = [
       nb_encours: 5, nb_bonnes_reponses: 150,
       temps_passe: 60
     },
-     theme_data: {
+    theme_data: {
       stats: 4,
       nb_quiz_theme: 9,
       nb_tentatives: 40,
@@ -148,7 +153,7 @@ export const utilisateurs = [
       nb_encours: 5, nb_bonnes_reponses: 150,
       temps_passe: 60
     },
-     theme_ia: {
+    theme_ia: {
       stats: 17,
       nb_quiz_theme: 9,
       nb_tentatives: 40,
@@ -157,7 +162,7 @@ export const utilisateurs = [
       nb_encours: 5, nb_bonnes_reponses: 150,
       temps_passe: 60
     },
-     theme_cult: {
+    theme_cult: {
       stats: 100,
       nb_quiz_theme: 9,
       nb_tentatives: 40,
@@ -172,7 +177,7 @@ export const utilisateurs = [
     uidAnnuaire: "0002",
     nom: "Jax",
     prenom: "Taylor",
-     grade: "Inspecteur PSE",
+    grade: "Inspecteur PSE",
     mail: "jt@test.test",
     actif: true,
     role_id: 3,
@@ -181,18 +186,23 @@ export const utilisateurs = [
     theme_adm: {
       stats: 20,
       nb_quiz_theme: 10,
-      nb_tentatives: 0,
-      nb_termines: 0,
+      nb_tentatives_30: 15,
+      nb_tentatives_50: 2,
+      nb_tentatives_80: 10,
+      nb_tentatives_100: 1,
       nb_perdus: 0,
       nb_encours: 0,
       nb_bonnes_reponses: 150,
       temps_passe: 60,
+      
     },
     theme_dev: {
       stats: 15,
       nb_quiz_theme: 10,
-      nb_tentatives: 0,
-      nb_termines: 0,
+      nb_tentatives_30: 15,
+      nb_tentatives_50: 20,
+      nb_tentatives_80: 7,
+      nb_tentatives_100: 11,
       nb_perdus: 0,
       nb_encours: 0,
       nb_bonnes_reponses: 150,
@@ -201,14 +211,16 @@ export const utilisateurs = [
     theme_con: {
       stats: 48,
       nb_quiz_theme: 10,
-      nb_tentatives: 0,
-      nb_termines: 0,
+      nb_tentatives_30: 5,
+      nb_tentatives_50: 19,
+      nb_tentatives_80: 15,
+      nb_tentatives_100: 0,
       nb_perdus: 0,
       nb_encours: 0,
       nb_bonnes_reponses: 150,
       temps_passe: 60,
     },
-     theme_pro: {
+    theme_pro: {
       stats: 48,
       nb_quiz_theme: 9,
       nb_tentatives: 40,
@@ -217,7 +229,7 @@ export const utilisateurs = [
       nb_encours: 5, nb_bonnes_reponses: 150,
       temps_passe: 60
     },
-     theme_log: {
+    theme_log: {
       stats: 48,
       nb_quiz_theme: 9,
       nb_tentatives: 40,
@@ -226,7 +238,7 @@ export const utilisateurs = [
       nb_encours: 5, nb_bonnes_reponses: 150,
       temps_passe: 60
     },
-     theme_res: {
+    theme_res: {
       stats: 48,
       nb_quiz_theme: 9,
       nb_tentatives: 40,
@@ -235,7 +247,7 @@ export const utilisateurs = [
       nb_encours: 5, nb_bonnes_reponses: 150,
       temps_passe: 60
     },
-     theme_jur: {
+    theme_jur: {
       stats: 48,
       nb_quiz_theme: 9,
       nb_tentatives: 40,
@@ -244,7 +256,7 @@ export const utilisateurs = [
       nb_encours: 5, nb_bonnes_reponses: 150,
       temps_passe: 60
     },
-     theme_sec: {
+    theme_sec: {
       stats: 48,
       nb_quiz_theme: 9,
       nb_tentatives: 40,
@@ -253,7 +265,7 @@ export const utilisateurs = [
       nb_encours: 5, nb_bonnes_reponses: 150,
       temps_passe: 60
     },
-     theme_out: {
+    theme_out: {
       stats: 48,
       nb_quiz_theme: 9,
       nb_tentatives: 40,
@@ -262,7 +274,7 @@ export const utilisateurs = [
       nb_encours: 5, nb_bonnes_reponses: 150,
       temps_passe: 60
     },
-     theme_data: {
+    theme_data: {
       stats: 48,
       nb_quiz_theme: 9,
       nb_tentatives: 40,
@@ -271,7 +283,7 @@ export const utilisateurs = [
       nb_encours: 5, nb_bonnes_reponses: 150,
       temps_passe: 60
     },
-     theme_ia: {
+    theme_ia: {
       stats: 48,
       nb_quiz_theme: 9,
       nb_tentatives: 40,
@@ -280,7 +292,7 @@ export const utilisateurs = [
       nb_encours: 5, nb_bonnes_reponses: 150,
       temps_passe: 60
     },
-     theme_cult: {
+    theme_cult: {
       stats: 48,
       nb_quiz_theme: 9,
       nb_tentatives: 40,
@@ -290,12 +302,12 @@ export const utilisateurs = [
       temps_passe: 60
     },
   },
-{
-    id:3,
+  {
+    id: 3,
     uidAnnuaire: "0003",
     nom: "Dino",
     prenom: "Max",
-     grade: "Contrôleur 2e classe",
+    grade: "Contrôleur 2e classe",
     mail: "dm@test.test",
     actif: true,
     role_id: 1,
@@ -304,7 +316,6 @@ export const utilisateurs = [
     theme_adm: {
       stats: 20,
       nb_quiz_theme: 10,
-      nb_tentatives: 0,
       nb_termines: 0,
       nb_perdus: 0,
       nb_encours: 0,
@@ -331,7 +342,7 @@ export const utilisateurs = [
       nb_bonnes_reponses: 150,
       temps_passe: 60,
     },
-     theme_pro: {
+    theme_pro: {
       stats: 48,
       nb_quiz_theme: 9,
       nb_tentatives: 40,
@@ -340,7 +351,7 @@ export const utilisateurs = [
       nb_encours: 5, nb_bonnes_reponses: 150,
       temps_passe: 60
     },
-     theme_log: {
+    theme_log: {
       stats: 48,
       nb_quiz_theme: 9,
       nb_tentatives: 40,
@@ -349,7 +360,7 @@ export const utilisateurs = [
       nb_encours: 5, nb_bonnes_reponses: 150,
       temps_passe: 60
     },
-     theme_res: {
+    theme_res: {
       stats: 48,
       nb_quiz_theme: 9,
       nb_tentatives: 40,
@@ -358,7 +369,7 @@ export const utilisateurs = [
       nb_encours: 5, nb_bonnes_reponses: 150,
       temps_passe: 60
     },
-     theme_jur: {
+    theme_jur: {
       stats: 48,
       nb_quiz_theme: 9,
       nb_tentatives: 40,
@@ -367,7 +378,7 @@ export const utilisateurs = [
       nb_encours: 5, nb_bonnes_reponses: 150,
       temps_passe: 60
     },
-     theme_sec: {
+    theme_sec: {
       stats: 48,
       nb_quiz_theme: 9,
       nb_tentatives: 40,
@@ -376,7 +387,7 @@ export const utilisateurs = [
       nb_encours: 5, nb_bonnes_reponses: 150,
       temps_passe: 60
     },
-     theme_out: {
+    theme_out: {
       stats: 48,
       nb_quiz_theme: 9,
       nb_tentatives: 40,
@@ -385,7 +396,7 @@ export const utilisateurs = [
       nb_encours: 5, nb_bonnes_reponses: 150,
       temps_passe: 60
     },
-     theme_data: {
+    theme_data: {
       stats: 48,
       nb_quiz_theme: 9,
       nb_tentatives: 40,
@@ -394,7 +405,7 @@ export const utilisateurs = [
       nb_encours: 5, nb_bonnes_reponses: 150,
       temps_passe: 60
     },
-     theme_ia: {
+    theme_ia: {
       stats: 48,
       nb_quiz_theme: 9,
       nb_tentatives: 40,
@@ -403,7 +414,7 @@ export const utilisateurs = [
       nb_encours: 5, nb_bonnes_reponses: 150,
       temps_passe: 60
     },
-     theme_cult: {
+    theme_cult: {
       stats: 48,
       nb_quiz_theme: 9,
       nb_tentatives: 40,
@@ -413,17 +424,17 @@ export const utilisateurs = [
       temps_passe: 60
     },
   },
-{
-    id:4,
+  {
+    id: 4,
     uidAnnuaire: "0004",
     nom: "Bob",
     prenom: "Sponge",
-     grade: "Contrôleur 2e classe",
+    grade: "Contrôleur 2e classe",
     mail: "bs@test.test",
     actif: true,
     role_id: 1,
     equipe_id: 2,
-    nb_tentatives_total:23,
+    nb_tentatives_total: 23,
     theme_adm: {
       stats: 20,
       nb_quiz_theme: 10,
@@ -454,7 +465,7 @@ export const utilisateurs = [
       nb_bonnes_reponses: 150,
       temps_passe: 60,
     },
-     theme_pro: {
+    theme_pro: {
       stats: 48,
       nb_quiz_theme: 9,
       nb_tentatives: 40,
@@ -463,7 +474,7 @@ export const utilisateurs = [
       nb_encours: 5, nb_bonnes_reponses: 150,
       temps_passe: 60
     },
-     theme_log: {
+    theme_log: {
       stats: 48,
       nb_quiz_theme: 9,
       nb_tentatives: 40,
@@ -472,7 +483,7 @@ export const utilisateurs = [
       nb_encours: 5, nb_bonnes_reponses: 150,
       temps_passe: 60
     },
-     theme_res: {
+    theme_res: {
       stats: 48,
       nb_quiz_theme: 9,
       nb_tentatives: 40,
@@ -481,7 +492,7 @@ export const utilisateurs = [
       nb_encours: 5, nb_bonnes_reponses: 150,
       temps_passe: 60
     },
-     theme_jur: {
+    theme_jur: {
       stats: 48,
       nb_quiz_theme: 9,
       nb_tentatives: 40,
@@ -490,7 +501,7 @@ export const utilisateurs = [
       nb_encours: 5, nb_bonnes_reponses: 150,
       temps_passe: 60
     },
-     theme_sec: {
+    theme_sec: {
       stats: 48,
       nb_quiz_theme: 9,
       nb_tentatives: 40,
@@ -499,7 +510,7 @@ export const utilisateurs = [
       nb_encours: 5, nb_bonnes_reponses: 150,
       temps_passe: 60
     },
-     theme_out: {
+    theme_out: {
       stats: 48,
       nb_quiz_theme: 9,
       nb_tentatives: 40,
@@ -508,7 +519,7 @@ export const utilisateurs = [
       nb_encours: 5, nb_bonnes_reponses: 150,
       temps_passe: 60
     },
-     theme_data: {
+    theme_data: {
       stats: 48,
       nb_quiz_theme: 9,
       nb_tentatives: 40,
@@ -517,7 +528,7 @@ export const utilisateurs = [
       nb_encours: 5, nb_bonnes_reponses: 150,
       temps_passe: 60
     },
-     theme_ia: {
+    theme_ia: {
       stats: 48,
       nb_quiz_theme: 9,
       nb_tentatives: 40,
@@ -526,7 +537,7 @@ export const utilisateurs = [
       nb_encours: 5, nb_bonnes_reponses: 150,
       temps_passe: 60
     },
-     theme_cult: {
+    theme_cult: {
       stats: 48,
       nb_quiz_theme: 9,
       nb_tentatives: 40,
@@ -541,7 +552,7 @@ export const utilisateurs = [
     uidAnnuaire: "0005",
     nom: "Patrick",
     prenom: "Star",
-     grade: "Contrôleur 2e classe",
+    grade: "Contrôleur 2e classe",
     mail: "ps@test.test",
     actif: true,
     role_id: 1,
@@ -577,7 +588,7 @@ export const utilisateurs = [
       nb_bonnes_reponses: 150,
       temps_passe: 60,
     },
-     theme_pro: {
+    theme_pro: {
       stats: 48,
       nb_quiz_theme: 9,
       nb_tentatives: 40,
@@ -586,7 +597,7 @@ export const utilisateurs = [
       nb_encours: 5, nb_bonnes_reponses: 150,
       temps_passe: 60
     },
-     theme_log: {
+    theme_log: {
       stats: 48,
       nb_quiz_theme: 9,
       nb_tentatives: 40,
@@ -595,7 +606,7 @@ export const utilisateurs = [
       nb_encours: 5, nb_bonnes_reponses: 150,
       temps_passe: 60
     },
-     theme_res: {
+    theme_res: {
       stats: 48,
       nb_quiz_theme: 9,
       nb_tentatives: 40,
@@ -604,7 +615,7 @@ export const utilisateurs = [
       nb_encours: 5, nb_bonnes_reponses: 150,
       temps_passe: 60
     },
-     theme_jur: {
+    theme_jur: {
       stats: 48,
       nb_quiz_theme: 9,
       nb_tentatives: 40,
@@ -613,7 +624,7 @@ export const utilisateurs = [
       nb_encours: 5, nb_bonnes_reponses: 150,
       temps_passe: 60
     },
-     theme_sec: {
+    theme_sec: {
       stats: 48,
       nb_quiz_theme: 9,
       nb_tentatives: 40,
@@ -622,7 +633,7 @@ export const utilisateurs = [
       nb_encours: 5, nb_bonnes_reponses: 150,
       temps_passe: 60
     },
-     theme_out: {
+    theme_out: {
       stats: 48,
       nb_quiz_theme: 9,
       nb_tentatives: 40,
@@ -631,7 +642,7 @@ export const utilisateurs = [
       nb_encours: 5, nb_bonnes_reponses: 150,
       temps_passe: 60
     },
-     theme_data: {
+    theme_data: {
       stats: 48,
       nb_quiz_theme: 9,
       nb_tentatives: 40,
@@ -640,7 +651,7 @@ export const utilisateurs = [
       nb_encours: 5, nb_bonnes_reponses: 150,
       temps_passe: 60
     },
-     theme_ia: {
+    theme_ia: {
       stats: 48,
       nb_quiz_theme: 9,
       nb_tentatives: 40,
@@ -649,7 +660,7 @@ export const utilisateurs = [
       nb_encours: 5, nb_bonnes_reponses: 150,
       temps_passe: 60
     },
-     theme_cult: {
+    theme_cult: {
       stats: 48,
       nb_quiz_theme: 9,
       nb_tentatives: 40,
@@ -659,12 +670,12 @@ export const utilisateurs = [
       temps_passe: 60
     },
   },
-{
+  {
     id: 6,
     uidAnnuaire: "0006",
     nom: "Jeanine",
     prenom: "Martin",
-     grade: "Contrôleur 2e classe",
+    grade: "Contrôleur 2e classe",
     mail: "jm@test.test",
     actif: true,
     role_id: 1,
@@ -700,7 +711,7 @@ export const utilisateurs = [
       nb_bonnes_reponses: 150,
       temps_passe: 60,
     },
-     theme_pro: {
+    theme_pro: {
       stats: 48,
       nb_quiz_theme: 9,
       nb_tentatives: 40,
@@ -709,7 +720,7 @@ export const utilisateurs = [
       nb_encours: 5, nb_bonnes_reponses: 150,
       temps_passe: 60
     },
-     theme_log: {
+    theme_log: {
       stats: 48,
       nb_quiz_theme: 9,
       nb_tentatives: 40,
@@ -718,7 +729,7 @@ export const utilisateurs = [
       nb_encours: 5, nb_bonnes_reponses: 150,
       temps_passe: 60
     },
-     theme_res: {
+    theme_res: {
       stats: 48,
       nb_quiz_theme: 9,
       nb_tentatives: 40,
@@ -727,7 +738,7 @@ export const utilisateurs = [
       nb_encours: 5, nb_bonnes_reponses: 150,
       temps_passe: 60
     },
-     theme_jur: {
+    theme_jur: {
       stats: 48,
       nb_quiz_theme: 9,
       nb_tentatives: 40,
@@ -736,7 +747,7 @@ export const utilisateurs = [
       nb_encours: 5, nb_bonnes_reponses: 150,
       temps_passe: 60
     },
-     theme_sec: {
+    theme_sec: {
       stats: 48,
       nb_quiz_theme: 9,
       nb_tentatives: 40,
@@ -745,7 +756,7 @@ export const utilisateurs = [
       nb_encours: 5, nb_bonnes_reponses: 150,
       temps_passe: 60
     },
-     theme_out: {
+    theme_out: {
       stats: 48,
       nb_quiz_theme: 9,
       nb_tentatives: 40,
@@ -754,7 +765,7 @@ export const utilisateurs = [
       nb_encours: 5, nb_bonnes_reponses: 150,
       temps_passe: 60
     },
-     theme_data: {
+    theme_data: {
       stats: 48,
       nb_quiz_theme: 9,
       nb_tentatives: 40,
@@ -763,7 +774,7 @@ export const utilisateurs = [
       nb_encours: 5, nb_bonnes_reponses: 150,
       temps_passe: 60
     },
-     theme_ia: {
+    theme_ia: {
       stats: 48,
       nb_quiz_theme: 9,
       nb_tentatives: 40,
@@ -772,7 +783,7 @@ export const utilisateurs = [
       nb_encours: 5, nb_bonnes_reponses: 150,
       temps_passe: 60
     },
-     theme_cult: {
+    theme_cult: {
       stats: 48,
       nb_quiz_theme: 9,
       nb_tentatives: 40,
@@ -787,7 +798,7 @@ export const utilisateurs = [
     uidAnnuaire: "0007",
     nom: "Herrera",
     prenom: "Salomé",
-     grade: "Contrôleur 2e classe",
+    grade: "Contrôleur 2e classe",
     mail: "bh@test.test",
     actif: true,
     role_id: 1,
@@ -823,7 +834,7 @@ export const utilisateurs = [
       nb_bonnes_reponses: 150,
       temps_passe: 60,
     },
-     theme_pro: {
+    theme_pro: {
       stats: 48,
       nb_quiz_theme: 9,
       nb_tentatives: 40,
@@ -832,7 +843,7 @@ export const utilisateurs = [
       nb_encours: 5, nb_bonnes_reponses: 150,
       temps_passe: 60
     },
-     theme_log: {
+    theme_log: {
       stats: 48,
       nb_quiz_theme: 9,
       nb_tentatives: 40,
@@ -841,7 +852,7 @@ export const utilisateurs = [
       nb_encours: 5, nb_bonnes_reponses: 150,
       temps_passe: 60
     },
-     theme_res: {
+    theme_res: {
       stats: 48,
       nb_quiz_theme: 9,
       nb_tentatives: 40,
@@ -850,7 +861,7 @@ export const utilisateurs = [
       nb_encours: 5, nb_bonnes_reponses: 150,
       temps_passe: 60
     },
-     theme_jur: {
+    theme_jur: {
       stats: 48,
       nb_quiz_theme: 9,
       nb_tentatives: 40,
@@ -859,7 +870,7 @@ export const utilisateurs = [
       nb_encours: 5, nb_bonnes_reponses: 150,
       temps_passe: 60
     },
-     theme_sec: {
+    theme_sec: {
       stats: 48,
       nb_quiz_theme: 9,
       nb_tentatives: 40,
@@ -868,7 +879,7 @@ export const utilisateurs = [
       nb_encours: 5, nb_bonnes_reponses: 150,
       temps_passe: 60
     },
-     theme_out: {
+    theme_out: {
       stats: 48,
       nb_quiz_theme: 9,
       nb_tentatives: 40,
@@ -877,7 +888,7 @@ export const utilisateurs = [
       nb_encours: 5, nb_bonnes_reponses: 150,
       temps_passe: 60
     },
-     theme_data: {
+    theme_data: {
       stats: 48,
       nb_quiz_theme: 9,
       nb_tentatives: 40,
@@ -886,7 +897,7 @@ export const utilisateurs = [
       nb_encours: 5, nb_bonnes_reponses: 150,
       temps_passe: 60
     },
-     theme_ia: {
+    theme_ia: {
       stats: 48,
       nb_quiz_theme: 9,
       nb_tentatives: 40,
@@ -895,7 +906,7 @@ export const utilisateurs = [
       nb_encours: 5, nb_bonnes_reponses: 150,
       temps_passe: 60
     },
-     theme_cult: {
+    theme_cult: {
       stats: 48,
       nb_quiz_theme: 9,
       nb_tentatives: 40,

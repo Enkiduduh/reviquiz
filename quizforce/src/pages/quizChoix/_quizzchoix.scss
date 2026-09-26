@@ -1,25 +1,8 @@
-.quizchoix-page-main {
-  height: 100%;
-  width: 100%;
-  margin: 0 auto;
-  display: flex;
-  flex: 1;
-  align-items: center;
-  justify-content: center;
-  background: whitesmoke;
-
-  h1 {
-    font-size: 48px;
-    margin: 0;
-    padding: 5px 0;
-  }
-}
 //////////////////////////////////////////////////
 /// Quizz score container
 /// Par défaut flex 80%, puis flex 15% quand le joueur a rentré son nom
 .quizchoix-container {
   display: flex;
-  // flex-direction: column;
   align-items: center;
   justify-content: center;
   background: silver;
@@ -27,15 +10,7 @@
   width: 100%;
   position: relative;
   z-index: 1;
-  // border: 1px solid black;
-  h1 {
-    background: goldenrod;
-    width: 100%;
-    text-align: center;
-    background: darkslategray;
-    color: white;
-    text-shadow: 2px 2px 2px black;
-  }
+  overflow-y: auto;
 }
 .quizchoix-container-center {
   justify-content: center;
@@ -53,9 +28,6 @@
   background: darkgrey;
   overflow-y: scroll;
   padding: 5% 20px;
-
-  // justify-items: center;
-  // align-items: center;
 }
 
 .quizchoix-quiz-wrapper-flex {
@@ -79,39 +51,8 @@
   background-color: lightseagreen;
   color: whitesmoke;
   position: absolute;
-  z-index: 100;
-  top: 10%;
+  top: 50px;
   left: 50px;
-  font-weight: bold;
-  cursor: pointer;
-  &:hover {
-    background-color: seagreen;
-  }
-}
-
-.quizchoix-quiz-dashboard {
-  background-color: lightseagreen;
-  color: whitesmoke;
-  position: absolute;
-  z-index: 100;
-  top: 20%;
-  left: 50px;
-  padding: 20px;
-  font-weight: bold;
-  cursor: pointer;
-  &:hover {
-    background-color: seagreen;
-  }
-}
-
-.quizchoix-quiz-dashboard-top {
-  background-color: lightseagreen;
-  color: whitesmoke;
-  position: absolute;
-  z-index: 100;
-  top: 20px;
-  left: 20px;
-  padding: 20px;
   font-weight: bold;
   cursor: pointer;
   &:hover {
@@ -125,28 +66,32 @@
   justify-content: space-around;
 }
 
+.quizchoix-quiz-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
 .quizchoix-quiz {
-  // background-position: bottom;
-  // background-repeat: no-repeat;
-  // background-size: cover;
+
   background-color: rgba(39, 90, 178, 0.797);
   cursor: pointer;
   transition: all ease 0.66s;
 
   padding: 5px 10px;
-  // background: whitesmoke;
   color: black;
   margin: 0 5px;
   border: 3px solid black;
   border-radius: 2px;
-  width: 70vw;
-  height: 100px;
+  width: 30vw;
+  height: 24vh;
   font-weight: bold;
   position: relative;
 
-  &:hover {
-    transform: scale(1.02);
-  }
+  // &:hover {
+  //   transform: scale(1.02);
+  // }
+
   .quizchoix-quiz-vignette {
     font-size: 18px;
     color: whitesmoke;
@@ -175,7 +120,9 @@
   }
   .quizchoix-quiz-nbquestions {
     position: absolute;
-    bottom: 5px;
+    text-align: right;
+    width: 180px;
+    bottom: 130px;
     right: 10px;
     font-size: 12px;
     font-size: 18px;
@@ -212,14 +159,14 @@
   .quizchoix-quiz-description {
     position: absolute;
     bottom: 0px;
-    left: 110px;
+    left: 10px;
     width: 70%;
     text-align: left;
     font-size: 12px;
     font-size: 18px;
     color: whitesmoke;
     text-shadow: 2px 2px 2px teal;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: bold;
   }
 }
@@ -227,24 +174,37 @@
 // difficulté
 .quizchoix-quiz-diff {
   position: absolute;
-  bottom: 25px;
   right: 10px;
-  height: 15px;
-  width: 15px;
-  border: 5px solid rgb(253, 253, 253);
+  height: 20px;
+  width: 50px;
+  border: 3px solid rgb(253, 253, 253);
   border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+  color: whitesmoke;
+  &:hover {
+      background: darkred;
+
+  }
 }
-.quizchoix-quiz-vignette-facile {
-  background: lightblue;
+
+.quizchoix-quiz-vignette-30 {
+  background: black;
+  bottom: 100px;
 }
-.quizchoix-quiz-vignette-normal {
-  background: green;
+.quizchoix-quiz-vignette-50 {
+  background: black;
+  bottom: 70px;
 }
-.quizchoix-quiz-vignette-difficile {
-  background: orange;
+.quizchoix-quiz-vignette-80 {
+  background: black;
+  bottom: 40px;
 }
-.quizchoix-quiz-vignette-expert {
-  background: red;
+.quizchoix-quiz-vignette-100 {
+  background: black;
+  bottom: 10px;
 }
 .filter-vignette {
   position: relative;
@@ -267,58 +227,6 @@
 .quizchoix-quiz-filter-vignette-expert {
   background: red;
 }
-
-// .quizchoix-quiz-rsp {
-//   background-image: url("/assets/thumbnails/img_globales_rsp.png");
-// }
-
-// .quizchoix-quiz-Réseaux {
-//   background-image: url("/assets/thumbnails/img_reseaux.png");
-// }
-
-// .quizchoix-quiz-Développement {
-//   background-image: url("/assets/thumbnails/img_developpement.png");
-// }
-
-// .quizchoix-quiz-AdminSys {
-//   background-image: url("/assets/thumbnails/img_adminsys.png");
-// }
-
-// .quizchoix-quiz-Projet {
-//   background-image: url("/assets/thumbnails/img_projet_info.png");
-// }
-
-// .quizchoix-quiz-Conception {
-//   background-image: url("/assets/thumbnails/img_conception_info.png");
-// }
-
-// .quizchoix-quiz-Juridique {
-//   background-image: url("/assets/thumbnails/img_juridique.png");
-// }
-
-// .quizchoix-quiz-Outils {
-//   background-image: url("/assets/thumbnails/img_outils.png");
-// }
-
-// .quizchoix-quiz-Culture {
-//   background-image: url("/assets/thumbnails/img_culture.png");
-// }
-
-// .quizchoix-quiz-IA {
-//   background-image: url("/assets/thumbnails/img_ia.png");
-// }
-
-// .quizchoix-quiz-Data {
-//   background-image: url("/assets/thumbnails/img_data.png");
-// }
-
-// .quizchoix-quiz-Sécurité {
-//   background-image: url("/assets/thumbnails/img_securite.png");
-// }
-
-// .quizchoix-quiz-Logique {
-//   background-image: url("/assets/thumbnails/img_logique.png");
-// }
 
 .highscore-joueur-0 {
   background-color: gold;
@@ -356,7 +264,7 @@
 
 .quizchoix-section-themes {
   padding: 8px 0;
-  width: 80%;
+  // width: 90%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 10px;
@@ -395,7 +303,6 @@
   border-radius: 50%;
   width: 40px;
   height: 40px;
-  // border: 1px solid black;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -422,116 +329,101 @@
   }
 }
 
-.quizchoix-filter-selected-tout {
-  background: teal;
-}
+// @media screen and (max-width: 768px) {
+//   .quizchoix-quiz {
+//     border: 5px solid black;
+//     border-radius: 10px;
+//     width: 90vw;
+//     height: 60px;
+//     margin: 5px;
+//     background-position: center;
+//     background-repeat: no-repeat;
+//     background-size: cover;
+//     cursor: pointer;
+//     transition: all ease 0.66s;
+//     position: relative;
+//     &:hover {
+//       transform: scale(1.08);
+//       opacity: 0.9;
+//       border: 5px solid red;
+//       span {
+//         border-top-left-radius: 5px;
+//       }
+//     }
+//     span {
+//       font-size: 15px;
+//       text-align: left;
+//     }
+//   }
 
-// Filter difficulte
+//   .quizchoix-page-main {
+//     h1 {
+//       font-size: 20px;
+//       margin: 0;
+//       padding: 5px 0;
+//     }
+//   }
 
-.quizchoix-section-difficulte {
-  display: flex;
-  padding: 8px 0;
-  justify-content: space-between;
-  align-items: center;
-  width: 80%;
-  flex-direction: column;
-}
+//   .quizchoix-section-filter {
+//     // overflow-y: hidden;
+//     overflow-x: auto;
+//     width: 100%;
+//     height: 50px;
+//   }
 
-@media screen and (max-width: 768px) {
-  .quizchoix-quiz {
-    border: 5px solid black;
-    border-radius: 10px;
-    width: 90vw;
-    height: 60px;
-    margin: 5px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    cursor: pointer;
-    transition: all ease 0.66s;
-    position: relative;
-    &:hover {
-      transform: scale(1.08);
-      opacity: 0.9;
-      border: 5px solid red;
-      span {
-        border-top-left-radius: 5px;
-      }
-    }
-    span {
-      font-size: 15px;
-      text-align: left;
-    }
-  }
+//   .quizchoix-filter {
+//     width: 150px;
+//   }
+// }
 
-  .quizchoix-page-main {
-    h1 {
-      font-size: 20px;
-      margin: 0;
-      padding: 5px 0;
-    }
-  }
+// @media screen and (max-width: 1500px) {
+//   .quizchoix-section-filter {
+//     display: flex;
+//     padding: 8px 0;
+//     justify-content: space-evenly;
+//     align-items: center;
+//     // overflow-y: hidden;
+//     overflow-x: auto;
+//     width: 100%;
+//     height: 5vh;
+//   }
 
-  .quizchoix-section-filter {
-    // overflow-y: hidden;
-    overflow-x: auto;
-    width: 100%;
-    height: 50px;
-  }
-
-  .quizchoix-filter {
-    width: 150px;
-  }
-}
-
-@media screen and (max-width: 1500px) {
-  .quizchoix-section-filter {
-    display: flex;
-    padding: 8px 0;
-    justify-content: space-evenly;
-    align-items: center;
-    // overflow-y: hidden;
-    overflow-x: auto;
-    width: 100%;
-    height: 5vh;
-  }
-
-  .quizchoix-filter {
-    padding: 5px 10px;
-    background: whitesmoke;
-    color: black;
-    margin: 0 2px;
-    border: 3px solid black;
-    border-radius: 5px;
-    width: 150px;
-    text-align: center;
-    font-weight: bold;
-    &:hover {
-      background: lightseagreen;
-      cursor: pointer;
-    }
-  }
-  .quizchoix-quiz {
-    .quizchoix-quiz-nbquestions {
-      position: absolute;
-      bottom: 0px;
-      right: 10px;
-      font-size: 12px;
-      font-size: 18px;
-      color: whitesmoke;
-      text-shadow: 2px 2px 2px teal;
-      font-size: 14px;
-      font-weight: bold;
-    }
-  }
-  // difficulté
-  .quizchoix-quiz-diff {
-    position: absolute;
-    bottom: 20px;
-    right: 10px;
-    height: 15px;
-    width: 15px;
-    border: 5px solid rgb(253, 253, 253);
-    border-radius: 50%;
-  }
-}
+//   .quizchoix-filter {
+//     padding: 5px 10px;
+//     background: whitesmoke;
+//     color: black;
+//     margin: 0 2px;
+//     border: 3px solid black;
+//     border-radius: 5px;
+//     width: 150px;
+//     text-align: center;
+//     font-weight: bold;
+//     &:hover {
+//       background: lightseagreen;
+//       cursor: pointer;
+//     }
+//   }
+//   .quizchoix-quiz {
+//     .quizchoix-quiz-nbquestions {
+//       position: absolute;
+//       bottom: 0px;
+//       right: 10px;
+//       font-size: 12px;
+//       font-size: 18px;
+//       color: whitesmoke;
+//       text-shadow: 2px 2px 2px teal;
+//       font-size: 14px;
+//       font-weight: bold;
+//     }
+//   }
+//   // difficulté
+//   .quizchoix-quiz-diff {
+//     position: absolute;
+//     bottom: 20px;
+//     right: 10px;
+//     height: 15px;
+//     width: 15px;
+//     border: 5px solid rgb(253, 253, 253);
+//     border-radius: 50%;
+//   }
+// }

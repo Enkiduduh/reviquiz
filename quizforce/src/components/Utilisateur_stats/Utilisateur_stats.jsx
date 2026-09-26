@@ -1,6 +1,10 @@
 import React from "react";
-
+import { useState } from "react";
+import { themes } from "../../data/themes/themes";
 function Utilisateur_stats({ utilisateurs_info }) {
+  const [quizsTheme, setQuizsTheme] = useState([]);
+  const [choixTheme, setChoixTheme] = useState("");
+
   const statsThemes = [
     {
       stats: utilisateurs_info.theme_adm,
@@ -19,7 +23,7 @@ function Utilisateur_stats({ utilisateurs_info }) {
     },
     {
       stats: utilisateurs_info.theme_pro,
-      theme: "Projet Informatique",
+      theme: "Projet",
       icon: "/assets/thumbnails_choice/thumbnail_projet.png",
     },
     {
@@ -63,10 +67,20 @@ function Utilisateur_stats({ utilisateurs_info }) {
       icon: "/assets/thumbnails_choice/thumbnail_culture.png",
     },
   ];
+  function filteredTheme(e) {
+    const choix = e.currentTarget.children[1].textContent;
+    if (choixTheme === choix) {
+      setChoixTheme("");
+      setQuizsTheme([]);
+      return;
+    }
+    setChoixTheme(choix);
+    setQuizsTheme(themes.filter((quiz) => quiz.category === choix));
+  }
 
   return (
     <>
-      <h3>Zone Statistiques</h3>
+      <h3 className="utilisateur_stats-page-title">Zone Statistiques</h3>
       <div className="utilisateur_stats-page-container">
         <section className="utilisateur_stats-recapitulatif-details">
           <div className="utilisateur_stats_details-container">
@@ -111,40 +125,80 @@ function Utilisateur_stats({ utilisateurs_info }) {
         <section>
           <table className="utilisateurs_stats-table">
             <thead>
-              <tr>
+              <tr className="utilisateur_stats-theme-th">
+                <th>Icon</th>
                 <th>Thème</th>
-                <th>Nombre de quiz</th>
                 <th>Avancement</th>
-                <th>Nombre de quiz terminés</th>
-                <th>Nombre de bonnes réponses</th>
                 <th>Temps passé (min)</th>
+                <th>Nombre de bonnes réponses</th>
+                <th>Quiz (30) terminés</th>
+                <th>Quiz (50) terminés</th>
+                <th>Quiz (80) terminés</th>
+                <th>Quiz (100) terminés</th>
               </tr>
             </thead>
             <tbody>
               {statsThemes.map((theme) => (
-                <tr>
-                  <td>
-                    <img
-                      src={theme.icon}
-                      alt=""
-                      className="utilisateur_stats-section-stats-flex-icon"
-                    />
-                  </td>
-                  <td>{theme.stats.nb_quiz_theme}</td>
-                  <td className="utilisateurs_stats-table-avancement">
-                    <div
-                      className="utilisateur_stats-theme-visuel-container"
-                      style={{ "--progress": `${theme.stats.stats * 3.6}deg` }}
-                    >
-                      <div className="utilisateur_stats-theme-visuel-stat">
-                        {theme.stats.stats}%
+                <>
+                  <tr
+                    onClick={filteredTheme}
+                    className="utilisateur_stats-theme-th"
+                  >
+                    <td>
+                      <img
+                        src={theme.icon}
+                        alt=""
+                        className="utilisateur_stats-section-stats-flex-icon"
+                      />
+                    </td>
+                    <th style={{ width: "20vw" }}>{theme.theme}</th>
+                    <td className="utilisateurs_stats-table-avancement">
+                      <div
+                        className="utilisateur_stats-theme-visuel-container"
+                        style={{
+                          "--progress": `${theme.stats.stats * 3.6}deg`,
+                        }}
+                      >
+                        <div className="utilisateur_stats-theme-visuel-stat">
+                          {theme.stats.stats}%
+                        </div>
                       </div>
-                    </div>
-                  </td>
-                  <td>{theme.stats.nb_termines}</td>
-                  <td>{theme.stats.nb_bonnes_reponses}</td>
-                  <td>{theme.stats.temps_passe}</td>
-                </tr>
+                    </td>
+                    <td>{theme.stats.temps_passe}</td>
+                    <td>{theme.stats.nb_bonnes_reponses}</td>
+                    <td>{theme.stats.nb_tentatives_30}</td>
+                    <td>{theme.stats.nb_tentatives_50}</td>
+                    <td>{theme.stats.nb_tentatives_80}</td>
+                    <td>{theme.stats.nb_tentatives_100}</td>
+                  </tr>
+                  {choixTheme === theme.theme &&
+                    quizsTheme.map((quiz) => (
+                      <tr
+                        key={quiz.id_th}
+                        className="utilisateur_stats-theme-quiz"
+                      >
+                        <th style={{ width: "20vw" }} colspan="2">{quiz.label}</th>
+                        <td className="utilisateurs_stats-table-avancement-quiz">
+                          <div
+                            className="utilisateur_stats-theme-visuel-container"
+                            style={{
+                              "--progress": `${theme.stats.stats * 3.6}deg`,
+                            }}
+                          >
+                            <div className="utilisateur_stats-theme-visuel-stat">
+                              {theme.stats.stats}%
+                            </div>
+                          </div>
+                        </td>
+                        <td>{theme.stats.temps_passe}</td>
+                        <td>{theme.stats.nb_bonnes_reponses}</td>
+                        <td>{theme.stats.nb_tentatives_30}</td>
+                        <td>{theme.stats.nb_tentatives_50}</td>
+                        <td>{theme.stats.nb_tentatives_80}</td>
+                        <td>{theme.stats.nb_tentatives_100}</td>
+                      </tr>
+                    ))}
+                </>
               ))}
             </tbody>
           </table>

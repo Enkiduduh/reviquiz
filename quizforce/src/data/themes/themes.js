@@ -1,6 +1,7 @@
 export const themes = [
   {
     category: "AdminSys",
+    id_th: 1,
     id: "linux",
     nb_questions: "70",
     difficulte: "facile",
@@ -12,6 +13,7 @@ export const themes = [
   },
   {
     category: "AdminSys",
+    id_th: 2,
     id: "linux_admin",
     nb_questions: "290",
     difficulte: "normal",
@@ -24,6 +26,7 @@ export const themes = [
   {
     category: "AdminSys",
     icon: "/assets/thumbnails_choice/thumbnail_adminsys.png",
+    id_th: 3,
     id: "scriptshell",
     nb_questions: "160",
     difficulte: "facile",
@@ -35,6 +38,7 @@ export const themes = [
   {
     category: "AdminSys",
     icon: "/assets/thumbnails_choice/thumbnail_adminsys.png",
+    id_th:4,
     id: "securite",
     nb_questions: "100",
     difficulte: "normal",
@@ -46,6 +50,7 @@ export const themes = [
   {
     category: "AdminSys",
     icon: "/assets/thumbnails_choice/thumbnail_adminsys.png",
+    id_th: 5,
     id: "postgresql",
     nb_questions: "150",
     difficulte: "normal",
@@ -57,6 +62,7 @@ export const themes = [
   {
     category: "AdminSys",
     icon: "/assets/thumbnails_choice/thumbnail_adminsys.png",
+    id_th: 6,
     id: "postgresql_dba",
     nb_questions: "195",
     difficulte: "difficile",
@@ -68,6 +74,7 @@ export const themes = [
   {
     category: "AdminSys",
     icon: "/assets/thumbnails_choice/thumbnail_adminsys.png",
+    id_th: 7,
     id: "linux_scripts",
     nb_questions: "184",
     difficulte: "normal",
@@ -79,6 +86,7 @@ export const themes = [
   {
     category: "AdminSys",
     icon: "/assets/thumbnails_choice/thumbnail_adminsys.png",
+    id_th: 8,
     id: "sql",
     nb_questions: "250",
     difficulte: "normal",
@@ -91,6 +99,7 @@ export const themes = [
   {
     category: "Logique",
     icon: "/assets/thumbnails_choice/thumbnail_logique.png",
+    id_th: 9,
     id: "logique",
     nb_questions: "100",
     difficulte: "facile",
@@ -102,6 +111,7 @@ export const themes = [
   {
     category: "Logique",
     icon: "/assets/thumbnails_choice/thumbnail_logique.png",
+    id_th: 10,
     id: "logique_avancee",
     nb_questions: "300",
     difficulte: "difficile",
@@ -113,6 +123,7 @@ export const themes = [
   {
     category: "Logique",
     icon: "/assets/thumbnails_choice/thumbnail_logique.png",
+    id_th: 11,
     id: "logique_expert",
     nb_questions: "300",
     difficulte: "expert",
@@ -124,6 +135,7 @@ export const themes = [
   {
     category: "Développement",
     icon: "/assets/thumbnails_choice/thumbnail_developpement.png",
+    id_th: 12,
     id: "java",
     nb_questions: "100",
     difficulte: "facile",
@@ -135,6 +147,7 @@ export const themes = [
   {
     category: "Développement",
     icon: "/assets/thumbnails_choice/thumbnail_developpement.png",
+    id_th: 13,
     id: "java_affichage",
     nb_questions: "100",
     difficulte: "facile",
@@ -146,6 +159,7 @@ export const themes = [
   {
     category: "Développement",
     icon: "/assets/thumbnails_choice/thumbnail_developpement.png",
+    id_th: 14,
     id: "java_avance",
     nb_questions: "276",
     difficulte: "difficile",
@@ -158,6 +172,7 @@ export const themes = [
   {
     category: "Développement",
     icon: "/assets/thumbnails_choice/thumbnail_developpement.png",
+    id_th: 15,
     id: "java_expert",
     nb_questions: "300",
     difficulte: "expert",
@@ -169,6 +184,7 @@ export const themes = [
   {
     category: "Développement",
     icon: "/assets/thumbnails_choice/thumbnail_developpement.png",
+    id_th: 16,
     id: "javascript_expert",
     nb_questions: "300",
     difficulte: "expert",
@@ -180,6 +196,7 @@ export const themes = [
   {
     category: "Développement",
     icon: "/assets/thumbnails_choice/thumbnail_developpement.png",
+    id_th: 17,
     id: "python_expert",
     nb_questions: "300",
     difficulte: "expert",
@@ -192,6 +209,7 @@ export const themes = [
   {
     category: "Réseaux",
     icon: "/assets/thumbnails_choice/thumbnail_reseaux.png",
+    id_th: 18,
     id: "reseaux",
     nb_questions: "150",
     difficulte: "difficile",
@@ -203,6 +221,7 @@ export const themes = [
   {
     category: "Réseaux",
     icon: "/assets/thumbnails_choice/thumbnail_reseaux.png",
+    id_th: 19,
     id: "cidr_ipv4_ipv6",
     nb_questions: "300",
     difficulte: "difficile",
@@ -214,6 +233,7 @@ export const themes = [
   {
     category: "Réseaux",
     icon: "/assets/thumbnails_choice/thumbnail_reseaux.png",
+    id_th: 20,
     id: "cloud_computing",
     nb_questions: "300",
     difficulte: "difficile",
@@ -225,6 +245,7 @@ export const themes = [
   {
     category: "Réseaux",
     icon: "/assets/thumbnails_choice/thumbnail_reseaux.png",
+    id_th: 21,
     id: "modele_osi_dod",
     nb_questions: "300",
     difficulte: "difficile",
@@ -236,6 +257,7 @@ export const themes = [
   {
     category: "Réseaux",
     icon: "/assets/thumbnails_choice/thumbnail_reseaux.png",
+    id_th: 22,
     id: "typologies_reseaux",
     nb_questions: "300",
     difficulte: "difficile",
@@ -248,6 +270,7 @@ export const themes = [
   {
     category: "Projet",
     icon: "/assets/thumbnails_choice/thumbnail_projet.png",
+    id_th: 23,
     id: "cycle_vie_application",
     nb_questions: "150",
     difficulte: "normal",
@@ -259,6 +282,7 @@ export const themes = [
   {
     category: "Projet",
     icon: "/assets/thumbnails_choice/thumbnail_projet.png",
+    id_th: 24,
     id: "schema_directeur",
     nb_questions: "100",
     difficulte: "normal",
@@ -270,6 +294,7 @@ export const themes = [
   {
     category: "Projet",
     icon: "/assets/thumbnails_choice/thumbnail_projet.png",
+    id_th: 25,
     id: "partenaire_projet",
     nb_questions: "75",
     difficulte: "normal",
@@ -281,6 +306,7 @@ export const themes = [
   {
     category: "Projet",
     icon: "/assets/thumbnails_choice/thumbnail_projet.png",
+    id_th: 26,
     id: "urbanisation_systeme_info",
     nb_questions: "150",
     difficulte: "normal",
@@ -292,6 +318,7 @@ export const themes = [
   {
     category: "Projet",
     icon: "/assets/thumbnails_choice/thumbnail_projet.png",
+    id_th: 27,
     id: "conduite_projet_info",
     nb_questions: "150",
     difficulte: "normal",
@@ -303,6 +330,7 @@ export const themes = [
   {
     category: "Conception",
     icon: "/assets/thumbnails_choice/thumbnail_conception.png",
+    id_th: 28,
     id: "concepts_objet",
     nb_questions: "150",
     difficulte: "normal",
@@ -314,6 +342,7 @@ export const themes = [
   {
     category: "Conception",
     icon: "/assets/thumbnails_choice/thumbnail_conception.png",
+    id_th: 29,
     id: "merise",
     nb_questions: "150",
     difficulte: "normal",
@@ -325,6 +354,7 @@ export const themes = [
   {
     category: "Conception",
     icon: "/assets/thumbnails_choice/thumbnail_conception.png",
+    id_th: 30,
     id: "uml",
     nb_questions: "150",
     difficulte: "normal",
@@ -336,6 +366,7 @@ export const themes = [
   {
     category: "Conception",
     icon: "/assets/thumbnails_choice/thumbnail_conception.png",
+    id_th: 31,
     id: "test",
     nb_questions: "150",
     difficulte: "normal",
@@ -347,6 +378,7 @@ export const themes = [
   {
     category: "Conception",
     icon: "/assets/thumbnails_choice/thumbnail_conception.png",
+    id_th: 32,
     id: "evolution_language",
     nb_questions: "150",
     difficulte: "normal",
@@ -358,6 +390,7 @@ export const themes = [
   {
     category: "Conception",
     icon: "/assets/thumbnails_choice/thumbnail_conception.png",
+    id_th: 33,
     id: "schema_conception",
     nb_questions: "201",
     difficulte: "normal",
@@ -370,6 +403,7 @@ export const themes = [
   {
     category: "Conception",
     icon: "/assets/thumbnails_choice/thumbnail_conception.png",
+    id_th: 34,
     id: "merise_exos",
     nb_questions: "300",
     difficulte: "difficile",
@@ -381,6 +415,7 @@ export const themes = [
   {
     category: "Conception",
     icon: "/assets/thumbnails_choice/thumbnail_conception.png",
+    id_th:35,
     id: "uml_exos",
     nb_questions: "300",
     difficulte: "difficile",
@@ -392,6 +427,7 @@ export const themes = [
   {
     category: "Conception",
     icon: "/assets/thumbnails_choice/thumbnail_conception.png",
+    id_th:36,
     id: "methodes_analyse",
     nb_questions: "300",
     difficulte: "normal",
@@ -404,6 +440,7 @@ export const themes = [
   {
     category: "Culture",
     icon: "/assets/thumbnails_choice/thumbnail_culture.png",
+    id_th: 37,
     id: "architectures_info",
     nb_questions: "200",
     difficulte: "normal",
@@ -415,6 +452,7 @@ export const themes = [
   {
     category: "Culture",
     icon: "/assets/thumbnails_choice/thumbnail_culture.png",
+    id_th: 38,
     id: "systemes_exploitation",
     nb_questions: "200",
     difficulte: "normal",
@@ -426,6 +464,7 @@ export const themes = [
   {
     category: "Culture",
     icon: "/assets/thumbnails_choice/thumbnail_culture.png",
+    id_th: 39,
     id: "langages_informatiques",
     nb_questions: "200",
     difficulte: "normal",
@@ -438,6 +477,7 @@ export const themes = [
   {
     category: "Outils",
     icon: "/assets/thumbnails_choice/thumbnail_outils.png",
+    id_th: 40,
     id: "aide_conception",
     nb_questions: "200",
     difficulte: "difficile",
@@ -449,6 +489,7 @@ export const themes = [
   {
     category: "Outils",
     icon: "/assets/thumbnails_choice/thumbnail_outils.png",
+    id_th: 41,
     id: "aide_realisation",
     nb_questions: "200",
     difficulte: "difficile",
@@ -460,6 +501,7 @@ export const themes = [
   {
     category: "Outils",
     icon: "/assets/thumbnails_choice/thumbnail_outils.png",
+    id_th: 42,
     id: "tests_config_deploiement",
     nb_questions: "200",
     difficulte: "difficile",
@@ -472,6 +514,7 @@ export const themes = [
   {
     category: "Juridique",
     icon: "/assets/thumbnails_choice/thumbnail_juridique.png",
+    id_th: 43,
     id: "communications_electronique",
     nb_questions: "200",
     difficulte: "normal",
@@ -483,6 +526,7 @@ export const themes = [
   {
     category: "Juridique",
     icon: "/assets/thumbnails_choice/thumbnail_juridique.png",
+    id_th: 44,
     id: "droit_informatique",
     nb_questions: "200",
     difficulte: "normal",
@@ -494,6 +538,7 @@ export const themes = [
   {
     category: "Juridique",
     icon: "/assets/thumbnails_choice/thumbnail_juridique.png",
+    id_th: 45,
     id: "instances_normalisation",
     nb_questions: "200",
     difficulte: "normal",
@@ -505,6 +550,7 @@ export const themes = [
   {
     category: "Juridique",
     icon: "/assets/thumbnails_choice/thumbnail_juridique.png",
+    id_th: 46,
     id: "marches_publics",
     nb_questions: "200",
     difficulte: "normal",
@@ -516,6 +562,7 @@ export const themes = [
   {
     category: "Sécurité",
     icon: "/assets/thumbnails_choice/thumbnail_securite.png",
+    id_th: 47,
     id: "chiffrement",
     nb_questions: "300",
     difficulte: "expert",
@@ -527,6 +574,7 @@ export const themes = [
   {
     category: "Sécurité",
     icon: "/assets/thumbnails_choice/thumbnail_securite.png",
+    id_th: 48,
     id: "cybersecurite",
     nb_questions: "300",
     difficulte: "expert",
@@ -538,6 +586,7 @@ export const themes = [
   {
     category: "Sécurité",
     icon: "/assets/thumbnails_choice/thumbnail_securite.png",
+    id_th: 49,
     id: "authentification",
     nb_questions: "300",
     difficulte: "expert",
@@ -549,6 +598,7 @@ export const themes = [
   {
     category: "Sécurité",
     icon: "/assets/thumbnails_choice/thumbnail_securite.png",
+    id_th: 50,
     id: "resilience",
     nb_questions: "300",
     difficulte: "expert",
@@ -561,6 +611,7 @@ export const themes = [
   {
     category: "Data",
     icon: "/assets/thumbnails_choice/thumbnail_data.png",
+    id_th: 51,
     id: "sauvegarde_archivage",
     nb_questions: "300",
     difficulte: "expert",
@@ -573,6 +624,7 @@ export const themes = [
   {
     category: "Data",
     icon: "/assets/thumbnails_choice/thumbnail_data.png",
+    id_th: 52,
     id: "exposition_donnees",
     nb_questions: "300",
     difficulte: "expert",
@@ -585,6 +637,7 @@ export const themes = [
   {
     category: "Data",
     icon: "/assets/thumbnails_choice/thumbnail_data.png",
+    id_th: 53,
     id: "nosql",
     nb_questions: "300",
     difficulte: "expert",
@@ -597,6 +650,7 @@ export const themes = [
   {
     category: "IA",
     icon: "/assets/thumbnails_choice/thumbnail_ia.png",
+    id_th: 54,
     id: "intelligence_artificielle",
     nb_questions: "300",
     difficulte: "expert",
@@ -609,6 +663,7 @@ export const themes = [
   {
     category: "AdminSys",
     icon: "/assets/thumbnails_choice/thumbnail_adminsys.png",
+    id_th: 55,
     id: "test_fin",
     nb_questions: "3",
     difficulte: "expert",
