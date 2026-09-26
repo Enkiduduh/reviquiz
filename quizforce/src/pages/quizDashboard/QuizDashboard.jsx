@@ -78,7 +78,7 @@ function QuizMain() {
           onClick={() => afficherElement(setDisplayEquipe)}
         >
           <img src={icon_equipe} alt="" className="quizDashboard-icon" />{" "}
-          <div>Equipe</div>
+          <div>Équipe</div>
         </div>
         <div
           className="quizDashboard-menu-line"
@@ -105,7 +105,7 @@ function QuizMain() {
           onClick={() => afficherElement(setDisplayThemes)}
         >
           <img src={icon_quiz} alt="" className="quizDashboard-icon" />{" "}
-          <div>Acces aux thématiques</div>
+          <div>Accès aux thématiques</div>
         </div>
 
         <div
@@ -113,7 +113,7 @@ function QuizMain() {
           onClick={deconnexion}
         >
           <img src={icon_deconnexion} alt="" className="quizDashboard-icon" />{" "}
-          <div>Deconnexion</div>
+          <div>Déconnexion</div>
         </div>
       </section>
 
