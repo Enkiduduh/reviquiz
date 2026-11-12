@@ -10,6 +10,11 @@
 @use "../components/Utilisateur_details/utilisateur_details";
 @use "../components/Utilisateur_taches/utilisateur_taches";
 
+@use "../components/AdministrateurUtilisateurListe/administrateurUtilisateurListe";
+@use "../components/AdministrateurThematiqueListe/administrateurThematiqueListe";
+@use "../components/AdministrateurQuizListe/administrateurQuizListe";
+@use "../layouts/dashboardLayout";
+
 html {
   // height: 100vh;
   height: 100%;

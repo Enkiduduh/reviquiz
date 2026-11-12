@@ -124,7 +124,6 @@ function QuizChoix({ utilisateur_info }) {
     const selectedTheme = e.target.previousElementSibling.textContent;
     const selectedTheme2 =
       e.target.previousElementSibling.previousElementSibling.textContent;
-    // console.log(selectedTheme);
     const filterTheme = themes.filter(
       (th) => th.category == selectedTheme || th.category == selectedTheme2,
     );

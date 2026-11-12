@@ -1,4 +1,4 @@
-import { useNavigate } from "react-router-dom";
+import { UNSAFE_getPatchRoutesOnNavigationFunction, useNavigate } from "react-router-dom";
 import geekImg from "/assets/geeklearning.png";
 import { utilisateurs } from "../../data/utilisateur_dbb/utilisateurs";
 import { useState } from "react";
@@ -10,6 +10,7 @@ function QuizMain() {
   const [password, setPassword] = useState("");
 
   sessionStorage.setItem("userInfo", null);
+  console.log("userInfo est vide...");
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -30,6 +31,8 @@ function QuizMain() {
       sessionStorage.getItem("userInfo") == JSON.stringify(utilisateurs[1]) ||
       sessionStorage.getItem("userInfo") == JSON.stringify(utilisateurs[2])
     ) {
+
+      console.log("UserInfo:", sessionStorage.getItem("userInfo").role_id, sessionStorage.getItem("userInfo").nom, sessionStorage.getItem("userInfo").prenom);
       navigate("/dashboard");
     } else {
       location.reload();

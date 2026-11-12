@@ -1025,7 +1025,7 @@
 }
 
 .quizDashboard-section-right {
-  width: 80%;
+  width: 100%;
   height: 100%;
   background: #1a1a1a;
   overflow-y: auto;
@@ -1352,6 +1352,68 @@
 }
 .utilisateurs-table-th-agent-flex .utilisateurs-table-th-agent-details-grade {
   font-size: 14px;
+}
+
+.administrateur-liste-utilisateur-container img {
+  width: 20px;
+}
+.administrateur-liste-utilisateur-container thead th {
+  padding: 10px 25px;
+}
+.administrateur-liste-utilisateur-container tr {
+  background-color: seagreen;
+  text-align: center;
+}
+.administrateur-liste-utilisateur-container tr td {
+  padding: 10px 25px;
+  text-align: center;
+}
+
+.administrateur-liste-thematique-container img {
+  width: 20px;
+}
+.administrateur-liste-thematique-container thead th {
+  padding: 10px 25px;
+  cursor: pointer;
+}
+.administrateur-liste-thematique-container tr {
+  background-color: seagreen;
+  text-align: center;
+}
+.administrateur-liste-thematique-container tr td {
+  padding: 10px 25px;
+  text-align: center;
+}
+.administrateur-liste-thematique-container {
+  overflow: scroll;
+}
+
+.administrateur-liste-quiz-container img {
+  width: 20px;
+}
+.administrateur-liste-quiz-container thead th {
+  padding: 10px 25px;
+  cursor: pointer;
+}
+.administrateur-liste-quiz-container tr {
+  background-color: seagreen;
+  text-align: center;
+}
+.administrateur-liste-quiz-container tr td {
+  padding: 10px 25px;
+  text-align: center;
+}
+.administrateur-liste-quiz-container {
+  overflow: scroll;
+}
+
+.quizAffichageGlobal {
+  display: flex;
+  height: 100%;
+}
+
+main {
+  overflow-y: scroll;
 }
 
 html {

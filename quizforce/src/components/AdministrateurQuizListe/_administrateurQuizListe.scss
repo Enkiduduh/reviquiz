@@ -1,0 +1,22 @@
+.administrateur-liste-quiz-container {
+  img {
+    width: 20px;
+  }
+  thead {
+    th {
+      padding: 10px 25px;
+      cursor: pointer;
+    }
+  }
+  tr {
+    background-color: seagreen;
+    text-align: center;
+
+    td {
+      padding: 10px 25px;
+      text-align: center;
+    }
+  }
+
+  overflow: scroll;
+}
