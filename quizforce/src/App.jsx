@@ -7,6 +7,7 @@ import QuizGame from "./pages/quizGame/QuizGame";
 import QuizMain from "./pages/quizMain/QuizMain";
 import QuizLogin from "./pages/quizLogin/QuizLogin";
 import QuizDashboard from "./pages/quizDashboard/QuizDashboard";
+import QuizIntro from "./pages/quizIntro/QuizIntro.jsx";
 
 import DashboardLayoutAdmin from "./layouts/DashboardLayoutAdmin";
 import AdministrateurUtilisateurListe from "./components/AdministrateurUtilisateurListe/AdministrateurUtilisateurListe";
@@ -17,6 +18,9 @@ import DashboardLayoutAgent from "./layouts/DashboardLayoutAgent";
 import Utilisateur_stats from "./components/Utilisateur_stats/Utilisateur_stats";
 import Utilisateur_taches from "./components/Utilisateur_taches/Utilisateur_taches";
 import Utilisateur_details from "./components/Utilisateur_details/Utilisateur_details";
+
+import DashboardLayoutResponsable from "./layouts/DashboardLayoutResponsable.jsx";
+import Utilisateur_tab from "./components/Utilisateurs_tab/Utilisateurs_tab.jsx";
 
 import "./App.css";
 
@@ -46,18 +50,18 @@ function App() {
           {/* Pages sans menu */}
           <Route path="/" element={<QuizMain />} />
           <Route path="/login" element={<QuizLogin />} />
-          <Route path="/quiz" element={<QuizGame />} />
+          {/* <Route path="/quiz" element={<QuizGame />} /> */}
 
           {/* Pages avec menu */}
           {/* MENU ADMIN */}
           {userInfo.role_id === 3 && (
             <Route element={<DashboardLayoutAdmin />}>
               <Route
-                path="/dashboard"
+                path={`/dashboard`}
                 element={<QuizDashboard userinfo_login={userInfo} />}
               />
               <Route
-                path="/gestion/utilisateurs"
+                path="/admins/gestion/utilisateurs"
                 element={
                   <AdministrateurUtilisateurListe
                     utilisateursListe={utilisateursListe}
@@ -65,15 +69,41 @@ function App() {
                 }
               />
               <Route
-                path="/gestion/thematiques"
+                path="/admins/gestion/thematiques"
                 element={
                   <AdministrateurThematiqueListe thematiquesListe={themes} />
                 }
               />
 
               <Route
-                path="/gestion/quiz"
+                path="/admins/gestion/quiz"
                 element={<AdministrateurQuizListe quizListe={themes} />}
+              />
+            </Route>
+          )}
+
+            {/* MENU RESPONSABLE */}
+          {userInfo.role_id === 2 && (
+            <Route element={<DashboardLayoutResponsable />}>
+              <Route
+                path={`/dashboard`}
+                element={<QuizDashboard userinfo_login={userInfo} />}
+              />
+              <Route
+                path={`/responsable/equipe/gestion`}
+                element={<Utilisateur_tab utilisateurs_liste={utilisateursListe} />}
+              />
+                <Route
+                path={`/responsable/equipe/gestion/agents/:id`}
+                element={<Utilisateur_taches />}
+              />
+              <Route
+                path={`/responsable/equipe/statistiques`}
+                element={<Utilisateur_details utilisateurs_info={userInfo} />}
+              />
+              <Route
+                path={`/responsable/equipe/campagne`}
+                element={<Utilisateur_stats utilisateurs_info={userInfo} />}
               />
             </Route>
           )}
@@ -82,7 +112,7 @@ function App() {
           {userInfo.role_id === 1 && (
             <Route element={<DashboardLayoutAgent />}>
               <Route
-                path="/dashboard"
+                path={`/dashboard`}
                 element={<QuizDashboard userinfo_login={userInfo} />}
               />
               <Route
@@ -97,10 +127,9 @@ function App() {
                 path={`/agents/${userInfo.id}/statistiques`}
                 element={<Utilisateur_stats utilisateurs_info={userInfo} />}
               />
-              <Route
-                path={"/quiz"}
-                element={<QuizChoix utilisateurs_info={userInfo} />}
-              />
+              <Route path={`/quiz/selection`} element={<QuizChoix />} />
+              <Route path={`/quiz/introduction`} element={<QuizIntro />} />
+              <Route path={`/quiz/jeu`} element={<QuizGame />} />
             </Route>
           )}
         </Routes>

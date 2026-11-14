@@ -33,7 +33,7 @@ function QuizMain() {
     ) {
 
       console.log("UserInfo:", sessionStorage.getItem("userInfo").role_id, sessionStorage.getItem("userInfo").nom, sessionStorage.getItem("userInfo").prenom);
-      navigate("/dashboard");
+      navigate(`/dashboard`);
     } else {
       location.reload();
     }

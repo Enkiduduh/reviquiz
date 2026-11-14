@@ -1,7 +1,7 @@
 export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles = [
   {
     "id": 1,
-    "question": "`Mini-TP IA — apprentissage supervisé\n\nSituation :\nLe score d'entraînement atteint 99 %, contre 70 % en validation.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 1 — scénario : 01\n\nRéférence exercice : IA-001`",
+    "question": "Situation :\nLe score d'entraînement atteint 99 %, contre 70 % en validation.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Surapprentissage",
     "reponse_f1": "Sous-apprentissage",
     "reponse_f2": "Calibration parfaite",
@@ -9,7 +9,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 2,
-    "question": "`Mini-TP IA — apprentissage supervisé\n\nSituation :\nLes scores d'entraînement et de validation sont tous deux faibles.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 1 — scénario : 02\n\nRéférence exercice : IA-002`",
+    "question": "Situation :\nLes scores d'entraînement et de validation sont tous deux faibles.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Sous-apprentissage",
     "reponse_f1": "Surapprentissage",
     "reponse_f2": "Fuite de données",
@@ -17,7 +17,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 3,
-    "question": "`Mini-TP IA — apprentissage supervisé\n\nSituation :\nUne variable calculée après la date de prédiction est utilisée.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 1 — scénario : 03\n\nRéférence exercice : IA-003`",
+    "question": "Situation :\nUne variable calculée après la date de prédiction est utilisée.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Fuite de données",
     "reponse_f1": "Régularisation",
     "reponse_f2": "Data augmentation",
@@ -25,7 +25,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 4,
-    "question": "`Mini-TP IA — apprentissage supervisé\n\nSituation :\nDes données temporelles sont mélangées aléatoirement avant validation.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 1 — scénario : 04\n\nRéférence exercice : IA-004`",
+    "question": "Situation :\nDes données temporelles sont mélangées aléatoirement avant validation.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "La validation risque de violer l'ordre temporel",
     "reponse_f1": "La validation devient plus robuste",
     "reponse_f2": "Aucun risque n'existe",
@@ -33,7 +33,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 5,
-    "question": "`Mini-TP IA — apprentissage supervisé\n\nSituation :\nLa classe positive représente 1 % des cas.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 1 — scénario : 05\n\nRéférence exercice : IA-005`",
+    "question": "Situation :\nLa classe positive représente 1 % des cas.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "L'accuracy seule est insuffisante",
     "reponse_f1": "L'accuracy suffit toujours",
     "reponse_f2": "Il faut supprimer la classe rare",
@@ -41,7 +41,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 6,
-    "question": "`Mini-TP IA — apprentissage supervisé\n\nSituation :\nLes erreurs extrêmes doivent être moins influentes.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 1 — scénario : 06\n\nRéférence exercice : IA-006`",
+    "question": "Situation :\nLes erreurs extrêmes doivent être moins influentes.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Privilégier MAE à MSE",
     "reponse_f1": "Privilégier MSE à MAE",
     "reponse_f2": "Utiliser uniquement R²",
@@ -49,7 +49,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 7,
-    "question": "`Mini-TP IA — apprentissage supervisé\n\nSituation :\nLes probabilités prédites doivent refléter les fréquences réelles.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 1 — scénario : 07\n\nRéférence exercice : IA-007`",
+    "question": "Situation :\nLes probabilités prédites doivent refléter les fréquences réelles.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Évaluer la calibration",
     "reponse_f1": "Évaluer uniquement l'accuracy",
     "reponse_f2": "Fixer arbitrairement le seuil à 0,5",
@@ -57,7 +57,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 8,
-    "question": "`Mini-TP IA — apprentissage supervisé\n\nSituation :\nLe rappel doit être augmenté.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 1 — scénario : 08\n\nRéférence exercice : IA-008`",
+    "question": "Situation :\nLe rappel doit être augmenté.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Abaisser généralement le seuil de décision",
     "reponse_f1": "Augmenter toujours le seuil",
     "reponse_f2": "Le seuil n'a aucun effet",
@@ -65,7 +65,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 9,
-    "question": "`Mini-TP IA — apprentissage supervisé\n\nSituation :\nUn individu possède plusieurs lignes dans le dataset.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 1 — scénario : 09\n\nRéférence exercice : IA-009`",
+    "question": "Situation :\nUn individu possède plusieurs lignes dans le dataset.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Regrouper ses lignes dans le même fold",
     "reponse_f1": "Répartir chaque ligne au hasard",
     "reponse_f2": "Supprimer l'identifiant uniquement",
@@ -73,7 +73,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 10,
-    "question": "`Mini-TP IA — apprentissage supervisé\n\nSituation :\nLe jeu de test a guidé de nombreux choix d'hyperparamètres.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 1 — scénario : 10\n\nRéférence exercice : IA-010`",
+    "question": "Situation :\nLe jeu de test a guidé de nombreux choix d'hyperparamètres.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Il n'est plus un test totalement neutre",
     "reponse_f1": "Il reste parfaitement indépendant",
     "reponse_f2": "Le modèle devient non supervisé",
@@ -81,7 +81,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 11,
-    "question": "`Mini-TP IA — algorithmes classiques\n\nSituation :\nUne régression pénalisée reçoit des variables d'échelles très différentes.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 1 — scénario : 11\n\nRéférence exercice : IA-011`",
+    "question": "Situation :\nUne régression pénalisée reçoit des variables d'échelles très différentes.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Standardiser les variables",
     "reponse_f1": "Ne jamais mettre à l'échelle",
     "reponse_f2": "Convertir les nombres en texte",
@@ -89,7 +89,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 12,
-    "question": "`Mini-TP IA — algorithmes classiques\n\nSituation :\nUn arbre de décision est trop profond.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 1 — scénario : 12\n\nRéférence exercice : IA-012`",
+    "question": "Situation :\nUn arbre de décision est trop profond.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Limiter sa complexité",
     "reponse_f1": "Augmenter encore sa profondeur",
     "reponse_f2": "Supprimer la cible",
@@ -97,7 +97,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 13,
-    "question": "`Mini-TP IA — algorithmes classiques\n\nSituation :\nUn Random Forest améliore un arbre unique.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 1 — scénario : 13\n\nRéférence exercice : IA-013`",
+    "question": "Situation :\nUn Random Forest améliore un arbre unique.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Il réduit souvent la variance",
     "reponse_f1": "Il supprime toujours tout biais",
     "reponse_f2": "Il n'utilise qu'un arbre",
@@ -105,7 +105,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 14,
-    "question": "`Mini-TP IA — algorithmes classiques\n\nSituation :\nLe gradient boosting ajoute des arbres successifs.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 1 — scénario : 14\n\nRéférence exercice : IA-014`",
+    "question": "Situation :\nLe gradient boosting ajoute des arbres successifs.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Chaque arbre corrige les erreurs précédentes",
     "reponse_f1": "Tous les arbres sont indépendants",
     "reponse_f2": "Il ne peut jamais surapprendre",
@@ -113,7 +113,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 15,
-    "question": "`Mini-TP IA — algorithmes classiques\n\nSituation :\nUne variable catégorielle possède 100 000 modalités.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 1 — scénario : 15\n\nRéférence exercice : IA-015`",
+    "question": "Situation :\nUne variable catégorielle possède 100 000 modalités.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Éviter un one-hot naïf",
     "reponse_f1": "Créer systématiquement 100 000 colonnes",
     "reponse_f2": "Supprimer toutes les autres variables",
@@ -121,7 +121,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 16,
-    "question": "`Mini-TP IA — algorithmes classiques\n\nSituation :\nUne variable ordinale contient faible, moyen, élevé.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 1 — scénario : 16\n\nRéférence exercice : IA-016`",
+    "question": "Situation :\nUne variable ordinale contient faible, moyen, élevé.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Préserver l'ordre dans l'encodage",
     "reponse_f1": "Utiliser des identifiants aléatoires",
     "reponse_f2": "Traiter les modalités comme identiques",
@@ -129,7 +129,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 17,
-    "question": "`Mini-TP IA — algorithmes classiques\n\nSituation :\nK-means reçoit des variables non standardisées.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 1 — scénario : 17\n\nRéférence exercice : IA-017`",
+    "question": "Situation :\nK-means reçoit des variables non standardisées.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Les grandes échelles dominent la distance",
     "reponse_f1": "La standardisation est interdite",
     "reponse_f2": "K-means devient supervisé",
@@ -137,7 +137,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 18,
-    "question": "`Mini-TP IA — algorithmes classiques\n\nSituation :\nLes données contiennent de nombreux outliers.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 1 — scénario : 18\n\nRéférence exercice : IA-018`",
+    "question": "Situation :\nLes données contiennent de nombreux outliers.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Utiliser une transformation ou un scaler robuste",
     "reponse_f1": "Utiliser toujours min-max sans analyse",
     "reponse_f2": "Remplacer tous les outliers par zéro",
@@ -145,7 +145,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 19,
-    "question": "`Mini-TP IA — algorithmes classiques\n\nSituation :\nL'imputation est calculée avant le split train-test.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 1 — scénario : 19\n\nRéférence exercice : IA-019`",
+    "question": "Situation :\nL'imputation est calculée avant le split train-test.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Risque de fuite d'information",
     "reponse_f1": "Aucun risque possible",
     "reponse_f2": "Le test devient inutilement petit",
@@ -153,7 +153,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 20,
-    "question": "`Mini-TP IA — algorithmes classiques\n\nSituation :\nLa PCA est calculée avant validation croisée.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 1 — scénario : 20\n\nRéférence exercice : IA-020`",
+    "question": "Situation :\nLa PCA est calculée avant validation croisée.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "L'intégrer dans le pipeline de chaque fold",
     "reponse_f1": "La calculer sur toutes les données",
     "reponse_f2": "La remplacer par la cible",
@@ -161,7 +161,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 21,
-    "question": "`Mini-TP IA — réseaux de neurones\n\nSituation :\nUn réseau profond à sigmoïdes apprend très lentement.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 1 — scénario : 21\n\nRéférence exercice : IA-021`",
+    "question": "Situation :\nUn réseau profond à sigmoïdes apprend très lentement.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Risque de vanishing gradient",
     "reponse_f1": "Explosion garantie du gradient",
     "reponse_f2": "Convergence toujours rapide",
@@ -169,7 +169,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 22,
-    "question": "`Mini-TP IA — réseaux de neurones\n\nSituation :\nDe nombreuses ReLU restent toujours nulles.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 1 — scénario : 22\n\nRéférence exercice : IA-022`",
+    "question": "Situation :\nDe nombreuses ReLU restent toujours nulles.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Phénomène de dead ReLU",
     "reponse_f1": "Effet softmax",
     "reponse_f2": "Calibration parfaite",
@@ -177,7 +177,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 23,
-    "question": "`Mini-TP IA — réseaux de neurones\n\nSituation :\nLa loss train baisse mais la loss validation monte.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 1 — scénario : 23\n\nRéférence exercice : IA-023`",
+    "question": "Situation :\nLa loss train baisse mais la loss validation monte.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Début de surapprentissage",
     "reponse_f1": "Sous-apprentissage certain",
     "reponse_f2": "Validation inutile",
@@ -185,7 +185,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 24,
-    "question": "`Mini-TP IA — réseaux de neurones\n\nSituation :\nLe learning rate est trop élevé.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 1 — scénario : 24\n\nRéférence exercice : IA-024`",
+    "question": "Situation :\nLe learning rate est trop élevé.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Oscillation ou divergence",
     "reponse_f1": "Convergence toujours plus rapide",
     "reponse_f2": "Gradient automatiquement nul",
@@ -193,7 +193,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 25,
-    "question": "`Mini-TP IA — réseaux de neurones\n\nSituation :\nLe learning rate est trop faible.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 1 — scénario : 25\n\nRéférence exercice : IA-025`",
+    "question": "Situation :\nLe learning rate est trop faible.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Apprentissage très lent",
     "reponse_f1": "Convergence instantanée",
     "reponse_f2": "Loss nécessairement croissante",
@@ -201,7 +201,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 26,
-    "question": "`Mini-TP IA — réseaux de neurones\n\nSituation :\nBatch normalization est ajoutée.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 1 — scénario : 26\n\nRéférence exercice : IA-026`",
+    "question": "Situation :\nBatch normalization est ajoutée.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Elle stabilise souvent l'entraînement",
     "reponse_f1": "Elle remplace toute activation",
     "reponse_f2": "Elle garantit zéro overfitting",
@@ -209,7 +209,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 27,
-    "question": "`Mini-TP IA — réseaux de neurones\n\nSituation :\nDropout est actif pendant l'entraînement.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 1 — scénario : 27\n\nRéférence exercice : IA-027`",
+    "question": "Situation :\nDropout est actif pendant l'entraînement.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Des unités sont désactivées aléatoirement",
     "reponse_f1": "Tous les poids deviennent nuls",
     "reponse_f2": "Le modèle devient déterministe",
@@ -217,7 +217,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 28,
-    "question": "`Mini-TP IA — réseaux de neurones\n\nSituation :\nUne classification multiclasse exclusive est visée.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 1 — scénario : 28\n\nRéférence exercice : IA-028`",
+    "question": "Situation :\nUne classification multiclasse exclusive est visée.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Softmax et cross-entropy",
     "reponse_f1": "Sigmoïdes indépendantes uniquement",
     "reponse_f2": "Une ReLU scalaire",
@@ -225,7 +225,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 29,
-    "question": "`Mini-TP IA — réseaux de neurones\n\nSituation :\nUne classification multilabel est visée.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 1 — scénario : 29\n\nRéférence exercice : IA-029`",
+    "question": "Situation :\nUne classification multilabel est visée.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Sigmoïde indépendante par classe",
     "reponse_f1": "Softmax exclusif",
     "reponse_f2": "Une seule sortie binaire globale",
@@ -233,7 +233,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 30,
-    "question": "`Mini-TP IA — réseaux de neurones\n\nSituation :\nLes gradients explosent dans un RNN.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 1 — scénario : 30\n\nRéférence exercice : IA-030`",
+    "question": "Situation :\nLes gradients explosent dans un RNN.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Appliquer gradient clipping",
     "reponse_f1": "Augmenter le learning rate",
     "reponse_f2": "Supprimer la loss",
@@ -241,7 +241,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 31,
-    "question": "`Mini-TP IA — NLP et vision\n\nSituation :\nDeux mots sémantiquement proches doivent avoir des vecteurs voisins.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 1 — scénario : 31\n\nRéférence exercice : IA-031`",
+    "question": "Situation :\nDeux mots sémantiquement proches doivent avoir des vecteurs voisins.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Utiliser des embeddings",
     "reponse_f1": "Utiliser des identifiants arbitraires",
     "reponse_f2": "Utiliser seulement la longueur des mots",
@@ -249,7 +249,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 32,
-    "question": "`Mini-TP IA — NLP et vision\n\nSituation :\nUn modèle prédit le prochain token.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 1 — scénario : 32\n\nRéférence exercice : IA-032`",
+    "question": "Situation :\nUn modèle prédit le prochain token.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Il estime une distribution conditionnelle",
     "reponse_f1": "Il fait uniquement une classification binaire",
     "reponse_f2": "Il ignore le contexte",
@@ -257,7 +257,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 33,
-    "question": "`Mini-TP IA — NLP et vision\n\nSituation :\nUne séquence longue contient des dépendances distantes.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 1 — scénario : 33\n\nRéférence exercice : IA-033`",
+    "question": "Situation :\nUne séquence longue contient des dépendances distantes.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "L'attention facilite les interactions globales",
     "reponse_f1": "Un bag-of-words conserve tout l'ordre",
     "reponse_f2": "Une convolution 1x1 suffit toujours",
@@ -265,7 +265,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 34,
-    "question": "`Mini-TP IA — NLP et vision\n\nSituation :\nUn Transformer n'a aucun encodage positionnel.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 1 — scénario : 34\n\nRéférence exercice : IA-034`",
+    "question": "Situation :\nUn Transformer n'a aucun encodage positionnel.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Il perd l'ordre explicite",
     "reponse_f1": "Il apprend toujours l'ordre exact",
     "reponse_f2": "Il devient un CNN",
@@ -273,7 +273,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 35,
-    "question": "`Mini-TP IA — NLP et vision\n\nSituation :\nDes images sont légèrement tournées et recadrées.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 1 — scénario : 35\n\nRéférence exercice : IA-035`",
+    "question": "Situation :\nDes images sont légèrement tournées et recadrées.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "L'augmentation peut améliorer la généralisation",
     "reponse_f1": "Toute augmentation détruit les labels",
     "reponse_f2": "Elle remplace la validation",
@@ -281,7 +281,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 36,
-    "question": "`Mini-TP IA — NLP et vision\n\nSituation :\nUn CNN partage ses filtres spatialement.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 1 — scénario : 36\n\nRéférence exercice : IA-036`",
+    "question": "Situation :\nUn CNN partage ses filtres spatialement.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Cela réduit le nombre de paramètres",
     "reponse_f1": "Chaque pixel a son propre réseau",
     "reponse_f2": "Cela détruit toute structure locale",
@@ -289,7 +289,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 37,
-    "question": "`Mini-TP IA — NLP et vision\n\nSituation :\nUne segmentation sémantique est demandée.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 1 — scénario : 37\n\nRéférence exercice : IA-037`",
+    "question": "Situation :\nUne segmentation sémantique est demandée.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Prédire une classe par pixel",
     "reponse_f1": "Prédire une classe par image",
     "reponse_f2": "Prédire seulement des boîtes",
@@ -297,7 +297,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 38,
-    "question": "`Mini-TP IA — NLP et vision\n\nSituation :\nUne détection d'objets est demandée.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 1 — scénario : 38\n\nRéférence exercice : IA-038`",
+    "question": "Situation :\nUne détection d'objets est demandée.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Prédire classes et boîtes",
     "reponse_f1": "Prédire un score global uniquement",
     "reponse_f2": "Prédire des embeddings textuels",
@@ -305,7 +305,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 39,
-    "question": "`Mini-TP IA — NLP et vision\n\nSituation :\nLe tokenizer produit trop de tokens inconnus.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 1 — scénario : 39\n\nRéférence exercice : IA-039`",
+    "question": "Situation :\nLe tokenizer produit trop de tokens inconnus.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Utiliser des sous-mots",
     "reponse_f1": "Supprimer tous les mots rares",
     "reponse_f2": "Utiliser une phrase entière comme token",
@@ -313,7 +313,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 40,
-    "question": "`Mini-TP IA — NLP et vision\n\nSituation :\nUne recherche sémantique est construite.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 1 — scénario : 40\n\nRéférence exercice : IA-040`",
+    "question": "Situation :\nUne recherche sémantique est construite.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Comparer des embeddings",
     "reponse_f1": "Comparer uniquement les chaînes exactes",
     "reponse_f2": "Comparer les tailles de fichiers",
@@ -321,7 +321,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 41,
-    "question": "`Mini-TP IA — apprentissage non supervisé et génératif\n\nSituation :\nK-means reçoit des clusters allongés et non sphériques.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 1 — scénario : 41\n\nRéférence exercice : IA-041`",
+    "question": "Situation :\nK-means reçoit des clusters allongés et non sphériques.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Il peut être inadapté",
     "reponse_f1": "Il est toujours optimal",
     "reponse_f2": "Le nombre de clusters est sans importance",
@@ -329,7 +329,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 42,
-    "question": "`Mini-TP IA — apprentissage non supervisé et génératif\n\nSituation :\nDBSCAN est utilisé.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 1 — scénario : 42\n\nRéférence exercice : IA-042`",
+    "question": "Situation :\nDBSCAN est utilisé.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Il peut détecter du bruit et des formes arbitraires",
     "reponse_f1": "Il exige toujours k",
     "reponse_f2": "Il ne détecte jamais d'outliers",
@@ -337,7 +337,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 43,
-    "question": "`Mini-TP IA — apprentissage non supervisé et génératif\n\nSituation :\nUne PCA conserve 95 % de variance.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 1 — scénario : 43\n\nRéférence exercice : IA-043`",
+    "question": "Situation :\nUne PCA conserve 95 % de variance.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Elle réduit la dimension en gardant l'essentiel de la variance linéaire",
     "reponse_f1": "Elle conserve toutes les informations",
     "reponse_f2": "Elle garde les variables originales",
@@ -345,7 +345,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 44,
-    "question": "`Mini-TP IA — apprentissage non supervisé et génératif\n\nSituation :\nUn autoencodeur possède un goulot d'étranglement.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 1 — scénario : 44\n\nRéférence exercice : IA-044`",
+    "question": "Situation :\nUn autoencodeur possède un goulot d'étranglement.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Il peut apprendre une représentation compacte",
     "reponse_f1": "Il réalise uniquement une classification",
     "reponse_f2": "Il n'utilise aucune loss",
@@ -353,7 +353,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 45,
-    "question": "`Mini-TP IA — apprentissage non supervisé et génératif\n\nSituation :\nUne récompense différée doit guider les actions.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 1 — scénario : 45\n\nRéférence exercice : IA-045`",
+    "question": "Situation :\nUne récompense différée doit guider les actions.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Optimiser le retour cumulé actualisé",
     "reponse_f1": "Optimiser uniquement la récompense immédiate",
     "reponse_f2": "Ignorer les états futurs",
@@ -361,7 +361,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 46,
-    "question": "`Mini-TP IA — apprentissage non supervisé et génératif\n\nSituation :\nUne politique exploite toujours l'action estimée meilleure.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 1 — scénario : 46\n\nRéférence exercice : IA-046`",
+    "question": "Situation :\nUne politique exploite toujours l'action estimée meilleure.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Elle peut manquer d'exploration",
     "reponse_f1": "Elle explore tout l'espace",
     "reponse_f2": "Elle est automatiquement optimale",
@@ -369,7 +369,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 47,
-    "question": "`Mini-TP IA — apprentissage non supervisé et génératif\n\nSituation :\nUne stratégie epsilon-greedy est utilisée.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 1 — scénario : 47\n\nRéférence exercice : IA-047`",
+    "question": "Situation :\nUne stratégie epsilon-greedy est utilisée.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Elle explore avec probabilité epsilon",
     "reponse_f1": "Elle n'exploite jamais",
     "reponse_f2": "Elle choisit toujours l'action la pire",
@@ -377,7 +377,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 48,
-    "question": "`Mini-TP IA — apprentissage non supervisé et génératif\n\nSituation :\nUn GAN oppose générateur et discriminateur.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 1 — scénario : 48\n\nRéférence exercice : IA-048`",
+    "question": "Situation :\nUn GAN oppose générateur et discriminateur.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Le générateur produit des exemples plausibles",
     "reponse_f1": "Le discriminateur génère les données finales",
     "reponse_f2": "Les deux ont le même objectif",
@@ -385,7 +385,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 49,
-    "question": "`Mini-TP IA — apprentissage non supervisé et génératif\n\nSituation :\nUn modèle génératif reproduit presque exactement le train.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 1 — scénario : 49\n\nRéférence exercice : IA-049`",
+    "question": "Situation :\nUn modèle génératif reproduit presque exactement le train.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Risque de mémorisation et fuite",
     "reponse_f1": "Preuve de généralisation parfaite",
     "reponse_f2": "Preuve d'anonymisation",
@@ -393,7 +393,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 50,
-    "question": "`Mini-TP IA — apprentissage non supervisé et génératif\n\nSituation :\nUn modèle de diffusion génère des données.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 1 — scénario : 50\n\nRéférence exercice : IA-050`",
+    "question": "Situation :\nUn modèle de diffusion génère des données.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Il débruite progressivement",
     "reponse_f1": "Il fait uniquement du clustering",
     "reponse_f2": "Il n'apprend rien",
@@ -401,7 +401,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 51,
-    "question": "`Mini-TP IA — MLOps et IA responsable\n\nSituation :\nLa distribution des features change en production.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 1 — scénario : 51\n\nRéférence exercice : IA-051`",
+    "question": "Situation :\nLa distribution des features change en production.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Data drift",
     "reponse_f1": "Label leakage obligatoire",
     "reponse_f2": "Overfitting certain",
@@ -409,7 +409,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 52,
-    "question": "`Mini-TP IA — MLOps et IA responsable\n\nSituation :\nLa relation entre features et cible change.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 1 — scénario : 52\n\nRéférence exercice : IA-052`",
+    "question": "Situation :\nLa relation entre features et cible change.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Concept drift",
     "reponse_f1": "Simple changement de format",
     "reponse_f2": "Calibration parfaite",
@@ -417,7 +417,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 53,
-    "question": "`Mini-TP IA — MLOps et IA responsable\n\nSituation :\nUn modèle est déployé sans suivi.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 1 — scénario : 53\n\nRéférence exercice : IA-053`",
+    "question": "Situation :\nUn modèle est déployé sans suivi.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Ajouter monitoring et alertes",
     "reponse_f1": "Considérer la performance figée",
     "reponse_f2": "Supprimer les logs",
@@ -425,7 +425,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 54,
-    "question": "`Mini-TP IA — MLOps et IA responsable\n\nSituation :\nUne feature sensible influence fortement les décisions.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 1 — scénario : 54\n\nRéférence exercice : IA-054`",
+    "question": "Situation :\nUne feature sensible influence fortement les décisions.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Évaluer l'équité et les risques de discrimination",
     "reponse_f1": "Masquer uniquement son nom",
     "reponse_f2": "Ignorer l'effet si l'accuracy est bonne",
@@ -433,7 +433,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 55,
-    "question": "`Mini-TP IA — MLOps et IA responsable\n\nSituation :\nUne prédiction complexe doit être expliquée localement.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 1 — scénario : 55\n\nRéférence exercice : IA-055`",
+    "question": "Situation :\nUne prédiction complexe doit être expliquée localement.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Utiliser une méthode locale avec prudence",
     "reponse_f1": "Utiliser seulement l'accuracy",
     "reponse_f2": "Lire des poids inexistants",
@@ -441,7 +441,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 56,
-    "question": "`Mini-TP IA — MLOps et IA responsable\n\nSituation :\nUne importance par permutation est calculée.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 1 — scénario : 56\n\nRéférence exercice : IA-056`",
+    "question": "Situation :\nUne importance par permutation est calculée.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Elle mesure la perte de performance après perturbation",
     "reponse_f1": "Elle prouve une causalité",
     "reponse_f2": "Elle ignore les corrélations",
@@ -449,7 +449,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 57,
-    "question": "`Mini-TP IA — MLOps et IA responsable\n\nSituation :\nUn modèle doit être reproduit plus tard.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 1 — scénario : 57\n\nRéférence exercice : IA-057`",
+    "question": "Situation :\nUn modèle doit être reproduit plus tard.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Versionner code, données, paramètres et environnement",
     "reponse_f1": "Conserver uniquement le fichier modèle",
     "reponse_f2": "Noter seulement le score",
@@ -457,7 +457,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 58,
-    "question": "`Mini-TP IA — MLOps et IA responsable\n\nSituation :\nDeux modèles sont comparés en production.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 1 — scénario : 58\n\nRéférence exercice : IA-058`",
+    "question": "Situation :\nDeux modèles sont comparés en production.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Utiliser un A/B test contrôlé",
     "reponse_f1": "Remplacer immédiatement tout le trafic",
     "reponse_f2": "Comparer seulement les tailles de fichiers",
@@ -465,7 +465,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 59,
-    "question": "`Mini-TP IA — MLOps et IA responsable\n\nSituation :\nUne nouvelle version reçoit 5 % du trafic.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 1 — scénario : 59\n\nRéférence exercice : IA-059`",
+    "question": "Situation :\nUne nouvelle version reçoit 5 % du trafic.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Canary deployment",
     "reponse_f1": "Validation croisée",
     "reponse_f2": "Clustering hiérarchique",
@@ -473,7 +473,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 60,
-    "question": "`Mini-TP IA — MLOps et IA responsable\n\nSituation :\nUne décision automatisée est critique.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 1 — scénario : 60\n\nRéférence exercice : IA-060`",
+    "question": "Situation :\nUne décision automatisée est critique.\n\nContrainte complémentaire :\nLe système est évalué avant mise en production.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Prévoir supervision humaine et recours",
     "reponse_f1": "Supprimer toute intervention",
     "reponse_f2": "Utiliser uniquement la confiance maximale",
@@ -481,7 +481,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 61,
-    "question": "`Mini-TP IA — apprentissage supervisé\n\nSituation :\nLe score d'entraînement atteint 99 %, contre 70 % en validation.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 2 — scénario : 01\n\nRéférence exercice : IA-061`",
+    "question": "Situation :\nLe score d'entraînement atteint 99 %, contre 70 % en validation.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Surapprentissage",
     "reponse_f1": "Sous-apprentissage",
     "reponse_f2": "Calibration parfaite",
@@ -489,7 +489,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 62,
-    "question": "`Mini-TP IA — apprentissage supervisé\n\nSituation :\nLes scores d'entraînement et de validation sont tous deux faibles.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 2 — scénario : 02\n\nRéférence exercice : IA-062`",
+    "question": "Situation :\nLes scores d'entraînement et de validation sont tous deux faibles.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Sous-apprentissage",
     "reponse_f1": "Surapprentissage",
     "reponse_f2": "Fuite de données",
@@ -497,7 +497,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 63,
-    "question": "`Mini-TP IA — apprentissage supervisé\n\nSituation :\nUne variable calculée après la date de prédiction est utilisée.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 2 — scénario : 03\n\nRéférence exercice : IA-063`",
+    "question": "Situation :\nUne variable calculée après la date de prédiction est utilisée.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Fuite de données",
     "reponse_f1": "Régularisation",
     "reponse_f2": "Data augmentation",
@@ -505,7 +505,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 64,
-    "question": "`Mini-TP IA — apprentissage supervisé\n\nSituation :\nDes données temporelles sont mélangées aléatoirement avant validation.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 2 — scénario : 04\n\nRéférence exercice : IA-064`",
+    "question": "Situation :\nDes données temporelles sont mélangées aléatoirement avant validation.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "La validation risque de violer l'ordre temporel",
     "reponse_f1": "La validation devient plus robuste",
     "reponse_f2": "Aucun risque n'existe",
@@ -513,7 +513,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 65,
-    "question": "`Mini-TP IA — apprentissage supervisé\n\nSituation :\nLa classe positive représente 1 % des cas.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 2 — scénario : 05\n\nRéférence exercice : IA-065`",
+    "question": "Situation :\nLa classe positive représente 1 % des cas.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "L'accuracy seule est insuffisante",
     "reponse_f1": "L'accuracy suffit toujours",
     "reponse_f2": "Il faut supprimer la classe rare",
@@ -521,7 +521,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 66,
-    "question": "`Mini-TP IA — apprentissage supervisé\n\nSituation :\nLes erreurs extrêmes doivent être moins influentes.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 2 — scénario : 06\n\nRéférence exercice : IA-066`",
+    "question": "Situation :\nLes erreurs extrêmes doivent être moins influentes.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Privilégier MAE à MSE",
     "reponse_f1": "Privilégier MSE à MAE",
     "reponse_f2": "Utiliser uniquement R²",
@@ -529,7 +529,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 67,
-    "question": "`Mini-TP IA — apprentissage supervisé\n\nSituation :\nLes probabilités prédites doivent refléter les fréquences réelles.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 2 — scénario : 07\n\nRéférence exercice : IA-067`",
+    "question": "Situation :\nLes probabilités prédites doivent refléter les fréquences réelles.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Évaluer la calibration",
     "reponse_f1": "Évaluer uniquement l'accuracy",
     "reponse_f2": "Fixer arbitrairement le seuil à 0,5",
@@ -537,7 +537,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 68,
-    "question": "`Mini-TP IA — apprentissage supervisé\n\nSituation :\nLe rappel doit être augmenté.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 2 — scénario : 08\n\nRéférence exercice : IA-068`",
+    "question": "Situation :\nLe rappel doit être augmenté.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Abaisser généralement le seuil de décision",
     "reponse_f1": "Augmenter toujours le seuil",
     "reponse_f2": "Le seuil n'a aucun effet",
@@ -545,7 +545,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 69,
-    "question": "`Mini-TP IA — apprentissage supervisé\n\nSituation :\nUn individu possède plusieurs lignes dans le dataset.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 2 — scénario : 09\n\nRéférence exercice : IA-069`",
+    "question": "Situation :\nUn individu possède plusieurs lignes dans le dataset.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Regrouper ses lignes dans le même fold",
     "reponse_f1": "Répartir chaque ligne au hasard",
     "reponse_f2": "Supprimer l'identifiant uniquement",
@@ -553,7 +553,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 70,
-    "question": "`Mini-TP IA — apprentissage supervisé\n\nSituation :\nLe jeu de test a guidé de nombreux choix d'hyperparamètres.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 2 — scénario : 10\n\nRéférence exercice : IA-070`",
+    "question": "Situation :\nLe jeu de test a guidé de nombreux choix d'hyperparamètres.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Il n'est plus un test totalement neutre",
     "reponse_f1": "Il reste parfaitement indépendant",
     "reponse_f2": "Le modèle devient non supervisé",
@@ -561,7 +561,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 71,
-    "question": "`Mini-TP IA — algorithmes classiques\n\nSituation :\nUne régression pénalisée reçoit des variables d'échelles très différentes.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 2 — scénario : 11\n\nRéférence exercice : IA-071`",
+    "question": "Situation :\nUne régression pénalisée reçoit des variables d'échelles très différentes.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Standardiser les variables",
     "reponse_f1": "Ne jamais mettre à l'échelle",
     "reponse_f2": "Convertir les nombres en texte",
@@ -569,7 +569,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 72,
-    "question": "`Mini-TP IA — algorithmes classiques\n\nSituation :\nUn arbre de décision est trop profond.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 2 — scénario : 12\n\nRéférence exercice : IA-072`",
+    "question": "Situation :\nUn arbre de décision est trop profond.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Limiter sa complexité",
     "reponse_f1": "Augmenter encore sa profondeur",
     "reponse_f2": "Supprimer la cible",
@@ -577,7 +577,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 73,
-    "question": "`Mini-TP IA — algorithmes classiques\n\nSituation :\nUn Random Forest améliore un arbre unique.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 2 — scénario : 13\n\nRéférence exercice : IA-073`",
+    "question": "Situation :\nUn Random Forest améliore un arbre unique.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Il réduit souvent la variance",
     "reponse_f1": "Il supprime toujours tout biais",
     "reponse_f2": "Il n'utilise qu'un arbre",
@@ -585,7 +585,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 74,
-    "question": "`Mini-TP IA — algorithmes classiques\n\nSituation :\nLe gradient boosting ajoute des arbres successifs.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 2 — scénario : 14\n\nRéférence exercice : IA-074`",
+    "question": "Situation :\nLe gradient boosting ajoute des arbres successifs.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Chaque arbre corrige les erreurs précédentes",
     "reponse_f1": "Tous les arbres sont indépendants",
     "reponse_f2": "Il ne peut jamais surapprendre",
@@ -593,7 +593,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 75,
-    "question": "`Mini-TP IA — algorithmes classiques\n\nSituation :\nUne variable catégorielle possède 100 000 modalités.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 2 — scénario : 15\n\nRéférence exercice : IA-075`",
+    "question": "Situation :\nUne variable catégorielle possède 100 000 modalités.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Éviter un one-hot naïf",
     "reponse_f1": "Créer systématiquement 100 000 colonnes",
     "reponse_f2": "Supprimer toutes les autres variables",
@@ -601,7 +601,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 76,
-    "question": "`Mini-TP IA — algorithmes classiques\n\nSituation :\nUne variable ordinale contient faible, moyen, élevé.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 2 — scénario : 16\n\nRéférence exercice : IA-076`",
+    "question": "Situation :\nUne variable ordinale contient faible, moyen, élevé.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Préserver l'ordre dans l'encodage",
     "reponse_f1": "Utiliser des identifiants aléatoires",
     "reponse_f2": "Traiter les modalités comme identiques",
@@ -609,7 +609,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 77,
-    "question": "`Mini-TP IA — algorithmes classiques\n\nSituation :\nK-means reçoit des variables non standardisées.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 2 — scénario : 17\n\nRéférence exercice : IA-077`",
+    "question": "Situation :\nK-means reçoit des variables non standardisées.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Les grandes échelles dominent la distance",
     "reponse_f1": "La standardisation est interdite",
     "reponse_f2": "K-means devient supervisé",
@@ -617,7 +617,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 78,
-    "question": "`Mini-TP IA — algorithmes classiques\n\nSituation :\nLes données contiennent de nombreux outliers.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 2 — scénario : 18\n\nRéférence exercice : IA-078`",
+    "question": "Situation :\nLes données contiennent de nombreux outliers.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Utiliser une transformation ou un scaler robuste",
     "reponse_f1": "Utiliser toujours min-max sans analyse",
     "reponse_f2": "Remplacer tous les outliers par zéro",
@@ -625,7 +625,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 79,
-    "question": "`Mini-TP IA — algorithmes classiques\n\nSituation :\nL'imputation est calculée avant le split train-test.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 2 — scénario : 19\n\nRéférence exercice : IA-079`",
+    "question": "Situation :\nL'imputation est calculée avant le split train-test.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Risque de fuite d'information",
     "reponse_f1": "Aucun risque possible",
     "reponse_f2": "Le test devient inutilement petit",
@@ -633,7 +633,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 80,
-    "question": "`Mini-TP IA — algorithmes classiques\n\nSituation :\nLa PCA est calculée avant validation croisée.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 2 — scénario : 20\n\nRéférence exercice : IA-080`",
+    "question": "Situation :\nLa PCA est calculée avant validation croisée.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "L'intégrer dans le pipeline de chaque fold",
     "reponse_f1": "La calculer sur toutes les données",
     "reponse_f2": "La remplacer par la cible",
@@ -641,7 +641,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 81,
-    "question": "`Mini-TP IA — réseaux de neurones\n\nSituation :\nUn réseau profond à sigmoïdes apprend très lentement.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 2 — scénario : 21\n\nRéférence exercice : IA-081`",
+    "question": "Situation :\nUn réseau profond à sigmoïdes apprend très lentement.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Risque de vanishing gradient",
     "reponse_f1": "Explosion garantie du gradient",
     "reponse_f2": "Convergence toujours rapide",
@@ -649,7 +649,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 82,
-    "question": "`Mini-TP IA — réseaux de neurones\n\nSituation :\nDe nombreuses ReLU restent toujours nulles.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 2 — scénario : 22\n\nRéférence exercice : IA-082`",
+    "question": "Situation :\nDe nombreuses ReLU restent toujours nulles.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Phénomène de dead ReLU",
     "reponse_f1": "Effet softmax",
     "reponse_f2": "Calibration parfaite",
@@ -657,7 +657,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 83,
-    "question": "`Mini-TP IA — réseaux de neurones\n\nSituation :\nLa loss train baisse mais la loss validation monte.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 2 — scénario : 23\n\nRéférence exercice : IA-083`",
+    "question": "Situation :\nLa loss train baisse mais la loss validation monte.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Début de surapprentissage",
     "reponse_f1": "Sous-apprentissage certain",
     "reponse_f2": "Validation inutile",
@@ -665,7 +665,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 84,
-    "question": "`Mini-TP IA — réseaux de neurones\n\nSituation :\nLe learning rate est trop élevé.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 2 — scénario : 24\n\nRéférence exercice : IA-084`",
+    "question": "Situation :\nLe learning rate est trop élevé.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Oscillation ou divergence",
     "reponse_f1": "Convergence toujours plus rapide",
     "reponse_f2": "Gradient automatiquement nul",
@@ -673,7 +673,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 85,
-    "question": "`Mini-TP IA — réseaux de neurones\n\nSituation :\nLe learning rate est trop faible.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 2 — scénario : 25\n\nRéférence exercice : IA-085`",
+    "question": "Situation :\nLe learning rate est trop faible.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Apprentissage très lent",
     "reponse_f1": "Convergence instantanée",
     "reponse_f2": "Loss nécessairement croissante",
@@ -681,7 +681,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 86,
-    "question": "`Mini-TP IA — réseaux de neurones\n\nSituation :\nBatch normalization est ajoutée.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 2 — scénario : 26\n\nRéférence exercice : IA-086`",
+    "question": "Situation :\nBatch normalization est ajoutée.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Elle stabilise souvent l'entraînement",
     "reponse_f1": "Elle remplace toute activation",
     "reponse_f2": "Elle garantit zéro overfitting",
@@ -689,7 +689,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 87,
-    "question": "`Mini-TP IA — réseaux de neurones\n\nSituation :\nDropout est actif pendant l'entraînement.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 2 — scénario : 27\n\nRéférence exercice : IA-087`",
+    "question": "Situation :\nDropout est actif pendant l'entraînement.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Des unités sont désactivées aléatoirement",
     "reponse_f1": "Tous les poids deviennent nuls",
     "reponse_f2": "Le modèle devient déterministe",
@@ -697,7 +697,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 88,
-    "question": "`Mini-TP IA — réseaux de neurones\n\nSituation :\nUne classification multiclasse exclusive est visée.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 2 — scénario : 28\n\nRéférence exercice : IA-088`",
+    "question": "Situation :\nUne classification multiclasse exclusive est visée.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Softmax et cross-entropy",
     "reponse_f1": "Sigmoïdes indépendantes uniquement",
     "reponse_f2": "Une ReLU scalaire",
@@ -705,7 +705,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 89,
-    "question": "`Mini-TP IA — réseaux de neurones\n\nSituation :\nUne classification multilabel est visée.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 2 — scénario : 29\n\nRéférence exercice : IA-089`",
+    "question": "Situation :\nUne classification multilabel est visée.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Sigmoïde indépendante par classe",
     "reponse_f1": "Softmax exclusif",
     "reponse_f2": "Une seule sortie binaire globale",
@@ -713,7 +713,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 90,
-    "question": "`Mini-TP IA — réseaux de neurones\n\nSituation :\nLes gradients explosent dans un RNN.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 2 — scénario : 30\n\nRéférence exercice : IA-090`",
+    "question": "Situation :\nLes gradients explosent dans un RNN.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Appliquer gradient clipping",
     "reponse_f1": "Augmenter le learning rate",
     "reponse_f2": "Supprimer la loss",
@@ -721,7 +721,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 91,
-    "question": "`Mini-TP IA — NLP et vision\n\nSituation :\nDeux mots sémantiquement proches doivent avoir des vecteurs voisins.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 2 — scénario : 31\n\nRéférence exercice : IA-091`",
+    "question": "Situation :\nDeux mots sémantiquement proches doivent avoir des vecteurs voisins.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Utiliser des embeddings",
     "reponse_f1": "Utiliser des identifiants arbitraires",
     "reponse_f2": "Utiliser seulement la longueur des mots",
@@ -729,7 +729,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 92,
-    "question": "`Mini-TP IA — NLP et vision\n\nSituation :\nUn modèle prédit le prochain token.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 2 — scénario : 32\n\nRéférence exercice : IA-092`",
+    "question": "Situation :\nUn modèle prédit le prochain token.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Il estime une distribution conditionnelle",
     "reponse_f1": "Il fait uniquement une classification binaire",
     "reponse_f2": "Il ignore le contexte",
@@ -737,7 +737,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 93,
-    "question": "`Mini-TP IA — NLP et vision\n\nSituation :\nUne séquence longue contient des dépendances distantes.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 2 — scénario : 33\n\nRéférence exercice : IA-093`",
+    "question": "Situation :\nUne séquence longue contient des dépendances distantes.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "L'attention facilite les interactions globales",
     "reponse_f1": "Un bag-of-words conserve tout l'ordre",
     "reponse_f2": "Une convolution 1x1 suffit toujours",
@@ -745,7 +745,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 94,
-    "question": "`Mini-TP IA — NLP et vision\n\nSituation :\nUn Transformer n'a aucun encodage positionnel.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 2 — scénario : 34\n\nRéférence exercice : IA-094`",
+    "question": "Situation :\nUn Transformer n'a aucun encodage positionnel.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Il perd l'ordre explicite",
     "reponse_f1": "Il apprend toujours l'ordre exact",
     "reponse_f2": "Il devient un CNN",
@@ -753,7 +753,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 95,
-    "question": "`Mini-TP IA — NLP et vision\n\nSituation :\nDes images sont légèrement tournées et recadrées.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 2 — scénario : 35\n\nRéférence exercice : IA-095`",
+    "question": "Situation :\nDes images sont légèrement tournées et recadrées.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "L'augmentation peut améliorer la généralisation",
     "reponse_f1": "Toute augmentation détruit les labels",
     "reponse_f2": "Elle remplace la validation",
@@ -761,7 +761,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 96,
-    "question": "`Mini-TP IA — NLP et vision\n\nSituation :\nUn CNN partage ses filtres spatialement.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 2 — scénario : 36\n\nRéférence exercice : IA-096`",
+    "question": "Situation :\nUn CNN partage ses filtres spatialement.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Cela réduit le nombre de paramètres",
     "reponse_f1": "Chaque pixel a son propre réseau",
     "reponse_f2": "Cela détruit toute structure locale",
@@ -769,7 +769,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 97,
-    "question": "`Mini-TP IA — NLP et vision\n\nSituation :\nUne segmentation sémantique est demandée.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 2 — scénario : 37\n\nRéférence exercice : IA-097`",
+    "question": "Situation :\nUne segmentation sémantique est demandée.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Prédire une classe par pixel",
     "reponse_f1": "Prédire une classe par image",
     "reponse_f2": "Prédire seulement des boîtes",
@@ -777,7 +777,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 98,
-    "question": "`Mini-TP IA — NLP et vision\n\nSituation :\nUne détection d'objets est demandée.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 2 — scénario : 38\n\nRéférence exercice : IA-098`",
+    "question": "Situation :\nUne détection d'objets est demandée.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Prédire classes et boîtes",
     "reponse_f1": "Prédire un score global uniquement",
     "reponse_f2": "Prédire des embeddings textuels",
@@ -785,7 +785,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 99,
-    "question": "`Mini-TP IA — NLP et vision\n\nSituation :\nLe tokenizer produit trop de tokens inconnus.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 2 — scénario : 39\n\nRéférence exercice : IA-099`",
+    "question": "Situation :\nLe tokenizer produit trop de tokens inconnus.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Utiliser des sous-mots",
     "reponse_f1": "Supprimer tous les mots rares",
     "reponse_f2": "Utiliser une phrase entière comme token",
@@ -793,7 +793,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 100,
-    "question": "`Mini-TP IA — NLP et vision\n\nSituation :\nUne recherche sémantique est construite.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 2 — scénario : 40\n\nRéférence exercice : IA-100`",
+    "question": "Situation :\nUne recherche sémantique est construite.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Comparer des embeddings",
     "reponse_f1": "Comparer uniquement les chaînes exactes",
     "reponse_f2": "Comparer les tailles de fichiers",
@@ -801,7 +801,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 101,
-    "question": "`Mini-TP IA — apprentissage non supervisé et génératif\n\nSituation :\nK-means reçoit des clusters allongés et non sphériques.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 2 — scénario : 41\n\nRéférence exercice : IA-101`",
+    "question": "Situation :\nK-means reçoit des clusters allongés et non sphériques.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Il peut être inadapté",
     "reponse_f1": "Il est toujours optimal",
     "reponse_f2": "Le nombre de clusters est sans importance",
@@ -809,7 +809,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 102,
-    "question": "`Mini-TP IA — apprentissage non supervisé et génératif\n\nSituation :\nDBSCAN est utilisé.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 2 — scénario : 42\n\nRéférence exercice : IA-102`",
+    "question": "Situation :\nDBSCAN est utilisé.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Il peut détecter du bruit et des formes arbitraires",
     "reponse_f1": "Il exige toujours k",
     "reponse_f2": "Il ne détecte jamais d'outliers",
@@ -817,7 +817,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 103,
-    "question": "`Mini-TP IA — apprentissage non supervisé et génératif\n\nSituation :\nUne PCA conserve 95 % de variance.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 2 — scénario : 43\n\nRéférence exercice : IA-103`",
+    "question": "Situation :\nUne PCA conserve 95 % de variance.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Elle réduit la dimension en gardant l'essentiel de la variance linéaire",
     "reponse_f1": "Elle conserve toutes les informations",
     "reponse_f2": "Elle garde les variables originales",
@@ -825,7 +825,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 104,
-    "question": "`Mini-TP IA — apprentissage non supervisé et génératif\n\nSituation :\nUn autoencodeur possède un goulot d'étranglement.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 2 — scénario : 44\n\nRéférence exercice : IA-104`",
+    "question": "Situation :\nUn autoencodeur possède un goulot d'étranglement.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Il peut apprendre une représentation compacte",
     "reponse_f1": "Il réalise uniquement une classification",
     "reponse_f2": "Il n'utilise aucune loss",
@@ -833,7 +833,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 105,
-    "question": "`Mini-TP IA — apprentissage non supervisé et génératif\n\nSituation :\nUne récompense différée doit guider les actions.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 2 — scénario : 45\n\nRéférence exercice : IA-105`",
+    "question": "Situation :\nUne récompense différée doit guider les actions.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Optimiser le retour cumulé actualisé",
     "reponse_f1": "Optimiser uniquement la récompense immédiate",
     "reponse_f2": "Ignorer les états futurs",
@@ -841,7 +841,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 106,
-    "question": "`Mini-TP IA — apprentissage non supervisé et génératif\n\nSituation :\nUne politique exploite toujours l'action estimée meilleure.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 2 — scénario : 46\n\nRéférence exercice : IA-106`",
+    "question": "Situation :\nUne politique exploite toujours l'action estimée meilleure.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Elle peut manquer d'exploration",
     "reponse_f1": "Elle explore tout l'espace",
     "reponse_f2": "Elle est automatiquement optimale",
@@ -849,7 +849,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 107,
-    "question": "`Mini-TP IA — apprentissage non supervisé et génératif\n\nSituation :\nUne stratégie epsilon-greedy est utilisée.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 2 — scénario : 47\n\nRéférence exercice : IA-107`",
+    "question": "Situation :\nUne stratégie epsilon-greedy est utilisée.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Elle explore avec probabilité epsilon",
     "reponse_f1": "Elle n'exploite jamais",
     "reponse_f2": "Elle choisit toujours l'action la pire",
@@ -857,7 +857,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 108,
-    "question": "`Mini-TP IA — apprentissage non supervisé et génératif\n\nSituation :\nUn GAN oppose générateur et discriminateur.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 2 — scénario : 48\n\nRéférence exercice : IA-108`",
+    "question": "Situation :\nUn GAN oppose générateur et discriminateur.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Le générateur produit des exemples plausibles",
     "reponse_f1": "Le discriminateur génère les données finales",
     "reponse_f2": "Les deux ont le même objectif",
@@ -865,7 +865,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 109,
-    "question": "`Mini-TP IA — apprentissage non supervisé et génératif\n\nSituation :\nUn modèle génératif reproduit presque exactement le train.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 2 — scénario : 49\n\nRéférence exercice : IA-109`",
+    "question": "Situation :\nUn modèle génératif reproduit presque exactement le train.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Risque de mémorisation et fuite",
     "reponse_f1": "Preuve de généralisation parfaite",
     "reponse_f2": "Preuve d'anonymisation",
@@ -873,7 +873,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 110,
-    "question": "`Mini-TP IA — apprentissage non supervisé et génératif\n\nSituation :\nUn modèle de diffusion génère des données.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 2 — scénario : 50\n\nRéférence exercice : IA-110`",
+    "question": "Situation :\nUn modèle de diffusion génère des données.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Il débruite progressivement",
     "reponse_f1": "Il fait uniquement du clustering",
     "reponse_f2": "Il n'apprend rien",
@@ -881,7 +881,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 111,
-    "question": "`Mini-TP IA — MLOps et IA responsable\n\nSituation :\nLa distribution des features change en production.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 2 — scénario : 51\n\nRéférence exercice : IA-111`",
+    "question": "Situation :\nLa distribution des features change en production.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Data drift",
     "reponse_f1": "Label leakage obligatoire",
     "reponse_f2": "Overfitting certain",
@@ -889,7 +889,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 112,
-    "question": "`Mini-TP IA — MLOps et IA responsable\n\nSituation :\nLa relation entre features et cible change.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 2 — scénario : 52\n\nRéférence exercice : IA-112`",
+    "question": "Situation :\nLa relation entre features et cible change.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Concept drift",
     "reponse_f1": "Simple changement de format",
     "reponse_f2": "Calibration parfaite",
@@ -897,7 +897,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 113,
-    "question": "`Mini-TP IA — MLOps et IA responsable\n\nSituation :\nUn modèle est déployé sans suivi.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 2 — scénario : 53\n\nRéférence exercice : IA-113`",
+    "question": "Situation :\nUn modèle est déployé sans suivi.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Ajouter monitoring et alertes",
     "reponse_f1": "Considérer la performance figée",
     "reponse_f2": "Supprimer les logs",
@@ -905,7 +905,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 114,
-    "question": "`Mini-TP IA — MLOps et IA responsable\n\nSituation :\nUne feature sensible influence fortement les décisions.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 2 — scénario : 54\n\nRéférence exercice : IA-114`",
+    "question": "Situation :\nUne feature sensible influence fortement les décisions.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Évaluer l'équité et les risques de discrimination",
     "reponse_f1": "Masquer uniquement son nom",
     "reponse_f2": "Ignorer l'effet si l'accuracy est bonne",
@@ -913,7 +913,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 115,
-    "question": "`Mini-TP IA — MLOps et IA responsable\n\nSituation :\nUne prédiction complexe doit être expliquée localement.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 2 — scénario : 55\n\nRéférence exercice : IA-115`",
+    "question": "Situation :\nUne prédiction complexe doit être expliquée localement.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Utiliser une méthode locale avec prudence",
     "reponse_f1": "Utiliser seulement l'accuracy",
     "reponse_f2": "Lire des poids inexistants",
@@ -921,7 +921,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 116,
-    "question": "`Mini-TP IA — MLOps et IA responsable\n\nSituation :\nUne importance par permutation est calculée.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 2 — scénario : 56\n\nRéférence exercice : IA-116`",
+    "question": "Situation :\nUne importance par permutation est calculée.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Elle mesure la perte de performance après perturbation",
     "reponse_f1": "Elle prouve une causalité",
     "reponse_f2": "Elle ignore les corrélations",
@@ -929,7 +929,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 117,
-    "question": "`Mini-TP IA — MLOps et IA responsable\n\nSituation :\nUn modèle doit être reproduit plus tard.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 2 — scénario : 57\n\nRéférence exercice : IA-117`",
+    "question": "Situation :\nUn modèle doit être reproduit plus tard.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Versionner code, données, paramètres et environnement",
     "reponse_f1": "Conserver uniquement le fichier modèle",
     "reponse_f2": "Noter seulement le score",
@@ -937,7 +937,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 118,
-    "question": "`Mini-TP IA — MLOps et IA responsable\n\nSituation :\nDeux modèles sont comparés en production.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 2 — scénario : 58\n\nRéférence exercice : IA-118`",
+    "question": "Situation :\nDeux modèles sont comparés en production.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Utiliser un A/B test contrôlé",
     "reponse_f1": "Remplacer immédiatement tout le trafic",
     "reponse_f2": "Comparer seulement les tailles de fichiers",
@@ -945,7 +945,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 119,
-    "question": "`Mini-TP IA — MLOps et IA responsable\n\nSituation :\nUne nouvelle version reçoit 5 % du trafic.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 2 — scénario : 59\n\nRéférence exercice : IA-119`",
+    "question": "Situation :\nUne nouvelle version reçoit 5 % du trafic.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Canary deployment",
     "reponse_f1": "Validation croisée",
     "reponse_f2": "Clustering hiérarchique",
@@ -953,7 +953,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 120,
-    "question": "`Mini-TP IA — MLOps et IA responsable\n\nSituation :\nUne décision automatisée est critique.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 2 — scénario : 60\n\nRéférence exercice : IA-120`",
+    "question": "Situation :\nUne décision automatisée est critique.\n\nContrainte complémentaire :\nLa contrainte principale est la généralisation hors échantillon.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Prévoir supervision humaine et recours",
     "reponse_f1": "Supprimer toute intervention",
     "reponse_f2": "Utiliser uniquement la confiance maximale",
@@ -961,7 +961,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 121,
-    "question": "`Mini-TP IA — apprentissage supervisé\n\nSituation :\nLe score d'entraînement atteint 99 %, contre 70 % en validation.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 3 — scénario : 01\n\nRéférence exercice : IA-121`",
+    "question": "Situation :\nLe score d'entraînement atteint 99 %, contre 70 % en validation.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Surapprentissage",
     "reponse_f1": "Sous-apprentissage",
     "reponse_f2": "Calibration parfaite",
@@ -969,7 +969,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 122,
-    "question": "`Mini-TP IA — apprentissage supervisé\n\nSituation :\nLes scores d'entraînement et de validation sont tous deux faibles.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 3 — scénario : 02\n\nRéférence exercice : IA-122`",
+    "question": "Situation :\nLes scores d'entraînement et de validation sont tous deux faibles.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Sous-apprentissage",
     "reponse_f1": "Surapprentissage",
     "reponse_f2": "Fuite de données",
@@ -977,7 +977,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 123,
-    "question": "`Mini-TP IA — apprentissage supervisé\n\nSituation :\nUne variable calculée après la date de prédiction est utilisée.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 3 — scénario : 03\n\nRéférence exercice : IA-123`",
+    "question": "Situation :\nUne variable calculée après la date de prédiction est utilisée.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Fuite de données",
     "reponse_f1": "Régularisation",
     "reponse_f2": "Data augmentation",
@@ -985,7 +985,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 124,
-    "question": "`Mini-TP IA — apprentissage supervisé\n\nSituation :\nDes données temporelles sont mélangées aléatoirement avant validation.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 3 — scénario : 04\n\nRéférence exercice : IA-124`",
+    "question": "Situation :\nDes données temporelles sont mélangées aléatoirement avant validation.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "La validation risque de violer l'ordre temporel",
     "reponse_f1": "La validation devient plus robuste",
     "reponse_f2": "Aucun risque n'existe",
@@ -993,7 +993,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 125,
-    "question": "`Mini-TP IA — apprentissage supervisé\n\nSituation :\nLa classe positive représente 1 % des cas.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 3 — scénario : 05\n\nRéférence exercice : IA-125`",
+    "question": "Situation :\nLa classe positive représente 1 % des cas.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "L'accuracy seule est insuffisante",
     "reponse_f1": "L'accuracy suffit toujours",
     "reponse_f2": "Il faut supprimer la classe rare",
@@ -1001,7 +1001,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 126,
-    "question": "`Mini-TP IA — apprentissage supervisé\n\nSituation :\nLes erreurs extrêmes doivent être moins influentes.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 3 — scénario : 06\n\nRéférence exercice : IA-126`",
+    "question": "Situation :\nLes erreurs extrêmes doivent être moins influentes.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Privilégier MAE à MSE",
     "reponse_f1": "Privilégier MSE à MAE",
     "reponse_f2": "Utiliser uniquement R²",
@@ -1009,7 +1009,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 127,
-    "question": "`Mini-TP IA — apprentissage supervisé\n\nSituation :\nLes probabilités prédites doivent refléter les fréquences réelles.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 3 — scénario : 07\n\nRéférence exercice : IA-127`",
+    "question": "Situation :\nLes probabilités prédites doivent refléter les fréquences réelles.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Évaluer la calibration",
     "reponse_f1": "Évaluer uniquement l'accuracy",
     "reponse_f2": "Fixer arbitrairement le seuil à 0,5",
@@ -1017,7 +1017,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 128,
-    "question": "`Mini-TP IA — apprentissage supervisé\n\nSituation :\nLe rappel doit être augmenté.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 3 — scénario : 08\n\nRéférence exercice : IA-128`",
+    "question": "Situation :\nLe rappel doit être augmenté.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Abaisser généralement le seuil de décision",
     "reponse_f1": "Augmenter toujours le seuil",
     "reponse_f2": "Le seuil n'a aucun effet",
@@ -1025,7 +1025,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 129,
-    "question": "`Mini-TP IA — apprentissage supervisé\n\nSituation :\nUn individu possède plusieurs lignes dans le dataset.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 3 — scénario : 09\n\nRéférence exercice : IA-129`",
+    "question": "Situation :\nUn individu possède plusieurs lignes dans le dataset.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Regrouper ses lignes dans le même fold",
     "reponse_f1": "Répartir chaque ligne au hasard",
     "reponse_f2": "Supprimer l'identifiant uniquement",
@@ -1033,7 +1033,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 130,
-    "question": "`Mini-TP IA — apprentissage supervisé\n\nSituation :\nLe jeu de test a guidé de nombreux choix d'hyperparamètres.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 3 — scénario : 10\n\nRéférence exercice : IA-130`",
+    "question": "Situation :\nLe jeu de test a guidé de nombreux choix d'hyperparamètres.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Il n'est plus un test totalement neutre",
     "reponse_f1": "Il reste parfaitement indépendant",
     "reponse_f2": "Le modèle devient non supervisé",
@@ -1041,7 +1041,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 131,
-    "question": "`Mini-TP IA — algorithmes classiques\n\nSituation :\nUne régression pénalisée reçoit des variables d'échelles très différentes.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 3 — scénario : 11\n\nRéférence exercice : IA-131`",
+    "question": "Situation :\nUne régression pénalisée reçoit des variables d'échelles très différentes.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Standardiser les variables",
     "reponse_f1": "Ne jamais mettre à l'échelle",
     "reponse_f2": "Convertir les nombres en texte",
@@ -1049,7 +1049,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 132,
-    "question": "`Mini-TP IA — algorithmes classiques\n\nSituation :\nUn arbre de décision est trop profond.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 3 — scénario : 12\n\nRéférence exercice : IA-132`",
+    "question": "Situation :\nUn arbre de décision est trop profond.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Limiter sa complexité",
     "reponse_f1": "Augmenter encore sa profondeur",
     "reponse_f2": "Supprimer la cible",
@@ -1057,7 +1057,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 133,
-    "question": "`Mini-TP IA — algorithmes classiques\n\nSituation :\nUn Random Forest améliore un arbre unique.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 3 — scénario : 13\n\nRéférence exercice : IA-133`",
+    "question": "Situation :\nUn Random Forest améliore un arbre unique.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Il réduit souvent la variance",
     "reponse_f1": "Il supprime toujours tout biais",
     "reponse_f2": "Il n'utilise qu'un arbre",
@@ -1065,7 +1065,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 134,
-    "question": "`Mini-TP IA — algorithmes classiques\n\nSituation :\nLe gradient boosting ajoute des arbres successifs.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 3 — scénario : 14\n\nRéférence exercice : IA-134`",
+    "question": "Situation :\nLe gradient boosting ajoute des arbres successifs.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Chaque arbre corrige les erreurs précédentes",
     "reponse_f1": "Tous les arbres sont indépendants",
     "reponse_f2": "Il ne peut jamais surapprendre",
@@ -1073,7 +1073,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 135,
-    "question": "`Mini-TP IA — algorithmes classiques\n\nSituation :\nUne variable catégorielle possède 100 000 modalités.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 3 — scénario : 15\n\nRéférence exercice : IA-135`",
+    "question": "Situation :\nUne variable catégorielle possède 100 000 modalités.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Éviter un one-hot naïf",
     "reponse_f1": "Créer systématiquement 100 000 colonnes",
     "reponse_f2": "Supprimer toutes les autres variables",
@@ -1081,7 +1081,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 136,
-    "question": "`Mini-TP IA — algorithmes classiques\n\nSituation :\nUne variable ordinale contient faible, moyen, élevé.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 3 — scénario : 16\n\nRéférence exercice : IA-136`",
+    "question": "Situation :\nUne variable ordinale contient faible, moyen, élevé.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Préserver l'ordre dans l'encodage",
     "reponse_f1": "Utiliser des identifiants aléatoires",
     "reponse_f2": "Traiter les modalités comme identiques",
@@ -1089,7 +1089,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 137,
-    "question": "`Mini-TP IA — algorithmes classiques\n\nSituation :\nK-means reçoit des variables non standardisées.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 3 — scénario : 17\n\nRéférence exercice : IA-137`",
+    "question": "Situation :\nK-means reçoit des variables non standardisées.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Les grandes échelles dominent la distance",
     "reponse_f1": "La standardisation est interdite",
     "reponse_f2": "K-means devient supervisé",
@@ -1097,7 +1097,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 138,
-    "question": "`Mini-TP IA — algorithmes classiques\n\nSituation :\nLes données contiennent de nombreux outliers.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 3 — scénario : 18\n\nRéférence exercice : IA-138`",
+    "question": "Situation :\nLes données contiennent de nombreux outliers.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Utiliser une transformation ou un scaler robuste",
     "reponse_f1": "Utiliser toujours min-max sans analyse",
     "reponse_f2": "Remplacer tous les outliers par zéro",
@@ -1105,7 +1105,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 139,
-    "question": "`Mini-TP IA — algorithmes classiques\n\nSituation :\nL'imputation est calculée avant le split train-test.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 3 — scénario : 19\n\nRéférence exercice : IA-139`",
+    "question": "Situation :\nL'imputation est calculée avant le split train-test.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Risque de fuite d'information",
     "reponse_f1": "Aucun risque possible",
     "reponse_f2": "Le test devient inutilement petit",
@@ -1113,7 +1113,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 140,
-    "question": "`Mini-TP IA — algorithmes classiques\n\nSituation :\nLa PCA est calculée avant validation croisée.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 3 — scénario : 20\n\nRéférence exercice : IA-140`",
+    "question": "Situation :\nLa PCA est calculée avant validation croisée.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "L'intégrer dans le pipeline de chaque fold",
     "reponse_f1": "La calculer sur toutes les données",
     "reponse_f2": "La remplacer par la cible",
@@ -1121,7 +1121,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 141,
-    "question": "`Mini-TP IA — réseaux de neurones\n\nSituation :\nUn réseau profond à sigmoïdes apprend très lentement.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 3 — scénario : 21\n\nRéférence exercice : IA-141`",
+    "question": "Situation :\nUn réseau profond à sigmoïdes apprend très lentement.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Risque de vanishing gradient",
     "reponse_f1": "Explosion garantie du gradient",
     "reponse_f2": "Convergence toujours rapide",
@@ -1129,7 +1129,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 142,
-    "question": "`Mini-TP IA — réseaux de neurones\n\nSituation :\nDe nombreuses ReLU restent toujours nulles.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 3 — scénario : 22\n\nRéférence exercice : IA-142`",
+    "question": "Situation :\nDe nombreuses ReLU restent toujours nulles.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Phénomène de dead ReLU",
     "reponse_f1": "Effet softmax",
     "reponse_f2": "Calibration parfaite",
@@ -1137,7 +1137,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 143,
-    "question": "`Mini-TP IA — réseaux de neurones\n\nSituation :\nLa loss train baisse mais la loss validation monte.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 3 — scénario : 23\n\nRéférence exercice : IA-143`",
+    "question": "Situation :\nLa loss train baisse mais la loss validation monte.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Début de surapprentissage",
     "reponse_f1": "Sous-apprentissage certain",
     "reponse_f2": "Validation inutile",
@@ -1145,7 +1145,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 144,
-    "question": "`Mini-TP IA — réseaux de neurones\n\nSituation :\nLe learning rate est trop élevé.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 3 — scénario : 24\n\nRéférence exercice : IA-144`",
+    "question": "Situation :\nLe learning rate est trop élevé.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Oscillation ou divergence",
     "reponse_f1": "Convergence toujours plus rapide",
     "reponse_f2": "Gradient automatiquement nul",
@@ -1153,7 +1153,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 145,
-    "question": "`Mini-TP IA — réseaux de neurones\n\nSituation :\nLe learning rate est trop faible.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 3 — scénario : 25\n\nRéférence exercice : IA-145`",
+    "question": "Situation :\nLe learning rate est trop faible.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Apprentissage très lent",
     "reponse_f1": "Convergence instantanée",
     "reponse_f2": "Loss nécessairement croissante",
@@ -1161,7 +1161,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 146,
-    "question": "`Mini-TP IA — réseaux de neurones\n\nSituation :\nBatch normalization est ajoutée.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 3 — scénario : 26\n\nRéférence exercice : IA-146`",
+    "question": "Situation :\nBatch normalization est ajoutée.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Elle stabilise souvent l'entraînement",
     "reponse_f1": "Elle remplace toute activation",
     "reponse_f2": "Elle garantit zéro overfitting",
@@ -1169,7 +1169,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 147,
-    "question": "`Mini-TP IA — réseaux de neurones\n\nSituation :\nDropout est actif pendant l'entraînement.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 3 — scénario : 27\n\nRéférence exercice : IA-147`",
+    "question": "Situation :\nDropout est actif pendant l'entraînement.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Des unités sont désactivées aléatoirement",
     "reponse_f1": "Tous les poids deviennent nuls",
     "reponse_f2": "Le modèle devient déterministe",
@@ -1177,7 +1177,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 148,
-    "question": "`Mini-TP IA — réseaux de neurones\n\nSituation :\nUne classification multiclasse exclusive est visée.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 3 — scénario : 28\n\nRéférence exercice : IA-148`",
+    "question": "Situation :\nUne classification multiclasse exclusive est visée.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Softmax et cross-entropy",
     "reponse_f1": "Sigmoïdes indépendantes uniquement",
     "reponse_f2": "Une ReLU scalaire",
@@ -1185,7 +1185,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 149,
-    "question": "`Mini-TP IA — réseaux de neurones\n\nSituation :\nUne classification multilabel est visée.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 3 — scénario : 29\n\nRéférence exercice : IA-149`",
+    "question": "Situation :\nUne classification multilabel est visée.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Sigmoïde indépendante par classe",
     "reponse_f1": "Softmax exclusif",
     "reponse_f2": "Une seule sortie binaire globale",
@@ -1193,7 +1193,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 150,
-    "question": "`Mini-TP IA — réseaux de neurones\n\nSituation :\nLes gradients explosent dans un RNN.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 3 — scénario : 30\n\nRéférence exercice : IA-150`",
+    "question": "Situation :\nLes gradients explosent dans un RNN.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Appliquer gradient clipping",
     "reponse_f1": "Augmenter le learning rate",
     "reponse_f2": "Supprimer la loss",
@@ -1201,7 +1201,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 151,
-    "question": "`Mini-TP IA — NLP et vision\n\nSituation :\nDeux mots sémantiquement proches doivent avoir des vecteurs voisins.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 3 — scénario : 31\n\nRéférence exercice : IA-151`",
+    "question": "Situation :\nDeux mots sémantiquement proches doivent avoir des vecteurs voisins.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Utiliser des embeddings",
     "reponse_f1": "Utiliser des identifiants arbitraires",
     "reponse_f2": "Utiliser seulement la longueur des mots",
@@ -1209,7 +1209,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 152,
-    "question": "`Mini-TP IA — NLP et vision\n\nSituation :\nUn modèle prédit le prochain token.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 3 — scénario : 32\n\nRéférence exercice : IA-152`",
+    "question": "Situation :\nUn modèle prédit le prochain token.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Il estime une distribution conditionnelle",
     "reponse_f1": "Il fait uniquement une classification binaire",
     "reponse_f2": "Il ignore le contexte",
@@ -1217,7 +1217,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 153,
-    "question": "`Mini-TP IA — NLP et vision\n\nSituation :\nUne séquence longue contient des dépendances distantes.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 3 — scénario : 33\n\nRéférence exercice : IA-153`",
+    "question": "Situation :\nUne séquence longue contient des dépendances distantes.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "L'attention facilite les interactions globales",
     "reponse_f1": "Un bag-of-words conserve tout l'ordre",
     "reponse_f2": "Une convolution 1x1 suffit toujours",
@@ -1225,7 +1225,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 154,
-    "question": "`Mini-TP IA — NLP et vision\n\nSituation :\nUn Transformer n'a aucun encodage positionnel.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 3 — scénario : 34\n\nRéférence exercice : IA-154`",
+    "question": "Situation :\nUn Transformer n'a aucun encodage positionnel.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Il perd l'ordre explicite",
     "reponse_f1": "Il apprend toujours l'ordre exact",
     "reponse_f2": "Il devient un CNN",
@@ -1233,7 +1233,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 155,
-    "question": "`Mini-TP IA — NLP et vision\n\nSituation :\nDes images sont légèrement tournées et recadrées.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 3 — scénario : 35\n\nRéférence exercice : IA-155`",
+    "question": "Situation :\nDes images sont légèrement tournées et recadrées.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "L'augmentation peut améliorer la généralisation",
     "reponse_f1": "Toute augmentation détruit les labels",
     "reponse_f2": "Elle remplace la validation",
@@ -1241,7 +1241,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 156,
-    "question": "`Mini-TP IA — NLP et vision\n\nSituation :\nUn CNN partage ses filtres spatialement.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 3 — scénario : 36\n\nRéférence exercice : IA-156`",
+    "question": "Situation :\nUn CNN partage ses filtres spatialement.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Cela réduit le nombre de paramètres",
     "reponse_f1": "Chaque pixel a son propre réseau",
     "reponse_f2": "Cela détruit toute structure locale",
@@ -1249,7 +1249,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 157,
-    "question": "`Mini-TP IA — NLP et vision\n\nSituation :\nUne segmentation sémantique est demandée.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 3 — scénario : 37\n\nRéférence exercice : IA-157`",
+    "question": "Situation :\nUne segmentation sémantique est demandée.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Prédire une classe par pixel",
     "reponse_f1": "Prédire une classe par image",
     "reponse_f2": "Prédire seulement des boîtes",
@@ -1257,7 +1257,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 158,
-    "question": "`Mini-TP IA — NLP et vision\n\nSituation :\nUne détection d'objets est demandée.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 3 — scénario : 38\n\nRéférence exercice : IA-158`",
+    "question": "Situation :\nUne détection d'objets est demandée.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Prédire classes et boîtes",
     "reponse_f1": "Prédire un score global uniquement",
     "reponse_f2": "Prédire des embeddings textuels",
@@ -1265,7 +1265,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 159,
-    "question": "`Mini-TP IA — NLP et vision\n\nSituation :\nLe tokenizer produit trop de tokens inconnus.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 3 — scénario : 39\n\nRéférence exercice : IA-159`",
+    "question": "Situation :\nLe tokenizer produit trop de tokens inconnus.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Utiliser des sous-mots",
     "reponse_f1": "Supprimer tous les mots rares",
     "reponse_f2": "Utiliser une phrase entière comme token",
@@ -1273,7 +1273,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 160,
-    "question": "`Mini-TP IA — NLP et vision\n\nSituation :\nUne recherche sémantique est construite.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 3 — scénario : 40\n\nRéférence exercice : IA-160`",
+    "question": "Situation :\nUne recherche sémantique est construite.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Comparer des embeddings",
     "reponse_f1": "Comparer uniquement les chaînes exactes",
     "reponse_f2": "Comparer les tailles de fichiers",
@@ -1281,7 +1281,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 161,
-    "question": "`Mini-TP IA — apprentissage non supervisé et génératif\n\nSituation :\nK-means reçoit des clusters allongés et non sphériques.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 3 — scénario : 41\n\nRéférence exercice : IA-161`",
+    "question": "Situation :\nK-means reçoit des clusters allongés et non sphériques.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Il peut être inadapté",
     "reponse_f1": "Il est toujours optimal",
     "reponse_f2": "Le nombre de clusters est sans importance",
@@ -1289,7 +1289,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 162,
-    "question": "`Mini-TP IA — apprentissage non supervisé et génératif\n\nSituation :\nDBSCAN est utilisé.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 3 — scénario : 42\n\nRéférence exercice : IA-162`",
+    "question": "Situation :\nDBSCAN est utilisé.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Il peut détecter du bruit et des formes arbitraires",
     "reponse_f1": "Il exige toujours k",
     "reponse_f2": "Il ne détecte jamais d'outliers",
@@ -1297,7 +1297,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 163,
-    "question": "`Mini-TP IA — apprentissage non supervisé et génératif\n\nSituation :\nUne PCA conserve 95 % de variance.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 3 — scénario : 43\n\nRéférence exercice : IA-163`",
+    "question": "Situation :\nUne PCA conserve 95 % de variance.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Elle réduit la dimension en gardant l'essentiel de la variance linéaire",
     "reponse_f1": "Elle conserve toutes les informations",
     "reponse_f2": "Elle garde les variables originales",
@@ -1305,7 +1305,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 164,
-    "question": "`Mini-TP IA — apprentissage non supervisé et génératif\n\nSituation :\nUn autoencodeur possède un goulot d'étranglement.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 3 — scénario : 44\n\nRéférence exercice : IA-164`",
+    "question": "Situation :\nUn autoencodeur possède un goulot d'étranglement.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Il peut apprendre une représentation compacte",
     "reponse_f1": "Il réalise uniquement une classification",
     "reponse_f2": "Il n'utilise aucune loss",
@@ -1313,7 +1313,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 165,
-    "question": "`Mini-TP IA — apprentissage non supervisé et génératif\n\nSituation :\nUne récompense différée doit guider les actions.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 3 — scénario : 45\n\nRéférence exercice : IA-165`",
+    "question": "Situation :\nUne récompense différée doit guider les actions.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Optimiser le retour cumulé actualisé",
     "reponse_f1": "Optimiser uniquement la récompense immédiate",
     "reponse_f2": "Ignorer les états futurs",
@@ -1321,7 +1321,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 166,
-    "question": "`Mini-TP IA — apprentissage non supervisé et génératif\n\nSituation :\nUne politique exploite toujours l'action estimée meilleure.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 3 — scénario : 46\n\nRéférence exercice : IA-166`",
+    "question": "Situation :\nUne politique exploite toujours l'action estimée meilleure.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Elle peut manquer d'exploration",
     "reponse_f1": "Elle explore tout l'espace",
     "reponse_f2": "Elle est automatiquement optimale",
@@ -1329,7 +1329,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 167,
-    "question": "`Mini-TP IA — apprentissage non supervisé et génératif\n\nSituation :\nUne stratégie epsilon-greedy est utilisée.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 3 — scénario : 47\n\nRéférence exercice : IA-167`",
+    "question": "Situation :\nUne stratégie epsilon-greedy est utilisée.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Elle explore avec probabilité epsilon",
     "reponse_f1": "Elle n'exploite jamais",
     "reponse_f2": "Elle choisit toujours l'action la pire",
@@ -1337,7 +1337,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 168,
-    "question": "`Mini-TP IA — apprentissage non supervisé et génératif\n\nSituation :\nUn GAN oppose générateur et discriminateur.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 3 — scénario : 48\n\nRéférence exercice : IA-168`",
+    "question": "Situation :\nUn GAN oppose générateur et discriminateur.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Le générateur produit des exemples plausibles",
     "reponse_f1": "Le discriminateur génère les données finales",
     "reponse_f2": "Les deux ont le même objectif",
@@ -1345,7 +1345,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 169,
-    "question": "`Mini-TP IA — apprentissage non supervisé et génératif\n\nSituation :\nUn modèle génératif reproduit presque exactement le train.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 3 — scénario : 49\n\nRéférence exercice : IA-169`",
+    "question": "Situation :\nUn modèle génératif reproduit presque exactement le train.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Risque de mémorisation et fuite",
     "reponse_f1": "Preuve de généralisation parfaite",
     "reponse_f2": "Preuve d'anonymisation",
@@ -1353,7 +1353,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 170,
-    "question": "`Mini-TP IA — apprentissage non supervisé et génératif\n\nSituation :\nUn modèle de diffusion génère des données.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 3 — scénario : 50\n\nRéférence exercice : IA-170`",
+    "question": "Situation :\nUn modèle de diffusion génère des données.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Il débruite progressivement",
     "reponse_f1": "Il fait uniquement du clustering",
     "reponse_f2": "Il n'apprend rien",
@@ -1361,7 +1361,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 171,
-    "question": "`Mini-TP IA — MLOps et IA responsable\n\nSituation :\nLa distribution des features change en production.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 3 — scénario : 51\n\nRéférence exercice : IA-171`",
+    "question": "Situation :\nLa distribution des features change en production.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Data drift",
     "reponse_f1": "Label leakage obligatoire",
     "reponse_f2": "Overfitting certain",
@@ -1369,7 +1369,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 172,
-    "question": "`Mini-TP IA — MLOps et IA responsable\n\nSituation :\nLa relation entre features et cible change.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 3 — scénario : 52\n\nRéférence exercice : IA-172`",
+    "question": "Situation :\nLa relation entre features et cible change.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Concept drift",
     "reponse_f1": "Simple changement de format",
     "reponse_f2": "Calibration parfaite",
@@ -1377,7 +1377,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 173,
-    "question": "`Mini-TP IA — MLOps et IA responsable\n\nSituation :\nUn modèle est déployé sans suivi.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 3 — scénario : 53\n\nRéférence exercice : IA-173`",
+    "question": "Situation :\nUn modèle est déployé sans suivi.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Ajouter monitoring et alertes",
     "reponse_f1": "Considérer la performance figée",
     "reponse_f2": "Supprimer les logs",
@@ -1385,7 +1385,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 174,
-    "question": "`Mini-TP IA — MLOps et IA responsable\n\nSituation :\nUne feature sensible influence fortement les décisions.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 3 — scénario : 54\n\nRéférence exercice : IA-174`",
+    "question": "Situation :\nUne feature sensible influence fortement les décisions.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Évaluer l'équité et les risques de discrimination",
     "reponse_f1": "Masquer uniquement son nom",
     "reponse_f2": "Ignorer l'effet si l'accuracy est bonne",
@@ -1393,7 +1393,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 175,
-    "question": "`Mini-TP IA — MLOps et IA responsable\n\nSituation :\nUne prédiction complexe doit être expliquée localement.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 3 — scénario : 55\n\nRéférence exercice : IA-175`",
+    "question": "Situation :\nUne prédiction complexe doit être expliquée localement.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Utiliser une méthode locale avec prudence",
     "reponse_f1": "Utiliser seulement l'accuracy",
     "reponse_f2": "Lire des poids inexistants",
@@ -1401,7 +1401,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 176,
-    "question": "`Mini-TP IA — MLOps et IA responsable\n\nSituation :\nUne importance par permutation est calculée.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 3 — scénario : 56\n\nRéférence exercice : IA-176`",
+    "question": "Situation :\nUne importance par permutation est calculée.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Elle mesure la perte de performance après perturbation",
     "reponse_f1": "Elle prouve une causalité",
     "reponse_f2": "Elle ignore les corrélations",
@@ -1409,7 +1409,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 177,
-    "question": "`Mini-TP IA — MLOps et IA responsable\n\nSituation :\nUn modèle doit être reproduit plus tard.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 3 — scénario : 57\n\nRéférence exercice : IA-177`",
+    "question": "Situation :\nUn modèle doit être reproduit plus tard.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Versionner code, données, paramètres et environnement",
     "reponse_f1": "Conserver uniquement le fichier modèle",
     "reponse_f2": "Noter seulement le score",
@@ -1417,7 +1417,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 178,
-    "question": "`Mini-TP IA — MLOps et IA responsable\n\nSituation :\nDeux modèles sont comparés en production.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 3 — scénario : 58\n\nRéférence exercice : IA-178`",
+    "question": "Situation :\nDeux modèles sont comparés en production.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Utiliser un A/B test contrôlé",
     "reponse_f1": "Remplacer immédiatement tout le trafic",
     "reponse_f2": "Comparer seulement les tailles de fichiers",
@@ -1425,7 +1425,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 179,
-    "question": "`Mini-TP IA — MLOps et IA responsable\n\nSituation :\nUne nouvelle version reçoit 5 % du trafic.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 3 — scénario : 59\n\nRéférence exercice : IA-179`",
+    "question": "Situation :\nUne nouvelle version reçoit 5 % du trafic.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Canary deployment",
     "reponse_f1": "Validation croisée",
     "reponse_f2": "Clustering hiérarchique",
@@ -1433,7 +1433,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 180,
-    "question": "`Mini-TP IA — MLOps et IA responsable\n\nSituation :\nUne décision automatisée est critique.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 3 — scénario : 60\n\nRéférence exercice : IA-180`",
+    "question": "Situation :\nUne décision automatisée est critique.\n\nContrainte complémentaire :\nLa solution doit éviter toute fuite méthodologique.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Prévoir supervision humaine et recours",
     "reponse_f1": "Supprimer toute intervention",
     "reponse_f2": "Utiliser uniquement la confiance maximale",
@@ -1441,7 +1441,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 181,
-    "question": "`Mini-TP IA — apprentissage supervisé\n\nSituation :\nLe score d'entraînement atteint 99 %, contre 70 % en validation.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 4 — scénario : 01\n\nRéférence exercice : IA-181`",
+    "question": "Situation :\nLe score d'entraînement atteint 99 %, contre 70 % en validation.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Surapprentissage",
     "reponse_f1": "Sous-apprentissage",
     "reponse_f2": "Calibration parfaite",
@@ -1449,7 +1449,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 182,
-    "question": "`Mini-TP IA — apprentissage supervisé\n\nSituation :\nLes scores d'entraînement et de validation sont tous deux faibles.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 4 — scénario : 02\n\nRéférence exercice : IA-182`",
+    "question": "Situation :\nLes scores d'entraînement et de validation sont tous deux faibles.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Sous-apprentissage",
     "reponse_f1": "Surapprentissage",
     "reponse_f2": "Fuite de données",
@@ -1457,7 +1457,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 183,
-    "question": "`Mini-TP IA — apprentissage supervisé\n\nSituation :\nUne variable calculée après la date de prédiction est utilisée.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 4 — scénario : 03\n\nRéférence exercice : IA-183`",
+    "question": "Situation :\nUne variable calculée après la date de prédiction est utilisée.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Fuite de données",
     "reponse_f1": "Régularisation",
     "reponse_f2": "Data augmentation",
@@ -1465,7 +1465,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 184,
-    "question": "`Mini-TP IA — apprentissage supervisé\n\nSituation :\nDes données temporelles sont mélangées aléatoirement avant validation.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 4 — scénario : 04\n\nRéférence exercice : IA-184`",
+    "question": "Situation :\nDes données temporelles sont mélangées aléatoirement avant validation.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "La validation risque de violer l'ordre temporel",
     "reponse_f1": "La validation devient plus robuste",
     "reponse_f2": "Aucun risque n'existe",
@@ -1473,7 +1473,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 185,
-    "question": "`Mini-TP IA — apprentissage supervisé\n\nSituation :\nLa classe positive représente 1 % des cas.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 4 — scénario : 05\n\nRéférence exercice : IA-185`",
+    "question": "Situation :\nLa classe positive représente 1 % des cas.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "L'accuracy seule est insuffisante",
     "reponse_f1": "L'accuracy suffit toujours",
     "reponse_f2": "Il faut supprimer la classe rare",
@@ -1481,7 +1481,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 186,
-    "question": "`Mini-TP IA — apprentissage supervisé\n\nSituation :\nLes erreurs extrêmes doivent être moins influentes.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 4 — scénario : 06\n\nRéférence exercice : IA-186`",
+    "question": "Situation :\nLes erreurs extrêmes doivent être moins influentes.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Privilégier MAE à MSE",
     "reponse_f1": "Privilégier MSE à MAE",
     "reponse_f2": "Utiliser uniquement R²",
@@ -1489,7 +1489,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 187,
-    "question": "`Mini-TP IA — apprentissage supervisé\n\nSituation :\nLes probabilités prédites doivent refléter les fréquences réelles.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 4 — scénario : 07\n\nRéférence exercice : IA-187`",
+    "question": "Situation :\nLes probabilités prédites doivent refléter les fréquences réelles.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Évaluer la calibration",
     "reponse_f1": "Évaluer uniquement l'accuracy",
     "reponse_f2": "Fixer arbitrairement le seuil à 0,5",
@@ -1497,7 +1497,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 188,
-    "question": "`Mini-TP IA — apprentissage supervisé\n\nSituation :\nLe rappel doit être augmenté.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 4 — scénario : 08\n\nRéférence exercice : IA-188`",
+    "question": "Situation :\nLe rappel doit être augmenté.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Abaisser généralement le seuil de décision",
     "reponse_f1": "Augmenter toujours le seuil",
     "reponse_f2": "Le seuil n'a aucun effet",
@@ -1505,7 +1505,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 189,
-    "question": "`Mini-TP IA — apprentissage supervisé\n\nSituation :\nUn individu possède plusieurs lignes dans le dataset.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 4 — scénario : 09\n\nRéférence exercice : IA-189`",
+    "question": "Situation :\nUn individu possède plusieurs lignes dans le dataset.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Regrouper ses lignes dans le même fold",
     "reponse_f1": "Répartir chaque ligne au hasard",
     "reponse_f2": "Supprimer l'identifiant uniquement",
@@ -1513,7 +1513,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 190,
-    "question": "`Mini-TP IA — apprentissage supervisé\n\nSituation :\nLe jeu de test a guidé de nombreux choix d'hyperparamètres.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 4 — scénario : 10\n\nRéférence exercice : IA-190`",
+    "question": "Situation :\nLe jeu de test a guidé de nombreux choix d'hyperparamètres.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Il n'est plus un test totalement neutre",
     "reponse_f1": "Il reste parfaitement indépendant",
     "reponse_f2": "Le modèle devient non supervisé",
@@ -1521,7 +1521,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 191,
-    "question": "`Mini-TP IA — algorithmes classiques\n\nSituation :\nUne régression pénalisée reçoit des variables d'échelles très différentes.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 4 — scénario : 11\n\nRéférence exercice : IA-191`",
+    "question": "Situation :\nUne régression pénalisée reçoit des variables d'échelles très différentes.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Standardiser les variables",
     "reponse_f1": "Ne jamais mettre à l'échelle",
     "reponse_f2": "Convertir les nombres en texte",
@@ -1529,7 +1529,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 192,
-    "question": "`Mini-TP IA — algorithmes classiques\n\nSituation :\nUn arbre de décision est trop profond.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 4 — scénario : 12\n\nRéférence exercice : IA-192`",
+    "question": "Situation :\nUn arbre de décision est trop profond.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Limiter sa complexité",
     "reponse_f1": "Augmenter encore sa profondeur",
     "reponse_f2": "Supprimer la cible",
@@ -1537,7 +1537,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 193,
-    "question": "`Mini-TP IA — algorithmes classiques\n\nSituation :\nUn Random Forest améliore un arbre unique.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 4 — scénario : 13\n\nRéférence exercice : IA-193`",
+    "question": "Situation :\nUn Random Forest améliore un arbre unique.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Il réduit souvent la variance",
     "reponse_f1": "Il supprime toujours tout biais",
     "reponse_f2": "Il n'utilise qu'un arbre",
@@ -1545,7 +1545,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 194,
-    "question": "`Mini-TP IA — algorithmes classiques\n\nSituation :\nLe gradient boosting ajoute des arbres successifs.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 4 — scénario : 14\n\nRéférence exercice : IA-194`",
+    "question": "Situation :\nLe gradient boosting ajoute des arbres successifs.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Chaque arbre corrige les erreurs précédentes",
     "reponse_f1": "Tous les arbres sont indépendants",
     "reponse_f2": "Il ne peut jamais surapprendre",
@@ -1553,7 +1553,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 195,
-    "question": "`Mini-TP IA — algorithmes classiques\n\nSituation :\nUne variable catégorielle possède 100 000 modalités.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 4 — scénario : 15\n\nRéférence exercice : IA-195`",
+    "question": "Situation :\nUne variable catégorielle possède 100 000 modalités.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Éviter un one-hot naïf",
     "reponse_f1": "Créer systématiquement 100 000 colonnes",
     "reponse_f2": "Supprimer toutes les autres variables",
@@ -1561,7 +1561,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 196,
-    "question": "`Mini-TP IA — algorithmes classiques\n\nSituation :\nUne variable ordinale contient faible, moyen, élevé.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 4 — scénario : 16\n\nRéférence exercice : IA-196`",
+    "question": "Situation :\nUne variable ordinale contient faible, moyen, élevé.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Préserver l'ordre dans l'encodage",
     "reponse_f1": "Utiliser des identifiants aléatoires",
     "reponse_f2": "Traiter les modalités comme identiques",
@@ -1569,7 +1569,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 197,
-    "question": "`Mini-TP IA — algorithmes classiques\n\nSituation :\nK-means reçoit des variables non standardisées.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 4 — scénario : 17\n\nRéférence exercice : IA-197`",
+    "question": "Situation :\nK-means reçoit des variables non standardisées.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Les grandes échelles dominent la distance",
     "reponse_f1": "La standardisation est interdite",
     "reponse_f2": "K-means devient supervisé",
@@ -1577,7 +1577,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 198,
-    "question": "`Mini-TP IA — algorithmes classiques\n\nSituation :\nLes données contiennent de nombreux outliers.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 4 — scénario : 18\n\nRéférence exercice : IA-198`",
+    "question": "Situation :\nLes données contiennent de nombreux outliers.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Utiliser une transformation ou un scaler robuste",
     "reponse_f1": "Utiliser toujours min-max sans analyse",
     "reponse_f2": "Remplacer tous les outliers par zéro",
@@ -1585,7 +1585,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 199,
-    "question": "`Mini-TP IA — algorithmes classiques\n\nSituation :\nL'imputation est calculée avant le split train-test.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 4 — scénario : 19\n\nRéférence exercice : IA-199`",
+    "question": "Situation :\nL'imputation est calculée avant le split train-test.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Risque de fuite d'information",
     "reponse_f1": "Aucun risque possible",
     "reponse_f2": "Le test devient inutilement petit",
@@ -1593,7 +1593,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 200,
-    "question": "`Mini-TP IA — algorithmes classiques\n\nSituation :\nLa PCA est calculée avant validation croisée.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 4 — scénario : 20\n\nRéférence exercice : IA-200`",
+    "question": "Situation :\nLa PCA est calculée avant validation croisée.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "L'intégrer dans le pipeline de chaque fold",
     "reponse_f1": "La calculer sur toutes les données",
     "reponse_f2": "La remplacer par la cible",
@@ -1601,7 +1601,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 201,
-    "question": "`Mini-TP IA — réseaux de neurones\n\nSituation :\nUn réseau profond à sigmoïdes apprend très lentement.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 4 — scénario : 21\n\nRéférence exercice : IA-201`",
+    "question": "Situation :\nUn réseau profond à sigmoïdes apprend très lentement.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Risque de vanishing gradient",
     "reponse_f1": "Explosion garantie du gradient",
     "reponse_f2": "Convergence toujours rapide",
@@ -1609,7 +1609,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 202,
-    "question": "`Mini-TP IA — réseaux de neurones\n\nSituation :\nDe nombreuses ReLU restent toujours nulles.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 4 — scénario : 22\n\nRéférence exercice : IA-202`",
+    "question": "Situation :\nDe nombreuses ReLU restent toujours nulles.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Phénomène de dead ReLU",
     "reponse_f1": "Effet softmax",
     "reponse_f2": "Calibration parfaite",
@@ -1617,7 +1617,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 203,
-    "question": "`Mini-TP IA — réseaux de neurones\n\nSituation :\nLa loss train baisse mais la loss validation monte.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 4 — scénario : 23\n\nRéférence exercice : IA-203`",
+    "question": "Situation :\nLa loss train baisse mais la loss validation monte.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Début de surapprentissage",
     "reponse_f1": "Sous-apprentissage certain",
     "reponse_f2": "Validation inutile",
@@ -1625,7 +1625,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 204,
-    "question": "`Mini-TP IA — réseaux de neurones\n\nSituation :\nLe learning rate est trop élevé.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 4 — scénario : 24\n\nRéférence exercice : IA-204`",
+    "question": "Situation :\nLe learning rate est trop élevé.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Oscillation ou divergence",
     "reponse_f1": "Convergence toujours plus rapide",
     "reponse_f2": "Gradient automatiquement nul",
@@ -1633,7 +1633,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 205,
-    "question": "`Mini-TP IA — réseaux de neurones\n\nSituation :\nLe learning rate est trop faible.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 4 — scénario : 25\n\nRéférence exercice : IA-205`",
+    "question": "Situation :\nLe learning rate est trop faible.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Apprentissage très lent",
     "reponse_f1": "Convergence instantanée",
     "reponse_f2": "Loss nécessairement croissante",
@@ -1641,7 +1641,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 206,
-    "question": "`Mini-TP IA — réseaux de neurones\n\nSituation :\nBatch normalization est ajoutée.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 4 — scénario : 26\n\nRéférence exercice : IA-206`",
+    "question": "Situation :\nBatch normalization est ajoutée.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Elle stabilise souvent l'entraînement",
     "reponse_f1": "Elle remplace toute activation",
     "reponse_f2": "Elle garantit zéro overfitting",
@@ -1649,7 +1649,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 207,
-    "question": "`Mini-TP IA — réseaux de neurones\n\nSituation :\nDropout est actif pendant l'entraînement.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 4 — scénario : 27\n\nRéférence exercice : IA-207`",
+    "question": "Situation :\nDropout est actif pendant l'entraînement.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Des unités sont désactivées aléatoirement",
     "reponse_f1": "Tous les poids deviennent nuls",
     "reponse_f2": "Le modèle devient déterministe",
@@ -1657,7 +1657,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 208,
-    "question": "`Mini-TP IA — réseaux de neurones\n\nSituation :\nUne classification multiclasse exclusive est visée.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 4 — scénario : 28\n\nRéférence exercice : IA-208`",
+    "question": "Situation :\nUne classification multiclasse exclusive est visée.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Softmax et cross-entropy",
     "reponse_f1": "Sigmoïdes indépendantes uniquement",
     "reponse_f2": "Une ReLU scalaire",
@@ -1665,7 +1665,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 209,
-    "question": "`Mini-TP IA — réseaux de neurones\n\nSituation :\nUne classification multilabel est visée.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 4 — scénario : 29\n\nRéférence exercice : IA-209`",
+    "question": "Situation :\nUne classification multilabel est visée.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Sigmoïde indépendante par classe",
     "reponse_f1": "Softmax exclusif",
     "reponse_f2": "Une seule sortie binaire globale",
@@ -1673,7 +1673,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 210,
-    "question": "`Mini-TP IA — réseaux de neurones\n\nSituation :\nLes gradients explosent dans un RNN.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 4 — scénario : 30\n\nRéférence exercice : IA-210`",
+    "question": "Situation :\nLes gradients explosent dans un RNN.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Appliquer gradient clipping",
     "reponse_f1": "Augmenter le learning rate",
     "reponse_f2": "Supprimer la loss",
@@ -1681,7 +1681,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 211,
-    "question": "`Mini-TP IA — NLP et vision\n\nSituation :\nDeux mots sémantiquement proches doivent avoir des vecteurs voisins.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 4 — scénario : 31\n\nRéférence exercice : IA-211`",
+    "question": "Situation :\nDeux mots sémantiquement proches doivent avoir des vecteurs voisins.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Utiliser des embeddings",
     "reponse_f1": "Utiliser des identifiants arbitraires",
     "reponse_f2": "Utiliser seulement la longueur des mots",
@@ -1689,7 +1689,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 212,
-    "question": "`Mini-TP IA — NLP et vision\n\nSituation :\nUn modèle prédit le prochain token.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 4 — scénario : 32\n\nRéférence exercice : IA-212`",
+    "question": "Situation :\nUn modèle prédit le prochain token.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Il estime une distribution conditionnelle",
     "reponse_f1": "Il fait uniquement une classification binaire",
     "reponse_f2": "Il ignore le contexte",
@@ -1697,7 +1697,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 213,
-    "question": "`Mini-TP IA — NLP et vision\n\nSituation :\nUne séquence longue contient des dépendances distantes.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 4 — scénario : 33\n\nRéférence exercice : IA-213`",
+    "question": "Situation :\nUne séquence longue contient des dépendances distantes.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "L'attention facilite les interactions globales",
     "reponse_f1": "Un bag-of-words conserve tout l'ordre",
     "reponse_f2": "Une convolution 1x1 suffit toujours",
@@ -1705,7 +1705,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 214,
-    "question": "`Mini-TP IA — NLP et vision\n\nSituation :\nUn Transformer n'a aucun encodage positionnel.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 4 — scénario : 34\n\nRéférence exercice : IA-214`",
+    "question": "Situation :\nUn Transformer n'a aucun encodage positionnel.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Il perd l'ordre explicite",
     "reponse_f1": "Il apprend toujours l'ordre exact",
     "reponse_f2": "Il devient un CNN",
@@ -1713,7 +1713,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 215,
-    "question": "`Mini-TP IA — NLP et vision\n\nSituation :\nDes images sont légèrement tournées et recadrées.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 4 — scénario : 35\n\nRéférence exercice : IA-215`",
+    "question": "Situation :\nDes images sont légèrement tournées et recadrées.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "L'augmentation peut améliorer la généralisation",
     "reponse_f1": "Toute augmentation détruit les labels",
     "reponse_f2": "Elle remplace la validation",
@@ -1721,7 +1721,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 216,
-    "question": "`Mini-TP IA — NLP et vision\n\nSituation :\nUn CNN partage ses filtres spatialement.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 4 — scénario : 36\n\nRéférence exercice : IA-216`",
+    "question": "Situation :\nUn CNN partage ses filtres spatialement.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Cela réduit le nombre de paramètres",
     "reponse_f1": "Chaque pixel a son propre réseau",
     "reponse_f2": "Cela détruit toute structure locale",
@@ -1729,7 +1729,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 217,
-    "question": "`Mini-TP IA — NLP et vision\n\nSituation :\nUne segmentation sémantique est demandée.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 4 — scénario : 37\n\nRéférence exercice : IA-217`",
+    "question": "Situation :\nUne segmentation sémantique est demandée.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Prédire une classe par pixel",
     "reponse_f1": "Prédire une classe par image",
     "reponse_f2": "Prédire seulement des boîtes",
@@ -1737,7 +1737,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 218,
-    "question": "`Mini-TP IA — NLP et vision\n\nSituation :\nUne détection d'objets est demandée.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 4 — scénario : 38\n\nRéférence exercice : IA-218`",
+    "question": "Situation :\nUne détection d'objets est demandée.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Prédire classes et boîtes",
     "reponse_f1": "Prédire un score global uniquement",
     "reponse_f2": "Prédire des embeddings textuels",
@@ -1745,7 +1745,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 219,
-    "question": "`Mini-TP IA — NLP et vision\n\nSituation :\nLe tokenizer produit trop de tokens inconnus.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 4 — scénario : 39\n\nRéférence exercice : IA-219`",
+    "question": "Situation :\nLe tokenizer produit trop de tokens inconnus.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Utiliser des sous-mots",
     "reponse_f1": "Supprimer tous les mots rares",
     "reponse_f2": "Utiliser une phrase entière comme token",
@@ -1753,7 +1753,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 220,
-    "question": "`Mini-TP IA — NLP et vision\n\nSituation :\nUne recherche sémantique est construite.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 4 — scénario : 40\n\nRéférence exercice : IA-220`",
+    "question": "Situation :\nUne recherche sémantique est construite.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Comparer des embeddings",
     "reponse_f1": "Comparer uniquement les chaînes exactes",
     "reponse_f2": "Comparer les tailles de fichiers",
@@ -1761,7 +1761,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 221,
-    "question": "`Mini-TP IA — apprentissage non supervisé et génératif\n\nSituation :\nK-means reçoit des clusters allongés et non sphériques.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 4 — scénario : 41\n\nRéférence exercice : IA-221`",
+    "question": "Situation :\nK-means reçoit des clusters allongés et non sphériques.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Il peut être inadapté",
     "reponse_f1": "Il est toujours optimal",
     "reponse_f2": "Le nombre de clusters est sans importance",
@@ -1769,7 +1769,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 222,
-    "question": "`Mini-TP IA — apprentissage non supervisé et génératif\n\nSituation :\nDBSCAN est utilisé.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 4 — scénario : 42\n\nRéférence exercice : IA-222`",
+    "question": "Situation :\nDBSCAN est utilisé.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Il peut détecter du bruit et des formes arbitraires",
     "reponse_f1": "Il exige toujours k",
     "reponse_f2": "Il ne détecte jamais d'outliers",
@@ -1777,7 +1777,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 223,
-    "question": "`Mini-TP IA — apprentissage non supervisé et génératif\n\nSituation :\nUne PCA conserve 95 % de variance.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 4 — scénario : 43\n\nRéférence exercice : IA-223`",
+    "question": "Situation :\nUne PCA conserve 95 % de variance.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Elle réduit la dimension en gardant l'essentiel de la variance linéaire",
     "reponse_f1": "Elle conserve toutes les informations",
     "reponse_f2": "Elle garde les variables originales",
@@ -1785,7 +1785,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 224,
-    "question": "`Mini-TP IA — apprentissage non supervisé et génératif\n\nSituation :\nUn autoencodeur possède un goulot d'étranglement.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 4 — scénario : 44\n\nRéférence exercice : IA-224`",
+    "question": "Situation :\nUn autoencodeur possède un goulot d'étranglement.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Il peut apprendre une représentation compacte",
     "reponse_f1": "Il réalise uniquement une classification",
     "reponse_f2": "Il n'utilise aucune loss",
@@ -1793,7 +1793,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 225,
-    "question": "`Mini-TP IA — apprentissage non supervisé et génératif\n\nSituation :\nUne récompense différée doit guider les actions.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 4 — scénario : 45\n\nRéférence exercice : IA-225`",
+    "question": "Situation :\nUne récompense différée doit guider les actions.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Optimiser le retour cumulé actualisé",
     "reponse_f1": "Optimiser uniquement la récompense immédiate",
     "reponse_f2": "Ignorer les états futurs",
@@ -1801,7 +1801,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 226,
-    "question": "`Mini-TP IA — apprentissage non supervisé et génératif\n\nSituation :\nUne politique exploite toujours l'action estimée meilleure.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 4 — scénario : 46\n\nRéférence exercice : IA-226`",
+    "question": "Situation :\nUne politique exploite toujours l'action estimée meilleure.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Elle peut manquer d'exploration",
     "reponse_f1": "Elle explore tout l'espace",
     "reponse_f2": "Elle est automatiquement optimale",
@@ -1809,7 +1809,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 227,
-    "question": "`Mini-TP IA — apprentissage non supervisé et génératif\n\nSituation :\nUne stratégie epsilon-greedy est utilisée.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 4 — scénario : 47\n\nRéférence exercice : IA-227`",
+    "question": "Situation :\nUne stratégie epsilon-greedy est utilisée.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Elle explore avec probabilité epsilon",
     "reponse_f1": "Elle n'exploite jamais",
     "reponse_f2": "Elle choisit toujours l'action la pire",
@@ -1817,7 +1817,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 228,
-    "question": "`Mini-TP IA — apprentissage non supervisé et génératif\n\nSituation :\nUn GAN oppose générateur et discriminateur.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 4 — scénario : 48\n\nRéférence exercice : IA-228`",
+    "question": "Situation :\nUn GAN oppose générateur et discriminateur.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Le générateur produit des exemples plausibles",
     "reponse_f1": "Le discriminateur génère les données finales",
     "reponse_f2": "Les deux ont le même objectif",
@@ -1825,7 +1825,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 229,
-    "question": "`Mini-TP IA — apprentissage non supervisé et génératif\n\nSituation :\nUn modèle génératif reproduit presque exactement le train.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 4 — scénario : 49\n\nRéférence exercice : IA-229`",
+    "question": "Situation :\nUn modèle génératif reproduit presque exactement le train.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Risque de mémorisation et fuite",
     "reponse_f1": "Preuve de généralisation parfaite",
     "reponse_f2": "Preuve d'anonymisation",
@@ -1833,7 +1833,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 230,
-    "question": "`Mini-TP IA — apprentissage non supervisé et génératif\n\nSituation :\nUn modèle de diffusion génère des données.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 4 — scénario : 50\n\nRéférence exercice : IA-230`",
+    "question": "Situation :\nUn modèle de diffusion génère des données.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Il débruite progressivement",
     "reponse_f1": "Il fait uniquement du clustering",
     "reponse_f2": "Il n'apprend rien",
@@ -1841,7 +1841,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 231,
-    "question": "`Mini-TP IA — MLOps et IA responsable\n\nSituation :\nLa distribution des features change en production.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 4 — scénario : 51\n\nRéférence exercice : IA-231`",
+    "question": "Situation :\nLa distribution des features change en production.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Data drift",
     "reponse_f1": "Label leakage obligatoire",
     "reponse_f2": "Overfitting certain",
@@ -1849,7 +1849,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 232,
-    "question": "`Mini-TP IA — MLOps et IA responsable\n\nSituation :\nLa relation entre features et cible change.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 4 — scénario : 52\n\nRéférence exercice : IA-232`",
+    "question": "Situation :\nLa relation entre features et cible change.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Concept drift",
     "reponse_f1": "Simple changement de format",
     "reponse_f2": "Calibration parfaite",
@@ -1857,7 +1857,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 233,
-    "question": "`Mini-TP IA — MLOps et IA responsable\n\nSituation :\nUn modèle est déployé sans suivi.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 4 — scénario : 53\n\nRéférence exercice : IA-233`",
+    "question": "Situation :\nUn modèle est déployé sans suivi.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Ajouter monitoring et alertes",
     "reponse_f1": "Considérer la performance figée",
     "reponse_f2": "Supprimer les logs",
@@ -1865,7 +1865,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 234,
-    "question": "`Mini-TP IA — MLOps et IA responsable\n\nSituation :\nUne feature sensible influence fortement les décisions.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 4 — scénario : 54\n\nRéférence exercice : IA-234`",
+    "question": "Situation :\nUne feature sensible influence fortement les décisions.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Évaluer l'équité et les risques de discrimination",
     "reponse_f1": "Masquer uniquement son nom",
     "reponse_f2": "Ignorer l'effet si l'accuracy est bonne",
@@ -1873,7 +1873,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 235,
-    "question": "`Mini-TP IA — MLOps et IA responsable\n\nSituation :\nUne prédiction complexe doit être expliquée localement.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 4 — scénario : 55\n\nRéférence exercice : IA-235`",
+    "question": "Situation :\nUne prédiction complexe doit être expliquée localement.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Utiliser une méthode locale avec prudence",
     "reponse_f1": "Utiliser seulement l'accuracy",
     "reponse_f2": "Lire des poids inexistants",
@@ -1881,7 +1881,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 236,
-    "question": "`Mini-TP IA — MLOps et IA responsable\n\nSituation :\nUne importance par permutation est calculée.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 4 — scénario : 56\n\nRéférence exercice : IA-236`",
+    "question": "Situation :\nUne importance par permutation est calculée.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Elle mesure la perte de performance après perturbation",
     "reponse_f1": "Elle prouve une causalité",
     "reponse_f2": "Elle ignore les corrélations",
@@ -1889,7 +1889,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 237,
-    "question": "`Mini-TP IA — MLOps et IA responsable\n\nSituation :\nUn modèle doit être reproduit plus tard.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 4 — scénario : 57\n\nRéférence exercice : IA-237`",
+    "question": "Situation :\nUn modèle doit être reproduit plus tard.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Versionner code, données, paramètres et environnement",
     "reponse_f1": "Conserver uniquement le fichier modèle",
     "reponse_f2": "Noter seulement le score",
@@ -1897,7 +1897,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 238,
-    "question": "`Mini-TP IA — MLOps et IA responsable\n\nSituation :\nDeux modèles sont comparés en production.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 4 — scénario : 58\n\nRéférence exercice : IA-238`",
+    "question": "Situation :\nDeux modèles sont comparés en production.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Utiliser un A/B test contrôlé",
     "reponse_f1": "Remplacer immédiatement tout le trafic",
     "reponse_f2": "Comparer seulement les tailles de fichiers",
@@ -1905,7 +1905,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 239,
-    "question": "`Mini-TP IA — MLOps et IA responsable\n\nSituation :\nUne nouvelle version reçoit 5 % du trafic.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 4 — scénario : 59\n\nRéférence exercice : IA-239`",
+    "question": "Situation :\nUne nouvelle version reçoit 5 % du trafic.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Canary deployment",
     "reponse_f1": "Validation croisée",
     "reponse_f2": "Clustering hiérarchique",
@@ -1913,7 +1913,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 240,
-    "question": "`Mini-TP IA — MLOps et IA responsable\n\nSituation :\nUne décision automatisée est critique.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 4 — scénario : 60\n\nRéférence exercice : IA-240`",
+    "question": "Situation :\nUne décision automatisée est critique.\n\nContrainte complémentaire :\nL'équipe cherche une décision techniquement justifiable.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Prévoir supervision humaine et recours",
     "reponse_f1": "Supprimer toute intervention",
     "reponse_f2": "Utiliser uniquement la confiance maximale",
@@ -1921,7 +1921,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 241,
-    "question": "`Mini-TP IA — apprentissage supervisé\n\nSituation :\nLe score d'entraînement atteint 99 %, contre 70 % en validation.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 5 — scénario : 01\n\nRéférence exercice : IA-241`",
+    "question": "Situation :\nLe score d'entraînement atteint 99 %, contre 70 % en validation.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Surapprentissage",
     "reponse_f1": "Sous-apprentissage",
     "reponse_f2": "Calibration parfaite",
@@ -1929,7 +1929,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 242,
-    "question": "`Mini-TP IA — apprentissage supervisé\n\nSituation :\nLes scores d'entraînement et de validation sont tous deux faibles.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 5 — scénario : 02\n\nRéférence exercice : IA-242`",
+    "question": "Situation :\nLes scores d'entraînement et de validation sont tous deux faibles.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Sous-apprentissage",
     "reponse_f1": "Surapprentissage",
     "reponse_f2": "Fuite de données",
@@ -1937,7 +1937,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 243,
-    "question": "`Mini-TP IA — apprentissage supervisé\n\nSituation :\nUne variable calculée après la date de prédiction est utilisée.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 5 — scénario : 03\n\nRéférence exercice : IA-243`",
+    "question": "Situation :\nUne variable calculée après la date de prédiction est utilisée.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Fuite de données",
     "reponse_f1": "Régularisation",
     "reponse_f2": "Data augmentation",
@@ -1945,7 +1945,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 244,
-    "question": "`Mini-TP IA — apprentissage supervisé\n\nSituation :\nDes données temporelles sont mélangées aléatoirement avant validation.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 5 — scénario : 04\n\nRéférence exercice : IA-244`",
+    "question": "Situation :\nDes données temporelles sont mélangées aléatoirement avant validation.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "La validation risque de violer l'ordre temporel",
     "reponse_f1": "La validation devient plus robuste",
     "reponse_f2": "Aucun risque n'existe",
@@ -1953,7 +1953,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 245,
-    "question": "`Mini-TP IA — apprentissage supervisé\n\nSituation :\nLa classe positive représente 1 % des cas.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 5 — scénario : 05\n\nRéférence exercice : IA-245`",
+    "question": "Situation :\nLa classe positive représente 1 % des cas.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "L'accuracy seule est insuffisante",
     "reponse_f1": "L'accuracy suffit toujours",
     "reponse_f2": "Il faut supprimer la classe rare",
@@ -1961,7 +1961,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 246,
-    "question": "`Mini-TP IA — apprentissage supervisé\n\nSituation :\nLes erreurs extrêmes doivent être moins influentes.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 5 — scénario : 06\n\nRéférence exercice : IA-246`",
+    "question": "Situation :\nLes erreurs extrêmes doivent être moins influentes.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Privilégier MAE à MSE",
     "reponse_f1": "Privilégier MSE à MAE",
     "reponse_f2": "Utiliser uniquement R²",
@@ -1969,7 +1969,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 247,
-    "question": "`Mini-TP IA — apprentissage supervisé\n\nSituation :\nLes probabilités prédites doivent refléter les fréquences réelles.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 5 — scénario : 07\n\nRéférence exercice : IA-247`",
+    "question": "Situation :\nLes probabilités prédites doivent refléter les fréquences réelles.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Évaluer la calibration",
     "reponse_f1": "Évaluer uniquement l'accuracy",
     "reponse_f2": "Fixer arbitrairement le seuil à 0,5",
@@ -1977,7 +1977,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 248,
-    "question": "`Mini-TP IA — apprentissage supervisé\n\nSituation :\nLe rappel doit être augmenté.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 5 — scénario : 08\n\nRéférence exercice : IA-248`",
+    "question": "Situation :\nLe rappel doit être augmenté.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Abaisser généralement le seuil de décision",
     "reponse_f1": "Augmenter toujours le seuil",
     "reponse_f2": "Le seuil n'a aucun effet",
@@ -1985,7 +1985,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 249,
-    "question": "`Mini-TP IA — apprentissage supervisé\n\nSituation :\nUn individu possède plusieurs lignes dans le dataset.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 5 — scénario : 09\n\nRéférence exercice : IA-249`",
+    "question": "Situation :\nUn individu possède plusieurs lignes dans le dataset.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Regrouper ses lignes dans le même fold",
     "reponse_f1": "Répartir chaque ligne au hasard",
     "reponse_f2": "Supprimer l'identifiant uniquement",
@@ -1993,7 +1993,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 250,
-    "question": "`Mini-TP IA — apprentissage supervisé\n\nSituation :\nLe jeu de test a guidé de nombreux choix d'hyperparamètres.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 5 — scénario : 10\n\nRéférence exercice : IA-250`",
+    "question": "Situation :\nLe jeu de test a guidé de nombreux choix d'hyperparamètres.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Il n'est plus un test totalement neutre",
     "reponse_f1": "Il reste parfaitement indépendant",
     "reponse_f2": "Le modèle devient non supervisé",
@@ -2001,7 +2001,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 251,
-    "question": "`Mini-TP IA — algorithmes classiques\n\nSituation :\nUne régression pénalisée reçoit des variables d'échelles très différentes.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 5 — scénario : 11\n\nRéférence exercice : IA-251`",
+    "question": "Situation :\nUne régression pénalisée reçoit des variables d'échelles très différentes.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Standardiser les variables",
     "reponse_f1": "Ne jamais mettre à l'échelle",
     "reponse_f2": "Convertir les nombres en texte",
@@ -2009,7 +2009,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 252,
-    "question": "`Mini-TP IA — algorithmes classiques\n\nSituation :\nUn arbre de décision est trop profond.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 5 — scénario : 12\n\nRéférence exercice : IA-252`",
+    "question": "Situation :\nUn arbre de décision est trop profond.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Limiter sa complexité",
     "reponse_f1": "Augmenter encore sa profondeur",
     "reponse_f2": "Supprimer la cible",
@@ -2017,7 +2017,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 253,
-    "question": "`Mini-TP IA — algorithmes classiques\n\nSituation :\nUn Random Forest améliore un arbre unique.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 5 — scénario : 13\n\nRéférence exercice : IA-253`",
+    "question": "Situation :\nUn Random Forest améliore un arbre unique.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Il réduit souvent la variance",
     "reponse_f1": "Il supprime toujours tout biais",
     "reponse_f2": "Il n'utilise qu'un arbre",
@@ -2025,7 +2025,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 254,
-    "question": "`Mini-TP IA — algorithmes classiques\n\nSituation :\nLe gradient boosting ajoute des arbres successifs.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 5 — scénario : 14\n\nRéférence exercice : IA-254`",
+    "question": "Situation :\nLe gradient boosting ajoute des arbres successifs.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Chaque arbre corrige les erreurs précédentes",
     "reponse_f1": "Tous les arbres sont indépendants",
     "reponse_f2": "Il ne peut jamais surapprendre",
@@ -2033,7 +2033,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 255,
-    "question": "`Mini-TP IA — algorithmes classiques\n\nSituation :\nUne variable catégorielle possède 100 000 modalités.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 5 — scénario : 15\n\nRéférence exercice : IA-255`",
+    "question": "Situation :\nUne variable catégorielle possède 100 000 modalités.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Éviter un one-hot naïf",
     "reponse_f1": "Créer systématiquement 100 000 colonnes",
     "reponse_f2": "Supprimer toutes les autres variables",
@@ -2041,7 +2041,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 256,
-    "question": "`Mini-TP IA — algorithmes classiques\n\nSituation :\nUne variable ordinale contient faible, moyen, élevé.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 5 — scénario : 16\n\nRéférence exercice : IA-256`",
+    "question": "Situation :\nUne variable ordinale contient faible, moyen, élevé.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Préserver l'ordre dans l'encodage",
     "reponse_f1": "Utiliser des identifiants aléatoires",
     "reponse_f2": "Traiter les modalités comme identiques",
@@ -2049,7 +2049,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 257,
-    "question": "`Mini-TP IA — algorithmes classiques\n\nSituation :\nK-means reçoit des variables non standardisées.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 5 — scénario : 17\n\nRéférence exercice : IA-257`",
+    "question": "Situation :\nK-means reçoit des variables non standardisées.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Les grandes échelles dominent la distance",
     "reponse_f1": "La standardisation est interdite",
     "reponse_f2": "K-means devient supervisé",
@@ -2057,7 +2057,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 258,
-    "question": "`Mini-TP IA — algorithmes classiques\n\nSituation :\nLes données contiennent de nombreux outliers.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 5 — scénario : 18\n\nRéférence exercice : IA-258`",
+    "question": "Situation :\nLes données contiennent de nombreux outliers.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Utiliser une transformation ou un scaler robuste",
     "reponse_f1": "Utiliser toujours min-max sans analyse",
     "reponse_f2": "Remplacer tous les outliers par zéro",
@@ -2065,7 +2065,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 259,
-    "question": "`Mini-TP IA — algorithmes classiques\n\nSituation :\nL'imputation est calculée avant le split train-test.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 5 — scénario : 19\n\nRéférence exercice : IA-259`",
+    "question": "Situation :\nL'imputation est calculée avant le split train-test.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Risque de fuite d'information",
     "reponse_f1": "Aucun risque possible",
     "reponse_f2": "Le test devient inutilement petit",
@@ -2073,7 +2073,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 260,
-    "question": "`Mini-TP IA — algorithmes classiques\n\nSituation :\nLa PCA est calculée avant validation croisée.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 5 — scénario : 20\n\nRéférence exercice : IA-260`",
+    "question": "Situation :\nLa PCA est calculée avant validation croisée.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "L'intégrer dans le pipeline de chaque fold",
     "reponse_f1": "La calculer sur toutes les données",
     "reponse_f2": "La remplacer par la cible",
@@ -2081,7 +2081,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 261,
-    "question": "`Mini-TP IA — réseaux de neurones\n\nSituation :\nUn réseau profond à sigmoïdes apprend très lentement.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 5 — scénario : 21\n\nRéférence exercice : IA-261`",
+    "question": "Situation :\nUn réseau profond à sigmoïdes apprend très lentement.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Risque de vanishing gradient",
     "reponse_f1": "Explosion garantie du gradient",
     "reponse_f2": "Convergence toujours rapide",
@@ -2089,7 +2089,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 262,
-    "question": "`Mini-TP IA — réseaux de neurones\n\nSituation :\nDe nombreuses ReLU restent toujours nulles.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 5 — scénario : 22\n\nRéférence exercice : IA-262`",
+    "question": "Situation :\nDe nombreuses ReLU restent toujours nulles.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Phénomène de dead ReLU",
     "reponse_f1": "Effet softmax",
     "reponse_f2": "Calibration parfaite",
@@ -2097,7 +2097,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 263,
-    "question": "`Mini-TP IA — réseaux de neurones\n\nSituation :\nLa loss train baisse mais la loss validation monte.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 5 — scénario : 23\n\nRéférence exercice : IA-263`",
+    "question": "Situation :\nLa loss train baisse mais la loss validation monte.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Début de surapprentissage",
     "reponse_f1": "Sous-apprentissage certain",
     "reponse_f2": "Validation inutile",
@@ -2105,7 +2105,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 264,
-    "question": "`Mini-TP IA — réseaux de neurones\n\nSituation :\nLe learning rate est trop élevé.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 5 — scénario : 24\n\nRéférence exercice : IA-264`",
+    "question": "Situation :\nLe learning rate est trop élevé.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Oscillation ou divergence",
     "reponse_f1": "Convergence toujours plus rapide",
     "reponse_f2": "Gradient automatiquement nul",
@@ -2113,7 +2113,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 265,
-    "question": "`Mini-TP IA — réseaux de neurones\n\nSituation :\nLe learning rate est trop faible.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 5 — scénario : 25\n\nRéférence exercice : IA-265`",
+    "question": "Situation :\nLe learning rate est trop faible.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Apprentissage très lent",
     "reponse_f1": "Convergence instantanée",
     "reponse_f2": "Loss nécessairement croissante",
@@ -2121,7 +2121,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 266,
-    "question": "`Mini-TP IA — réseaux de neurones\n\nSituation :\nBatch normalization est ajoutée.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 5 — scénario : 26\n\nRéférence exercice : IA-266`",
+    "question": "Situation :\nBatch normalization est ajoutée.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Elle stabilise souvent l'entraînement",
     "reponse_f1": "Elle remplace toute activation",
     "reponse_f2": "Elle garantit zéro overfitting",
@@ -2129,7 +2129,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 267,
-    "question": "`Mini-TP IA — réseaux de neurones\n\nSituation :\nDropout est actif pendant l'entraînement.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 5 — scénario : 27\n\nRéférence exercice : IA-267`",
+    "question": "Situation :\nDropout est actif pendant l'entraînement.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Des unités sont désactivées aléatoirement",
     "reponse_f1": "Tous les poids deviennent nuls",
     "reponse_f2": "Le modèle devient déterministe",
@@ -2137,7 +2137,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 268,
-    "question": "`Mini-TP IA — réseaux de neurones\n\nSituation :\nUne classification multiclasse exclusive est visée.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 5 — scénario : 28\n\nRéférence exercice : IA-268`",
+    "question": "Situation :\nUne classification multiclasse exclusive est visée.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Softmax et cross-entropy",
     "reponse_f1": "Sigmoïdes indépendantes uniquement",
     "reponse_f2": "Une ReLU scalaire",
@@ -2145,7 +2145,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 269,
-    "question": "`Mini-TP IA — réseaux de neurones\n\nSituation :\nUne classification multilabel est visée.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 5 — scénario : 29\n\nRéférence exercice : IA-269`",
+    "question": "Situation :\nUne classification multilabel est visée.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Sigmoïde indépendante par classe",
     "reponse_f1": "Softmax exclusif",
     "reponse_f2": "Une seule sortie binaire globale",
@@ -2153,7 +2153,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 270,
-    "question": "`Mini-TP IA — réseaux de neurones\n\nSituation :\nLes gradients explosent dans un RNN.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 5 — scénario : 30\n\nRéférence exercice : IA-270`",
+    "question": "Situation :\nLes gradients explosent dans un RNN.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Appliquer gradient clipping",
     "reponse_f1": "Augmenter le learning rate",
     "reponse_f2": "Supprimer la loss",
@@ -2161,7 +2161,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 271,
-    "question": "`Mini-TP IA — NLP et vision\n\nSituation :\nDeux mots sémantiquement proches doivent avoir des vecteurs voisins.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 5 — scénario : 31\n\nRéférence exercice : IA-271`",
+    "question": "Situation :\nDeux mots sémantiquement proches doivent avoir des vecteurs voisins.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Utiliser des embeddings",
     "reponse_f1": "Utiliser des identifiants arbitraires",
     "reponse_f2": "Utiliser seulement la longueur des mots",
@@ -2169,7 +2169,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 272,
-    "question": "`Mini-TP IA — NLP et vision\n\nSituation :\nUn modèle prédit le prochain token.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 5 — scénario : 32\n\nRéférence exercice : IA-272`",
+    "question": "Situation :\nUn modèle prédit le prochain token.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Il estime une distribution conditionnelle",
     "reponse_f1": "Il fait uniquement une classification binaire",
     "reponse_f2": "Il ignore le contexte",
@@ -2177,7 +2177,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 273,
-    "question": "`Mini-TP IA — NLP et vision\n\nSituation :\nUne séquence longue contient des dépendances distantes.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 5 — scénario : 33\n\nRéférence exercice : IA-273`",
+    "question": "Situation :\nUne séquence longue contient des dépendances distantes.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "L'attention facilite les interactions globales",
     "reponse_f1": "Un bag-of-words conserve tout l'ordre",
     "reponse_f2": "Une convolution 1x1 suffit toujours",
@@ -2185,7 +2185,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 274,
-    "question": "`Mini-TP IA — NLP et vision\n\nSituation :\nUn Transformer n'a aucun encodage positionnel.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 5 — scénario : 34\n\nRéférence exercice : IA-274`",
+    "question": "Situation :\nUn Transformer n'a aucun encodage positionnel.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Il perd l'ordre explicite",
     "reponse_f1": "Il apprend toujours l'ordre exact",
     "reponse_f2": "Il devient un CNN",
@@ -2193,7 +2193,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 275,
-    "question": "`Mini-TP IA — NLP et vision\n\nSituation :\nDes images sont légèrement tournées et recadrées.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 5 — scénario : 35\n\nRéférence exercice : IA-275`",
+    "question": "Situation :\nDes images sont légèrement tournées et recadrées.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "L'augmentation peut améliorer la généralisation",
     "reponse_f1": "Toute augmentation détruit les labels",
     "reponse_f2": "Elle remplace la validation",
@@ -2201,7 +2201,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 276,
-    "question": "`Mini-TP IA — NLP et vision\n\nSituation :\nUn CNN partage ses filtres spatialement.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 5 — scénario : 36\n\nRéférence exercice : IA-276`",
+    "question": "Situation :\nUn CNN partage ses filtres spatialement.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Cela réduit le nombre de paramètres",
     "reponse_f1": "Chaque pixel a son propre réseau",
     "reponse_f2": "Cela détruit toute structure locale",
@@ -2209,7 +2209,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 277,
-    "question": "`Mini-TP IA — NLP et vision\n\nSituation :\nUne segmentation sémantique est demandée.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 5 — scénario : 37\n\nRéférence exercice : IA-277`",
+    "question": "Situation :\nUne segmentation sémantique est demandée.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Prédire une classe par pixel",
     "reponse_f1": "Prédire une classe par image",
     "reponse_f2": "Prédire seulement des boîtes",
@@ -2217,7 +2217,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 278,
-    "question": "`Mini-TP IA — NLP et vision\n\nSituation :\nUne détection d'objets est demandée.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 5 — scénario : 38\n\nRéférence exercice : IA-278`",
+    "question": "Situation :\nUne détection d'objets est demandée.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Prédire classes et boîtes",
     "reponse_f1": "Prédire un score global uniquement",
     "reponse_f2": "Prédire des embeddings textuels",
@@ -2225,7 +2225,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 279,
-    "question": "`Mini-TP IA — NLP et vision\n\nSituation :\nLe tokenizer produit trop de tokens inconnus.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 5 — scénario : 39\n\nRéférence exercice : IA-279`",
+    "question": "Situation :\nLe tokenizer produit trop de tokens inconnus.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Utiliser des sous-mots",
     "reponse_f1": "Supprimer tous les mots rares",
     "reponse_f2": "Utiliser une phrase entière comme token",
@@ -2233,7 +2233,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 280,
-    "question": "`Mini-TP IA — NLP et vision\n\nSituation :\nUne recherche sémantique est construite.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 5 — scénario : 40\n\nRéférence exercice : IA-280`",
+    "question": "Situation :\nUne recherche sémantique est construite.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Comparer des embeddings",
     "reponse_f1": "Comparer uniquement les chaînes exactes",
     "reponse_f2": "Comparer les tailles de fichiers",
@@ -2241,7 +2241,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 281,
-    "question": "`Mini-TP IA — apprentissage non supervisé et génératif\n\nSituation :\nK-means reçoit des clusters allongés et non sphériques.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 5 — scénario : 41\n\nRéférence exercice : IA-281`",
+    "question": "Situation :\nK-means reçoit des clusters allongés et non sphériques.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Il peut être inadapté",
     "reponse_f1": "Il est toujours optimal",
     "reponse_f2": "Le nombre de clusters est sans importance",
@@ -2249,7 +2249,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 282,
-    "question": "`Mini-TP IA — apprentissage non supervisé et génératif\n\nSituation :\nDBSCAN est utilisé.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 5 — scénario : 42\n\nRéférence exercice : IA-282`",
+    "question": "Situation :\nDBSCAN est utilisé.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Il peut détecter du bruit et des formes arbitraires",
     "reponse_f1": "Il exige toujours k",
     "reponse_f2": "Il ne détecte jamais d'outliers",
@@ -2257,7 +2257,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 283,
-    "question": "`Mini-TP IA — apprentissage non supervisé et génératif\n\nSituation :\nUne PCA conserve 95 % de variance.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 5 — scénario : 43\n\nRéférence exercice : IA-283`",
+    "question": "Situation :\nUne PCA conserve 95 % de variance.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Elle réduit la dimension en gardant l'essentiel de la variance linéaire",
     "reponse_f1": "Elle conserve toutes les informations",
     "reponse_f2": "Elle garde les variables originales",
@@ -2265,7 +2265,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 284,
-    "question": "`Mini-TP IA — apprentissage non supervisé et génératif\n\nSituation :\nUn autoencodeur possède un goulot d'étranglement.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 5 — scénario : 44\n\nRéférence exercice : IA-284`",
+    "question": "Situation :\nUn autoencodeur possède un goulot d'étranglement.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Il peut apprendre une représentation compacte",
     "reponse_f1": "Il réalise uniquement une classification",
     "reponse_f2": "Il n'utilise aucune loss",
@@ -2273,7 +2273,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 285,
-    "question": "`Mini-TP IA — apprentissage non supervisé et génératif\n\nSituation :\nUne récompense différée doit guider les actions.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 5 — scénario : 45\n\nRéférence exercice : IA-285`",
+    "question": "Situation :\nUne récompense différée doit guider les actions.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Optimiser le retour cumulé actualisé",
     "reponse_f1": "Optimiser uniquement la récompense immédiate",
     "reponse_f2": "Ignorer les états futurs",
@@ -2281,7 +2281,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 286,
-    "question": "`Mini-TP IA — apprentissage non supervisé et génératif\n\nSituation :\nUne politique exploite toujours l'action estimée meilleure.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 5 — scénario : 46\n\nRéférence exercice : IA-286`",
+    "question": "Situation :\nUne politique exploite toujours l'action estimée meilleure.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Elle peut manquer d'exploration",
     "reponse_f1": "Elle explore tout l'espace",
     "reponse_f2": "Elle est automatiquement optimale",
@@ -2289,7 +2289,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 287,
-    "question": "`Mini-TP IA — apprentissage non supervisé et génératif\n\nSituation :\nUne stratégie epsilon-greedy est utilisée.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 5 — scénario : 47\n\nRéférence exercice : IA-287`",
+    "question": "Situation :\nUne stratégie epsilon-greedy est utilisée.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Elle explore avec probabilité epsilon",
     "reponse_f1": "Elle n'exploite jamais",
     "reponse_f2": "Elle choisit toujours l'action la pire",
@@ -2297,7 +2297,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 288,
-    "question": "`Mini-TP IA — apprentissage non supervisé et génératif\n\nSituation :\nUn GAN oppose générateur et discriminateur.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 5 — scénario : 48\n\nRéférence exercice : IA-288`",
+    "question": "Situation :\nUn GAN oppose générateur et discriminateur.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Le générateur produit des exemples plausibles",
     "reponse_f1": "Le discriminateur génère les données finales",
     "reponse_f2": "Les deux ont le même objectif",
@@ -2305,7 +2305,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 289,
-    "question": "`Mini-TP IA — apprentissage non supervisé et génératif\n\nSituation :\nUn modèle génératif reproduit presque exactement le train.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 5 — scénario : 49\n\nRéférence exercice : IA-289`",
+    "question": "Situation :\nUn modèle génératif reproduit presque exactement le train.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Risque de mémorisation et fuite",
     "reponse_f1": "Preuve de généralisation parfaite",
     "reponse_f2": "Preuve d'anonymisation",
@@ -2313,7 +2313,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 290,
-    "question": "`Mini-TP IA — apprentissage non supervisé et génératif\n\nSituation :\nUn modèle de diffusion génère des données.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 5 — scénario : 50\n\nRéférence exercice : IA-290`",
+    "question": "Situation :\nUn modèle de diffusion génère des données.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Il débruite progressivement",
     "reponse_f1": "Il fait uniquement du clustering",
     "reponse_f2": "Il n'apprend rien",
@@ -2321,7 +2321,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 291,
-    "question": "`Mini-TP IA — MLOps et IA responsable\n\nSituation :\nLa distribution des features change en production.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 5 — scénario : 51\n\nRéférence exercice : IA-291`",
+    "question": "Situation :\nLa distribution des features change en production.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Data drift",
     "reponse_f1": "Label leakage obligatoire",
     "reponse_f2": "Overfitting certain",
@@ -2329,7 +2329,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 292,
-    "question": "`Mini-TP IA — MLOps et IA responsable\n\nSituation :\nLa relation entre features et cible change.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 5 — scénario : 52\n\nRéférence exercice : IA-292`",
+    "question": "Situation :\nLa relation entre features et cible change.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Concept drift",
     "reponse_f1": "Simple changement de format",
     "reponse_f2": "Calibration parfaite",
@@ -2337,7 +2337,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 293,
-    "question": "`Mini-TP IA — MLOps et IA responsable\n\nSituation :\nUn modèle est déployé sans suivi.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 5 — scénario : 53\n\nRéférence exercice : IA-293`",
+    "question": "Situation :\nUn modèle est déployé sans suivi.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Ajouter monitoring et alertes",
     "reponse_f1": "Considérer la performance figée",
     "reponse_f2": "Supprimer les logs",
@@ -2345,7 +2345,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 294,
-    "question": "`Mini-TP IA — MLOps et IA responsable\n\nSituation :\nUne feature sensible influence fortement les décisions.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 5 — scénario : 54\n\nRéférence exercice : IA-294`",
+    "question": "Situation :\nUne feature sensible influence fortement les décisions.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Évaluer l'équité et les risques de discrimination",
     "reponse_f1": "Masquer uniquement son nom",
     "reponse_f2": "Ignorer l'effet si l'accuracy est bonne",
@@ -2353,7 +2353,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 295,
-    "question": "`Mini-TP IA — MLOps et IA responsable\n\nSituation :\nUne prédiction complexe doit être expliquée localement.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 5 — scénario : 55\n\nRéférence exercice : IA-295`",
+    "question": "Situation :\nUne prédiction complexe doit être expliquée localement.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Utiliser une méthode locale avec prudence",
     "reponse_f1": "Utiliser seulement l'accuracy",
     "reponse_f2": "Lire des poids inexistants",
@@ -2361,7 +2361,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 296,
-    "question": "`Mini-TP IA — MLOps et IA responsable\n\nSituation :\nUne importance par permutation est calculée.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 5 — scénario : 56\n\nRéférence exercice : IA-296`",
+    "question": "Situation :\nUne importance par permutation est calculée.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Elle mesure la perte de performance après perturbation",
     "reponse_f1": "Elle prouve une causalité",
     "reponse_f2": "Elle ignore les corrélations",
@@ -2369,7 +2369,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 297,
-    "question": "`Mini-TP IA — MLOps et IA responsable\n\nSituation :\nUn modèle doit être reproduit plus tard.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 5 — scénario : 57\n\nRéférence exercice : IA-297`",
+    "question": "Situation :\nUn modèle doit être reproduit plus tard.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Versionner code, données, paramètres et environnement",
     "reponse_f1": "Conserver uniquement le fichier modèle",
     "reponse_f2": "Noter seulement le score",
@@ -2377,7 +2377,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 298,
-    "question": "`Mini-TP IA — MLOps et IA responsable\n\nSituation :\nDeux modèles sont comparés en production.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 5 — scénario : 58\n\nRéférence exercice : IA-298`",
+    "question": "Situation :\nDeux modèles sont comparés en production.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Utiliser un A/B test contrôlé",
     "reponse_f1": "Remplacer immédiatement tout le trafic",
     "reponse_f2": "Comparer seulement les tailles de fichiers",
@@ -2385,7 +2385,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 299,
-    "question": "`Mini-TP IA — MLOps et IA responsable\n\nSituation :\nUne nouvelle version reçoit 5 % du trafic.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 5 — scénario : 59\n\nRéférence exercice : IA-299`",
+    "question": "Situation :\nUne nouvelle version reçoit 5 % du trafic.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Canary deployment",
     "reponse_f1": "Validation croisée",
     "reponse_f2": "Clustering hiérarchique",
@@ -2393,7 +2393,7 @@ export const dataQuizz_intelligence_artificielle_apprentissage_tres_difficiles =
   },
   {
     "id": 300,
-    "question": "`Mini-TP IA — MLOps et IA responsable\n\nSituation :\nUne décision automatisée est critique.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?\n\nVariante : 5 — scénario : 60\n\nRéférence exercice : IA-300`",
+    "question": "Situation :\nUne décision automatisée est critique.\n\nContrainte complémentaire :\nLe choix doit rester robuste sur des données nouvelles.\n\nQuelle réponse est la plus rigoureuse ?",
     "reponse_v": "Prévoir supervision humaine et recours",
     "reponse_f1": "Supprimer toute intervention",
     "reponse_f2": "Utiliser uniquement la confiance maximale",

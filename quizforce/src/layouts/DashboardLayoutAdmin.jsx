@@ -14,11 +14,11 @@ function DashboardLayoutAdmin() {
     <div className="quizAffichageGlobal">
       {userInfo?.role_id === 3 && (
         <Administrateur_menu
-          onClickAdministrateur={() => navigate("/dashboard")}
-          onClickGestionUtilisateurs={() => navigate("/gestion/utilisateurs")}
-          onClickThematiques={() => navigate("/gestion/thematiques")}
-          onClickQuiz={() => navigate("/gestion/quiz")}
-          onClickQuestions={() => navigate("/gestion/questions")}
+          onClickAdministrateur={() => navigate(`/dashboard`)}
+          onClickGestionUtilisateurs={() => navigate("/admins/gestion/utilisateurs")}
+          onClickThematiques={() => navigate("/admins/gestion/thematiques")}
+          onClickQuiz={() => navigate("/admins/gestion/quiz")}
+          onClickQuestions={() => navigate("/admins/gestion/questions")}
           onClickDeconnexion={deconnexion}
         />
       )}

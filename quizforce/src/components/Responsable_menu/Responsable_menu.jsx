@@ -6,9 +6,9 @@ import icon_deconnexion from "/assets/icons/deconnexion.png";
 
 function Responsable_menu({
   onClickResponsable,
-  onClickGestionEquipe,
+  onClickStatistiques,
+  onClickGestion,
   onClickCampagne,
-  onClickStatsEquipe,
   onClickDeconnexion,
 }) {
   return (
@@ -19,7 +19,7 @@ function Responsable_menu({
         <img src={icon_utilisateur} alt="" className="quizDashboard-icon" />{" "}
         <div>Responsable</div>
       </div>
-      <div className="quizDashboard-menu-line" onClick={onClickGestionEquipe}>
+      <div className="quizDashboard-menu-line" onClick={onClickGestion}>
         <img src={icon_equipe} alt="" className="quizDashboard-icon" />{" "}
         <div>Gestion de l'équipe</div>
       </div>
@@ -28,7 +28,7 @@ function Responsable_menu({
         <div>Suivi des campagnes</div>
       </div>
 
-      <div className="quizDashboard-menu-line" onClick={onClickStatsEquipe}>
+      <div className="quizDashboard-menu-line" onClick={onClickStatistiques}>
         <img src={icon_statistiques} alt="" className="quizDashboard-icon" />{" "}
         <div>Statistiques de l'équipe</div>
       </div>

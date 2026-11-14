@@ -1,4 +1,3 @@
-import React from "react";
 import { useState } from "react";
 import { themes } from "../../data/themes/themes";
 function Utilisateur_stats({ utilisateurs_info }) {
@@ -21,51 +20,51 @@ function Utilisateur_stats({ utilisateurs_info }) {
       theme: "Conception",
       icon: "/assets/thumbnails_choice/thumbnail_conception.png",
     },
-    {
-      stats: utilisateurs_info.theme_pro,
-      theme: "Projet",
-      icon: "/assets/thumbnails_choice/thumbnail_projet.png",
-    },
-    {
-      stats: utilisateurs_info.theme_log,
-      theme: "Logique",
-      icon: "/assets/thumbnails_choice/thumbnail_logique.png",
-    },
-    {
-      stats: utilisateurs_info.theme_res,
-      theme: "Réseaux",
-      icon: "/assets/thumbnails_choice/thumbnail_reseaux.png",
-    },
-    {
-      stats: utilisateurs_info.theme_jur,
-      theme: "Juridique",
-      icon: "/assets/thumbnails_choice/thumbnail_juridique.png",
-    },
-    {
-      stats: utilisateurs_info.theme_sec,
-      theme: "Sécurité",
-      icon: "/assets/thumbnails_choice/thumbnail_securite.png",
-    },
-    {
-      stats: utilisateurs_info.theme_out,
-      theme: "Outils",
-      icon: "/assets/thumbnails_choice/thumbnail_outils.png",
-    },
-    {
-      stats: utilisateurs_info.theme_data,
-      theme: "Data",
-      icon: "/assets/thumbnails_choice/thumbnail_data.png",
-    },
-    {
-      stats: utilisateurs_info.theme_ia,
-      theme: "IA",
-      icon: "/assets/thumbnails_choice/thumbnail_ia.png",
-    },
-    {
-      stats: utilisateurs_info.theme_cult,
-      theme: "Culture",
-      icon: "/assets/thumbnails_choice/thumbnail_culture.png",
-    },
+    // {
+    //   stats: utilisateurs_info.theme_pro,
+    //   theme: "Projet",
+    //   icon: "/assets/thumbnails_choice/thumbnail_projet.png",
+    // },
+    // {
+    //   stats: utilisateurs_info.theme_log,
+    //   theme: "Logique",
+    //   icon: "/assets/thumbnails_choice/thumbnail_logique.png",
+    // },
+    // {
+    //   stats: utilisateurs_info.theme_res,
+    //   theme: "Réseaux",
+    //   icon: "/assets/thumbnails_choice/thumbnail_reseaux.png",
+    // },
+    // {
+    //   stats: utilisateurs_info.theme_jur,
+    //   theme: "Juridique",
+    //   icon: "/assets/thumbnails_choice/thumbnail_juridique.png",
+    // },
+    // {
+    //   stats: utilisateurs_info.theme_sec,
+    //   theme: "Sécurité",
+    //   icon: "/assets/thumbnails_choice/thumbnail_securite.png",
+    // },
+    // {
+    //   stats: utilisateurs_info.theme_out,
+    //   theme: "Outils",
+    //   icon: "/assets/thumbnails_choice/thumbnail_outils.png",
+    // },
+    // {
+    //   stats: utilisateurs_info.theme_data,
+    //   theme: "Data",
+    //   icon: "/assets/thumbnails_choice/thumbnail_data.png",
+    // },
+    // {
+    //   stats: utilisateurs_info.theme_ia,
+    //   theme: "IA",
+    //   icon: "/assets/thumbnails_choice/thumbnail_ia.png",
+    // },
+    // {
+    //   stats: utilisateurs_info.theme_cult,
+    //   theme: "Culture",
+    //   icon: "/assets/thumbnails_choice/thumbnail_culture.png",
+    // },
   ];
   function filteredTheme(e) {
     const choix = e.currentTarget.children[1].textContent;
@@ -177,7 +176,9 @@ function Utilisateur_stats({ utilisateurs_info }) {
                         key={quiz.id_th}
                         className="utilisateur_stats-theme-quiz"
                       >
-                        <th style={{ width: "20vw" }} colspan="2">{quiz.label}</th>
+                        <th style={{ width: "20vw" }} colspan="2">
+                          {quiz.label}
+                        </th>
                         <td className="utilisateurs_stats-table-avancement-quiz">
                           <div
                             className="utilisateur_stats-theme-visuel-container"

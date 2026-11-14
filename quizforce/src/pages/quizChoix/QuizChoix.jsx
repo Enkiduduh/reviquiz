@@ -16,7 +16,7 @@ import img_outils from "/assets/thumbnails_choice/thumbnail_outils.png";
 
 import { themes } from "../../data/themes/themes";
 
-function QuizChoix({ utilisateur_info }) {
+function QuizChoix( ) {
   const [selectedThemes, setSelectedThemes] = useState(themes);
   const [selected, setSelected] = useState(false);
   const navigate = useNavigate();
@@ -24,72 +24,74 @@ function QuizChoix({ utilisateur_info }) {
   sessionStorage.removeItem("themeQuiz");
   sessionStorage.removeItem("formatQuiz");
 
+  const userInfo = JSON.parse(sessionStorage.getItem("userInfo"))
+
   const themesObj = [
     {
       id: 1,
       libelle: "AdminSys",
-      data: utilisateur_info.theme_adm,
+      data: userInfo.theme_adm,
       img: img_adminsys,
     },
     {
       id: 2,
       libelle: "Développement",
-      data: utilisateur_info.theme_dev,
+      data: userInfo.theme_dev,
       img: img_developpement,
     },
     {
       id: 3,
       libelle: "Conception",
-      data: utilisateur_info.theme_con,
+      data: userInfo.theme_con,
       img: img_conception,
     },
     {
       id: 4,
       libelle: "Projet",
-      data: utilisateur_info.theme_pro,
+      data: userInfo.theme_pro,
       img: img_projet,
     },
     {
       id: 5,
       libelle: "Logique",
-      data: utilisateur_info.theme_log,
+      data: userInfo.theme_log,
       img: img_logique,
     },
     {
       id: 6,
       libelle: "Réseaux",
-      data: utilisateur_info.theme_res,
+      data: userInfo.theme_res,
       img: img_reseaux,
     },
     {
       id: 7,
       libelle: "Juridique",
-      data: utilisateur_info.theme_jur,
+      data: userInfo.theme_jur,
       img: img_juridique,
     },
     {
       id: 8,
       libelle: "Sécurité",
-      data: utilisateur_info.theme_sec,
+      data: userInfo.theme_sec,
       img: img_securite,
     },
     {
       id: 9,
       libelle: "Outils",
-      data: utilisateur_info.theme_out,
+      data: userInfo.theme_out,
       img: img_outils,
     },
     {
       id: 10,
       libelle: "Data",
-      data: utilisateur_info.theme_data,
+      data: userInfo.theme_data,
       img: img_data,
     },
-    { id: 11, libelle: "IA", data: utilisateur_info.theme_ia, img: img_ia },
+    { id: 11, libelle: "IA", data: userInfo.theme_ia, img: img_ia },
     {
       id: 12,
       libelle: "Culture",
-      data: utilisateur_info.theme_cult,
+      data: userInfo.theme_cult,
       img: img_culture,
     },
   ];
@@ -99,7 +101,7 @@ function QuizChoix({ utilisateur_info }) {
     const format = sessionStorage.getItem("formatQuiz");
 
     if (theme && format) {
-      navigate("/quiz");
+      navigate("/quiz/introduction");
     }
   }
 
